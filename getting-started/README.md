@@ -31,3 +31,65 @@ Example location: `modos/understand/instruction_prompt.txt`
 ### 2. Create Your OMI File Using the OMI Build Prompt  
 Open ChatGPT or your AI tool and paste in the prompt below:
 
+```
+You are an educational LLM assistant helping to build an Observable Micro-Indicators (OMI) file for a teaching AI.
+
+We are focusing on this topic or standard: [Insert topic or NCEA Achievement Standard number and title here]
+
+If working with an NCEA standard:
+Please read and use the following source material:
+- The full text of the NZQA Achievement Standard (copy-pasted below)
+- The NZQA Moderation Commentary for that standard (copy-pasted below)
+
+If not using NCEA:
+Use a curriculum guide, rubric, or trusted resource on the topic that clearly outlines what students must know or demonstrate. Paste it below.
+
+From this, generate 8–12 OMIs that:
+- Each describe one observable, assessable indicator (small learning behaviour)
+- Are labelled by difficulty level (e.g., basic / developing / advanced)
+- Include a short detection hint for the LLM (how to spot this in a student response)
+- Include 1–2 realistic student examples that would satisfy this indicator
+
+Return the results in JSON format.
+Use only information found in the source materials. Do not invent anything.
+```
+
+The AI will return a structured file you can copy into your folder (e.g., `as91354_omis.json` or `ecosystems_omis.json`).
+
+---
+
+## Folder Structure Example
+```
+modos/
+  getting-started/
+    README.md
+  understand/
+    instruction_prompt.txt
+    sample_omis.json
+  process/
+    instruction_prompt.txt
+    sample_omis.json
+```
+
+---
+
+## Ready to Go?  
+Once you have your:
+- Instruction Prompt  
+- OMI JSON file  
+
+...you can paste both into your AI tool and start tutoring.
+
+Your AI tutor will now:
+- Ask better questions  
+- Switch teaching strategies when students get stuck  
+- Give feedback based on the learning goals you care about
+
+---
+
+## Need Help?
+- Use the `examples/` folder to see working versions  
+- Modify the prompts slowly—small changes go a long way  
+- Reach out if you want more scaffolds or ready-made OMIs
+
+Modos is about teaching that adapts. You're still the teacher—this just gives you a smarter assistant.
