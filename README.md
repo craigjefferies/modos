@@ -10,17 +10,17 @@ Modos is not a chatbot or plug-and-play tutor — it's a toolkit to help you bui
 
 ---
 
-## 🎓 The Two Paths
+## The Two Paths
 
 Modos provides two core tutor frameworks:
 
-### 🔹 `/understand/`  
+###  `/understand/`  
 For **building conceptual understanding** — helping students describe, explain, and analyse ideas.  
 These tutors guide learning by questioning, checking for misconceptions, and offering structured explanations.
 
 > Think: science concepts, essay topic understanding, history themes, math ideas.
 
-### 🔹 `/process/`  
+###  `/process/`  
 For **constructing student work** — guiding the process of writing an essay, building a brief, or planning a response.  
 These tutors focus on structure, idea development, and clarity — helping students shape their thinking as they work.
 
@@ -28,7 +28,7 @@ These tutors focus on structure, idea development, and clarity — helping stude
 
 ---
 
-## 🔧 How It Works
+##  How It Works
 
 Modos tutors are built using:
 - **OMIs (Observable Micro-Indicators):** Small, checkable indicators of learning or task completion.
@@ -37,7 +37,7 @@ Modos tutors are built using:
 
 ---
 
-## 🧭 Getting Started
+## Getting Started
 
 If you’re new to Modos, check out the [`getting-started/`](./getting-started) folder for a walkthrough on:
 - How to define OMIs
@@ -48,7 +48,7 @@ Modos is model-agnostic and works with any system that supports prompt-based AI 
 
 ---
 
-## ✍️ Why Use Modos?
+## Why Use Modos?
 
 Because students don’t all need the same explanation — and they don’t all get it the first time.
 
