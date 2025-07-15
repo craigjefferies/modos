@@ -3,7 +3,7 @@
 **Modos** is a framework for designing AI tutors that think and teach like real educators — shifting between strategies, circling back to concepts, and responding to students in real time.
 
 At its core, Modos is built on a simple idea:  
-🧠 *Learning is messy, non-linear, and effortful.*  
+*Learning is messy, non-linear, and effortful.*  
 Students often need to explore, struggle, revise, and reframe before something truly clicks. Great teachers shift their approach to support that. **Modos brings this adaptive mindset to AI.**
 
 Modos is not a chatbot or plug-and-play tutor — it's a toolkit to help you build *your own* AI tutors that do two things well:
