@@ -30,7 +30,7 @@ These tutors focus on structure, idea development, and clarity — helping stude
 
 ##  How It Works
 
-Modos tutors are built using:
+Modos tutors are built using 3 key elements:
 - **OMIs (Observable Micro-Indicators):** Small, checkable indicators of learning or task completion.
 - **Content files:** Examples, definitions, and scaffolds that ground the AI’s feedback.
 - **Instruction prompts:** Define the AI’s teaching role, its modes (e.g. quiz, explain, diagnose), and how it shifts strategies in response to student needs.
