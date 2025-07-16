@@ -1,0 +1,95 @@
+# Context‑Knowledge File  
+**NZQA Unit Standard 32405 — “Write texts to communicate ideas and information”**
+
+---
+
+## 1 │ Assessment snapshot
+| Item | Key facts |
+|------|-----------|
+| Unit Standard code | **32405** |
+| Credits | **5** |
+| Outcomes | **O1** Write meaningful texts for different purposes & audiences  **O2** Use written‑language conventions to support communication |
+| Required writing | **Two** different text types (one must be formal). At least one text should be **≈ 250 words**. |
+| Evidence focus | Content (ideas) · Structure · Language choices · Technical accuracy |
+
+---
+
+## 2 │ Common text types & word counts
+| Task | Typical form | Word range |
+|------|--------------|-----------|
+| **Email / letter** | Requests, suggestions, thanks, workplace visits, recommendations | 150 – 250 words |
+| **Short article / opinion piece** | School or community website / newsletter | 250 – 350 words |
+| **Language‑conventions section** | Multi‑choice & short‑answer on spelling, grammar, punctuation | n/a |
+
+---
+
+## 3 │ Typical email contexts
+| Prompt theme | Required moves |
+|--------------|----------------|
+| Volunteering / community projects | Introduce self · Describe proposed task · Explain benefits |
+| Feedback on local facilities | Identify option · Describe features · Argue positives |
+| Thank‑you after an event | Introduce · Describe highlights · Explain value |
+| Request a workplace visit | Introduce · Describe workplace · Explain interest |
+| Recommend a celebration activity | Identify activity · Describe details · Justify choice |
+
+---
+
+## 4 │ Typical article topics
+| Theme cluster | Statement students argue **for / against** |
+|---------------|-------------------------------------------|
+| Daily life skills | *Everyone should learn how to cook.* |
+| Education & workload | *Homework is a waste of time.* |
+| Access & equity | *Internet access should be free for everyone.* |
+| Responsibility at home | *Everyone should help with household chores.* |
+| School culture | *School uniforms should be compulsory.* |
+| Environment | *We must look after the natural environment.* |
+| Personal growth | *Having a hobby is important.* |
+| Learning philosophy | *Learning by doing is best.* |
+| Team activity | *Team sport brings many benefits.* |
+| Inter‑generational learning | *We have much to learn from older generations.* |
+
+---
+
+## 5 │ Language‑convention focus areas
+1. **Common homophones / confusables**  
+   *who’s / whose · your / you’re · their / they’re · quiet / quite · a lot / alot*
+
+2. **Sentence‑boundary punctuation** — full stops, commas, question marks.
+
+3. **Subject–verb agreement & tense consistency** — e.g., *is / are*, *gets / has*.
+
+4. **Combining clauses** — using conjunctions (*because, although, so*) to avoid run‑ons.
+
+---
+
+## 6 │ What “good” writing looks like
+* **Vivid imagery & precise vocabulary**  
+  > *“Our time at camp felt like it went as fast as our soaring arrows flying towards the big red target.”*
+* **Clear concluding sentence linking purpose & audience**  
+  > *“So thanks again for giving me and all of my classmates a memory that will be treasured forever.”*
+* **Marker praise** focuses on logical paragraphing, cohesive progression, varied sentence types, and minimal intrusive errors.
+
+---
+
+## 7 │ Quick rubric reminder
+| Criterion | Must‑haves (succinct) |
+|-----------|----------------------|
+| **Ideas (1.1)** | Relevant, developed details |
+| **Structure (1.2)** | Intro‑body‑conclusion; logical flow |
+| **Language choices (1.3)** | Purpose‑ & audience‑fit vocab / register |
+| **Accuracy (1.4)** | Few/no intrusive errors in spelling, punctuation, grammar |
+| **Sentence variety (2.1)** | Simple + compound + complex sentences |
+| **Punctuation (2.2)** | Correct basic sentence punctuation |
+| **Grammar (2.3)** | Consistent tense & agreement |
+| **Spelling (2.4)** | Accurate high‑frequency words |
+| **Revision (2.5)** | Edits improve coherence & organisation |
+
+---
+
+### How to use this file
+Load this alongside the **OMI rubric**.  
+*For content creation or feedback*:  
+* Pull scenario ideas from **Sections 3 & 4**.  
+* Follow structural expectations in **Section 2**.  
+* Check technical accuracy against **Section 5**.  
+* Anchor all judgments to the rubric summary in **Section 7**.  
