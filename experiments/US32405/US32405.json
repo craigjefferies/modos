@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "us_code": "32405",
+    "title": "Write texts to communicate ideas and information",
+    "version": "3",
+    "credits": 5,
+    "assessment_type": "Unit Standard",
+    "source_pdf": "32405.pdf",
+    "purpose": "Learners credited with this unit standard are able to write meaningful texts for different purposes and audiences, and use written language conventions to support communication."
+  },
+  "grade_descriptors": {
+    "N": "Evidence does not meet all required Performance Criteria.",
+    "A": "All Performance Criteria across every outcome are met."
+  },
+  "outcomes": [
+    {
+      "id": "1",
+      "description": "Write meaningful texts for different purposes and audiences.",
+      "performance_criteria": [
+        { "id": "1.1", "description": "Select and use content that is appropriate to purpose and audience." },
+        { "id": "1.2", "description": "Use text structures in ways that are appropriate to purpose and audience." },
+        { "id": "1.3", "description": "Make language choices that are appropriate to purpose and audience." },
+        { "id": "1.4", "description": "Write text that demonstrates sufficient technical accuracy to communicate meaning, without intrusive errors in spelling, punctuation, or grammar." }
+      ]
+    },
+    {
+      "id": "2",
+      "description": "Use written language conventions to support communication.",
+      "performance_criteria": [
+        { "id": "2.1", "description": "Construct a variety of complete sentences." },
+        { "id": "2.2", "description": "Punctuate correctly to support meaning." },
+        { "id": "2.3", "description": "Use grammatical conventions within sentences and paragraphs with sufficient technical accuracy to communicate meaning." },
+        { "id": "2.4", "description": "Use and spell everyday high frequency vocabulary with technical accuracy." },
+        { "id": "2.5", "description": "Make simple changes to improve text coherence and the organisation of the content." }
+      ]
+    }
+  ],
+  "omis": [
+    {
+      "id": "content_relevance",
+      "outcome_id": "1",
+      "pc_id": "1.1",
+      "description": "Content is relevant and suited to both the stated purpose and intended audience.",
+      "weight": 1,
+      "detection_hint": "✓ Include at least one concrete idea, fact, or descriptive detail that supports the topic/purpose. ✗ Generic filler, restating the prompt, or unrelated anecdotes do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Our time at camp felt like it went as fast as our soaring arrows flying towards the big red target.",
+        "First, we can understand more about people that come from other countries and their cultures."
+      ],
+      "source_ref": "US PDF p2 Outcome 1 PC 1.1"
+    },
+    {
+      "id": "appropriate_text_structure",
+      "outcome_id": "1",
+      "pc_id": "1.2",
+      "description": "Text structure (organisation, sequencing, paragraphing) matches the communicative purpose.",
+      "weight": 1,
+      "detection_hint": "✓ Logical organisation (e.g., clear intro‑body‑conclusion, or sign‑posted points). ✗ Random order, missing structural elements, or single long paragraph do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "appropriate introduction (name, reason), body, conclusion",
+        "First…, Second…, Finally… signposts guide reader."
+      ],
+      "source_ref": "US PDF p2 Outcome 1 PC 1.2"
+    },
+    {
+      "id": "precise_vocabulary",
+      "outcome_id": "1",
+      "pc_id": "1.3",
+      "description": "Vocabulary choices are precise and fit the purpose and audience.",
+      "weight": 1,
+      "detection_hint": "✓ Use specific or vivid words that enhance meaning. ✗ Overly informal slang in formal texts or vague words like “stuff/things” do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "soaring arrows",
+        "freakishly high rock"
+      ],
+      "source_ref": "US PDF p2 Outcome 1 PC 1.3"
+    },
+    {
+      "id": "appropriate_register",
+      "outcome_id": "1",
+      "pc_id": "1.3",
+      "description": "Register and sentence construction match the intended context.",
+      "weight": 1,
+      "detection_hint": "✓ Consistent formal/informal register as required; sentence style suits reader expectations. ✗ Sudden shifts in formality or sentence fragments do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "I couldn’t find the words to thank you enough.",
+        "Have you experienced a circumstance that you travelled to a country and you lost your way?"
+      ],
+      "source_ref": "US PDF p2 Outcome 1 PC 1.3"
+    },
+    {
+      "id": "technical_accuracy",
+      "outcome_id": "1",
+      "pc_id": "1.4",
+      "description": "Spelling, punctuation, and grammar are technically accurate with no intrusive errors.",
+      "weight": 1,
+      "detection_hint": "✓ Minor slips acceptable if meaning stays clear; no pattern of intrusive errors. ✗ Frequent misspellings, tense shifts, or missing punctuation that obscures meaning do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "although it was freezing cold, nature's very own lazy river was my personal favourite activity.",
+        "that will be treasured forever"
+      ],
+      "source_ref": "US PDF p2 Outcome 1 PC 1.4"
+    },
+    {
+      "id": "sentence_variety",
+      "outcome_id": "2",
+      "pc_id": "2.1",
+      "description": "Uses simple, compound, and complex sentences correctly.",
+      "weight": 1,
+      "detection_hint": "✓ Evidence of at least one accurate simple, compound, and complex sentence. ✗ Lists of phrases or repetitive simple sentences do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "I am most proud of myself.",
+        "Although it was freezing cold, nature's very own lazy river was my personal favourite activity."
+      ],
+      "source_ref": "US PDF p3 Outcome 2 PC 2.1"
+    },
+    {
+      "id": "punctuation_accuracy",
+      "outcome_id": "2",
+      "pc_id": "2.2",
+      "description": "Applies punctuation (capital letters, full stops, question marks) correctly to support meaning.",
+      "weight": 1,
+      "detection_hint": "✓ Correct sentence‑ending and internal punctuation throughout. ✗ Random capitals, missing full stops, or absent question marks where needed do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Dear Principal,",
+        "Have you experienced a circumstance that you travelled to a country and you lost your way?"
+      ],
+      "source_ref": "US PDF p3 Outcome 2 PC 2.2"
+    },
+    {
+      "id": "grammar_accuracy",
+      "outcome_id": "2",
+      "pc_id": "2.3",
+      "description": "Grammar within sentences and paragraphs is accurate (tense, subject‑verb agreement, pronoun reference, word form).",
+      "weight": 1,
+      "detection_hint": "✓ Consistent tense and agreement; correct pronoun reference and word forms. ✗ Tense shifts, “have you experience”‑type errors, or mismatched pronouns do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "my name is",
+        "we can understand more about people that come from other countries"
+      ],
+      "source_ref": "US PDF p3 Outcome 2 PC 2.3"
+    },
+    {
+      "id": "spelling_accuracy",
+      "outcome_id": "2",
+      "pc_id": "2.4",
+      "description": "Everyday high‑frequency vocabulary is spelled correctly.",
+      "weight": 1,
+      "detection_hint": "✓ Words from Essential Spelling List / first 2000 NGSL spelled accurately. ✗ Phonetic misspellings like “lisson” or “expierience” do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "because",
+        "family"
+      ],
+      "source_ref": "US PDF p3 Outcome 2 PC 2.4"
+    },
+    {
+      "id": "coherence_revision",
+      "outcome_id": "2",
+      "pc_id": "2.5",
+      "description": "Revises text to improve coherence and logical organisation.",
+      "weight": 1,
+      "detection_hint": "✓ Evidence of edits that clarify flow (e.g., adding connectors, regrouping ideas). ✗ Surface edits (one word swap) without clearer idea links do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "So thanks again for giving me and all of my classmates a memory that will be treasured forever.",
+        "In conclusion, learning more than one language is benefit for understanding different cultures and communicating with foreigner"
+      ],
+      "source_ref": "US PDF p3 Outcome 2 PC 2.5"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "all_required",
+    "required_fraction": 1.0,
+    "fallback_grade": "N"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
