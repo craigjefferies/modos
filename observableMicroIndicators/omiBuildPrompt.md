@@ -156,21 +156,6 @@ HIERARCHICAL_N1–E8_SCHEMA  (copy EXACTLY)
 }
 
 ──────────────────────────
-GLIDER_PER_OMI_OUTPUT  (for downstream grading)
-──────────────────────────
-<omi id="...">            <!-- id must match omis[].id -->
-  <reasoning>
-  - …bullet-point justification quoting student text…
-  </reasoning>
-  <highlight>
-  ["…verbatim phrase(s)…"]
-  </highlight>
-  <score>
-  0 | 1                  <!-- 0 = indicator NOT met, 1 = met -->
-  </score>
-</omi>
-
-──────────────────────────
 USER MESSAGE TEMPLATE  (copy ⇩ then fill ⟨…⟩)
 ──────────────────────────
 ### PDF_TEXT_START
