@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "as_code": "AS92004",
+    "title": "Create a computer program",
+    "version": "2",
+    "credits": 5,
+    "assessment_type": "Internal",
+    "source_pdf": "as92004 (1).pdf",
+    "purpose": "Students are able to create a computer program that meets given specifications and demonstrates testing, debugging, and documentation."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    {
+      "term": "boundary testing",
+      "definition": "Testing values just below, on, and just above a defined limit to confirm correct program behaviour."
+    },
+    {
+      "term": "invalid case",
+      "definition": "Input outside the allowed domain that the program must handle gracefully."
+    }
+  ],
+  "omis": [
+    {
+      "id": "store_two_data_types",
+      "description": "Program stores at least two distinct data types in variables.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Evidence must show two different data types (e.g., string AND integer) each assigned to variables. Merely using a collection of one type does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["termination_value = \"4\"  # string; guesses_count = 3  # integer"],
+      "source_ref": "AS PDF p1 Explanatory Note 2"
+    },
+    {
+      "id": "uses_core_structures_collection",
+      "description": "Program uses sequence, selection, iteration, and accesses data in a collection.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Look for at least one if/else, one loop, and operations like append or indexing on a list/array. Initialising a list without later use does NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Guesses.append(answer)", "for item in items:"],
+      "source_ref": "AS PDF p1 ¶‘The computer program must…’"
+    },
+    {
+      "id": "testing_expected_cases",
+      "description": "Testing evidence shows the program works with expected inputs.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Require screenshots, screencast, or testing table with normal inputs and matching expected vs actual results. Generic statements like “it works” are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Input: 5 → Output: 'Correct' (expected)"],
+      "source_ref": "Moderator Guide p1 Criteria 2"
+    },
+    {
+      "id": "basic_comments_present",
+      "description": "Code contains comments documenting the program.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "At least two comments placed in different parts of the code. Comments must describe purpose or behaviour; single‑word tags (e.g., ‘loop’) are not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["# Ask user to guess the number", "# Display all previous guesses"],
+      "source_ref": "AS PDF p1 Explanatory Note 1"
+    },
+    {
+      "id": "descriptive_variable_names",
+      "description": "Variable names are succinct and descriptive.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Names should reflect stored data or role (e.g., total_score). Obscure names like x1, tmp are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["player_age", "termination_value"],
+      "source_ref": "Moderator Guide p4 Criteria 1"
+    },
+    {
+      "id": "comments_clarify_purpose",
+      "description": "Comments consistently explain the purpose of each code section.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Comments must summarise WHY a block exists, not line‑by‑line what it does. Listing operations is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["# Check if the car is valid", "# Update leaderboard after each round"],
+      "source_ref": "Moderator Guide p4 Criteria 2"
+    },
+    {
+      "id": "boundary_testing_performed",
+      "description": "Testing evidence includes at least one on‑, below‑, and above‑boundary value for each boundary.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Require explicit test values marking boundary positions. Mentioning ‘tested boundaries’ without showing values is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Age tests: 11, 12, 13"],
+      "source_ref": "Moderator Guide p5 Boundary testing"
+    },
+    {
+      "id": "effective_control_structures",
+      "description": "Conditions and control structures are used effectively to reduce repetition and errors.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Look for logically ordered conditionals, nested/combined conditions, or naturally terminating loops that avoid duplicated code. Repetitive if blocks with identical logic do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["while guess != target and attempts < MAX_TRIES:"],
+      "source_ref": "Moderator Guide p6 Criteria 1"
+    },
+    {
+      "id": "flexible_values_over_literals",
+      "description": "Program uses constants, variables, or derived values instead of hard‑coded literals to enable flexibility.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Evidence must show user‑changeable constants or calculations replacing fixed numbers. Literal ‘10’ appearing repeatedly without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["MAX_TRIES = 5  # constant", "discount = price * GST_RATE"],
+      "source_ref": "Moderator Guide p6 Criteria 2"
+    },
+    {
+      "id": "invalid_case_testing",
+      "description": "Testing demonstrates program handles invalid inputs gracefully.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Require at least one invalid value per input with evidence of handling (error message, loop repeat). Saying ‘handles errors’ without proof is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Input: 'abc' → Output: 'Please enter a number.'"],
+      "source_ref": "Moderator Guide p6 Criteria 3"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": {
+        "required_fraction": 1.0
+      },
+      "M": {
+        "required_fraction": 0.60
+      },
+      "E": {
+        "required_fraction": 0.50
+      }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": {
+          "extra_merit_indicators": 0
+        },
+        "A4": {
+          "extra_merit_indicators": "≥1"
+        }
+      },
+      "Merit": {
+        "M5": {
+          "extra_excellence_indicators": 0
+        },
+        "M6": {
+          "extra_excellence_indicators": "≥1"
+        }
+      },
+      "Excellence": {
+        "E7": {
+          "excellence_fraction": "<1.0"
+        },
+        "E8": {
+          "excellence_fraction": "1.0"
+        }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-07-18",
+    "change_log": []
+  }
+}
