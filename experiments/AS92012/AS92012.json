@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "as_code": "AS92012",
+    "title": "Develop a Materials and Processing Technology outcome in an authentic context",
+    "version": "3",
+    "credits": 6,
+    "assessment_type": "Internal",
+    "source_pdf": "as92012.pdf",
+    "purpose": "Students are able to develop a Materials and Processing Technology outcome in an authentic context."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    {
+      "term": "brief",
+      "definition": "Statement identifying purpose, end user, and intended environment for the outcome."
+    },
+    {
+      "term": "specifications",
+      "definition": "Precise, measurable physical and functional requirements evaluated as met or not met."
+    },
+    {
+      "term": "stakeholder feedback",
+      "definition": "Documented first‑hand input from more than one knowledgeable person used to inform development."
+    },
+    {
+      "term": "authentic context",
+      "definition": "Real‑life situation familiar to students where the outcome will be used."
+    },
+    {
+      "term": "fitness for purpose",
+      "definition": "Extent to which the outcome meets brief and specification requirements for the end user."
+    }
+  ],
+  "omis": [
+    {
+      "id": "A1_fit_for_purpose_outcome",
+      "description": "Creates a tangible outcome that addresses a brief with specifications for a person, whānau, or community.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "Outcome must be present and clearly linked to a stated brief with specifications. Drawings or intentions without a finished product do not satisfy this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“fit‑for‑purpose outcome for a whānau member”",
+        "“shoe rack used by the family in the hallway”"
+      ],
+      "source_ref": "AS PDF p1 ¶Achievement; High Achieved commentary"
+    },
+    {
+      "id": "A2_complete_brief_elements",
+      "description": "Brief explicitly states purpose, end user, and intended environment.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "All three elements must be explicit. A generic context or missing environment detail is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“purpose: organise shoes; end‑user: whānau; environment: hallway entrance”"
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "A3_specifications_measurable_and_evaluated",
+      "description": "Physical and functional specifications are precise, measurable, and evaluated as met/not met.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "Must include measurable terms (e.g., dimensions, temperature). Simply stating 'good quality' or 'looks nice' is not measurable. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Pastry thickness ≤ 3 mm – met”",
+        "“holds 12 pairs – not met”"
+      ],
+      "source_ref": "Low Achieved commentary"
+    },
+    {
+      "id": "A4_authentic_context_shown",
+      "description": "Outcome is developed and demonstrated within a real‑life, familiar situation.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Evidence must show use or testing in the stated authentic environment. Studio photos alone are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“final photograph taken in the intended environment”"
+      ],
+      "source_ref": "High Achieved commentary"
+    },
+    {
+      "id": "M1_multistage_stakeholder_feedback",
+      "description": "Collects feedback from more than one stakeholder at more than one stage of development.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must name at least two distinct stakeholders and show feedback at separate development points. Single survey or single person is inadequate. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“teacher and end‑user consulted during trial and final testing”"
+      ],
+      "source_ref": "Low Merit commentary"
+    },
+    {
+      "id": "M2_feedback_applied_to_refine",
+      "description": "Applies stakeholder feedback to inform specific refinements of the outcome.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Evidence must link feedback to a clear change (e.g., material, dimension). Listing feedback without showing resulting action does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“added accessible switch after whānau said button was hard to reach”"
+      ],
+      "source_ref": "Low Merit commentary"
+    },
+    {
+      "id": "M3_decisions_explained",
+      "description": "Explains reasoning behind decisions that improved the outcome’s fitness for purpose.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must include rationale (why) not just description (what). Statements like “I changed it” without justification are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“chose crunchier pastry so the filling stays contained”"
+      ],
+      "source_ref": "High Merit commentary"
+    },
+    {
+      "id": "E1_analyse_feedback_influence",
+      "description": "Analyses how stakeholder feedback informed the development, referencing trade‑offs or priorities.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must discuss cause‑effect of feedback on design choices. Simple statements that feedback was ‘helpful’ are inadequate. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“prioritised ventilation over capacity after whānau stressed damp shoes issue”"
+      ],
+      "source_ref": "Low Excellence commentary"
+    },
+    {
+      "id": "E2_evaluate_against_brief_and_specs",
+      "description": "Critically evaluates the final outcome against brief and specifications for fitness for purpose in the intended environment.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Must reference specific specifications and environment conditions. Generic affirmations are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“meets weight ≤ 5 kg, fits 600 mm shelf width”"
+      ],
+      "source_ref": "AS PDF p2 ¶Evaluate; Low Excellence commentary"
+    },
+    {
+      "id": "E3_specifications_measured_in_detail",
+      "description": "Provides detailed, quantifiable evidence (materials, dimensions, performance) proving specifications are fully met.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must supply exact figures (e.g., 2 mm acrylic, 250 g weight). Descriptive adjectives alone do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“2 mm ABS, weight 180 g, withstands 45 °C for 2 h”"
+      ],
+      "source_ref": "Low Excellence commentary"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
