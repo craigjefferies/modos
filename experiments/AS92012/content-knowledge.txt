@@ -1,0 +1,65 @@
+## AS92012 (1.1) Content Knowledge File  
+### Purpose  
+Students **develop, refine, and evaluate** a Materials & Processing Technology outcome for a real user or community within an authentic context.  
+(See AS purpose & explanatory notes for full detail.) :contentReference[oaicite:0]{index=0}
+
+---
+
+### Pick‑a‑Context Menu  
+Teachers choose **one** context below (or adapt a new one) to suit materials, interests, and facilities. Each context can be explored through **any technological area** (wood, metal, fabrics, food, plastics, multimaterials, laser‑cutting, 3‑D printing, etc.).
+
+| Icon | Context | Core idea | Example outcomes |
+|------|---------|-----------|------------------|
+| 🍞 | **Manaakitanga – Food for Others** | Show care/hospitality by making food for a specific person or group. (Manaakitanga = respect & kindness.) :contentReference[oaicite:1]{index=1} | Pies, spring rolls, baking gifts, hamper items |
+| 🧺 | **Solve a Storage Problem** | Design storage that tidies, protects, or displays items for someone’s space. :contentReference[oaicite:2]{index=2} | Shelf, shoe rack, drawer insert, “Don’t Sweat the Small Stuff” box |
+| 🧍 | **Tuakiri – Identity Expression** | Create something that reflects a person’s culture, interests, or story. | Printed tote, carved heru, decorated jewellery stand, laser‑cut plaque |
+| 💡 | **Everyday Problem Solver** | Make a practical item that simplifies daily life at home, school, or work. | Phone stand, cable organiser, light fixture, drink‑bottle holder |
+| 🧸 | **Sensory or Learning Tool** | Produce a tool that helps someone focus, relax, or learn. | Fidget board, multi‑sensory mat, calming box, soft game aid |
+| 👕 | **Clothing or Accessories** | Design wearable or soft‑goods that meet a user’s needs or identity. | Hoodie, apron, school bag, kapa haka sash |
+| 🧴 | **Personal Care or Support** | Create an item that supports wellbeing or daily routines. | Toiletry bag, organiser pouch, mirror stand, personal caddy |
+
+---
+
+### Key Concepts & Definitions  
+| Term | Plain meaning |
+|------|---------------|
+| **Brief** | Statement of purpose, end‑user, and intended environment. |
+| **Specifications** | *Short, precise, measurable* requirements (physical + functional). |
+| **Stakeholder feedback** | Written/verbal input from **≥ 2 people** at **≥ 2 stages** guiding development. |
+| **Fitness for purpose** | How well the final outcome meets the brief & specs in its real environment. |
+
+---
+
+### Example Specification Bank  
+*(Select up to five that suit your chosen context.)*
+
+| # | Physical | Functional |
+|---|----------|------------|
+| 1 | Footprint ≤ 350 × 250 mm | Moving parts operate with ≤ 5 N force |
+| 2 | Mass ≤ 2 kg (empty) | Protects contents from dust / moisture ingress |
+| 3 | Food‑safe or hypoallergenic materials where required | Cleanable in < 2 min using normal routine |
+| 4 | ≥ 70 % recycled or locally sourced material | Stackable / nestable without damaging finish |
+| 5 | Surface finish free of splinters, burrs, frays | Maintains integrity after 10 drops from 500 mm |
+
+---
+
+### Suggested Learning Pathway  
+1. **Investigate** – Explore need, draft brief, identify user pain‑points.  
+2. **Ideate** – Generate and rank several concepts.  
+3. **Model & Trial** – Build quick prototype; test fit/capacity.  
+4. **Gather Feedback** – Consult stakeholders at prototype stages.  
+5. **Refine** – Modify dimensions, materials; record reasons.  
+6. **Make** – Fabricate final outcome; capture process evidence.  
+7. **Evaluate** – Test in real environment; measure against specs.  
+8. **Analyse** – Discuss trade‑offs, future improvements.
+
+---
+
+### Reflection Prompts for Learners  
+1. Which **specification** will be hardest to measure and why?  
+2. How did **stakeholder feedback** change your design priorities?  
+3. Where might the outcome fail its **fitness‑for‑purpose** test, and how can you pre‑empt that?
+
+---
+
+*Last updated 2025‑07‑20*  
