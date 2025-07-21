@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "as_code": "AS92006",
+    "title": "Demonstrate understanding of usability in human‑computer interfaces",
+    "version": "2",
+    "credits": 5,
+    "assessment_type": "External",
+    "source_pdf": "as92006 (1).pdf",
+    "purpose": "Students are able to demonstrate understanding of usability in human-computer interfaces."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved‑level indicators.",
+    "N2": "Some Achieved‑level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved‑level indicators are met; no Merit‑level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence‑level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "interface_purpose",
+      "description": "Describes the purpose of human‑computer interfaces",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must clearly state what the interface helps the user achieve. Vague phrases like “it is useful” are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The website helps students book library laptops.",
+        "The app lets users order food for delivery."
+      ],
+      "source_ref": "AS PDF p1 ¶2"
+    },
+    {
+      "id": "identify_usability_principles",
+      "description": "Identifies and describes usability principles used in an interface",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must name at least one usability principle and describe its use. Naming alone is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "It uses consistency so all pages have the same menu layout.",
+        "The system uses feedback by showing a loading spinner when pages are loading."
+      ],
+      "source_ref": "AS PDF p1 ¶2"
+    },
+    {
+      "id": "explain_usability_application",
+      "description": "Explains how usability principles have been applied in the interface",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must link a named principle to a specific feature or behaviour. Restating definitions is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Help and documentation is provided through a 'Need Help?' popup that explains how to log in.",
+        "Error prevention is used by disabling the 'Submit' button until all fields are filled."
+      ],
+      "source_ref": "AS PDF p1 ¶3"
+    },
+    {
+      "id": "usability_effect_on_user",
+      "description": "Explains how the interface’s usability aids the user experience",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must describe how the usability features support the user (e.g. clarity, speed, confidence). Saying 'it helps' without detail is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The clean layout means users can find the reservation form quickly.",
+        "Feedback messages make it clear when a booking was successful."
+      ],
+      "source_ref": "Exemplar marker commentary"
+    },
+    {
+      "id": "evaluate_comparative_usability",
+      "description": "Compares the usability of human‑computer interfaces",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must contrast two interfaces using specific principles. Listing differences without linking to usability is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Interface A used larger fonts and was easier to read than Interface B.",
+        "Both had search bars, but only Interface B used auto-complete to help users."
+      ],
+      "source_ref": "Exemplar marker commentary"
+    },
+    {
+      "id": "evaluate_heuristic_use",
+      "description": "Judges which interface used usability principles more effectively and explains why",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Must state which interface is better and give a reason using a principle. Opinions with no justification are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Interface B was better because its consistent layout helped users feel confident.",
+        "Interface A used clearer feedback messages, so users knew their form was submitted."
+      ],
+      "source_ref": "Exemplar marker commentary"
+    },
+    {
+      "id": "suggest_improvements",
+      "description": "Suggests multiple usability‑based improvements for the interface",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must propose at least two concrete improvements and link each to a usability principle. One unlinked suggestion is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Add a progress bar to improve feedback.",
+        "Use larger icons to help users with visual impairments."
+      ],
+      "source_ref": "Exemplar marker commentary"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
