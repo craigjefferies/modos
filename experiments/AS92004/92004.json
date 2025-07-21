@@ -34,7 +34,7 @@
       "description": "Program stores at least two distinct data types in variables.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Evidence must show two different data types (e.g., string AND integer) each assigned to variables. Merely using a collection of one type does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for two different data types (e.g., string and integer) assigned to variables. Collections count as a type only if they store a different type from other variables. Highlight phrases showing assignments or violations.",
       "success_examples": ["termination_value = \"4\"  # string; guesses_count = 3  # integer"],
       "source_ref": "AS PDF p1 Explanatory Note 2"
     },
@@ -43,7 +43,7 @@
       "description": "Program uses sequence, selection, iteration, and accesses data in a collection.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Look for at least one if/else, one loop, and operations like append or indexing on a list/array. Initialising a list without later use does NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Require at least one if/else (selection), one loop (iteration), and collection access (e.g., append, index, or loop over). Mere initialisation without access does not count. Highlight phrases showing use or lack thereof.",
       "success_examples": ["Guesses.append(answer)", "for item in items:"],
       "source_ref": "AS PDF p1 ¶‘The computer program must…’"
     },
@@ -52,8 +52,8 @@
       "description": "Testing evidence shows the program works with expected inputs.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Require screenshots, screencast, or testing table with normal inputs and matching expected vs actual results. Generic statements like “it works” are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Input: 5 → Output: 'Correct' (expected)"],
+      "detection_hint": "Need specific inputs, expected/actual outputs, and at least one debugging example (e.g., before/after code or table notes). Screenshots/screencasts required; generic claims insufficient. Highlight phrases with details or omissions.",
+      "success_examples": ["Input: 5 → Expected: 'Correct'; Actual: 'Correct' (debugged loop error)"],
       "source_ref": "Moderator Guide p1 Criteria 2"
     },
     {
@@ -61,7 +61,7 @@
       "description": "Code contains comments documenting the program.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "At least two comments placed in different parts of the code. Comments must describe purpose or behaviour; single‑word tags (e.g., ‘loop’) are not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "At least two comments in different sections, describing purpose/behaviour (not single words). Spread through code; line-by-line 'what' insufficient. Highlight comments or inadequate examples.",
       "success_examples": ["# Ask user to guess the number", "# Display all previous guesses"],
       "source_ref": "AS PDF p1 Explanatory Note 1"
     },
@@ -70,7 +70,7 @@
       "description": "Variable names are succinct and descriptive.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Names should reflect stored data or role (e.g., total_score). Obscure names like x1, tmp are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Names should reflect content/role (e.g., total_score); avoid obscure like x1 or tmp. Consistent with language conventions ideal but not required. Highlight examples of good/poor names.",
       "success_examples": ["player_age", "termination_value"],
       "source_ref": "Moderator Guide p4 Criteria 1"
     },
@@ -79,7 +79,7 @@
       "description": "Comments consistently explain the purpose of each code section.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Comments must summarise WHY a block exists, not line‑by‑line what it does. Listing operations is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Comments must explain WHY sections exist (purpose), consistent across significant blocks; not line-by-line operations or justifications. Highlight clarifying comments or inconsistencies.",
       "success_examples": ["# Check if the car is valid", "# Update leaderboard after each round"],
       "source_ref": "Moderator Guide p4 Criteria 2"
     },
@@ -88,8 +88,8 @@
       "description": "Testing evidence includes at least one on‑, below‑, and above‑boundary value for each boundary.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Require explicit test values marking boundary positions. Mentioning ‘tested boundaries’ without showing values is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Age tests: 11, 12, 13"],
+      "detection_hint": "Require specific numeric tests for each boundary (below/on/above); identify boundaries from task/code. Minimum: two tests (on/outside) for one boundary; vague mentions insufficient. Highlight test values or gaps.",
+      "success_examples": ["Age boundary (12-18): 11 (below), 12 (on), 19 (above)"],
       "source_ref": "Moderator Guide p5 Boundary testing"
     },
     {
@@ -97,7 +97,7 @@
       "description": "Conditions and control structures are used effectively to reduce repetition and errors.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Look for logically ordered conditionals, nested/combined conditions, or naturally terminating loops that avoid duplicated code. Repetitive if blocks with identical logic do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for chained/nested conditions, Boolean operators, ordered ifs, or natural loops to minimise repetition/errors. Duplicated logic or inefficient checks do not count. Highlight effective structures or redundancies.",
       "success_examples": ["while guess != target and attempts < MAX_TRIES:"],
       "source_ref": "Moderator Guide p6 Criteria 1"
     },
@@ -106,7 +106,7 @@
       "description": "Program uses constants, variables, or derived values instead of hard‑coded literals to enable flexibility.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Evidence must show user‑changeable constants or calculations replacing fixed numbers. Literal ‘10’ appearing repeatedly without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Use constants/variables/calculations for easy changes; avoid repeated literals without rationale. Focus on maintainability for programmer. Highlight flexible uses or hardcoded literals.",
       "success_examples": ["MAX_TRIES = 5  # constant", "discount = price * GST_RATE"],
       "source_ref": "Moderator Guide p6 Criteria 2"
     },
@@ -115,8 +115,8 @@
       "description": "Testing demonstrates program handles invalid inputs gracefully.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Require at least one invalid value per input with evidence of handling (error message, loop repeat). Saying ‘handles errors’ without proof is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Input: 'abc' → Output: 'Please enter a number.'"],
+      "detection_hint": "At least one invalid test per most inputs, with handling (e.g., error message, retry). Show robustness; unhandled errors fail. Highlight test cases with inputs/outputs or unhandled cases.",
+      "success_examples": ["Input: 'abc' (invalid) → Output: 'Please enter a number.'"],
       "source_ref": "Moderator Guide p6 Criteria 3"
     }
   ],
