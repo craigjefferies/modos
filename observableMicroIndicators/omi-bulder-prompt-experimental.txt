@@ -1,99 +1,92 @@
-Your single task is to read an NZQA Achievement-Standard PDF and its moderator commentary (both supplied in the next user message) and output exactly one strict JSON object matching the HIERARCHICAL_N1–E8_SCHEMA below.
+Your single task is to read an NZQA Achievement Standard PDF and its moderator commentary (both supplied in the next user message) and output exactly one valid JSON object that matches the `HIERARCHICAL_N1–E8_SCHEMA`.
 
-──────────────────────────
-CORE PRINCIPLES
-──────────────────────────
+────────────────────────── CORE PRINCIPLES ──────────────────────────
 
-1.  ❌ NO INVENTION — Copy or directly infer every data point from the supplied documents. Never fabricate.
+No invention — Copy or directly infer every datum from the supplied documents. Never fabricate.  
+Cross-subject — The rubric must work for any learning area (e.g., English, Tech, Media, History).  
+Observable Micro-Indicators (OMIs) — Split broad verbs (e.g., “justify”, “evaluate”, “develop”) into binary, tickable, observable indicators. Do not escalate cognitive demand across levels.  
+Faithful wording — Preserve NZQA phrasing where possible to support moderation fidelity and preserve IP.  
+Required fields — All fields in the schema must be filled. Optional blocks may be `""` or `[]`.  
+OMI count — Provide **10 ± 2** OMIs per rubric.  
+Key terms — If the AS PDF defines key terms (e.g. in a glossary or inline: “For the purpose of this standard…”), include them as:  
+```json
+[
+  { "term": "fitness for purpose", "definition": "how well the outcome meets the intended use" }
+]
+```
+If no key terms exist, return `[]`.
 
-2.  🧠 CROSS-SUBJECT — The rubric must work for any learning area (e.g., English, Tech, History, Media).
+Weight rules:
+- Default = `1`
+- Use `2` if the source calls it "key", "critical", or "essential"
+- Use `3` **only** if it appears in every Excellence (E8) exemplar
+- `weight` must be a number (not a string or left blank)
 
-3.  ✅ OBSERVABLE MICRO-INDICATORS (OMIs) —  
-   Split broad verbs (“justify”, “evaluate”, “develop”) into narrow, binary, observable criteria.  
-   OMIs must align strictly to their level (A, M, or E) — do not combine or escalate cognitive demand across levels.
+Valid JSON only — Output must be a **strict** JSON object. No markdown, no comments, no trailing commas.  
+Grade-descriptor logic — Use threshold-based language only (e.g., “All Achieved indicators are met”). Never reference numeric counts.  
+Use `2025-06-13` for `governance.last_validated`.
 
-4.  📜 FAITHFUL WORDING — Preserve source phrasing as much as possible to reflect NZQA intent (PDF + moderator commentary).
+────────────────────────── OMI CONSTRUCTION RULES ──────────────────────────
 
-5.  ⬛ REQUIRED FIELDS — All fields in the schema must be filled; if the document has no content for an optional block, use either `""` or `[]` as appropriate.  
-    - `key_terms`: Use an array of objects if present. If none are found in the documents, use an empty array: `[]`.  
-    - `success_examples`: Use 1–2 examples (≤ 20 words each). If truly not present, use `[]`.
+Each OMI must be **directly observable** in student work.
 
-6.  🔢 OMI COUNT — Provide 10 ± 2 OMIs.
+✅ What to include:
+- `id`: Unique snake_case string (e.g., `stakeholder_feedback_included`)
+- `description`: Observable indicator aligned to A, M, or E
+- `level`: `"A"`, `"M"`, or `"E"` — use the **lowest level** where it appears
+- `weight`: Integer 1–3 (see rules above)
+- `success_examples`: 1–2 **verbatim** quotes, each ≤ 20 words. Use `[]` only if nothing valid exists.
+- `detection_hint`: Clearly state what must be explicitly present, and what does **not** count
+- `source_ref`: Point to the PDF or commentary (e.g., `"AS PDF p3 ¶2"`, `"Merit exemplar para 1"`)
 
-7.  📈 WEIGHT RULES —  
-   - Default weight = 1  
-   - Use 2 if the document calls the OMI "key", "critical", or "essential"  
-   - Use 3 only if it appears in every Excellence exemplar  
-   - IMPORTANT: `weight` must be a number. Never leave it empty or in quotation marks.
+⚠️ Do **not** include:
+- Paraphrased definitions without function
+- Multiple disconnected ideas
+- Restatements of the task
+- Opinions with no reasoning
+- Vague generalisations (e.g., “this helps”, “it’s important”)
 
-8.  ✅ VALID JSON ONLY — Output a strict, valid JSON object. No markdown, comments, or trailing commas.
-
-9.  🗃️ DESCRIPTOR LOGIC — Grade descriptor text must reference threshold language (“all Achieved-level indicators”, “Merit threshold”) instead of specific numbers.
-
-10. 📅 Use this fixed validation date for `governance.last_validated`:  
-   "2025-06-13"
-
-11. ✂️ DETECTION HINT LENGTH — Each `detection_hint` should be ≤ 60 words (or 2 concise sentences max).
-
-──────────────────────────
-OMI CONSTRUCTION GUIDANCE
-──────────────────────────
-
-Each OMI must be directly observable in student work.
-
-- A-level OMIs = facts, identification, basic explanation.
-- M-level = support, relevance, reasoned linkages.
-- E-level = weighing, justifying, critical evaluation.
-
-Each OMI requires:
-
-- "description": Clear, observable action tied to outcome.
-- "level": "A", "M", or "E" — use the lowest band where the indicator clearly appears.
-- "weight": 1–3 (based on rules above)
-- "success_examples": 1–2 verbatim examples (max 20 words each)
-- "source_ref": e.g. “AS PDF p3 ¶2”, “Merit exemplar para 1”
-
-Each detection_hint must:
-
-✅ Clearly state what must be explicitly present  
-❌ Clearly state what DOES NOT count (e.g., restatements, surface generalisations)
-
-Use phrasing templates when relevant:
-
-- “Mentioning X is not enough; the student must also do Y.”  
-- “Listing two facts is not a comparison; the response must contrast them.”  
-- “Intentions or opinions are not justification unless reasoning is shown.”  
-- “Restating parts is insufficient; the response must explain how they relate.”  
+🔍 Detection Hint Rules:
+- ≤ 60 words or 2 concise sentences
 - Always end with:  
-  "Highlight the exact phrase(s) that satisfy or violate this indicator."
+  `"Highlight the exact phrase(s) that satisfy or violate this indicator."`
 
-🚫 Do not count any of the following toward meeting an OMI:
+Use phrasing templates like:
+- “Mentioning X is not enough; the student must also do Y.”
+- “Listing two facts is not a comparison; the response must contrast them.”
+- “Intentions or opinions are not justification unless reasoning is shown.”
+- “Restating parts is insufficient; the response must explain how they relate.”
 
-- Restating the question  
-- Multiple disconnected ideas  
-- Vague generalisations ("this helps", "it's important")  
-- Stated beliefs with no reasoning or justification  
-- Paraphrased textbook definitions with no application or function
+🔁 Verb-specific logic (for detection_hint):
 
-❗ Avoid cognitive inflation: Don't add merit/excellence logic where the original OMI is only Achieved-level.
+| Verb      | Detection must require...                                     |
+|-----------|---------------------------------------------------------------|
+| compare   | Contrastive language (e.g., “more than”, “whereas”)           |
+| evaluate  | A claim + reasoning or judgment criteria                      |
+| justify   | A position + cause-effect or outcome-based rationale          |
+| analyse   | Deconstruction + commentary on function, effect, or interaction |
+| critique  | Strengths/weaknesses + explanation using criteria             |
 
-──────────────────────────
-AGGREGATION RULES
-──────────────────────────
+────────────────────────── AGGREGATION RULES ──────────────────────────
 
-Apply the hierarchical gate model:
+Use the **hierarchical gate model**:
+- Gate order: A → M → E
+- Thresholds:
+  - A: `required_fraction = 1.0`
+  - M: `required_fraction = 0.60`
+  - E: `required_fraction = 0.50`
 
-- Gate sequence: A → M → E  
-- Thresholds:  
-  – Achieved = 100% (1.0)  
-  – Merit = 60% (0.60)  
-  – Excellence = 50% (0.50)  
-- Fallback grade = "N1" if no threshold is met  
-- Sub-band logic applies based on extra indicators / coverage
+Sub-bands:
+- A3: All A-level met, no M-level threshold met
+- A4: All A-level met + ≥1 Merit-level indicator
+- M5: Merit threshold met, no E indicators
+- M6: M threshold met + ≥1 Excellence indicator
+- E7: E threshold met, not all E-level indicators met
+- E8: All indicators met
 
-──────────────────────────
-HIERARCHICAL_N1–E8_SCHEMA
-──────────────────────────
+Use `"N1"` as the fallback grade.
+
+────────────────────────── HIERARCHICAL_N1–E8_SCHEMA ──────────────────────────
 
 {
   "meta": {
@@ -115,7 +108,12 @@ HIERARCHICAL_N1–E8_SCHEMA
     "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
     "E8": "All Achieved, Merit, and Excellence indicators are met."
   },
-  "key_terms": [],
+  "key_terms": [
+    {
+      "term": "",
+      "definition": ""
+    }
+  ],
   "omis": [
     {
       "id": "",
@@ -157,16 +155,14 @@ HIERARCHICAL_N1–E8_SCHEMA
   }
 }
 
-──────────────────────────
-USER MESSAGE TEMPLATE  (copy ⇩ then fill ⟨…⟩)
-──────────────────────────
+────────────────────────── USER MESSAGE TEMPLATE ──────────────────────────
 
-### PDF_TEXT_START  
-⟨paste the complete text extracted from the Achievement Standard PDF⟩  
-### PDF_TEXT_END
+PDF_TEXT_START  
+⟨paste complete text extracted from the Achievement Standard PDF⟩  
+PDF_TEXT_END
 
-### MOD_COMMENTARY_START  
-⟨paste the complete text from moderator commentary, annotations, or exemplars⟩  
-### MOD_COMMENTARY_END
+MOD_COMMENTARY_START  
+⟨paste complete text from moderator commentary / annotated exemplars⟩  
+MOD_COMMENTARY_END
 
-Using the documents above and the HIERARCHICAL_N1–E8_SCHEMA, generate a single JSON rubric that exactly follows the structure and rules.
+Using the documents above and the HIERARCHICAL_N1–E8_SCHEMA, generate the JSON rubric exactly as specified.
