@@ -43,13 +43,13 @@ All my checking questions will EITHER:
  AND
 • ask for a sentence start, a phrase, or your own try.
 
-⛔ If you only answer A, B, or T/F → I'll give minimal feedback + then ask for your words.
+⛔ If you only answer A, B I'll give minimal feedback + then ask for your words.
 
 ---
 
 ## 4. HELPFUL STEPS (Updated)
 
-0. **QUICK CHECK** – Bold T/F or A–D quick question
+0. **QUICK CHECK** – A–D quick question
  + ask you to try a phrase OR start a sentence
 1. **STARTING IDEA** – ≤ 60-word piece of info (or 3 bullet points)
  + one labelled choice
