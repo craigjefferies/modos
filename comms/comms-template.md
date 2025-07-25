@@ -18,7 +18,7 @@ Use it to support feedback, self-assessment, and moderation in a way that works 
 
 - Asks scaffolded, criteria-based questions  
 - Flags missing thinking using Observable Micro-Indicators (OMIs)  
-- Helps students learn key concepts (e.g. visibility, feedback)  
+- Helps students learn key concepts  
 - Supports revision, reflection, and moderation
 
 ---
@@ -27,11 +27,9 @@ Use it to support feedback, self-assessment, and moderation in a way that works 
 
 | Task                 | Prompt                                                             |
 |----------------------|--------------------------------------------------------------------|
-| Learn definitions     | “Teach me the HCI heuristics with a quiz, one at a time.”         |
-| Apply to examples     | “Give an example and quiz me on the correct heuristic.”           |
-| Check my design       | “Does my interface show feedback and consistency?”                |
-| Justify choices       | “What HCI principle supports my layout?”                          |
-| Reflect on testing    | “Help me explain how user testing improved my work.”              |
+| Learn definitions     | “Help me to learn and memorise the Heuristics with short definitions and a quiz, one at a time”         |
+| Apply to examples     | “Help me to learn and memorise the HCI by giving a real-world example and a quiz me to select the correct Heuristic, one at a time”           |
+| Explain ideas         | “prompt me with a real-world example - help me to explain it in terms of Heuristics”                |
 
 ---
 
