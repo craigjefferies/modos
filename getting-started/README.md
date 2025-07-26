@@ -30,30 +30,7 @@ Example location: `modos/understand/instruction_prompt.txt`
 
 ### 2. Create Your OMI File Using the OMI Build Prompt  
 Open ChatGPT or your AI tool and paste in the prompt below:
-
-```
-You are an educational LLM assistant helping to build an Observable Micro-Indicators (OMI) file for a teaching AI.
-
-We are focusing on this topic or standard: [Insert topic or NCEA Achievement Standard number and title here]
-
-If working with an NCEA standard:
-Please read and use the following source material:
-- The full text of the NZQA Achievement Standard (copy-pasted below)
-- The NZQA Moderation Commentary for that standard (copy-pasted below)
-
-If not using NCEA:
-Use a curriculum guide, rubric, or trusted resource on the topic that clearly outlines what students must know or demonstrate. Paste it below.
-
-From this, generate 8–12 OMIs that:
-- Each describe one observable, assessable indicator (small learning behaviour)
-- Are labelled by difficulty level (e.g., basic / developing / advanced)
-- Include a short detection hint for the LLM (how to spot this in a student response)
-- Include 1–2 realistic student examples that would satisfy this indicator
-
-Return the results in JSON format.
-Use only information found in the source materials. Do not invent anything.
-```
-
+location: `modos/obervableMicroIndicators/build-prompt.txt`
 The AI will return a structured file you can copy into your folder (e.g., `as91354_omis.json` or `ecosystems_omis.json`).
 
 ---
