@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "as_code": "AS91171",
+    "title": "Demonstrate understanding of mechanics",
+    "version": "2",
+    "credits": 6,
+    "assessment_type": "External",
+    "source_pdf": "as91171 (1).pdf",
+    "purpose": "This achievement standard involves demonstrating understanding of mechanics."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    {
+      "term": "mechanics",
+      "definition": "the study of motion, forces, and energy and how they interact"
+    },
+    {
+      "term": "momentum",
+      "definition": "the product of mass and velocity of an object (p = mv)"
+    },
+    {
+      "term": "impulse",
+      "definition": "the change in momentum (Δp = FΔt)"
+    },
+    {
+      "term": "equilibrium",
+      "definition": "when all forces and torques on an object are balanced"
+    },
+    {
+      "term": "centripetal force",
+      "definition": "the force that keeps an object moving in a circle (Fc = mv²/r)"
+    }
+  ],
+  "omis": [
+    {
+      "id": "states_relevant_principle_or_formula",
+      "description": "States or selects a relevant mechanics principle, law, or correct formula for the situation.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "A valid law, concept, or formula must be explicitly named or written. Mentioning 'a law' or giving an unrelated formula is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["F = ma", "The law of conservation of momentum applies."],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "labels_diagrams_graphs_correctly",
+      "description": "Accurately labels diagrams or graphs with quantities (e.g., forces, velocity, axes).",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Labels must correspond to the relevant physics quantity and be placed correctly. Unlabeled or incorrectly labeled diagrams do not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Force arrows labeled", "Velocity shown on a graph"],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "solves_simple_calculation",
+      "description": "Performs a straightforward calculation using a mechanics formula to solve for a single variable.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "A calculation using the correct formula with correct substitution and units. Guessing, estimation, or using an unrelated equation does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["v = d/t = 10/2 = 5 m/s", "p = mv = 3 × 2 = 6 kg·m/s"],
+      "source_ref": "AS PDF p2 ¶2; Moderator para 1"
+    },
+    {
+      "id": "links_principle_to_situation",
+      "description": "Links a mechanics principle or formula to the described situation, showing how it applies.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "The response must connect the principle or formula to the specific context, not just recite the rule. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Because only gravity acts, the ball accelerates at 9.8 m/s²."],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "explains_why_principle_applies",
+      "description": "Gives a reason why a principle, concept, or law is relevant to the situation.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Stating 'because it is needed' is not sufficient; a clear cause-effect or reasoning must be shown. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Conservation of momentum applies because there are no external forces."],
+      "source_ref": "AS PDF p2 ¶2; Moderator para 2"
+    },
+    {
+      "id": "solves_complex_or_multistep_problem",
+      "description": "Correctly solves a multi-step or non-obvious calculation requiring two or more physics principles.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Each step must be shown and logically follow from the previous, using correct physics. Skipping steps or using the wrong principle does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Calculate acceleration, then use it to find final velocity."],
+      "source_ref": "Moderator para 2"
+    },
+    {
+      "id": "explains_relationship_between_quantities",
+      "description": "Explains the relationship between two or more physical quantities in context.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "A valid explanation links the quantities and describes how one affects the other, not just listing them. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["As force increases, acceleration increases."],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "interprets_graphs_or_vectors",
+      "description": "Correctly interprets or explains features of a graph or vector diagram in relation to the physical situation.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must relate graph or diagram features to the real-world context; just describing the shape is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The slope of the velocity-time graph gives acceleration."],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "connects_concepts_across_contexts",
+      "description": "Shows how two or more mechanics concepts connect or interact across different contexts.",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Must clearly link concepts, not just mention both. A valid connection explains interaction or mutual influence. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Momentum conservation and energy loss both explain the car crash outcome."],
+      "source_ref": "AS PDF p2 ¶2; Moderator para 3"
+    },
+    {
+      "id": "provides_clear_and_concise_explanation",
+      "description": "Provides a comprehensive, accurate, and concise written explanation of a mechanics principle or process.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Explanation must be both accurate and clear, covering all key points without unnecessary detail or error. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Work is the product of force and distance moved in the direction of the force."],
+      "source_ref": "Moderator para 3"
+    },
+    {
+      "id": "applies_physics_to_unfamiliar_context",
+      "description": "Applies physics knowledge accurately to an unfamiliar or complex context.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must transfer understanding, not just repeat memorized facts. The application should address the specifics of the new context. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Explaining projectile motion on a different planet."],
+      "source_ref": "Moderator para 3"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
