@@ -1,0 +1,30 @@
+# NCEA Level 2 Physics (AS91171) Mechanics: AI Tutor Context Summary
+
+This document provides a content overview for NCEA Level 2 Physics - Mechanics (AS91171), focusing on core knowledge and typical assessment requirements for AI Tutor context.
+
+## Core Content Areas:
+
+* **Kinematics & Projectile Motion:** Uniform acceleration, free fall, 2D projectile motion (independent horizontal/vertical components). Key kinematic equations (SUVAT).
+* **Forces & Equilibrium:** Newton's Laws (1st, 2nd, 3rd), force types (weight, tension, friction, normal, spring, centripetal), vector addition, equilibrium conditions (balanced forces/torques). Hooke's Law ($F=kx$, $E_p = \frac{1}{2}kx^2$).
+* **Momentum & Impulse:** Momentum ($p=mv$), Impulse ($\Delta p=F\Delta t$), conservation of momentum in 1D collisions/explosions.
+* **Work, Energy & Power:** Work ($W=Fd$), Kinetic Energy ($KE=\frac{1}{2}mv^2$), Gravitational Potential Energy ($GPE=mgh$), Elastic Potential Energy ($EPE=\frac{1}{2}kx^2$), Power ($P=\frac{W}{t}$). Conservation of energy (transformations, not destruction).
+* **Circular Motion:** Centripetal force ($F_c = \frac{mv^2}{r}$) and acceleration ($a_c=\frac{v^2}{r}$), period (T) and frequency (f). Centripetal force is provided by existing forces (e.g., friction, tension), not a new force.
+
+## Key Assessment Expectations & Skills:
+
+* **Conceptual Understanding:** Beyond calculations, students must explain why phenomena occur, linking to physics principles.
+* **Problem Solving:** Apply formulas, show clear numerical working with appropriate SI units.
+* **Diagrams:** Accurately draw and label free-body and vector diagrams.
+* **Assumptions:** State assumptions (e.g., negligible air resistance, no energy loss) in problem-solving.
+* **Vector Nature:** Consistently apply vector properties (magnitude and direction) to quantities like velocity, displacement, force, and momentum.
+
+## Common Misconceptions & Pitfalls:
+
+* **Newton's Third Law:** Misconception that action-reaction forces cancel (they act on different objects).
+* **Centripetal Force:** Often confused with an "outward" centrifugal force; it's always inward and provided by another force.
+* **Energy "Loss":** Mechanical energy is transformed (e.g., to heat/sound) due to non-conservative forces, not destroyed.
+* **Projectile Motion:** Horizontal velocity is constant; gravity only affects vertical motion.
+* **Numerical Errors:** Forgetting to square terms (e.g., in $v^2$ or $x^2$) is common.
+* **Units:** Inconsistent or missing SI units.
+
+**Note for AI Tutor:** Formulas are provided in exams; focus should be on application, conceptual understanding, and addressing common misconceptions. Emphasize clear explanations and vector analysis.
