@@ -1,0 +1,118 @@
+# NCEA Level 3 Physics (AS91524) Mechanical Systems: AI Tutor Context Summary
+
+## Standard Overview
+**AS91524**: *"Demonstrate understanding of mechanical systems."*  
+- External assessment, 6 credits.  
+- Focuses on content knowledge and generalized question types.  
+- Minor changes from AS90521 (2013), so older papers are relevant.
+
+## Assessment Focus
+- Application of principles
+- Formula use
+- Diagrams
+- Clear numerical working
+- SI units
+- Significant figures
+
+## Core Topics
+- Centre of Mass  
+- Linear Momentum  
+- Circular Motion (I & II)  
+- Angular Mechanics  
+- Rotational Inertia  
+- Angular Momentum  
+- Simple Harmonic Motion (SHM)  
+- Resonance  
+- Damping  
+
+## Core Concepts & Principles
+
+### Circular & Rotational Motion
+
+**Angular Kinematics**  
+- Angular displacement (Δθ), velocity (ω), acceleration (α)  
+- Relationships to linear quantities:  
+  - \( d = rθ \), \( v = rω \), \( a = rα \)  
+- Kinematic equations for constant angular acceleration  
+
+**Centripetal Force**  
+- \( F_c = \frac{mv^2}{r} \), always towards center  
+- Analysis of vertical circular motion using free-body diagrams  
+
+**Rotational Dynamics**  
+- Torque: \( τ = Iα \), \( τ = Fr \)  
+- Rotational Inertia: \( I ∝ mr^2 \)  
+
+**Angular Momentum**  
+- \( L = Iω \) or \( L = mvr \)  
+- Conservation in absence of external torque  
+
+**Rotational Energy**  
+- \( E_{k(rot)} = \frac{1}{2}Iω^2 \)  
+- Total KE for rolling objects:  
+  - \( E_k = \frac{1}{2}mv^2 + \frac{1}{2}Iω^2 \)  
+- Conservation of energy across linear and rotational forms  
+
+### Simple Harmonic Motion (SHM)
+
+**Conditions**  
+- Restoring force/acceleration proportional to and opposite to displacement  
+
+**Equations**  
+- Displacement: \( y = A \sin(ωt) \)  
+- Acceleration: \( a = -ω^2 y \)  
+- Reference circles used for derivations  
+
+**Period/Frequency**  
+- \( ω = 2πf \), \( f = \frac{1}{T} \)  
+- Pendulum: \( T = 2π \sqrt{\frac{l}{g}} \)  
+- Mass-spring: \( T = 2π \sqrt{\frac{m}{k}} \)  
+
+**Energy**  
+- Total mechanical energy conserved (kinetic + potential)  
+
+**Damping**  
+- Amplitude decreases due to energy loss  
+- Period remains generally constant  
+- Graphical representation: exponential decay  
+
+### Linear Mechanics (Integrated)
+- Centre of Mass: \( x_{COM} \)  
+- Linear Momentum: \( p = mv \)  
+- Impulse: \( Δp = FΔt \)  
+- Conservation of Momentum (collisions)  
+- Universal Gravitation: \( F_g = \frac{GMm}{r^2} \)  
+
+## Essential Formulas
+- Students are provided with the Level 3 Physics Resource Booklet (L3–PHYSR)  
+- Includes all relevant formulas and constants  
+- Emphasis on correct SI units and significant figures  
+
+## Generalized Exam Question Types
+- **Calculations**: e.g., angular velocity, SHM displacement  
+- **Explanations**: Qualitative reasoning (e.g., mass distribution effects)  
+- **Diagrams**: Free-body diagrams essential  
+- **"Show that..." questions**: Require clear step-by-step working  
+- **Integrated problems**: Combine linear + rotational motion, conservation laws  
+
+## Common Student Errors & Misconceptions
+
+### Circular Motion
+- Confusing tension vs. normal force for "sensation of weight"  
+- Incorrect or incomplete force diagrams  
+- Misuse of force equations in vertical circles  
+
+### Rotational Motion
+- Using weight instead of tension in torque calculations  
+- Missing rotational KE in energy conservation  
+- Not linking mass distribution to \( I \) or angular momentum  
+
+### SHM
+- Poor damping explanations (e.g., not linking to energy loss)  
+- Misleading displacement-time graphs for damped motion  
+- Incomplete statement of SHM conditions  
+
+### General
+- Poor numerical working  
+- Incorrect SI units or significant figures  
+- Not following scaffolded exam instructions  
