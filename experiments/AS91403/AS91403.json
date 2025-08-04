@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "as_code": "AS91403",
+    "title": "Demonstrate understanding of macro-economic influences on the New Zealand economy",
+    "version": "2",
+    "credits": 6,
+    "assessment_type": "External",
+    "source_pdf": "as91403.pdf",
+    "purpose": "This achievement standard involves demonstrating understanding of macro-economic influences on the New Zealand economy."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    {
+      "term": "macro-economic influences",
+      "definition": "internal (e.g. consumption, investment, government policy) and external (e.g. exchange rates, world economy) factors affecting the economy"
+    },
+    {
+      "term": "macro-economic goals",
+      "definition": "government goals such as price stability, economic growth, full employment, and balanced current account"
+    },
+    {
+      "term": "economic model",
+      "definition": "graphical or conceptual representations such as the AD/AS model or circular flow model used to explain economic concepts"
+    }
+  ],
+  "omis": [
+    {
+      "id": "define_macro_influences",
+      "description": "Defines macro-economic influences including both internal and external factors",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Definitions must mention both internal and external macro factors (e.g., consumption, exchange rates). Listing only one side is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Changes in government policy or international trade conditions can affect economic outcomes."
+      ],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "use_model_to_explain_concepts",
+      "description": "Uses economic model(s) to illustrate concepts relating to macro-economic influences",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "Must include a labelled model and link it to a macro concept. Unlabelled graphs or irrelevant models do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "An increase in government spending shifts the AD curve rightward, raising output and employment."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "state_current_nz_conditions",
+      "description": "Describes current state of the NZ economy using valid indicators",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must include at least one macro indicator (e.g., unemployment rate) and interpret it in context. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The current unemployment rate is 4.3%, showing near full employment."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "calculate_macro_values",
+      "description": "Correctly calculates or interprets macro-economic values",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must show correct workings or explanation of a rate (e.g., inflation, GDP growth). Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Multiplier = 1 / (1 - MPC) = 2.5"
+      ],
+      "source_ref": "Moderator commentary"
+    },
+    {
+      "id": "explain_macro_influences",
+      "description": "Explains how a macro-economic influence affects the NZ economy",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "The influence (e.g., exchange rate) must be linked to an economic effect (e.g., export volume). Generic statements without cause-effect links are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "A stronger NZ dollar makes exports more expensive, reducing demand."
+      ],
+      "source_ref": "Moderator commentary"
+    },
+    {
+      "id": "link_multiple_graphs",
+      "description": "Links multiple graphs or models to support explanation",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "There must be explicit references to more than one model or diagram. Referring to only one visual aid or failing to relate them to the narrative does not meet this. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The circular flow shows income increase, which shifts the AD curve rightward in the AD/AS model."
+      ],
+      "source_ref": "Moderator commentary"
+    },
+    {
+      "id": "use_resource_material",
+      "description": "Refers to and integrates relevant resource material in explanations",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must directly quote or clearly use information from provided stimulus. Generic answers with no reference to material do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The article notes investment rose by 3.2%, which contributed to GDP growth."
+      ],
+      "source_ref": "Moderator commentary"
+    },
+    {
+      "id": "compare_policy_effectiveness",
+      "description": "Compares effectiveness of different government policies on one macro-economic goal",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Must evaluate at least two policies and how well each achieves a goal (e.g., price stability). Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Fiscal policy has a delayed effect on inflation, while monetary policy can act more swiftly."
+      ],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "contrast_macro_impacts",
+      "description": "Contrasts the impact of macro-economic influences on different goals",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must clearly show different impacts (e.g., rising exports improves growth but may worsen current account). Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Increased exports support GDP growth but may raise inflationary pressure."
+      ],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "integrate_model_comparison",
+      "description": "Integrates economic models into comparisons of macro-economic impacts",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Model(s) must be referenced as part of the compare/contrast narrative, not just as diagrams. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "The AD/AS model shows how both tax cuts and subsidies shift the AD curve rightward."
+      ],
+      "source_ref": "AS PDF p2 ¶3"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
