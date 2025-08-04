@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "as_code": "AS91524",
+    "title": "Demonstrate understanding of mechanical systems",
+    "version": "2",
+    "credits": 6,
+    "assessment_type": "External",
+    "source_pdf": "as91524.pdf",
+    "purpose": "This achievement standard involves demonstrating understanding of mechanical systems."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "define_core_physics_quantities",
+      "description": "Provides accurate definitions of core physical quantities such as force, torque, or angular velocity.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The response must define physical quantities using correct terminology and directionality. Vague or circular definitions disqualify. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["centripetal force is directed toward the centre of the circle"],
+      "source_ref": "Moderator Commentary - Achievement"
+    },
+    {
+      "id": "construct_correct_force_diagram",
+      "description": "Draws a force diagram with all relevant forces in correct directions and locations.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "Diagrams must include and label all significant forces acting on the object. Incorrect direction or missing vectors disqualify. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["drew free body diagrams correctly"],
+      "source_ref": "Moderator Commentary - Achievement, Excellence"
+    },
+    {
+      "id": "apply_angular_kinematics_correctly",
+      "description": "Correctly uses angular kinematic relationships to solve for unknowns.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Equations like ω = θ/t or θ = ωt must be used with correct substitution. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["calculated angular velocity using rotational kinematics"],
+      "source_ref": "Moderator Commentary - Achievement"
+    },
+    {
+      "id": "recognise_net_force_as_resultant",
+      "description": "Identifies that net force arises from the sum of multiple interacting forces.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must clearly state that a net force results from unbalanced forces and describe direction. Merely listing forces is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["recognised that the net force provided the centripetal force"],
+      "source_ref": "Moderator Commentary - Merit"
+    },
+    {
+      "id": "demonstrate_energy_conservation_logic",
+      "description": "Applies conservation of energy reasoning across multiple energy forms.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "The student must state initial and final energy forms and equate them with reasoning. A single formula without linkage is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["solved problems using the conservation of energy with mistake(s)"],
+      "source_ref": "Moderator Commentary - Merit"
+    },
+    {
+      "id": "explain_effect_of_mass_distribution",
+      "description": "Explains how mass distribution affects rotational inertia or acceleration.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must reference formulas (e.g., I ∝ mr²) or reasoning linking mass layout to motion outcome. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["explain why rotational inertia decreases using a valid formulae or relationship"],
+      "source_ref": "Moderator Commentary - Merit"
+    },
+    {
+      "id": "identify_energy_loss_mechanism",
+      "description": "Identifies how energy is lost from a system and the physical mechanism responsible.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must link specific energy loss (e.g., to heat, sound) to cause (e.g., friction). General references to 'loss' are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["energy is lost as heat due to friction during damping"],
+      "source_ref": "Moderator Commentary - Merit"
+    },
+    {
+      "id": "compare_force_conditions_with_context",
+      "description": "Compares relative force magnitudes or directions across different system conditions.",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "The response must describe how net forces vary between positions, including direction and cause. Listing forces without comparison disqualifies. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["comprehensive discussion of the net force", "relative net forces for different positions"],
+      "source_ref": "Moderator Commentary - Excellence"
+    },
+    {
+      "id": "justify_response_with_equations",
+      "description": "Uses physics equations and working to logically justify conclusions.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Justification must follow a clear progression: known → formula → substitution → result → conclusion. Listing final answers only is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["used equations to justify answers", "produced clear logical and sequential layout"],
+      "source_ref": "Moderator Commentary - Excellence"
+    },
+    {
+      "id": "analyse_energy_transformation_chain",
+      "description": "Analyses a system's energy transformation sequence and explains cause–effect impact.",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Must trace energy transitions and explain resulting motion or system change. General statements without linkage disqualify. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["reference to all energy transformations and cause and impact of loss"],
+      "source_ref": "Moderator Commentary - Excellence"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
