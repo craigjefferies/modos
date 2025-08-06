@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "as_code": "AS91394",
+    "title": "Analyse ideas and values of the classical world",
+    "version": "2",
+    "credits": 4,
+    "assessment_type": "External",
+    "source_pdf": "as91394.pdf",
+    "purpose": "This achievement standard involves analysing ideas and values of the classical world."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "methodical_examination_interpretation",
+      "description": "Undertakes a methodical examination and interpretation of selected ideas and values in a classical literary text.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Look for a structured explanation that interprets an idea/value within its textual context. Mere plot summary is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "provided a simple response to the question",
+        "treated the characters in fictional texts as though they were real"
+      ],
+      "source_ref": "Moderator commentary: Achievement"
+    },
+    {
+      "id": "primary_source_evidence_included",
+      "description": "Includes relevant primary‐source evidence (quoted or referenced) to support analysis.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Student must cite or quote a classical source directly and relate it to their point. Vague references or secondary summaries do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "provided narrow examples from the text",
+        "occasionally generalising aspects of the plot"
+      ],
+      "source_ref": "Moderator commentary: Achievement"
+    },
+    {
+      "id": "ideas_and_values_discussed",
+      "description": "Discusses the identified ideas and values in relation to the text.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The response must explain how each idea/value operates in the text. Listing the idea without commentary is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "partially referenced ideas and / or values of the classical world"
+      ],
+      "source_ref": "Moderator commentary: Achievement"
+    },
+    {
+      "id": "simple_conclusions_drawn",
+      "description": "Draws basic conclusions about the ideas and values analysed.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Look for an explicit statement summarising what the analysis shows. Restatements of facts are not conclusions. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "provided a simple argument"
+      ],
+      "source_ref": "Moderator commentary: Achievement"
+    },
+    {
+      "id": "addresses_focus_of_question",
+      "description": "Responds directly to the chosen examination question and its stated focus.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Answer must connect analysis to the specific prompt (e.g., leadership, identity). Generic essays that ignore the focus fail. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "responded to the question selected, though it may not have been the most suitable",
+        "Candidates are encouraged to choose the appropriate question for their text"
+      ],
+      "source_ref": "Moderator commentary: Overview and Achievement"
+    },
+    {
+      "id": "multiple_viewpoints_explored",
+      "description": "Explores more than one viewpoint or interpretation of the ideas and values.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Identify at least two distinct perspectives contrasted within the discussion. Presenting a single stance is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "answered all aspects of the question, though their responses may have been unbalanced"
+      ],
+      "source_ref": "Moderator commentary: Merit"
+    },
+    {
+      "id": "comparisons_made_between_elements",
+      "description": "Makes explicit comparisons (e.g., between characters, themes, or cultural contexts).",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Comparison must use contrastive language such as “whereas” or “more than.” Listing facts side-by-side is not a comparison. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "included a range of examples which were described and analysed with depth"
+      ],
+      "source_ref": "Moderator commentary: Merit"
+    },
+    {
+      "id": "range_of_examples_analysed",
+      "description": "Analyses a range of specific, relevant examples from across the text.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Evidence must span multiple sections or episodes and be analysed, not just quoted. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "showed in-depth knowledge of the text and / or awareness of section(s) of the text",
+        "included a range of examples"
+      ],
+      "source_ref": "Moderator commentary: Merit"
+    },
+    {
+      "id": "conclusions_supported_by_evidence",
+      "description": "Draws developed conclusions that are explicitly supported by primary-source evidence.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Conclusion must cite evidence and explain the link. Unsupported claims fail. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "drew conclusions with understanding",
+        "provided specific examples and quotations"
+      ],
+      "source_ref": "Moderator commentary: Merit"
+    },
+    {
+      "id": "socio_historical_context_integrated",
+      "description": "Integrates socio-historical context to explain how it influenced the text’s creation and ideas.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Context must be woven into the analysis of examples, not tacked on. Generic historical background without linkage is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "linked well to the wider historical / political / social context",
+        "clear understanding of both the ideas and values seen in the Ancient Greek world of Aristophanes"
+      ],
+      "source_ref": "2024 Excellence exemplar commentary"
+    },
+    {
+      "id": "critical_evaluation_and_wider_implications",
+      "description": "Provides critical evaluation, establishing textual connections and discussing wider implications of the analysis.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Look for evaluative language showing insight (e.g., significance, impact) and explicit connections between parts of the text. Summaries without insight do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "the question is frequently referred to, and the keywords ‘enhance’ or ‘diminish’ are used throughout",
+        "fluent understanding of The Wasps"
+      ],
+      "source_ref": "2024 Excellence exemplar commentary"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
