@@ -1,0 +1,29 @@
+Content‑Knowledge for AS91394 – Analyse Ideas and Values of the Classical World
+Contexts: Socrates │ The Aeneid │ Augustus
+
+1. Socrates (Classical Greek philosophy and dialogue)
+- Context may include Plato’s Apology, Crito, Phaedo, or dialogues exploring Socratic ethics and civic responsibility. Though not frequently chosen, these texts allow thematic focus on leadership, identity, power.  :contentReference[oaicite:1]{index=1}
+
+2. The Aeneid (Roman epic by Virgil)
+- Most commonly used context in candidate responses. Frequently selected Books: 1, 2, 4, 6, and later books such as Book 12 are also effective. :contentReference[oaicite:2]{index=2}
+- Key ideas: pietas (duty), destiny, leadership, cultural identity, empire‑building.
+- Supports use of Latin terminology and range of examples from across the text.
+
+3. Augustus (Augustan political leadership and ideology)
+- Context often drawn via convergence of *The Aeneid*, Virgil’s imperial themes, and historical sources (e.g. Res Gestae, Suetonius). :contentReference[oaicite:3]{index=3}
+- Enables exploration of leadership, propaganda, national identity, ideological values.
+- Requires clear anchoring of literary analysis in historical context.
+
+WIDER IDEA & VALUE THEMES (NZQA Specification note 3):
+- Social relationships & role of the individual
+- Leadership & heroism
+- Power & freedom
+- Social & cultural traditions
+- Ideological & religious beliefs
+- Ideals of behaviour & national identity
+- Literary conventions
+- Influence on other cultures  :contentReference[oaicite:4]{index=4}
+
+ADDITIONAL NOTES:
+- Exemplar responses succeed when socio‑historical context is integrated into textual analysis, not just described. :contentReference[oaicite:5]{index=5}
+- Use of Greek or Latin terminology, appropriately explained, enhances depth of analysis. :contentReference[oaicite:6]{index=6}
