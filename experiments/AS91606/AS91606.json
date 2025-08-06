@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "as_code": "AS91606",
+    "title": "Demonstrate understanding of trends in human evolution",
+    "version": "2",
+    "credits": 4,
+    "assessment_type": "External",
+    "source_pdf": "as91606.pdf",
+    "purpose": "This achievement standard involves demonstrating understanding of trends in human evolution, including biological and cultural changes and patterns of hominin dispersal, using scientific evidence."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    {
+      "term": "hominins",
+      "definition": "Living and fossil species belonging to the human lineage, a subgroup of hominids."
+    },
+    {
+      "term": "trends in human evolution",
+      "definition": "Change over a period of time in relation to biological evolution, cultural evolution, and patterns of dispersal of hominins."
+    },
+    {
+      "term": "habitual bipedalism",
+      "definition": "Regular, upright walking on two legs as the primary form of locomotion."
+    }
+  ],
+  "omis": [
+    {
+      "id": "describe_biological_trends",
+      "description": "Describes key biological trends such as bipedalism, skull changes, or hand manipulation.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The response must identify and describe at least one trend in biological evolution. Listing without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The pelvis is shorter and broader in humans.", "The spine is S-shaped to support upright walking."],
+      "source_ref": "AS PDF p2 ¶4"
+    },
+    {
+      "id": "describe_cultural_trends",
+      "description": "Describes key cultural trends such as tool use, fire, clothing, or shelter.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Response must state a cultural development and describe its use or function. Naming only is not sufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Neanderthals used fibres to create cord for carrying food.", "Fire was used for warmth and cooking."],
+      "source_ref": "AS PDF p2 ¶5"
+    },
+    {
+      "id": "define_hominin_and_dispersal",
+      "description": "Defines hominins and describes their dispersal patterns.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Response must clearly state the definition of hominins and mention migration/dispersal routes or patterns. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Hominins moved out of Africa into Europe and Asia.", "Hominins are members of the human lineage, not including great apes."],
+      "source_ref": "AS PDF p2 ¶3"
+    },
+    {
+      "id": "explain_anatomical_adaptations",
+      "description": "Explains how skeletal or anatomical features support bipedalism.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must connect feature to function or advantage (e.g., valgus angle improves walking efficiency). Description alone is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The valgus angle positions knees under the body for better balance.", "The spine’s S-shape absorbs shock during walking."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "explain_brain_region_function",
+      "description": "Explains the function of a specific brain region and its role in hominin behaviour.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Student must name a brain region and link it to a function (e.g., language, tool use). Naming only is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The parietal lobe allowed spatial reasoning for tool making.", "Broca’s area helped with speech development."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "link_feature_to_advantage",
+      "description": "Links anatomical or behavioural features to survival or evolutionary advantage.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must show how a feature (e.g., tool use, upright walking) contributed to reproductive or survival success. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Bipedalism freed hands for carrying tools and infants.", "Tool use increased food access and survival."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "evaluate_tradeoffs_in_evolution",
+      "description": "Evaluates trade-offs associated with an evolutionary change (e.g., costs and benefits).",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Student must describe both advantages and disadvantages of a feature and provide reasoning or outcomes. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Bipedalism increases injury risk but is efficient for travel.", "Large brain size led to birth complications but improved cognition."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "integrate_biological_and_cultural_trends",
+      "description": "Integrates biological and cultural trends to explain evolutionary outcomes.",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Must combine at least one biological and one cultural factor and explain their interaction or combined effect. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Smaller body size and simple tools helped H. floresiensis survive on limited island resources."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "analyse_evidence_based_explanations",
+      "description": "Uses scientific evidence to justify or analyse evolutionary interpretations.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Requires references to specific fossil, genetic, or archaeological evidence supporting the argument. General statements are not sufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The use of fibres shows cognitive ability supported by archaeological findings in France."],
+      "source_ref": "Moderator commentary ¶6"
+    },
+    {
+      "id": "structure_and_coherence",
+      "description": "Structures ideas logically and uses coherent links between concepts.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Look for logical flow and connections between trends, ideas, or examples. A list of facts without linking phrases does not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["The advantages outweigh the disadvantages because they improved long-distance travel, which helped find food and escape predators."],
+      "source_ref": "Moderator commentary ¶6"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
