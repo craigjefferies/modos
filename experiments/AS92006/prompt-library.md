@@ -149,4 +149,4 @@
 **Prompt:**  
 "Create a written worksheet where students read two interface descriptions with principle trade-offs, choose the better, and suggest fixes."  
 **Student Prompt:**  
-"Give me two versions of a screen with different principle priorities. Then ask me to identify two trade-offs, choose the better version, and suggest two fixes, one trade-off at a time."
+"Give me a real world context and two versions of a screen with different principle priorities. Then ask me to identify two trade-offs, choose the better version, and suggest two fixes, one trade-off at a time."
