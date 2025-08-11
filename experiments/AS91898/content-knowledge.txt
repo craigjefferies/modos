@@ -95,20 +95,69 @@
 
 ### 5. Applied Scenarios
 
-#### Social Media – Hate Speech Filter
-- **Describe**: A **Supervised Classification** model labels posts as hate speech or acceptable using examples from training data.
-- **Explain**: Protects users **because** harmful content is removed. High accuracy means fewer harmful posts remain.
-- **Discuss**: Bias can occur if dialects are missing from the training data. Fix by adding diverse examples or using human review.
+---
 
-#### Car Safety – CNN Pedestrian Detection
-- **Describe**: A **CNN** scans dash-cam images to detect pedestrians so the car can brake.
-- **Explain**: Reduces reaction time **because** AI can see objects faster than humans.
-- **Discuss**: The issue is **explainability** — if the AI brakes unexpectedly, it’s unclear why. Heatmaps can give clues.
+#### **Healthcare**
+**ML (Supervised Classification)** – X-ray Classification  
+- **Describe**: A supervised model classifies X-ray images as “healthy” or “tumour” using labelled examples.  
+- **Explain**: Helps detect illness early **because** the AI spots patterns doctors might miss when busy.  
+- **Discuss**: Risk of bias if training images mostly come from one age group. Fix by adding diverse examples.
 
-#### Healthcare – LLM Discharge Summaries
-- **Describe**: An **LLM** reads medical notes and creates a plain-English summary.
-- **Explain**: Saves time **because** it removes jargon and is easier for patients to read.
-- **Discuss**: Hallucinations can occur, inventing false details. Fix by having doctors review all outputs.
+**NN (CNN)** – Skin Cancer Detection  
+- **Describe**: A CNN scans skin photos to detect early signs of melanoma.  
+- **Explain**: Speeds up diagnosis **because** it can check thousands of images quickly.  
+- **Discuss**: False positives may cause stress. Mitigate by having a doctor confirm results.
+
+**NLP (LLM)** – Medical Note Summarisation  
+- **Describe**: An LLM turns complex medical notes into patient-friendly summaries.  
+- **Explain**: Saves time **because** patients can understand their care instructions.  
+- **Discuss**: Hallucinations can add false info — require doctor review before sending to patients.
+
+---
+
+#### **Car Safety**
+**ML (Supervised Classification)** – Road Surface Detection  
+- **Describe**: A supervised model classifies road surfaces (wet, icy, dry) from sensor data.  
+- **Explain**: Improves safety **because** braking adjusts to road conditions.  
+- **Discuss**: Poor data from rare conditions could cause wrong predictions. Fix with simulated training data.
+
+**ML (Supervised Classification)** – Driver Drowsiness Detection  
+- **Describe**: A supervised model analyses steering patterns to detect driver drowsiness.  
+- **Explain**: Prevents accidents **because** the car can alert the driver to rest.  
+- **Discuss**: False alarms may annoy drivers — reduce by combining with eye-tracking sensors.
+
+**NN (CNN)** – Pedestrian Detection  
+- **Describe**: A CNN detects pedestrians in dashcam images to trigger automatic braking.  
+- **Explain**: Reduces reaction time **because** AI sees objects faster than humans.  
+- **Discuss**: Poor lighting can cause missed detections — improve with infrared sensors.
+
+**NLP (Voice Recognition)** – Emergency Commands  
+- **Describe**: An NLP system understands spoken commands like “call for help” after a crash.  
+- **Explain**: Saves time **because** emergency services are contacted instantly.  
+- **Discuss**: Background noise could cause errors — fix with noise-cancelling microphones.
+
+---
+
+#### **Social Media**
+**ML (Supervised Classification)** – Hate Speech Detection  
+- **Describe**: A supervised model detects hate speech in text posts using labelled training data.  
+- **Explain**: Protects users **because** harmful content is removed.  
+- **Discuss**: Bias risk if dialects are missing from the training set — fix with diverse examples.
+
+**NN (CNN)** – Image Moderation  
+- **Describe**: A CNN flags inappropriate images before they appear in feeds.  
+- **Explain**: Keeps platform safe **because** harmful visuals are blocked automatically.  
+- **Discuss**: False positives may hide harmless content — fix with human review of borderline cases.
+
+**NLP (LLM)** – Thread Summarisation  
+- **Describe**: An LLM summarises long posts or comment threads into a short overview.  
+- **Explain**: Saves time **because** users can get the main points quickly.  
+- **Discuss**: May miss important details — fix by letting users click to view the full thread.
+
+**NLP (LLM)** – Misinformation Reduction  
+- **Describe**: An LLM summarises breaking news posts into key facts to stop misinformation.  
+- **Explain**: Improves accuracy **because** it highlights only confirmed information.  
+- **Discuss**: Outdated training data could mislead — fix with live fact-checking sources.
 
 ---
 
