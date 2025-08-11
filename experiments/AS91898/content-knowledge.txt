@@ -1,0 +1,119 @@
+# AS91898 Content Knowledge File – Simplified for OMI Alignment
+
+---
+
+### 1. Metadata
+- Assessment Code and Title: AS91898 – Demonstrate understanding of a computer science concept
+- Level and Credits: Level 2, 3 Credits
+- Key Topics: Artificial Intelligence, Core Mechanisms (Supervised Learning, CNN, LLM, Recommenders), Metrics, Data pipeline, Ethical Impacts, Real-world Applications (Social Media, Car Safety, Healthcare)
+- Last Updated: 2025-08-12
+- Scaffolding Notes: Simple = Achieved (name, describe); Detailed = Merit (explain, connect cause/effect); Implication = Excellence (evaluate, judge, propose fix)
+- Source Files Used: as91898.pdf, as91898.json, CS_Exam_AI_Resource.txt, 91898-cat-B-2023.pdf
+
+---
+
+### 2. Key Terms
+
+| Term | Definition |
+|------|------------|
+| Artificial Intelligence | Software that mimics human thinking to perform tasks. |
+| Mechanism | A process or method that makes the system work. |
+| Impact | A consequence of using the concept (ethical, social, human-factor, etc). |
+| Machine Learning (ML) | A method where computers learn patterns from data. |
+| Neural Network (NN) | A model that learns to recognise patterns in data. |
+| Natural Language Processing (NLP) | AI that processes and generates human language. |
+| Supervised Learning | ML using labelled data to learn patterns. |
+| Accuracy | How often the model is correct overall. |
+| Precision | How often positive results are correct. |
+| Precision@K | Accuracy of the top-K recommendations. |
+| Bias | Systematic unfairness in outcomes. |
+| Privacy | Risks from collecting or storing sensitive data. |
+| Explainability | How clearly we can understand AI’s decisions. |
+| Misuse | Harmful or unintended use of AI. |
+| Data Pipeline | Steps to collect, clean, split, and evaluate data. |
+| Future-proofing | Designing AI to stay safe and relevant over time. |
+| Chatbot | An AI system that interacts using natural language. |
+
+---
+
+### 3. Knowledge Tables (Simplified)
+
+#### 3.1 Core AI Mechanisms
+
+| Mechanism | Simple Sentence | Example | Main Risk |
+|-----------|-----------------|---------|-----------|
+| **Supervised Classification** | Learns from labelled examples to sort new data into the right group. | Social media filters hate speech; Car reads road signs. | Bias if training data is unbalanced. |
+| **CNN (Convolutional Neural Network)** | Finds patterns in images so it can recognise objects. | Car detects pedestrians; Medical AI scans X-rays. | Can be hard to explain why it made a decision. |
+| **Transformer / LLM (NLP)** | Predicts the next word to understand or create text. | Summarises doctor notes; Chatbot answers questions. | Can make up false information (hallucinations). |
+| **Collaborative Recommender** | Suggests things liked by people with similar interests. | TikTok “For You” feed; Health app suggests workouts. | Can create echo chambers or spread misinformation. |
+
+---
+
+#### 3.2 Metrics and Evaluation
+
+| Concept | Simple Sentence | Example | Risk |
+|---------|-----------------|---------|------|
+| Accuracy | How often the model is right. | CNN classifies 95/100 correctly. | Can hide false positives or negatives. |
+| Precision | How often “yes” predictions are correct. | Spam filter flags 50 emails, 45 are spam. | High precision doesn’t mean it finds all spam. |
+| Perplexity (NLP) | Lower = smoother, more accurate text predictions. | Low perplexity in health summaries sounds more natural. | Not used for images or recommenders. |
+| Precision@K | Checks if the top-K suggestions are relevant. | 4 of top 5 TikTok videos match your interests. | Doesn’t measure long-term value or fairness. |
+
+---
+
+#### 3.3 Data Pipeline
+
+| Stage | Simple Sentence | Example | Risk |
+|-------|-----------------|---------|------|
+| Collection | Gather examples for training. | Road camera footage; Medical reports. | Bad data = bad model. |
+| Cleaning | Remove errors or sensitive details. | Blur faces in images; Anonymise patient info. | Leaks or bias if skipped. |
+| Split | Keep test data separate from training data. | 80% train, 20% test for tumour detection. | Using test data in training fakes results. |
+| Evaluation | Check performance using metrics. | 95% accuracy for skin-cancer detection. | One metric alone can mislead. |
+
+---
+
+#### 3.4 Ethical and Social Impacts
+
+| Issue | Simple Sentence | Example | Risk |
+|-------|-----------------|---------|------|
+| Bias | AI can be unfair to some groups. | Filter flags cultural slang as hate speech. | Discrimination or harm. |
+| Privacy | AI can expose sensitive data. | Health chatbot stores user answers. | Legal and ethical issues. |
+| Explainability | Hard to see why AI made a decision. | CNN brakes without clear reason. | Loss of trust. |
+| Misuse | AI used in harmful ways. | Deepfakes for scams. | Public trust erodes. |
+
+---
+
+### 4. Common Misconceptions / Errors
+
+- Confusing accuracy with precision.
+- Naming a context without naming the mechanism.
+- Explaining what AI does without linking to how it works at a role level.
+- Mentioning an impact without cause/effect.
+- Talking about “future-proofing” without linking it to a risk.
+- Vague pros/cons not tied to examples.
+
+---
+
+### 5. Applied Scenarios
+
+#### Social Media – Hate Speech Filter
+- **Describe**: A **Supervised Classification** model labels posts as hate speech or acceptable using examples from training data.
+- **Explain**: Protects users **because** harmful content is removed. High accuracy means fewer harmful posts remain.
+- **Discuss**: Bias can occur if dialects are missing from the training data. Fix by adding diverse examples or using human review.
+
+#### Car Safety – CNN Pedestrian Detection
+- **Describe**: A **CNN** scans dash-cam images to detect pedestrians so the car can brake.
+- **Explain**: Reduces reaction time **because** AI can see objects faster than humans.
+- **Discuss**: The issue is **explainability** — if the AI brakes unexpectedly, it’s unclear why. Heatmaps can give clues.
+
+#### Healthcare – LLM Discharge Summaries
+- **Describe**: An **LLM** reads medical notes and creates a plain-English summary.
+- **Explain**: Saves time **because** it removes jargon and is easier for patients to read.
+- **Discuss**: Hallucinations can occur, inventing false details. Fix by having doctors review all outputs.
+
+---
+
+### 6. Sources
+- NZQA Assessment Standard PDF: as91898.pdf  
+- OMI JSON file: as91898.json  
+- Past Exams: 91898-cat-B-2023.pdf  
+- Curriculum Resource: CS_Exam_AI_Resource.txt (2025 Content Guide)
