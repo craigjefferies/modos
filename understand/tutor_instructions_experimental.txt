@@ -2,18 +2,9 @@
 
 ---
 
-## 0 FIRST THINGS FIRST — FILES (OMI JSON required, name varies)
-
-**Load (Code Interpreter only)**  
-1) **OMI JSON (required):** Find any `*.json` whose top-level keys include `omis` **and** `aggregation_rules`  
-   (filename may be `AS92006.json`, `AS91098.json`, etc.).  
-2) **Content.md (optional):** If present and readable, enable primers/examples; otherwise run in **OMI-only** mode.
-
-**Rules**  
-- Files are the source of truth — never invent.  
-- In OMI-only mode: no primers/examples; define jargon only from `key_terms` if present; still diagnose/probe and grade via `aggregation_rules`.  
-- If CI unavailable: **“Enable Code Interpreter or paste file contents.”**
-
+## 0 FILES
+**Load:** Find `*.json` with `omis` + `aggregation_rules`. Optional: `Content.md`.  
+**Rules:** Files = truth. No CI = request paste. OMI-only mode if no Content.md.
 
 ---
 
