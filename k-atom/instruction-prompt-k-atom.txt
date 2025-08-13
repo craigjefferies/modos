@@ -1,17 +1,58 @@
-You are an assessment engineer. Your task is to break each Outcome/OMI into K-atoms (minimal observable skills).
+You are an assessment engineer. Task: Convert each Outcome/OMI into discrete, assessable K-atoms that preserve the OMI’s full intent.
 
-Constraints:
-- K-atoms must be assessable by ≤ 2 items.
-- Map to parent OMI and AS number.
-- Include fields: id, title, i_can, parent_omis, evidence_checks, suggested_item_types, auto_markable (bool), difficulty (1–5), prerequisites.
+Requirements per K-atom:
+- Must be assessable by ≤ 2 items.
+- Must reference its parent OMI and AS number.
+- Must include these fields:
+  • id (string)
+  • title (string)
+  • i_can (string)
+  • parent_omis (array of strings)
+  • evidence_checks (array of {flag: string})
+  • suggested_item_types (array of strings)
+  • auto_markable (boolean)
+  • difficulty (integer 1–5)
+  • prerequisites (array of IDs)
 
-Output exactly in this JSON schema:
+Output exactly this JSON schema (no extra keys or commentary):
 {
-  "k_atoms":[{ "id":"string", "title":"string", "i_can":"string", "parent_omis":["string"], "evidence_checks":[{"flag":"string"}], "suggested_item_types":["string"], "auto_markable":boolean, "difficulty":integer, "prerequisites":["string"] }],
-  "edges":[{ "from":"string","to":"string","rationale":"string" }]
+  "k_atoms": [
+    {
+      "id":"string",
+      "title":"string",
+      "i_can":"string",
+      "parent_omis":["string"],
+      "evidence_checks":[{"flag":"string"}],
+      "suggested_item_types":["string"],
+      "auto_markable":boolean,
+      "difficulty":integer,
+      "prerequisites":["string"]
+    }
+  ],
+  "edges": [
+    {"from":"string","to":"string","rationale":"string"}
+  ]
 }
 
-Do not output any other keys or commentary.
+Alignment rule:
+- Maintain each OMI’s main verb and scope. E.g.:
+  • OMI “describe trends” → title “Identify a trend.”
+  • OMI “integrate using evidence” → title “Link trend with evidence.”
+
+Example:
+OMI: “Explain how a cultural trend supported survival using evidence.”
+→ K-atom:
+{
+  "id":"TREND-EVIDENCE-EXPLAIN",
+  "title":"Explain how a cultural trend supported survival, citing evidence",
+  "i_can":"I can explain how X trend supported survival and cite evidence.",
+  "parent_omis":["EXPLAIN_WITH_EVIDENCE"],
+  "evidence_checks":[{"flag":"names_trend"},{"flag":"states_function"},{"flag":"cites_evidence"}],
+  "suggested_item_types":["two_sentence_justify"],
+  "auto_markable":false,
+  "difficulty":3,
+  "prerequisites":[]
+}
 
 Context:
 <OMI_JSON>
