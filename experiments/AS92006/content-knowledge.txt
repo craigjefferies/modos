@@ -1,25 +1,42 @@
-### Mātāpono Māori Principles
-[cite_start]Mātāpono Māori principles related to usability include the accurate use of te reo Māori, support for te reo Māori in tools like spell-checking, and support for the expression of tikanga and mātauranga Māori[cite: 49, 50, 51, 52].
+## Mātāpono Māori Principles  
+These are Māori values and ideas that link to how we design and use technology. They help make sure interfaces respect culture and language:  
 
-***
+- **Use te reo Māori correctly** – Make sure Māori words are spelled and written properly, with correct macrons, so the language is respected.  
+- **Support te reo Māori in tools** – For example, have Māori words included in spell-check or predictive text so the technology works properly for Māori speakers.  
+- **Support tikanga and mātauranga Māori** – Allow people to share Māori customs, traditions, and knowledge in their own way. This might mean using Māori-specific imagery, colours, or layout choices that match cultural practices.  
 
-### Usability Concepts
-[cite_start]Usability concepts include internal and external consistency, accessibility, and Nielsen's usability heuristics[cite: 54, 55, 56].
+---
 
-#### Consistency
-* **Internal Consistency**: This refers to the design being consistent within a single interface or application. For example, all buttons of a certain type should look and behave the same way.
-* **External Consistency**: This refers to a design being consistent with other applications or the operating system. For example, using standard icons and menus that users are already familiar with from other software.
+## Usability Concepts  
+Usability is about making sure something is **easy, clear, and pleasant to use**.  
 
-#### Nielsen's Usability Heuristics
-[cite_start]Nielsen's heuristics are a set of ten general principles for user interface design[cite: 56]. They are called "heuristics" because they are broad rules of thumb, not specific usability guidelines. These principles can be applied to evaluate and improve the usability of an interface.
+Key ideas include:  
 
-1.  **Visibility of system status**: The system should always keep users informed about what is going on, through appropriate feedback within a reasonable time.
-2.  **Match between system and the real world**: The system should speak the users' language, with words, phrases, and concepts familiar to the user, rather than system-oriented terms. It should follow real-world conventions, making information appear in a natural and logical order.
-3.  **User control and freedom**: Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without an extended dialogue. Support undo and redo.
-4.  **Consistency and standards**: Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions. [cite_start]This relates to both internal and external consistency[cite: 54].
-5.  **Error prevention**: Even better than good error messages is a careful design that prevents a problem from occurring in the first place.
-6.  **Recognition rather than recall**: Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another.
-7.  **Flexibility and efficiency of use**: Accelerators—unseen by the novice user—may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users.
-8.  **Aesthetic and minimalist design**: Dialogues should not contain information that is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
-9.  **Help users recognize, diagnose, and recover from errors**: Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
-10. **Help and documentation**: Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. This information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
+- **Internal consistency** – Within the same app or site, similar things should look and act the same. For example, if “Save” is always a green button, it should look and be in the same place on every page.  
+- **External consistency** – The app or site should work in a way that feels familiar compared to other apps. For example, using the same trash-bin icon for deleting files, because most users already know that symbol.  
+- **Accessibility** – Designing so everyone can use it, including people with disabilities (e.g., screen-reader compatibility, captions for videos, high-contrast text for low-vision users).  
+- **Nielsen’s usability heuristics** – Ten general rules of thumb for designing better, easier-to-use interfaces.  
+
+---
+
+### Nielsen’s 10 Usability Heuristics (with more detail)  
+
+1. **Visibility of system status** – Always keep users updated on what’s happening. For example, when uploading a photo, show a progress bar so they know it’s still working.  
+
+2. **Match with the real world** – Use words, images, and ideas that match the user’s everyday life. Avoid confusing tech terms if there’s a simpler way to say it. For example, say “Shopping cart” instead of “Purchase container.”  
+
+3. **User control and freedom** – Let users fix mistakes or back out easily. Have an “Undo” button or a clear way to exit without losing work.  
+
+4. **Consistency and standards** – Stick to the same wording, layout, and icons so users don’t have to guess what something means. Also follow common standards across apps so it feels familiar.  
+
+5. **Error prevention** – Design so mistakes are less likely to happen. For example, grey out the “Submit” button until all required fields are filled in.  
+
+6. **Recognition rather than recall** – Don’t make users remember hidden info. Show them options instead of expecting them to recall commands. Example: A drop-down list of countries instead of asking users to type the country code.  
+
+7. **Flexibility and efficiency of use** – Let beginners take the easy route, but give advanced users shortcuts. For example, keyboard shortcuts for experts while keeping menus for new users.  
+
+8. **Aesthetic and minimalist design** – Keep things clean and uncluttered. Only show information that’s needed right now so the user doesn’t get overwhelmed.  
+
+9. **Help users recover from errors** – If something goes wrong, give a clear, friendly message explaining the problem and how to fix it. Avoid scary codes like “Error 404” without explanation.  
+
+10. **Help and documentation** – Sometimes people need instructions. Make help easy to find, simple to read, and focused on what they need to do.  
