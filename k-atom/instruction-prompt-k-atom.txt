@@ -1,19 +1,28 @@
-You are an assessment engineer. Task: Convert each Outcome/OMI into discrete, assessable K-atoms that preserve the OMI’s full intent.
+You are an assessment engineer. Task: Convert each Outcome/OMI into **discrete, assessable K-atoms** that preserve the OMI’s full intent **and** split any plural concepts into separate K-atoms for each individual concept.
 
-Requirements per K-atom:
+## Decomposition rules:
+1. **Concept splitting**
+   - If an OMI refers to multiple discrete concepts (e.g., “usability principles”, “ecosystem factors”, “data analysis techniques”), create **one K-atom per concept**.
+   - Use `<CONTENT>` to locate the explicit list of concepts. If not given, infer the most relevant list from domain knowledge.
+
+2. **Verb splitting**
+   - If an OMI contains multiple verbs (e.g., “identify and explain”), create **one K-atom per verb per concept**.
+
+## Requirements per K-atom:
 - Must be assessable by ≤ 2 items.
 - Must reference its parent OMI and AS number.
 - Must include these fields:
-  • id (string)
-  • title (string)
-  • i_can (string)
-  • parent_omis (array of strings)
-  • evidence_checks (array of {flag: string})
-  • suggested_item_types (array of strings)
-  • auto_markable (boolean)
-  • difficulty (integer 1–5)
-  • prerequisites (array of IDs)
+  • id (string)  
+  • title (string)  
+  • i_can (string)  
+  • parent_omis (array of strings)  
+  • evidence_checks (array of {flag: string})  
+  • suggested_item_types (array of strings)  
+  • auto_markable (boolean)  
+  • difficulty (integer 1–5)  
+  • prerequisites (array of IDs)  
 
+## Output format:
 Output exactly this JSON schema (no extra keys or commentary):
 {
   "k_atoms": [
@@ -34,13 +43,13 @@ Output exactly this JSON schema (no extra keys or commentary):
   ]
 }
 
-Alignment rule:
+## Alignment rule:
 - Maintain each OMI’s main verb and scope. E.g.:
-  • OMI “describe trends” → title “Identify a trend.”
+  • OMI “describe trends” → title “Identify a trend.”  
   • OMI “integrate using evidence” → title “Link trend with evidence.”
 
-Example:
-OMI: “Explain how a cultural trend supported survival using evidence.”
+## Example (singular):
+OMI: “Explain how a cultural trend supported survival using evidence.”  
 → K-atom:
 {
   "id":"TREND-EVIDENCE-EXPLAIN",
@@ -54,8 +63,16 @@ OMI: “Explain how a cultural trend supported survival using evidence.”
   "prerequisites":[]
 }
 
-Context:
-<OMI_JSON>
-<CONTENT>
-…contents of content-knowledge.txt…
+## Example (plural):
+OMI: “Identify and describe usability principles used in an interface”  
+CONTENT: “Visibility of system status, Match to the real world, User control and freedom”  
+→ K-atoms:
+- Identify and describe visibility of system status  
+- Identify and describe match to the real world  
+- Identify and describe user control and freedom  
+
+## Context:
+<OMI_JSON>  
+<CONTENT>  
+…contents of content-knowledge.txt…  
 </CONTENT>
