@@ -1,9 +1,3 @@
-## Mātāpono Māori Principles  
-These are Māori values and ideas that link to how we design and use technology. They help make sure interfaces respect culture and language:  
-
-- **Use te reo Māori correctly** – Make sure Māori words are spelled and written properly, with correct macrons, so the language is respected.  
-- **Support te reo Māori in tools** – For example, have Māori words included in spell-check or predictive text so the technology works properly for Māori speakers.  
-- **Support tikanga and mātauranga Māori** – Allow people to share Māori customs, traditions, and knowledge in their own way. This might mean using Māori-specific imagery, colours, or layout choices that match cultural practices.  
 
 ---
 
@@ -12,6 +6,7 @@ Usability is about making sure something is **easy, clear, and pleasant to use**
 
 Key ideas include:  
 
+-  **Correct te reo Māori** – Interfaces use proper spelling and macrons across UI, inputs, and stored text. For example, show **Māori**, **kōrero**, and **whānau** correctly in menus and search.  
 - **Internal consistency** – Within the same app or site, similar things should look and act the same. For example, if “Save” is always a green button, it should look and be in the same place on every page.  
 - **External consistency** – The app or site should work in a way that feels familiar compared to other apps. For example, using the same trash-bin icon for deleting files, because most users already know that symbol.  
 - **Accessibility** – Designing so everyone can use it, including people with disabilities (e.g., screen-reader compatibility, captions for videos, high-contrast text for low-vision users).  
