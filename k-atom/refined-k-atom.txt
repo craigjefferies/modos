@@ -1,0 +1,58 @@
+## Refined K-Atom Builder Prompt for Knowledge Graph and BKT
+
+### Task
+You are an assessment engineer. Your task is to convert each Outcome/OMI into **discrete, assessable K-atoms**. These K-atoms must be structured to build a **knowledge graph** for an AI tutor backend and align with the requirements of a **Bayesian Knowledge Tracing (BKT)** model. The K-atoms must preserve the OMI’s full intent, and any plural concepts must be split into separate K-atoms.
+
+---
+
+### Decomposition Rules
+
+1.  **Concept Splitting:** If an OMI refers to multiple discrete concepts (e.g., “usability principles”), create **one K-atom per concept**. Use `<CONTENT>` to locate the explicit list of concepts. If not given, infer the most relevant list from domain knowledge.
+2.  **Verb Splitting:** If an OMI contains multiple verbs (e.g., “identify and describe”), create **one K-atom per verb per concept**.
+
+---
+
+### K-atom Requirements
+Each K-atom is a **node** in the knowledge graph. It must be assessable by ≤ 2 items and include the following fields to support the BKT model and graph structure:
+
+* `id` (string): A unique identifier for the K-atom (e.g., `AS92006-A-IDENTIFY_USABILITY_PRINCIPLE_AESTHETIC`).
+* `title` (string): A concise, human-readable title.
+* `i_can` (string): A student-facing "I can" statement for the skill.
+* `parent_omis` (array of strings): The IDs of the original OMIs this K-atom maps to.
+* `evidence_checks` (array of `{flag: string}`): Markers for an AI or human to check for in a student's response.
+* `suggested_item_types` (array of strings): Recommended question formats (e.g., `short_answer`).
+* `auto_markable` (boolean): Whether the item can be graded automatically.
+* `difficulty` (integer 1–5): A proxy for the BKT's `p(learn)` parameter.
+* `prerequisites` (array of IDs): This defines the **`REQUIRES_PREREQUISITE` edges** in the graph, linking to other K-atoms that must be mastered first.
+* `parent_level` (string): The level of the parent OMI (`A`, `M`, `E`). This creates the hierarchical **`PART_OF` edges** for the graph.
+
+---
+
+### Output Format
+The output must be a single JSON object that defines the complete knowledge graph structure.
+
+```json
+{
+  "k_atoms": [
+    {
+      "id": "string",
+      "title": "string",
+      "i_can": "string",
+      "parent_omis": ["string"],
+      "evidence_checks": [{"flag": "string"}],
+      "suggested_item_types": ["string"],
+      "auto_markable": boolean,
+      "difficulty": integer,
+      "prerequisites": ["string"],
+      "parent_level": "string"
+    }
+  ],
+  "edges": [
+    {
+      "from": "string",
+      "to": "string",
+      "rationale": "string",
+      "edge_type": "REQUIRES_PREREQUISITE"
+    }
+  ]
+}
