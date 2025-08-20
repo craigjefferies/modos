@@ -1,0 +1,206 @@
+{
+"meta": {
+"as_code": "AS92005",
+"title": "Develop a digital technologies outcome",
+"version": "3",
+"credits": 5,
+"assessment_type": "Internal",
+"source_pdf": "/mnt/data/as92005.pdf",
+"purpose": "Students are able to develop a digital technologies outcome."
+},
+"grade_descriptors": {
+"N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+"N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+"A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+"A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+"M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+"M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+"E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+"E8": "All Achieved, Merit, and Excellence indicators are met."
+},
+"key_terms": [
+{
+"term": "fitness for purpose",
+"definition": "An outcome that addresses the requirements and specifications, considers potential users and context, and performs as intended."
+},
+{
+"term": "testing",
+"definition": "The student examining their own outcome, or parts of it."
+},
+{
+"term": "trialling",
+"definition": "Having other people use the outcome, or parts of it, to determine suitability for users; this process should include end user(s)."
+},
+{
+"term": "conventions",
+"definition": "Established practices within the chosen digital technologies domain."
+},
+{
+"term": "optimally",
+"definition": "Applying tools or techniques in the best way practicable for a particular task."
+}
+],
+"omis": [
+{
+"id": "purpose_described",
+"description": "Describes the purpose of the outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "The student must explicitly state what the outcome is for or intended to do. Naming or showing the artifact without its intended purpose does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"described the purpose of the outcome as developing a modern bus stop asset"
+],
+"source_ref": "Moderator commentary – Achieved exemplar."
+},
+{
+"id": "potential_users_identified",
+"description": "Identifies the potential users of the outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Look for a clear statement of who will use the outcome. Vague audiences (e.g., “people” or “everyone”) without relevance to the context do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"The users are game developers."
+],
+"source_ref": "Moderator commentary – Achieved exemplar."
+},
+{
+"id": "requirements_and_specifications_described",
+"description": "Describes the requirements and measurable specifications of the outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Both requirements and specifications must be stated; listing only features or vague goals is insufficient. Include measurability where specified. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Requirements and measurable specifications are described."
+],
+"source_ref": "Moderator commentary – Achieved exemplar."
+},
+{
+"id": "appropriate_tools_or_techniques_used",
+"description": "Uses appropriate tools or techniques of a digital technologies domain to produce the outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Show explicit use of domain-appropriate tools/techniques in creating the outcome. Merely naming a tool without showing its application does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Blender has been used to create the outcome"
+],
+"source_ref": "Moderator commentary – Achieved exemplar."
+},
+{
+"id": "outcome_addresses_requirements_and_specifications",
+"description": "Shows that the produced outcome addresses the stated requirements and specifications.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Provide direct evidence linking outcome features to stated requirements/specifications. General claims without linkage to the specified criteria do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Addressing the requirements and specifications is seen in the outcome"
+],
+"source_ref": "Moderator commentary – Achieved exemplar."
+},
+{
+"id": "basic_functionality_tested",
+"description": "Tests the outcome to ensure basic functionality.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Evidence must show the student examined their own outcome or parts of it and verified basic operation. Statements of intent without observable testing actions do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"testing the outcome to ensure basic functionality."
+],
+"source_ref": "AS PDF p1 Explanatory Note 1 • Achieved; \uE000filecite\uE002turn0file0\uE001"
+},
+{
+"id": "conventions_followed_for_domain",
+"description": "Follows conventions relevant to the tools or techniques of the chosen digital technologies domain.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Evidence must demonstrate established domain practices (e.g., file/folder naming, code formatting, layout conventions). Stating a convention without showing it in the work does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"following conventions relevant to the tools or techniques of a digital technologies domain"
+],
+"source_ref": "AS PDF p1 Explanatory Note 1 • Merit; \uE000filecite\uE002turn0file0\uE001"
+},
+{
+"id": "improvements_based_on_testing_information",
+"description": "Uses information from testing to make improvements to the outcome’s fitness for purpose.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Show that specific test findings prompted concrete changes to improve how well the outcome meets its requirements/users. Generic edits not linked to testing do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using information from testing to make improvements to the outcome’s fitness for purpose."
+],
+"source_ref": "AS PDF p1 Explanatory Note 1 • Merit; \uE000filecite\uE002turn0file0\uE001"
+},
+{
+"id": "conventions_evidenced_in_artifacts",
+"description": "Demonstrates conventions in process artifacts or code/layout (e.g., structure, tags, grouping).",
+"level": "M",
+"weight": 1,
+"detection_hint": "Look for applied conventions visible in files, code, or design artifacts (e.g., index file, structured folders, indentation). Mere claims of following conventions without visible evidence do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"HTML conventions have been followed, with indented code and correct tags."
+],
+"source_ref": "Moderator commentary – Merit exemplar."
+},
+{
+"id": "tools_or_techniques_applied_optimally",
+"description": "Applies tools or techniques optimally to produce a fit-for-purpose outcome.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Show best-practicable application of tools/techniques for the task, evidenced in quality and suitability. Merely adequate use without evidence of optimal application does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"applying tools or techniques optimally in the production of a fit-for-purpose outcome"
+],
+"source_ref": "AS PDF p1 Explanatory Note 1 • Excellence; \uE000filecite\uE002turn0file0\uE001"
+},
+{
+"id": "trialled_with_others_including_end_users",
+"description": "Trials the outcome with others, including end users.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Evidence must show other people (including end users) used the outcome to judge suitability. Asking for opinions without use by intended users does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Trialling refers to having other people use the outcome",
+"This process should include end user(s)."
+],
+"source_ref": "AS PDF p2 Explanatory Notes 3; \uE000filecite\uE002turn0file0\uE001"
+},
+{
+"id": "improvements_based_on_trialling_information",
+"description": "Uses information from trialling with others to improve the outcome’s fitness for purpose.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Show that feedback from trialling led to specific, documented changes improving suitability for users/context. Gathering feedback without implementing improvements does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using information from trialling the outcome with others to improve its fitness for purpose."
+],
+"source_ref": "AS PDF p1 Explanatory Note 1 • Excellence; \uE000filecite\uE002turn0file0\uE001"
+}
+],
+"aggregation_rules": {
+"method": "hierarchical",
+"gate_sequence": ["A", "M", "E"],
+"levels": {
+"A": { "required_fraction": 1.0 },
+"M": { "required_fraction": 0.60 },
+"E": { "required_fraction": 0.50 }
+},
+"sub_band_logic": {
+"Achieved": {
+"A3": { "extra_merit_indicators": 0 },
+"A4": { "extra_merit_indicators": "\u22651" }
+},
+"Merit": {
+"M5": { "extra_excellence_indicators": 0 },
+"M6": { "extra_excellence_indicators": "\u22651" }
+},
+"Excellence": {
+"E7": { "excellence_fraction": "<1.0" },
+"E8": { "excellence_fraction": "1.0" }
+}
+},
+"fallback_grade": "N1"
+},
+"governance": {
+"last_validated": "2025-06-13",
+"change_log": []
+}
+}
