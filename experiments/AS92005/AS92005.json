@@ -123,7 +123,7 @@
 "description": "Uses information from testing to make improvements to the outcome’s fitness for purpose.",
 "level": "M",
 "weight": 1,
-"detection_hint": "Show that specific test findings prompted concrete changes to improve how well the outcome meets its requirements/users. Generic edits not linked to testing do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"detection_hint": "Show that specific test findings prompted concrete changes to improve how well the outcome meets its requirements/users. Generic edits or debugging not linked to testing do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
 "success_examples": [
 "using information from testing to make improvements to the outcome’s fitness for purpose."
 ],
