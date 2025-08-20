@@ -1,0 +1,58 @@
+{
+  "package_id": "LP-2025-08-20-Student123",
+  "scope": "daily",
+  "created_at": "2025-08-20T08:00:00Z",
+  "context_links": {
+    "omi_file": "US32405.json",
+    "content_file": "US32405-ContentKnowledge.txt"
+  },
+  "student_fit": {
+    "reading_level": "mid-Y10",
+    "interests": ["sport"],
+    "accommodations": ["visual scaffold"],
+    "time_budget_min": 45
+  },
+  "targets": [
+    { "omi_id": "appropriate_text_structure", "goal": "teach", "threshold": 0.6 },
+    { "omi_id": "punctuation_accuracy", "goal": "spiral", "threshold": 0.85 }
+  ],
+  "sequence": [
+    {
+      "slot": "do-now",
+      "title": "Spot the Structure",
+      "duration_min": 7,
+      "asset_type": "doc",
+      "prompt_to_student": "Highlight the intro, purpose, and closing.",
+      "omi_alignment": ["appropriate_text_structure"],
+      "evidence_capture": {"type": "selection_map", "tags": ["1.2"], "auto_tag_omis": false}
+    },
+    {
+      "slot": "mini-lesson",
+      "title": "Formal email frame",
+      "duration_min": 10,
+      "asset_type": "slides",
+      "teacher_notes": "Model 3-paragraph structure; emphasise sentence boundaries.",
+      "omi_alignment": ["appropriate_text_structure", "punctuation_accuracy"],
+      "evidence_capture": {"type": "free-text", "tags": ["2.2"], "auto_tag_omis": false}
+    },
+    {
+      "slot": "guided-practice",
+      "title": "Request a workplace visit (120–180 words)",
+      "duration_min": 15,
+      "asset_type": "doc",
+      "task": "Write a formal email to a local business requesting a visit.",
+      "constraints": {"text_type": "formal email", "word_range": [120, 180]},
+      "scaffolds": ["I am writing to request…", "I would appreciate…"],
+      "omi_alignment": ["content_relevance", "appropriate_register", "technical_accuracy"],
+      "evidence_capture": {"type": "free-text", "tags": ["1.1","1.3","1.4"], "auto_tag_omis": true}
+    },
+    {
+      "slot": "exit-ticket",
+      "title": "Fix the sentence",
+      "duration_min": 6,
+      "asset_type": "form",
+      "omi_alignment": ["punctuation_accuracy"],
+      "evidence_capture": {"type": "form-responses", "tags": ["2.2"], "auto_tag_omis": true}
+    }
+    ]
+}
