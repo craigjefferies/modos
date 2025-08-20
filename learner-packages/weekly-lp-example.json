@@ -1,0 +1,21 @@
+{
+  "package_id": "LP-2025-08-25-Student123",
+  "scope": "weekly",
+  "created_at": "2025-08-25T08:00:00Z",
+  "context_links": {
+    "omi_file": "US32405.json",
+    "content_file": "US32405-ContentKnowledge.txt"
+  },
+  "targets": [
+    { "omi_id": "content_relevance", "goal": "consolidate" },
+    { "omi_id": "appropriate_text_structure", "goal": "teach" },
+    { "omi_id": "punctuation_accuracy", "goal": "spiral" }
+  ],
+  "sequence": [
+    { "slot": "mon", "duration_min": 45, "asset_type": "doc", "omi_alignment": ["appropriate_text_structure"], "evidence_capture": { "type": "free-text", "auto_tag_omis": true } },
+    { "slot": "tue", "duration_min": 45, "asset_type": "slides", "omi_alignment": ["content_relevance"], "evidence_capture": { "type": "free-text", "auto_tag_omis": false } },
+    { "slot": "wed", "duration_min": 45, "asset_type": "form", "omi_alignment": ["punctuation_accuracy"], "evidence_capture": { "type": "form-responses", "auto_tag_omis": true } },
+    { "slot": "thu", "duration_min": 45, "asset_type": "doc", "omi_alignment": ["content_relevance","appropriate_register"], "evidence_capture": { "type": "free-text", "auto_tag_omis": true } },
+    { "slot": "fri", "duration_min": 45, "asset_type": "doc", "omi_alignment": ["content_relevance","appropriate_text_structure","technical_accuracy"], "evidence_capture": { "type": "file-upload", "tags": ["synthesis"], "auto_tag_omis": false } }
+  ]
+}
