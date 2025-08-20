@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Learning Package",
+  "type": "object",
+  "required": ["package_id", "scope", "targets", "sequence", "context_links"],
+  "properties": {
+    "package_id": { "type": "string" },
+    "scope": { "type": "string", "enum": ["daily", "weekly"] },
+    "created_at": { "type": "string", "format": "date-time" },
+    "context_links": {
+      "type": "object",
+      "required": ["omi_file", "content_file"],
+      "properties": {
+        "omi_file": { "type": "string" },
+        "content_file": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "student_fit": {
+      "type": "object",
+      "properties": {
+        "reading_level": { "type": "string" },
+        "interests": { "type": "array", "items": { "type": "string" } },
+        "accommodations": { "type": "array", "items": { "type": "string" } },
+        "time_budget_min": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["omi_id", "goal"],
+        "properties": {
+          "omi_id": { "type": "string" },
+          "goal": { "type": "string", "enum": ["teach", "consolidate", "spiral"] },
+          "threshold": { "type": "number", "minimum": 0, "maximum": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sequence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["slot", "duration_min", "asset_type", "omi_alignment", "evidence_capture"],
+        "properties": {
+          "slot": { "type": "string" },
+          "title": { "type": "string" },
+          "duration_min": { "type": "integer", "minimum": 1 },
+          "asset_type": {
+            "type": "string",
+            "enum": ["doc", "slides", "form", "link", "video", "interactive"]
+          },
+          "prompt_to_student": { "type": "string" },
+          "teacher_notes": { "type": "string" },
+          "task": { "type": "string" },
+          "constraints": { "type": "object" },
+          "scaffolds": { "type": "array", "items": { "type": "string" } },
+          "exemplar_snippets": { "type": "array", "items": { "type": "string" } },
+          "omi_alignment": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "checking": { "type": "object" },
+          "evidence_capture": {
+            "type": "object",
+            "required": ["type"],
+            "properties": {
+              "type": { "type": "string", "enum": ["free-text", "form-responses", "selection_map", "file-upload"] },
+              "tags": { "type": "array", "items": { "type": "string" } },
+              "auto_tag_omis": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "differentiation": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["swap", "with"],
+        "properties": {
+          "swap": { "type": "string" },
+          "with": { "$ref": "#/definitions/sequenceItem" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "home_extension": {
+      "type": "object",
+      "properties": {
+        "choice_menu": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "omi"],
+            "properties": {
+              "title": { "type": "string" },
+              "topic": { "type": "string" },
+              "omi": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+              "optional": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "teacher_dashboard": {
+      "type": "object",
+      "properties": {
+        "live_indicators": { "type": "array", "items": { "type": "string" } },
+        "moderation_mode": { "type": "string", "enum": ["human-in-the-loop", "auto-suggest"] }
+      },
+      "additionalProperties": false
+    },
+    "teacher_todo": { "type": "string" }
+  },
+  "definitions": {
+    "sequenceItem": {
+      "type": "object",
+      "required": ["slot", "duration_min", "asset_type", "omi_alignment", "evidence_capture"],
+      "properties": { "$ref": "#/properties/sequence/items/properties" }
+    }
+  },
+  "additionalProperties": false
+}
