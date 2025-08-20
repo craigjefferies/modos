@@ -1,0 +1,114 @@
+# Content Knowledge – AS92005 (Develop a Digital Technologies Outcome)
+
+This file provides scaffolding knowledge for students developing **any type of outcome** (electronics, animation, web, software, media, etc.).  
+It is structured around the **core assessment ideas**: purpose, users, requirements, specifications, conventions, testing, trialling, refinement, optimal tool use, and fitness for purpose.  
+
+---
+
+## 1. Purpose
+- The **purpose** is the reason the outcome exists.  
+- A clear purpose answers: *What is this for? Who benefits?*  
+- Example phrases:  
+  - “The purpose of my website is to help students plan revision timetables.”  
+  - “This LED circuit is for a safety indicator in a bike light.”  
+
+---
+
+## 2. Users
+- **Potential users** are the people who will interact with or rely on the outcome.  
+- Be specific (e.g., “Year 10 students using a learning app”) rather than broad (“everyone”).  
+- Identifying users ensures the outcome is relevant and testable.  
+
+---
+
+## 3. Requirements and Specifications
+- **Requirements**: broad needs or conditions the outcome must meet.  
+- **Specifications**: measurable details that prove the requirements are satisfied.  
+
+Examples:  
+- Requirement: “The circuit must run on a 3.3V microprocessor pin.”  
+- Specification: “LED series resistor value chosen so current is ≤ 15 mA.”  
+- Requirement: “The animation must explain a science concept clearly.”  
+- Specification: “Run time ≤ 90 seconds, with narration synced to text.”  
+
+---
+
+## 4. Conventions
+- **Conventions** are standard practices in each domain.  
+- Examples:  
+  - Web: meaningful file names, indentation, semantic HTML tags.  
+  - Software: consistent variable naming, comments, modular structure.  
+  - Animation: use of layers, keyframes, and naming conventions.  
+  - Electronics: circuit diagrams use correct symbols, LED always has a series resistor, voltage dividers calculated for sensor inputs.  
+
+---
+
+## 5. Testing
+- **Testing** = the student examines their own outcome.  
+- Purpose: ensure the **basic functionality works**.  
+
+Examples:  
+- Electronics: measure LED current with different resistor values; check a voltage divider matches sensor input range.  
+- Software: run the program with sample inputs; confirm correct outputs.  
+- Web: test layout on different browsers/devices.  
+- Animation: play sequence to check smooth timing and correct transitions.  
+
+---
+
+## 6. Trialling
+- **Trialling** = letting others (ideally end users) use the outcome.  
+- Purpose: gather **real feedback** to guide improvements.  
+
+Examples:  
+- Electronics: ask classmates to connect the circuit and observe usability.  
+- Software: let target users run the program and note confusion points.  
+- Animation: share draft video with peers; ask if message was clear.  
+- Web: invite testers to use navigation menu; record where they get stuck.  
+
+---
+
+## 7. Refinement and Improvements
+- **Refinement** = making changes based on evidence from testing/trialling.  
+- Always **link the change to the evidence**.  
+
+Examples:  
+- Electronics: trial shows LED is too dim → change resistor to lower value (within safe limits).  
+- Software: user feedback shows confusing menu → simplify navigation order.  
+- Animation: timing too fast for readability → increase frame duration.  
+- Web: testing reveals slow load times → compress images.  
+
+---
+
+## 8. Optimal Use of Tools/Techniques
+- **Optimal** = best practicable use for the task, *informed by testing and trialling*.  
+- Not about complexity or AI automation — about making **evidence-based choices**.  
+
+Examples:  
+- **Electronics**:  
+  - Calculating a series resistor so an LED operates safely on a microprocessor pin.  
+  - Designing a voltage divider that correctly scales sensor output to ADC input range.  
+  - Using pull-up/pull-down resistors on microprocessor inputs for stable signals.  
+- **Software**:  
+  - Choosing data structures that make a program efficient *after testing with sample data*.  
+  - Refactoring variable names so users/teachers can understand the program’s purpose.  
+- **Web**:  
+  - Adjusting font sizes or contrast after trialling shows readability issues.  
+- **Animation**:  
+  - Tweaking colour palettes and timing based on viewer comprehension feedback.  
+
+**Key Idea:**  
+> Optimal use comes from linking **tool/technique choices** to **fitness for purpose**, based on **evidence** gathered in testing and trialling.  
+
+---
+
+## 9. Fitness for Purpose
+An outcome is **fit for purpose** when:  
+- It meets all requirements and specifications.  
+- It functions reliably in its intended context.  
+- It satisfies user needs (shown through trialling).  
+
+Examples:  
+- Electronics: microprocessor circuit operates safely and reliably with correct voltage/current levels.  
+- Software: program runs without errors and produces correct outputs.  
+- Animation: communicates intended message clearly to viewers.  
+- Web: site loads across devices and is usable by its target audience.  
