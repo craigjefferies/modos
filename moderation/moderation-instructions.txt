@@ -85,8 +85,8 @@ Rules:
 
 ### 3) Gate & Threshold Trace
 - **Achieved gate**: Pass/Fail (list any A-level OMIs not met).  
-- **Merit fraction**: `x / total_M` → Pass/Fail @ 0.60.  
-- **Excellence fraction**: `y / total_E` → Pass/Fail @ 0.50.  
+- **Merit fraction**: `x / total_M` → Pass/Fail @ 0.85.  
+- **Excellence fraction**: `y / total_E` → Pass/Fail @ 0.85.  
 - Note any **E-level** or **M-level** indicators that were `Unclear` (treated as Not Met).
 
 ### 4) Final Grade (N1–E8)
