@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "as_code": "AS91908",
+    "title": "Analyse an area of computer science",
+    "version": "1",
+    "credits": 3,
+    "assessment_type": "External",
+    "source_pdf": "as91908.pdf",
+    "purpose": "This achievement standard involves analysing an area of computer science."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "explain_key_aspects",
+      "description": "Explains key aspects of computer vision, such as image processing or feature extraction.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The student must describe at least one key concept such as noise, thresholding, edge detection, or image processing. Merely naming the term is insufficient; there must be a brief explanation of what it is or how it works. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Noise refers to random variation in brightness or colour in images.",
+        "Edge detection helps identify object boundaries by finding brightness changes."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "describe_mechanism",
+      "description": "Describes an algorithm or mechanism behind a computer vision technique.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The response must explain how a specific technique operates, such as convolution, a Sobel operator, or Viola-Jones detection. Naming the algorithm without description is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Convolution applies a kernel that moves across the image to detect features.",
+        "Viola-Jones uses rectangular Haar-like features to detect faces."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "example_of_use",
+      "description": "Provides at least one example of how computer vision is used or implemented.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must include a clear real-world application (e.g., face detection, autonomous vehicles, or medical imaging) linked to a specific technique. General mentions of AI or automation without visual processing are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Stereo vision is used in autonomous cars to detect distances to obstacles.",
+        "Medical imaging uses CNNs to classify MRI scans."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "identify_problems",
+      "description": "Identifies key problems or issues related to computer vision.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must clearly identify at least one issue such as image noise, limited training data, or false positives. Vague phrases like 'it can be wrong sometimes' do not meet the threshold. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Low-light conditions increase noise, making features harder to detect.",
+        "Biased training data can lead to inaccurate facial recognition."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "addressed_problems",
+      "description": "Explains how identified problems in computer vision have been or may be addressed.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Response must present a method for mitigating a known issue — such as using filters to reduce noise or augmenting data to improve model generalisation. Naming a tool without a purpose is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Denoising filters smooth out random brightness variations before analysis.",
+        "Augmenting data with rotated images improves generalisation."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "human_relation",
+      "description": "Explains how technical capabilities and limitations relate to human needs or uses.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Must link a technical limitation (e.g., latency, lighting conditions) to its real-world effect on human experience or system reliability. General usefulness statements do not meet the requirement. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "Facial recognition fails under poor lighting, reducing security reliability.",
+        "Lag in detection impacts user experience in AR systems."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "compare_perspectives",
+      "description": "Compares and contrasts different perspectives on computer vision.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Response must show a contrast between at least two perspectives, using comparative language such as 'whereas', 'unlike', or 'on the other hand'. Listing features without comparison is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "LiDAR is accurate for depth, whereas stereo vision is cheaper and more scalable.",
+        "Manual image tagging is slow, but CNNs automate it faster with less accuracy."
+      ],
+      "source_ref": "AS PDF p2 ¶2"
+    },
+    {
+      "id": "draw_insightful_conclusion",
+      "description": "Draws insightful conclusions about computer vision.",
+      "level": "E",
+      "weight": 3,
+      "detection_hint": "Conclusion must demonstrate synthesis or forward-looking thought — e.g., linking concepts, predicting trends, or proposing improvements. Repeating previous facts is not sufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "As CV improves, it may replace manual diagnostic steps in rural healthcare.",
+        "Techniques used in self-driving cars could support visually impaired navigation."
+      ],
+      "source_ref": "AS PDF p2 ¶4"
+    },
+    {
+      "id": "evaluate_impact",
+      "description": "Evaluates the broader impact of computer vision in society or technology.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Must make a judgment and support it with a rationale or example — e.g., ethical, societal, or economic impact. Listing pros and cons without evaluation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "CV helps in security, but raises privacy concerns with constant surveillance.",
+        "Automated inspections improve efficiency but reduce skilled labour demand."
+      ],
+      "source_ref": "AS PDF p2 ¶4"
+    },
+    {
+      "id": "justify_prediction",
+      "description": "Makes a justified prediction about the future of computer vision.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Prediction must include both a future claim and reasoning, such as improved algorithm performance or new applications. Pure speculation without reasoning is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "With cheaper sensors, CV will expand into home robotics and elder care.",
+        "Advances in CNNs will make diagnosis faster in under-resourced clinics."
+      ],
+      "source_ref": "AS PDF p2 ¶4"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
