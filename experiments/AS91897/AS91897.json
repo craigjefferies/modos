@@ -1,0 +1,152 @@
+{
+"meta": {
+"as_code": "AS91897",
+"title": "Use advanced processes to develop a digital technologies outcome",
+"version": "1",
+"credits": 6,
+"assessment_type": "Internal",
+"source_pdf": "as91897.pdf 
+",
+"purpose": "This achievement standard involves using advanced processes to develop a digital technologies outcome."
+},
+"grade_descriptors": {
+"N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+"N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+"A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+"A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+"M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+"M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+"E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+"E8": "All Achieved, Merit, and Excellence indicators are met."
+},
+"key_terms": [],
+"omis": [
+{
+"id": "project_management_plans_development",
+"description": "Uses appropriate project management tools and techniques to plan the development of the digital technologies outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Provide artefacts (e.g., task plan, timeline, milestones) showing planning for development tasks. Planning the outcome’s features alone does not count; it must plan the development process. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["using appropriate project management tools and techniques to plan the development of a digital technologies outcome"],
+"source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
+},
+{
+"id": "decomposes_outcome_into_components",
+"description": "Decomposes the outcome into smaller components.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Show an explicit breakdown (list/diagram) of components or sub-systems. Mentioning generic parts without a deliberate decomposition is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["decomposing the outcome into smaller components"],
+"source_ref": "AS PDF p2 (Explanatory Note 2)"
+},
+{
+"id": "trials_components",
+"description": "Trials the components of the digital technologies outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Include trial records with purpose and observations used to inform decisions. Running something without recording intent or findings is not trialling. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["trialling the components of the digital technologies outcome"],
+"source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
+},
+{
+"id": "tests_functions_as_intended",
+"description": "Tests that the digital technologies outcome functions as intended.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Provide test evidence mapped to intended functions (pass/fail or screenshots). Bug lists or intentions without confirmation do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["testing that the digital technologies outcome functions as intended"],
+"source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
+},
+{
+"id": "explains_relevant_implications",
+"description": "Explains relevant implications.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Explain at least two relevant implications (e.g., privacy, accessibility) early so they can guide development. Listing implications without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["explaining relevant implications."],
+"source_ref": "AS PDF p2 (Explanatory Note 2 & 4); Moderator commentary: Assessment guidance"
+},
+{
+"id": "manages_with_pm_and_version_control",
+"description": "Effectively uses project management and version control tools and techniques to manage development.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Show evidence of effective management (e.g., commit history/branches, milestone updates, collaboration logs). Naming tools without demonstrating management use is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["effectively using project management and version control tools and techniques"],
+"source_ref": "AS PDF p2 (Merit); Moderator commentary: Assessment guidance"
+},
+{
+"id": "trials_multiple_approaches_selects_best",
+"description": "Trials multiple components and/or techniques for the same sub-problem and selects the most suitable.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Contrast different approaches for the same sub-problem and justify the selection. Listing two attempts without comparison is not selection. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["trialling multiple components and/or techniques", "selecting those which are most suitable"],
+"source_ref": "AS PDF p2 (Merit); Moderator commentary: Assessment guidance"
+},
+{
+"id": "improves_functionality_using_test_trial_info",
+"description": "Uses information from testing and trialling to improve the functionality of the outcome.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Link specific test/trial findings to implemented changes that enhance functionality. Bug fixes alone do not constitute improvement. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["using information appropriately from testing and trialling to improve the functionality"],
+"source_ref": "AS PDF p2 (Merit); Moderator commentary: Assessment guidance"
+},
+{
+"id": "addresses_implications_in_outcome",
+"description": "Shows that the outcome addresses the relevant implications previously explained.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Provide explicit design/implementation evidence that responds to the earlier implications. Restating implications without demonstrating changes is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["addressing relevant implications."],
+"source_ref": "AS PDF p2 (Merit); Moderator commentary: Assessment guidance"
+},
+{
+"id": "discusses_info_assisting_high_quality_outcome",
+"description": "Discusses how information from planning, testing, and trialling assisted the development of a high-quality outcome.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Provide a discussion that links specific planning/testing/trialling information to how it assisted the final outcome’s quality. Generic statements of improvement are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["discussing how the information from planning, testing and trialling", "development of a high-quality outcome"],
+"source_ref": "AS PDF p2 (Excellence)"
+},
+{
+"id": "integrates_range_of_information_sources",
+"description": "Integrates a range of information sources (e.g., user feedback, trialling, research) within the discussion of how the outcome was developed.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Cite multiple sources (e.g., user feedback and research) and explain their roles in decisions. Using only one source or unnamed opinions is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["a range of sources", "user feedback, trialling and research"],
+"source_ref": "Moderator commentary: Assessment guidance (Updated December 2021)"
+}
+],
+"aggregation_rules": {
+"method": "hierarchical",
+"gate_sequence": ["A", "M", "E"],
+"levels": {
+"A": { "required_fraction": 1.0 },
+"M": { "required_fraction": 0.60 },
+"E": { "required_fraction": 0.50 }
+},
+"sub_band_logic": {
+"Achieved": {
+"A3": { "extra_merit_indicators": 0 },
+"A4": { "extra_merit_indicators": "≥1" }
+},
+"Merit": {
+"M5": { "extra_excellence_indicators": 0 },
+"M6": { "extra_excellence_indicators": "≥1" }
+},
+"Excellence": {
+"E7": { "excellence_fraction": "<1.0" },
+"E8": { "excellence_fraction": "1.0" }
+}
+},
+"fallback_grade": "N1"
+},
+"governance": {
+"last_validated": "2025-06-13",
+"change_log": []
+}
+}
