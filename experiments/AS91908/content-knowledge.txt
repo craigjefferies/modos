@@ -1,0 +1,247 @@
+# 📘 Content Knowledge: Computer Vision (NCEA Level 3)
+
+This guide explains key computer vision mechanisms, how they work, and the algorithms used. It is written for students learning these ideas for the first time and supports both surface understanding and structured exam discussion.
+
+---
+
+## 1. Noise
+
+✅ **What it is:**  
+Random interference or "fuzz" in an image.
+
+🧠 **How it works:**  
+Appears as random pixels — often caused by low light, sensor faults, or electrical interference.
+
+⚙️ **Key Algorithm / Technique:**  
+- **Gaussian Blur**  
+- **Median Filter**
+
+📍 **Why it matters:**  
+Too much noise makes it harder to detect features like edges or shapes.
+
+💬 **Example for exams:**  
+> "Noise makes images harder to analyse, so filters like Gaussian blur are used to remove it."
+
+---
+
+## 2. Thresholding
+
+✅ **What it is:**  
+Turns grayscale images into black and white based on a brightness cutoff.
+
+🧠 **How it works:**  
+Pixels brighter than the threshold become white; others turn black.
+
+⚙️ **Key Algorithm:**  
+- **Global Thresholding**  
+- **Otsu’s Method** (automatically chooses the best threshold)
+
+📍 **Why it matters:**  
+Simplifies images, highlighting key areas such as objects or text.
+
+💬 **Example for exams:**  
+> "Otsu’s method separates objects from background, useful in tasks like digit recognition."
+
+---
+
+## 3. Edge Detection
+
+✅ **What it is:**  
+Identifies boundaries of objects in an image.
+
+🧠 **How it works:**  
+Detects sharp changes in brightness between neighbouring pixels.
+
+⚙️ **Key Algorithms:**  
+- **Sobel Operator**  
+- **Canny Edge Detector**
+
+📍 **Why it matters:**  
+Edges define shapes — crucial for object recognition and tracking.
+
+💬 **Example for exams:**  
+> "Canny edge detection outlines objects so the system can understand the image’s structure."
+
+---
+
+## 4. Image Processing
+
+✅ **What it is:**  
+Improves image quality before analysis.
+
+🧠 **How it works:**  
+Applies filters to reduce noise, adjust contrast, or sharpen images.
+
+⚙️ **Key Techniques:**  
+- **Sharpening**, **Gaussian Blur**, **Histogram Equalization**
+
+📍 **Why it matters:**  
+Improves feature detection and analysis accuracy.
+
+💬 **Example for exams:**  
+> "Image processing cleans up the image so algorithms like edge detection work better."
+
+---
+
+## 5. Lidar (Obstacle Detection)
+
+✅ **What it is:**  
+A sensor that uses laser light to measure distances.
+
+🧠 **How it works:**  
+Sends laser pulses; measures how long they take to return.
+
+⚙️ **Key Algorithms:**  
+- **SLAM (Simultaneous Localization and Mapping)**  
+- **Point Cloud Processing**
+
+📍 **Why it matters:**  
+Builds a 3D map — essential for navigation in self-driving cars and drones.
+
+💬 **Example for exams:**  
+> "Lidar uses SLAM to detect obstacles and create 3D maps in autonomous vehicles."
+
+---
+
+## 6. Stereo Vision
+
+✅ **What it is:**  
+Judges depth using two images (like human eyes).
+
+🧠 **How it works:**  
+Compares left and right images to find how far away things are.
+
+⚙️ **Key Algorithms:**  
+- **Block Matching**  
+- **Semi-Global Matching**
+
+📍 **Why it matters:**  
+Helps computers understand 3D space.
+
+💬 **Example for exams:**  
+> "Stereo vision uses two cameras and block matching to calculate object depth."
+
+---
+
+## 7. Viola Jones (Feature Detection)
+
+✅ **What it is:**  
+A fast and reliable method for detecting faces in images.
+
+🧠 **How it works:**  
+Scans images with simple patterns (Haar features) and uses machine learning to decide what’s a face.
+
+⚙️ **Key Algorithm:**  
+- **Viola-Jones Algorithm**  
+  (Uses **Haar-like features** and **AdaBoost**)
+
+📍 **Why it matters:**  
+Allows real-time face detection in cameras and phones.
+
+💬 **Example for exams:**  
+> "Viola Jones uses Haar features and AdaBoost to find faces quickly."
+
+---
+
+## 8. Haar-like Features
+
+✅ **What it is:**  
+Simple patterns that highlight contrast in parts of an image.
+
+🧠 **How it works:**  
+Compares light and dark regions (e.g. around eyes) using rectangular features.
+
+⚙️ **Key Use:**  
+- Part of **Viola-Jones** face detection
+
+📍 **Why it matters:**  
+Helps find specific facial features (eyes, nose, mouth).
+
+💬 **Example for exams:**  
+> "Haar-like features detect contrast patterns to locate eyes and other facial features."
+
+---
+
+## 9. Convolutional Neural Networks (CNNs)
+
+✅ **What it is:**  
+A machine learning model that recognises visual patterns.
+
+🧠 **How it works:**  
+Scans parts of the image and learns from thousands of examples to classify or detect objects.
+
+⚙️ **Key Models:**  
+- **CNN Architecture**, e.g. **LeNet**, **ResNet**
+
+📍 **Why it matters:**  
+Used in tasks like medical imaging, security, and object detection.
+
+💬 **Example for exams:**  
+> "CNNs learn patterns in medical images to detect tumours or abnormalities."
+
+---
+
+## 10. Decision Trees
+
+✅ **What it is:**  
+A rule-based system that makes decisions by asking yes/no questions.
+
+🧠 **How it works:**  
+Each “branch” splits based on a feature in the image, leading to a final decision.
+
+⚙️ **Key Algorithms:**  
+- **ID3**  
+- **CART**
+
+📍 **Why it matters:**  
+Easy to interpret — useful when simple, transparent decisions are needed.
+
+💬 **Example for exams:**  
+> "A decision tree uses rules to decide what’s in the image, like checking shape or colour."
+
+---
+
+## 11. Random Forests
+
+✅ **What it is:**  
+A collection of decision trees that vote on the best answer.
+
+🧠 **How it works:**  
+Each tree gives a classification; the majority wins.
+
+⚙️ **Key Algorithm:**  
+- **Random Forest Classifier**
+
+📍 **Why it matters:**  
+More accurate than a single tree — useful for medical image classification.
+
+💬 **Example for exams:**  
+> "Random forests combine many trees to improve the accuracy of image recognition."
+
+---
+
+## 🧾 Summary Table
+
+| Mechanism             | What It Does                        | Key Algorithm / Model                 |
+|----------------------|-------------------------------------|---------------------------------------|
+| Noise                | Removes random pixel variation      | Gaussian Blur, Median Filter          |
+| Thresholding         | Converts to black/white             | Otsu’s Method, Global Thresholding    |
+| Edge Detection       | Finds object outlines               | Sobel, Canny                          |
+| Image Processing     | Cleans and enhances image           | Sharpening, Histogram Equalization    |
+| Lidar                | Measures 3D distance with lasers    | SLAM, Point Cloud Processing          |
+| Stereo Vision        | Calculates depth from two views     | Block Matching, Semi-Global Matching  |
+| Viola Jones          | Fast face detection                 | Viola-Jones, Haar, AdaBoost           |
+| Haar Features        | Detect contrast areas in faces      | Haar-like Feature Detection           |
+| CNNs                 | Learns patterns in images           | CNN (e.g. LeNet, ResNet)              |
+| Decision Trees       | Rule-based decision making          | ID3, CART                             |
+| Random Forests       | Voting across multiple trees        | Random Forest Classifier              |
+
+---
+
+📌 **Exam Tip:**  
+To explain a mechanism well, mention:
+1. What it is  
+2. How it works (briefly)  
+3. What algorithm is involved  
+4. Why it matters  
+5. A real-world example
