@@ -1,0 +1,133 @@
+# AS92004 Level 1 Task Collection (Simplified, No Functions)
+
+---
+
+## 1. Fitness Tracker (Original Task)
+
+### Context
+Wanaka Rec Centre wants a simple program for users to track their workouts over multiple days and receive feedback.
+
+### Task Specifications
+- Ask for the user’s name.
+- Ask for 5 workout results (e.g. running times in minutes).
+- Use a loop to collect the results.
+- Store the values in a list.
+- Check each input:
+  - Must be a number.
+  - Must be between 10 and 60.
+- At the end:
+  - Print all 5 results.
+  - Calculate and print the average.
+  - Print the best (lowest) result.
+  - Give a message based on performance.
+
+### Input Requirements
+- Only accept numbers between 10 and 60 (inclusive).
+- Show error messages for invalid input.
+
+### Test Cases
+
+| Test Type | Input                             | Expected Output                         |
+|-----------|------------------------------------|------------------------------------------|
+| Expected  | 25, 30, 29, 27, 26                 | Average: 27.4, Best: 25                  |
+| Boundary  | 10, 12, 15, 13, 11                 | Accepted                                 |
+| Boundary  | 60, 55, 59, 58, 60                 | Accepted                                 |
+| Invalid   | "banana"                           | Error: That’s not a number               |
+| Invalid   | 9                                  | Error: Value must be 10–60               |
+
+---
+
+## 2. Pet Weight Checker
+
+### Context
+A local vet wants to check if pet weights are within a healthy range.
+
+### Task Specifications
+- Ask the user to enter pet weights (in kg) one by one.
+- End input when the user types "done".
+- Store all valid weights in a list.
+- Check each input:
+  - Must be a number.
+  - Must be between 0 and 100.
+- Classify each weight:
+  - Under 5 → "underweight"
+  - 5 to 25 → "healthy"
+  - Over 25 → "overweight"
+- At the end:
+  - Show how many pets are in each category.
+  - Show each weight and its classification.
+
+### Input Requirements
+- Only accept numbers between 0 and 100.
+- Show error messages for invalid input.
+- Input ends when user types "done".
+
+### Test Cases
+
+| Test Type | Input                          | Expected Output                            |
+|-----------|----------------------------------|---------------------------------------------|
+| Expected  | 6, 22, 30, done                | 2 healthy, 1 overweight                     |
+| Boundary  | 5, 25, 4.9, 25.1, done         | 1 underweight, 2 healthy, 1 overweight      |
+| Invalid   | "cat", -2, 105, done           | Show error messages and skip invalid input |
+
+---
+
+## 3. Fruit Ripeness Logger
+
+### Context
+A fruit packhouse wants to log fruit ripeness scores to track storage quality.
+
+### Task Specifications
+- Ask for 5 ripeness scores (1–10).
+- Use a loop to collect them.
+- Store them in a list.
+- Classify each score:
+  - 1–3 → "underripe"
+  - 4–7 → "ripe"
+  - 8–10 → "overripe"
+- At the end:
+  - Print a summary of how many in each category.
+  - Print all ripeness scores with their classification.
+
+### Input Requirements
+- Only accept numbers between 1 and 10.
+- Show error messages for invalid input.
+
+### Test Cases
+
+| Test Type | Input                 | Expected Output                                |
+|-----------|------------------------|-------------------------------------------------|
+| Expected  | 2, 5, 9, 4, 6         | 1 underripe, 3 ripe, 1 overripe                |
+| Boundary  | 1, 3, 4, 7, 10        | Categories counted correctly                   |
+| Invalid   | -1, 11, "apple"       | Show error messages                            |
+
+---
+
+## 4. Exam Score Classifier
+
+### Context
+A school wants a program to help track student test performance.
+
+### Task Specifications
+- Ask the user to enter exam scores (0–100) until "done" is typed.
+- Store valid scores in a list.
+- Classify scores:
+  - Below 50 → "Fail"
+  - 50–74 → "Pass"
+  - 75–100 → "Excellence"
+- At the end:
+  - Print how many scores are in each category.
+  - Show each score with its classification.
+
+### Input Requirements
+- Only accept whole numbers between 0 and 100.
+- Show error messages for invalid input.
+- Input ends with "done".
+
+### Test Cases
+
+| Test Type | Input                          | Expected Output                                |
+|-----------|----------------------------------|-------------------------------------------------|
+| Expected  | 45, 60, 88, done               | 1 Fail, 1 Pass, 1 Excellence                   |
+| Boundary  | 0, 49, 50, 74, 75, 100, done   | Each value classified correctly                |
+| Invalid   | -5, 101, "sixty"               | Error messages shown and invalid skipped       |
