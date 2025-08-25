@@ -3,33 +3,52 @@
     "us_code": "32405",
     "title": "Write texts to communicate ideas and information",
     "version": "3",
+    "level": 1,
     "credits": 5,
+    "classification": "Core Generic > Work and Study Skills",
     "assessment_type": "Unit Standard",
-    "source_pdf": "32405.pdf",
+    "assessment_mode": "External CAA",
+    "available_grade": "Achieved",
+    "source_pdf": "https://www.nzqa.govt.nz/nqfdocs/units/pdf/32405.pdf",
     "purpose": "Learners credited with this unit standard are able to write meaningful texts for different purposes and audiences, and use written language conventions to support communication."
   },
   "grade_descriptors": {
-    "N": "Evidence does not meet all required Performance Criteria.",
-    "A": "All Performance Criteria across every outcome are met."
+    "N": "Evidence does not meet all required Performance Criteria and/or the Outcome 1 range requirements.",
+    "A": "All Performance Criteria across Outcomes 1 and 2 are met AND all Outcome 1 range requirements are satisfied (two texts of different types for different purposes and audiences; at least one formal; at least one continuous text of ≥ 250 word)."
   },
   "outcomes": [
     {
       "id": "1",
       "description": "Write meaningful texts for different purposes and audiences.",
+      "range_requirements": {
+        "min_texts": 2,
+        "different_text_types": true,
+        "different_purposes_and_audiences": true,
+        "at_least_one_formal_register": true,
+        "at_least_one_continuous_text_min_words": 250,
+        "text_types_examples": ["instructions", "information report", "description", "narrative", "argument", "persuasion"],
+        "text_forms_examples": ["magazine article", "editorial", "pānui", "letter", "email", "social media post"]
+      },
       "performance_criteria": [
         { "id": "1.1", "description": "Select and use content that is appropriate to purpose and audience." },
         { "id": "1.2", "description": "Use text structures in ways that are appropriate to purpose and audience." },
-        { "id": "1.3", "description": "Make language choices that are appropriate to purpose and audience." },
+        { "id": "1.3", "description": "Make language choices that are appropriate to purpose and audience (e.g., vocabulary, register, composition of phrases and sentences, tense)." },
         { "id": "1.4", "description": "Write text that demonstrates sufficient technical accuracy to communicate meaning, without intrusive errors in spelling, punctuation, or grammar." }
       ]
     },
     {
       "id": "2",
       "description": "Use written language conventions to support communication.",
+      "must_include": {
+        "sentences": ["simple", "compound", "complex"],
+        "punctuation": ["capital letters", "full stops", "question marks"],
+        "grammar": ["tense", "subject-verb agreement", "pronoun reference", "word form"],
+        "vocabulary": "everyday high-frequency vocabulary"
+      },
       "performance_criteria": [
-        { "id": "2.1", "description": "Construct a variety of complete sentences." },
-        { "id": "2.2", "description": "Punctuate correctly to support meaning." },
-        { "id": "2.3", "description": "Use grammatical conventions within sentences and paragraphs with sufficient technical accuracy to communicate meaning." },
+        { "id": "2.1", "description": "Construct a variety of complete sentences (simple, compound, complex)." },
+        { "id": "2.2", "description": "Punctuate correctly to support meaning (capitals, full stops, question marks as required)." },
+        { "id": "2.3", "description": "Use grammatical conventions within sentences and paragraphs with sufficient technical accuracy to communicate meaning (tense, subject-verb agreement, pronoun reference, word form)." },
         { "id": "2.4", "description": "Use and spell everyday high frequency vocabulary with technical accuracy." },
         { "id": "2.5", "description": "Make simple changes to improve text coherence and the organisation of the content." }
       ]
@@ -37,69 +56,112 @@
   ],
   "omis": [
     {
+      "id": "portfolio_minimum_texts",
+      "outcome_id": "1",
+      "pc_id": null,
+      "description": "A portfolio/set includes at least two texts.",
+      "weight": 1,
+      "detection_hint": "✓ Two distinct writing samples. ✗ Only one sample.",
+      "success_examples": [
+        "Sample 1: an informal email; Sample 2: a short narrative."
+      ],
+      "source_ref": "US 32405 v3 Outcome 1 range"
+    },
+    {
+      "id": "portfolio_text_types_and_audiences",
+      "outcome_id": "1",
+      "pc_id": null,
+      "description": "The two texts are different text types and for different purposes and audiences.",
+      "weight": 1,
+      "detection_hint": "✓ Different text types/purpose/audience. ✗ Similar type or audience.",
+      "success_examples": [
+        "Text 1: persuasive email to the principal; Text 2: descriptive story for classmates."
+      ],
+      "source_ref": "US 32405 v3 Outcome 1 range"
+    },
+    {
+      "id": "portfolio_one_formal",
+      "outcome_id": "1",
+      "pc_id": null,
+      "description": "At least one text uses a formal register.",
+      "weight": 1,
+      "detection_hint": "✓ Formal features like formal greeting or tone.",
+      "success_examples": [
+        "“Dear Sir/Madam, I would like to apply…” — shows formal register."
+      ],
+      "source_ref": "US 32405 v3 Outcome 1 range"
+    },
+    {
+      "id": "portfolio_one_continuous_250w",
+      "outcome_id": "1",
+      "pc_id": null,
+      "description": "At least one text is a continuous text of ≥ 250 words.",
+      "weight": 1,
+      "detection_hint": "✓ One long, connected piece ≥ 250 words.",
+      "success_examples": [
+        "A 280-word narrative describing a family holiday, written as one flowing piece."
+      ],
+      "source_ref": "US 32405 v3 Outcome 1 range"
+    },
+    {
       "id": "content_relevance",
       "outcome_id": "1",
       "pc_id": "1.1",
-      "description": "Content is relevant and suited to both the stated purpose and intended audience.",
+      "description": "Content is relevant to purpose and audience.",
       "weight": 1,
-      "detection_hint": "✓ Include at least one concrete idea, fact, or descriptive detail that supports the topic/purpose. ✗ Generic filler, restating the prompt, or unrelated anecdotes do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Concrete detail supports purpose; no filler.",
       "success_examples": [
-        "Our time at camp felt like it went as fast as our soaring arrows flying towards the big red target.",
-        "First, we can understand more about people that come from other countries and their cultures."
+        "“the wind was so nice and warm” — sensory detail grounds the text."  /* Student excerpt from exemplar */:contentReference[oaicite:2]{index=2}
       ],
-      "source_ref": "US PDF p2 Outcome 1 PC 1.1"
+      "source_ref": "US 32405 v3 PC 1.1"
     },
     {
       "id": "appropriate_text_structure",
       "outcome_id": "1",
       "pc_id": "1.2",
-      "description": "Text structure (organisation, sequencing, paragraphing) matches the communicative purpose.",
+      "description": "Structure and sequencing suit purpose/audience.",
       "weight": 1,
-      "detection_hint": "✓ Logical organisation (e.g., clear intro‑body‑conclusion, or sign‑posted points). ✗ Random order, missing structural elements, or single long paragraph do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Logical sequence (start–middle–end).",
       "success_examples": [
-        "appropriate introduction (name, reason), body, conclusion",
-        "First…, Second…, Finally… signposts guide reader."
+        "“Last Night I packed my bags and headed to the airport...” — a clear beginning that stages sequence." :contentReference[oaicite:3]{index=3}
       ],
-      "source_ref": "US PDF p2 Outcome 1 PC 1.2"
+      "source_ref": "US 32405 v3 PC 1.2"
     },
     {
       "id": "precise_vocabulary",
       "outcome_id": "1",
       "pc_id": "1.3",
-      "description": "Vocabulary choices are precise and fit the purpose and audience.",
+      "description": "Vocabulary is precise and appropriate.",
       "weight": 1,
-      "detection_hint": "✓ Use specific or vivid words that enhance meaning. ✗ Overly informal slang in formal texts or vague words like “stuff/things” do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Vivid or descriptive words add clarity.",
       "success_examples": [
-        "soaring arrows",
-        "freakishly high rock"
+        "“The Hotel we are in is tall and looks so expensive” — image-building description." :contentReference[oaicite:4]{index=4}
       ],
-      "source_ref": "US PDF p2 Outcome 1 PC 1.3"
+      "source_ref": "US 32405 v3 PC 1.3"
     },
     {
       "id": "appropriate_register",
       "outcome_id": "1",
       "pc_id": "1.3",
-      "description": "Register and sentence construction match the intended context.",
+      "description": "Register and tone match context.",
       "weight": 1,
-      "detection_hint": "✓ Consistent formal/informal register as required; sentence style suits reader expectations. ✗ Sudden shifts in formality or sentence fragments do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Consistent informal or formal tone as intended.",
       "success_examples": [
-        "I couldn’t find the words to thank you enough.",
-        "Have you experienced a circumstance that you travelled to a country and you lost your way?"
+        "Use of first-person informal tone: “me and my family went on a trip…” — consistent register." :contentReference[oaicite:5]{index=5}
       ],
-      "source_ref": "US PDF p2 Outcome 1 PC 1.3"
+      "source_ref": "US 32405 v3 PC 1.3"
     },
     {
       "id": "technical_accuracy",
       "outcome_id": "1",
       "pc_id": "1.4",
-      "description": "Spelling, punctuation, and grammar are technically accurate with no intrusive errors.",
+      "description": "Spelling, punctuation, grammar accurate with only minor slips.",
       "weight": 1,
-      "detection_hint": "✓ Minor slips acceptable if meaning stays clear; no pattern of intrusive errors. ✗ Frequent misspellings, tense shifts, or missing punctuation that obscures meaning do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Meaning clear; errors minimal or non-intrusive.",
       "success_examples": [
-        "although it was freezing cold, nature's very own lazy river was my personal favourite activity.",
-        "that will be treasured forever"
+        "“After i got out of the pool i went to the spa and relaxed there for 30 minutes.” — minor punctuation errors but meaning is unaffected." :contentReference[oaicite:6]{index=6}
       ],
-      "source_ref": "US PDF p2 Outcome 1 PC 1.4"
+      "source_ref": "US 32405 v3 PC 1.4"
     },
     {
       "id": "sentence_variety",
@@ -107,73 +169,70 @@
       "pc_id": "2.1",
       "description": "Uses simple, compound, and complex sentences correctly.",
       "weight": 1,
-      "detection_hint": "✓ Evidence of at least one accurate simple, compound, and complex sentence. ✗ Lists of phrases or repetitive simple sentences do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Examples of all 3 sentence types present.",
       "success_examples": [
-        "I am most proud of myself.",
-        "Although it was freezing cold, nature's very own lazy river was my personal favourite activity."
+        "Simple: “Last Night I packed my bags.” Compound: “I went swimming and then I went to the spa.” Complex: “When I went out there the wind was so nice and warm, and when I got into the pool you wouldn’t believe how warm it felt!”" :contentReference[oaicite:7]{index=7}
       ],
-      "source_ref": "US PDF p3 Outcome 2 PC 2.1"
+      "source_ref": "US 32405 v3 PC 2.1"
     },
     {
       "id": "punctuation_accuracy",
       "outcome_id": "2",
       "pc_id": "2.2",
-      "description": "Applies punctuation (capital letters, full stops, question marks) correctly to support meaning.",
+      "description": "Uses capitals, full stops, question marks correctly.",
       "weight": 1,
-      "detection_hint": "✓ Correct sentence‑ending and internal punctuation throughout. ✗ Random capitals, missing full stops, or absent question marks where needed do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Proper punctuation, despite minor inconsistencies.",
       "success_examples": [
-        "Dear Principal,",
-        "Have you experienced a circumstance that you travelled to a country and you lost your way?"
+        "Start-of-sentence capitalisation and ending with full stops: “Last Night i Packed my bags and headed to the airport”." :contentReference[oaicite:8]{index=8}
       ],
-      "source_ref": "US PDF p3 Outcome 2 PC 2.2"
+      "source_ref": "US 32405 v3 PC 2.2"
     },
     {
       "id": "grammar_accuracy",
       "outcome_id": "2",
       "pc_id": "2.3",
-      "description": "Grammar within sentences and paragraphs is accurate (tense, subject‑verb agreement, pronoun reference, word form).",
+      "description": "Grammar is accurate (tense, subject-verb agreement, pronouns, word form).",
       "weight": 1,
-      "detection_hint": "✓ Consistent tense and agreement; correct pronoun reference and word forms. ✗ Tense shifts, “have you experience”‑type errors, or mismatched pronouns do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Generally consistent tense and correct pronouns.",
       "success_examples": [
-        "my name is",
-        "we can understand more about people that come from other countries"
+        "Tense mostly past (“packed”, “went”), pronoun use correct (I, my family)." :contentReference[oaicite:9]{index=9}
       ],
-      "source_ref": "US PDF p3 Outcome 2 PC 2.3"
+      "source_ref": "US 32405 v3 PC 2.3"
     },
     {
       "id": "spelling_accuracy",
       "outcome_id": "2",
       "pc_id": "2.4",
-      "description": "Everyday high‑frequency vocabulary is spelled correctly.",
+      "description": "Everyday high-frequency vocabulary is spelled correctly.",
       "weight": 1,
-      "detection_hint": "✓ Words from Essential Spelling List / first 2000 NGSL spelled accurately. ✗ Phonetic misspellings like “lisson” or “expierience” do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Common words are spelled correctly.",
       "success_examples": [
-        "because",
-        "family"
+        "Spelling of high-frequency words: “family”, “bags”, “airport” are correct." :contentReference[oaicite:10]{index=10}
       ],
-      "source_ref": "US PDF p3 Outcome 2 PC 2.4"
+      "source_ref": "US 32405 v3 PC 2.4"
     },
     {
       "id": "coherence_revision",
       "outcome_id": "2",
       "pc_id": "2.5",
-      "description": "Revises text to improve coherence and logical organisation.",
+      "description": "Makes simple edits that improve coherence and organisation.",
       "weight": 1,
-      "detection_hint": "✓ Evidence of edits that clarify flow (e.g., adding connectors, regrouping ideas). ✗ Surface edits (one word swap) without clearer idea links do NOT count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "✓ Use of sequencing words or added cohesion.",
       "success_examples": [
-        "So thanks again for giving me and all of my classmates a memory that will be treasured forever.",
-        "In conclusion, learning more than one language is benefit for understanding different cultures and communicating with foreigner"
+        "Use of connectives: “After I got out of the pool…” links events clearly." :contentReference[oaicite:11]{index=11}
       ],
-      "source_ref": "US PDF p3 Outcome 2 PC 2.5"
+      "source_ref": "US 32405 v3 PC 2.5"
     }
   ],
   "aggregation_rules": {
     "method": "all_required",
-    "required_fraction": 1.0,
+    "notes": "Award Achieved only if every OMI (including Outcome 1 range OMIs) is met across the writing set.",
     "fallback_grade": "N"
   },
   "governance": {
-    "last_validated": "2025-06-13",
-    "change_log": []
+    "last_validated": "2025-08-25",
+    "change_log": [
+      "Added success examples using student-style excerpts for each OMI."
+    ]
   }
 }
