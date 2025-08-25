@@ -1,0 +1,55 @@
+# Student Evidence Pack — Generic Digital Project (What you must hand in)
+
+Short, student-friendly tasks that make it obvious the work is yours. Keep everything small, real, and linked to your repo. Use simple decomposition (interface, logic/process, data/assets). Where it says “record”, screenshots or a 90–120 s screen-capture is perfect.
+
+---
+
+## 1) Project management plans the **development**
+**Hand in**
+- One screenshot of your board (Trello/Standard Table/Sheets/Spreadsheet/Monday) with 3–6 tasks and dates.
+- Tasks must map to commits. Add the commit hash or ID in each task (e.g., `#a13f9e`).
+- A 2–3 line “next steps” note (what you’ll do this week).
+
+**Examples (pick what fits)**
+- “Build feature X”, “Connect input to processing”, “Export data as CSV/JSON”, “Package v0.1 demo”.
+
+---
+
+## 2) Decompose the outcome into **simple components**
+**Hand in**
+- A 1-page list with **three sections only**:
+  - **Interface** (what the user sees/uses): screens, pages, CLI commands, physical controls.
+  - **Logic / Processing** (how it works): functions, services, workflows, pipelines.
+  - **Data / Assets** (what it stores/uses): files, DB tables, datasets, media, configs.
+- Add one sentence per item saying what it does.
+
+**Rejects**: giant diagrams or buzzwords (“AI/microservices/kubernetes”) that don’t match your project. Keep it simple and concrete.
+
+---
+
+## 3) Trial components (inform decisions)
+**Hand in**
+- Two small attempts for the *same* sub-problem + your pick:
+  - Examples: store data (CSV vs SQLite); send message (polling vs webhook); render graph (library A vs B); debounce input (200 ms vs 500 ms).
+- 3-column mini table: “What I tried” | “What happened” | “My decision”.
+- One screenshot (or 30–60 s clip) showing each attempt actually running.
+
+---
+
+## 4) Test that it **functions as intended**
+**Hand in**
+- A 5–8 item test list mapping features to checks, e.g.:
+  - “When I [input], it [outputs/updates]”.
+  - “Invalid input is blocked with a clear message”.
+- Proof:
+  - Automated test output/logs **or**
+  - A 60–90 s clip: run the system, perform the tests, show results.
+- If you fix a bug, include the failing step → commit → passing step.
+
+---
+
+## 5) Explain relevant **implications** early (“what I will do…”)
+**Hand in**
+- Two short “What I will do in my project” statements (write these **before** you build):
+  - **Privacy/Safety**: “I will keep user data anonymous and avoid storing names/emails.”
+  - **Accessibility/Usability**: “I will provide labels/alt text and check colour contrast / provide keyboard contr
