@@ -113,13 +113,14 @@
 },
 {
 "id": "integrates_range_of_information_sources",
-"description": "Integrates a range of information sources (e.g., user feedback, trialling, research) within the discussion of how the outcome was developed.",
+"description": "Integrates a range of information sources (planning, testing and trialling of components) within the discussion of how the outcome was developed.",
 "level": "E",
 "weight": 1,
-"detection_hint": "Cite multiple sources (e.g., user feedback and research) and explain their roles in decisions. Using only one source or unnamed opinions is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": ["a range of sources", "user feedback, trialling and research"],
+"detection_hint": "Look for explicit references to multiple distinct information sources (e.g., planning notes, structured testing results, trialling comparisons, user feedback, external research) that are tied into the development discussion. The student must not only mention these sources but also explain how each informed their decisions. Reliance on a single source, or vague/unnamed feedback, is insufficient.",
+"success_examples": ["a range of sources", "user feedback, trialling and research", "planning notes and testing outcomes informed design decisions"],
 "source_ref": "Moderator commentary: Assessment guidance (Updated December 2021)"
 }
+
 ],
 "aggregation_rules": {
 "method": "hierarchical",
