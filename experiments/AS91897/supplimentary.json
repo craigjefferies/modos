@@ -1,0 +1,80 @@
+[
+  {
+    "omi": "using appropriate project management tools and techniques to plan the development of a digital technologies outcome",
+    "judgement": "The student has used project management tools (e.g., Trello, spreadsheet, calendar, table) to plan and track the development process, showing tasks, dates, and progress or status linked to commits.",
+    "student_evidence": [
+      "Screenshot of board with tasks and dates",
+      "Tasks mapped to commits/IDs in notes",
+      "Short ‘next steps’ note for the week"
+    ]
+  },
+  {
+    "omi": "decomposing the outcome into smaller components",
+    "judgement": "The student has broken the outcome into clear interface UI, logic/processing via Flask Routes, and data/CSV/file components, with each part described in terms of its role.",
+    "student_evidence": [
+      "One-page component list with three sections: Interface, Logic/Processing, Data/Assets",
+      "One sentence per item explaining purpose"
+    ]
+  },
+  {
+    "omi": "trialling the components of the digital technologies outcome",
+    "judgement": "The student has trialled at least two approaches for one sub-problem, recorded what happened, and explained their decision for which option to use (likely a UI trial).",
+    "student_evidence": [
+      "Two small attempts for the same feature (A/B)",
+      "Mini table: ‘What I tried’ | ‘What happened’ | ‘My decision’",
+      "Screenshots or short clip showing both versions"
+    ]
+  },
+  {
+    "omi": "testing that the digital technologies outcome functions as intended",
+    "judgement": "The student has created and followed a test checklist, with evidence (screenshots, logs, or video) showing that each intended feature works as expected.",
+    "student_evidence": [
+      "5–8 item test list mapping features to checks",
+      "Pass/fail results with proof (logs, screenshots, or 60–90 s video)",
+      "If a bug was fixed: failing step → commit → passing step"
+    ]
+  },
+  {
+    "omi": "explaining relevant implications",
+    "judgement": "The student has explained at least two relevant implications (such as privacy, accessibility, usability, or well-being), showing both the potential risk and what they did to address it in the app.",
+    "student_evidence": [
+      "Two short paragraphs (one per implication): risk + mitigation",
+      "Examples: anonymity of data, keyboard access, colour contrast, mobile layout"
+    ]
+  },
+  {
+    "omi": "effectively using project management and version control tools and techniques to manage the development of a digital technologies outcome",
+    "judgement": "The student has effectively managed the development process by combining project management tools (e.g., task board, timelines) with systematic file and folder version control (e.g., clear naming, dated archives, organised storage) to show progress and decision-making.",
+    "student_evidence": [
+      "Board updates aligned to dated file archives",
+      "Task notes referencing file versions/folders",
+      "Rationale notes for key decisions attached to tasks"
+    ]
+  },
+  {
+    "omi": "trialling multiple components and/or techniques and selecting those which are most suitable",
+    "judgement": "The student has trialled multiple approaches to the same sub-problem (like an A/B test), compared their results, and selected the most suitable option with justification.",
+    "student_evidence": [
+      "Side-by-side comparison table with selection rationale",
+      "Performance/UX notes from each trial",
+      "Commit or file snapshot showing the chosen option integrated"
+    ]
+  },
+  {
+    "omi": "using information appropriately from testing and trialling to improve the functionality of the digital technologies outcome",
+    "judgement": "The student has used insights from testing and trialling to make deliberate changes that improved the outcome’s functionality, beyond just fixing bugs.",
+    "student_evidence": [
+      "Before/after notes linking a specific test finding to a change",
+      "Updated test results showing the improvement",
+      "Dated archive or commit message describing the change"
+    ]
+  },
+  {
+    "omi": "addressing relevant implications",
+    "judgement": "The student has shown how the final outcome directly addresses the implications they identified earlier (e.g., through specific design or implementation features).",
+    "student_evidence": [
+      "Screenshots/code snippets that implement the mitigation (e.g., no names stored; ARIA labels; keyboard navigation)",
+      "Short note linking each mitigation to its earlier stated risk"
+    ]
+  }
+]
