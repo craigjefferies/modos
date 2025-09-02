@@ -3,12 +3,15 @@
 ---
 
 ### 1. Metadata
-- Assessment Code and Title: AS91898 – Demonstrate understanding of a computer science concept
-- Level and Credits: Level 2, 3 Credits
-- Key Topics: Artificial Intelligence, Core Mechanisms (Supervised Learning, CNN, LLM, Recommenders), Metrics, Data pipeline, Ethical Impacts, Real-world Applications (Social Media, Car Safety, Healthcare)
-- Last Updated: 2025-08-12
-- Scaffolding Notes: Simple = Achieved (name, describe); Detailed = Merit (explain, connect cause/effect); Implication = Excellence (evaluate, judge, propose fix)
-- Source Files Used: as91898.pdf, as91898.json, CS_Exam_AI_Resource.txt, 91898-cat-B-2023.pdf
+- **Assessment Code and Title**: AS91898 – Demonstrate understanding of a computer science concept  
+- **Level and Credits**: Level 2, 3 Credits  
+- **Key Topics**: Artificial Intelligence, Core Mechanisms (Supervised Learning, CNN, LLM, Recommenders), Metrics, Data pipeline, Ethical Impacts, Real-world Applications (Social Media, Car Safety, Healthcare)  
+- **Last Updated**: 2025-09-03  
+- **Scaffolding Notes**:  
+  - Simple = Achieved (name, describe)  
+  - Detailed = Merit (explain, connect cause/effect)  
+  - Implication = Excellence (evaluate, judge, propose fix)  
+- **Source Files Used**: as91898.pdf, as91898.json, CS_Exam_AI_Resource.txt, 91898-cat-B-2023.pdf  
 
 ---
 
@@ -84,20 +87,21 @@
 
 ### 4. Common Misconceptions / Errors
 
-- Confusing accuracy with precision.
-- Naming a context without naming the mechanism.
-- Explaining what AI does without linking to how it works at a role level.
-- Mentioning an impact without cause/effect.
-- Talking about “future-proofing” without linking it to a risk.
-- Vague pros/cons not tied to examples.
+- Confusing accuracy with precision.  
+- Naming a context without naming the mechanism.  
+- Explaining what AI does without linking to how it works at a role level.  
+- Mentioning an impact without cause/effect.  
+- Talking about “future-proofing” without linking it to a risk.  
+- Vague pros/cons not tied to examples.  
 
 ---
 
-### 5. Applied Scenarios
+### 5. Applied Scenarios (Expanded)
 
 ---
 
-#### **Healthcare**
+#### 5.1 Healthcare
+
 **ML (Supervised Classification)** – X-ray Classification  
 - **Describe**: A supervised model classifies X-ray images as “healthy” or “tumour” using labelled examples.  
 - **Explain**: Helps detect illness early **because** the AI spots patterns doctors might miss when busy.  
@@ -113,51 +117,79 @@
 - **Explain**: Saves time **because** patients can understand their care instructions.  
 - **Discuss**: Hallucinations can add false info — require doctor review before sending to patients.
 
+**ML (Supervised Classification)** – Early Disease Detection  
+- **Describe**: AI analyses patient history and genetic data to predict risk of future illness.  
+- **Explain**: Supports prevention **because** doctors can monitor at-risk patients earlier.  
+- **Discuss**: Predictions may over-warn some groups — fix by combining AI with professional judgement.
+
+**ML (Supervised / Regression)** – Personalized Treatment  
+- **Describe**: AI analyses patient data to create tailored treatment plans.  
+- **Explain**: Improves care **because** treatments match the patient’s unique needs.  
+- **Discuss**: If training data excludes some groups, treatments may be less effective — fix by broadening datasets.
+
+**ML (Drug Discovery)** – New Medicines  
+- **Describe**: AI scans millions of molecules to suggest new drug candidates.  
+- **Explain**: Speeds up discovery **because** it cuts down trial-and-error in labs.  
+- **Discuss**: AI predictions may miss side effects — human testing still required.
+
+**NLP + Admin Tools** – Healthcare Efficiency  
+- **Describe**: AI automates admin tasks like appointment booking or billing.  
+- **Explain**: Saves staff time **because** they can focus on patient care.  
+- **Discuss**: Errors in scheduling could harm patients — fix with human oversight.
+
+**Wearables + AI** – Remote Monitoring  
+- **Describe**: AI analyses heart rate and activity data from wearables.  
+- **Explain**: Supports patients **because** doctors can check health remotely.  
+- **Discuss**: Privacy concerns if sensitive health data leaks — fix with strong security.
+
+**Predictive Analytics** – Outbreak Prediction  
+- **Describe**: AI analyses health data to predict potential disease outbreaks.  
+- **Explain**: Helps governments prepare **because** resources can be sent to high-risk areas.  
+- **Discuss**: Wrong predictions may waste resources — fix by using multiple data sources.
+
 ---
 
-#### **Car Safety**
-**ML (Supervised Classification)** – Road Surface Detection  
-- **Describe**: A supervised model classifies road surfaces (wet, icy, dry) from sensor data.  
-- **Explain**: Improves safety **because** braking adjusts to road conditions.  
-- **Discuss**: Poor data from rare conditions could cause wrong predictions. Fix with simulated training data.
+#### 5.2 Car Safety
 
-**ML (Supervised Classification)** – Driver Drowsiness Detection  
-- **Describe**: A supervised model analyses steering patterns to detect driver drowsiness.  
-- **Explain**: Prevents accidents **because** the car can alert the driver to rest.  
-- **Discuss**: False alarms may annoy drivers — reduce by combining with eye-tracking sensors.
+**ML (Supervised Classification)** – Road Surface Detection  
+- **Describe**: A model classifies road surfaces (wet, icy, dry) from sensor data.  
+- **Explain**: Improves safety **because** braking adjusts to road conditions.  
+- **Discuss**: Rare conditions may confuse AI — fix with simulated training data.
 
 **NN (CNN)** – Pedestrian Detection  
 - **Describe**: A CNN detects pedestrians in dashcam images to trigger automatic braking.  
-- **Explain**: Reduces reaction time **because** AI sees objects faster than humans.  
-- **Discuss**: Poor lighting can cause missed detections — improve with infrared sensors.
+- **Explain**: Reduces accidents **because** AI reacts faster than humans.  
+- **Discuss**: Poor lighting can cause missed detections — fix with infrared sensors.
 
-**NLP (Voice Recognition)** – Emergency Commands  
-- **Describe**: An NLP system understands spoken commands like “call for help” after a crash.  
-- **Explain**: Saves time **because** emergency services are contacted instantly.  
-- **Discuss**: Background noise could cause errors — fix with noise-cancelling microphones.
+**CNN + Image Analysis** – Lane Keeping Assist  
+- **Describe**: AI uses cameras to detect lane markings and keep the car centred.  
+- **Explain**: Prevents drifting **because** the system gently steers the car back.  
+- **Discuss**: Worn or missing road lines may confuse AI — fix with GPS support.
 
----
+**ML (Supervised)** – Adaptive Cruise Control  
+- **Describe**: AI adjusts car speed to keep a safe distance from the vehicle ahead.  
+- **Explain**: Prevents rear-end crashes **because** the car automatically brakes and accelerates.  
+- **Discuss**: Sudden driver actions may still cause collisions — fix by combining with emergency braking.
 
-#### **Social Media**
-**ML (Supervised Classification)** – Hate Speech Detection  
-- **Describe**: A supervised model detects hate speech in text posts using labelled training data.  
-- **Explain**: Protects users **because** harmful content is removed.  
-- **Discuss**: Bias risk if dialects are missing from the training set — fix with diverse examples.
+**Sensor Fusion + Radar** – Blind Spot Monitoring  
+- **Describe**: AI analyses radar sensors to detect cars in blind spots.  
+- **Explain**: Increases safety **because** drivers are alerted before lane changes.  
+- **Discuss**: False alarms in heavy rain can annoy drivers — fix with multi-sensor checks.
 
-**NN (CNN)** – Image Moderation  
-- **Describe**: A CNN flags inappropriate images before they appear in feeds.  
-- **Explain**: Keeps platform safe **because** harmful visuals are blocked automatically.  
-- **Discuss**: False positives may hide harmless content — fix with human review of borderline cases.
+**Driver Monitoring (CNN + Sensors)** – Drowsiness Detection  
+- **Describe**: AI analyses steering and facial patterns to detect drowsiness.  
+- **Explain**: Reduces crashes **because** it alerts drivers to rest.  
+- **Discuss**: False alerts may frustrate drivers — fix with multiple signals (eye + steering).
 
-**NLP (LLM)** – Thread Summarisation  
-- **Describe**: An LLM summarises long posts or comment threads into a short overview.  
-- **Explain**: Saves time **because** users can get the main points quickly.  
-- **Discuss**: May miss important details — fix by letting users click to view the full thread.
+**Collision Avoidance (AEB)** – Automatic Braking  
+- **Describe**: AI detects obstacles and brakes if the driver doesn’t.  
+- **Explain**: Saves lives **because** it reacts faster than humans.  
+- **Discuss**: System may fail in fog or glare — fix with redundant sensors.
 
-**NLP (LLM)** – Misinformation Reduction  
-- **Describe**: An LLM summarises breaking news posts into key facts to stop misinformation.  
-- **Explain**: Improves accuracy **because** it highlights only confirmed information.  
-- **Discuss**: Outdated training data could mislead — fix with live fact-checking sources.
+**Predictive Maintenance (ML Regression)** – Vehicle Health  
+- **Describe**: AI analyses car sensor data to predict part failures.  
+- **Explain**: Prevents breakdowns **because** issues are fixed before they cause accidents.  
+- **Discuss**: Over-predicting can waste money — fix with continual model updates.
 
 ---
 
@@ -165,4 +197,4 @@
 - NZQA Assessment Standard PDF: as91898.pdf  
 - OMI JSON file: as91898.json  
 - Past Exams: 91898-cat-B-2023.pdf  
-- Curriculum Resource: CS_Exam_AI_Resource.txt (2025 Content Guide)
+- Curriculum Resource: CS_Exam_AI_Resource.txt (2025 Content Guide)  
