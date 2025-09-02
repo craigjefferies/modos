@@ -39,16 +39,14 @@
 
 ---
 
-### 3. Knowledge Tables (Simplified)
-
 #### 3.1 Core AI Mechanisms
 
-| Mechanism | Simple Sentence | Example | Main Risk |
-|-----------|-----------------|---------|-----------|
-| **Supervised Classification** | Learns from labelled examples to sort new data into the right group. | Social media filters hate speech; Car reads road signs. | Bias if training data is unbalanced. |
-| **CNN (Convolutional Neural Network)** | Finds patterns in images so it can recognise objects. | Car detects pedestrians; Medical AI scans X-rays. | Can be hard to explain why it made a decision. |
-| **Transformer / LLM (NLP)** | Predicts the next word to understand or create text. | Summarises doctor notes; Chatbot answers questions. | Can make up false information (hallucinations). |
-| **Collaborative Recommender** | Suggests things liked by people with similar interests. | TikTok “For You” feed; Health app suggests workouts. | Can create echo chambers or spread misinformation. |
+| Mechanism | Simple Sentence (clear + referenced) | Example | Main Risk |
+|-----------|--------------------------------------|---------|-----------|
+| **Supervised Classification** | Learns from **labelled examples** (where the answer is already known) and applies those patterns to new data. | Social media detects hate speech; Car reads road signs. | If the training data is unbalanced, results will be biased. |
+| **CNN (Convolutional Neural Network)** | A type of neural network for images. It looks for **simple features first** (edges, colours), then combines them to recognise whole objects. | Car detects pedestrians; Medical AI scans X-rays. | Can be hard to explain why it made a decision. |
+| **Transformer / LLM (NLP)** | A model for text. It predicts the **next word** by looking at the meaning of all the words in a sentence (not just the one before). | Summarises doctor notes; Chatbot answers questions. | Can “hallucinate” and make up false information. |
+| **Collaborative Recommender** | Suggests items by looking at **what similar people liked** and recommending the same to you. | TikTok “For You” feed; Spotify recommends songs. | Can create echo chambers or spread misinformation. |
 
 ---
 
@@ -96,7 +94,7 @@
 
 ---
 
-### 5. Applied Scenarios (Expanded)
+### 5. Applied Scenarios
 
 ---
 
