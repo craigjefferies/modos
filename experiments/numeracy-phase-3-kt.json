@@ -1,0 +1,3317 @@
+[
+  {
+    "id": "MATH.P3.NUM.STRUCT.PV_ORDER_WHOLE_10POW.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Order whole numbers using powers of 10",
+    "description": "Identifies, reads, writes, compares, and orders whole numbers using powers of 10.",
+    "detection_hint": "Look for explicit reference to powers of 10 (10^n) and correct ordering or place-value reasoning.",
+    "success_criteria": {
+      "mastery": [
+        "Orders a mixed list of whole numbers using place value.",
+        "Explains ordering using 10^n or place-value shifts."
+      ],
+      "partial": [
+        "Orders mostly correct but explanation incomplete.",
+        "Minor place-value slip fixed after prompt."
+      ],
+      "not_yet": [
+        "Incorrect ordering; no reference to place value or powers of 10."
+      ]
+    },
+    "assessment_item_templates": [
+      "Order: 8000, 3\u00d710^3, 10^4, 75 000 from smallest to largest and explain."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > order whole numbers using powers of 10 (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.STRUCT.PV_ORDER_DECIMAL_10POW.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Order whole numbers and decimals using powers of 10",
+    "description": "Identifies, reads, writes, compares, and orders whole numbers and decimals using powers of 10.",
+    "detection_hint": "Evidence of comparing decimals via place value and using 10^n shifts.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly orders whole numbers and decimals; explains with place-value positions or \u00d710/\u00f710 reasoning."
+      ],
+      "partial": [
+        "Correct ordering but vague explanation or 1 slip corrected on check."
+      ],
+      "not_yet": [
+        "Mis-orders decimals; confuses tenths/hundredths."
+      ]
+    },
+    "assessment_item_templates": [
+      "Order: 0.03, 3.5, 3.05, 3\u00d710^1 and justify."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > order whole numbers & decimals using powers of 10 (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.STRUCT.HCF_LCM_SMALL.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Find HCF and LCM of small numbers",
+    "description": "Finds HCF of two numbers under 100 and LCM of two numbers under 10 using factors or multiples.",
+    "detection_hint": "Look for factor lists, prime factors, or multiples tables; correct selection of HCF/LCM.",
+    "success_criteria": {
+      "mastery": [
+        "Computes HCF/LCM correctly in \u22653 problems; shows working."
+      ],
+      "partial": [
+        "Method correct but one arithmetic slip.",
+        "Correct after hint to list factors/multiples."
+      ],
+      "not_yet": [
+        "Chooses wrong concept (e.g., uses sum instead of LCM/HCF)."
+      ]
+    },
+    "assessment_item_templates": [
+      "Find HCF(84, 60) and LCM(6, 8). Show your method."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > HCF/LCM (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.STRUCT.PRIME_FACT_HCF.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Use prime factorisation and HCF",
+    "description": "Represents a number as a product of primes and uses factorisation to find HCF of two numbers.",
+    "detection_hint": "Look for prime-factor trees and use of common prime powers for HCF.",
+    "success_criteria": {
+      "mastery": [
+        "Writes correct prime factorizations and derives HCF from them.",
+        "Explains why shared primes produce the HCF."
+      ],
+      "partial": [
+        "Correct factorization but HCF step incomplete.",
+        "Arithmetic slip in prime powers fixed after prompt."
+      ],
+      "not_yet": [
+        "Incorrect or non-prime factors; HCF not justified."
+      ]
+    },
+    "assessment_item_templates": [
+      "Express 180 and 168 as prime factors and find HCF."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > prime factorisation; HCF from prime factors (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.STRUCT.EXPONENTS_SQROOTS.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Use exponents and identify square roots",
+    "description": "Uses exponents to represent repeated multiplication and identifies square roots of square numbers to at least 100.",
+    "detection_hint": "Look for exponent notation and correct square\u2013square-root pairs.",
+    "success_criteria": {
+      "mastery": [
+        "Writes powers for repeated multiplication; identifies \u221an for perfect squares \u2264100."
+      ],
+      "partial": [
+        "Understands idea but mislabels a non-square (e.g., \u221a50=7.1 without estimation)."
+      ],
+      "not_yet": [
+        "Does not use exponent notation; square roots mismatched."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write with exponents: 5\u00d75\u00d75\u00d75; find \u221a81 and \u221a64."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > exponents & square roots (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.STRUCT.PRIME_COMPOSITE_CUBES.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Number structure",
+    "title": "Prime/composite properties and cube numbers",
+    "description": "Identifies/justifies prime vs composite up to at least 100 and recognises cube numbers up to at least 125.",
+    "detection_hint": "Evidence includes divisibility tests and 3D reasoning for cubes (n^3).",
+    "success_criteria": {
+      "mastery": [
+        "Classifies numbers accurately; lists cubes \u2264125; justifies with divisibility/prime tests."
+      ],
+      "partial": [
+        "Mostly correct classification; one cube misidentified."
+      ],
+      "not_yet": [
+        "Frequent misclassification; no justification."
+      ]
+    },
+    "assessment_item_templates": [
+      "Classify: 91, 97, 100; list all cubes \u2264125."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Number structure > prime/composite; cube numbers (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.ESTIMATION_CHECK.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Use rounding and estimation to check calculations",
+    "description": "Uses rounding and estimation to predict results and check reasonableness of calculations.",
+    "detection_hint": "Look for benchmark use and inverse operations for checking.",
+    "success_criteria": {
+      "mastery": [
+        "Chooses sensible rounding and states if answer is reasonable; uses an inverse check at least once."
+      ],
+      "partial": [
+        "Rounding applied but benchmark or check missing."
+      ],
+      "not_yet": [
+        "No estimation; accepts implausible results."
+      ]
+    },
+    "assessment_item_templates": [
+      "Estimate 48\u00d719 and explain; then compute exactly and compare."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > rounding & estimation (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.ESTIMATION_BENCHMARKS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Use estimation with benchmarks",
+    "description": "Uses rounding, estimation, and benchmarks (e.g., 73%\u22483/4) to check reasonableness.",
+    "detection_hint": "Evidence of benchmark fractions/percents and inverse checks.",
+    "success_criteria": {
+      "mastery": [
+        "Applies benchmarks (\u00bd, \u00bc, \u00be, etc.) and rounds sensibly to judge reasonableness."
+      ],
+      "partial": [
+        "Benchmark selected but not clearly linked to judgement."
+      ],
+      "not_yet": [
+        "No benchmark; incorrect plausibility judgement."
+      ]
+    },
+    "assessment_item_templates": [
+      "Is 73% of 840 closer to 600 or 700? Explain using a benchmark."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > estimation & benchmarks (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.ROUND_SPECIFIED_PLACES.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Round whole numbers and decimals to specified places",
+    "description": "Rounds whole numbers to any given power of 10 and decimals to nearest tenth/hundredth/whole.",
+    "detection_hint": "Look for correct place-value marking and rounding rules (\u22655 up).",
+    "success_criteria": {
+      "mastery": [
+        "Rounds a set of numbers correctly; explains decision digit."
+      ],
+      "partial": [
+        "Minor rounding error; reasoning mostly sound."
+      ],
+      "not_yet": [
+        "Misplaces rounding digit; multiple errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Round 53 786 to nearest thousand; 3.276 to nearest hundredth."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > rounding places (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.ROUND_SPECIFIED_PLACES_EXT.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Round to thousandth and larger powers of 10",
+    "description": "Rounds whole numbers to any specified power of 10 and decimals to the nearest tenth, hundredth, thousandth, or whole.",
+    "detection_hint": "Look for rounding to 0.001 and consistent rules.",
+    "success_criteria": {
+      "mastery": [
+        "Accurate rounding including thousandths across varied numbers."
+      ],
+      "partial": [
+        "Occasional thousandth error; other places correct."
+      ],
+      "not_yet": [
+        "Frequent mis-rounding at 0.001 place."
+      ]
+    },
+    "assessment_item_templates": [
+      "Round 0.00649 to nearest thousandth; 8 742 500 to nearest hundred thousand."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > rounding thousandths/powers (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.FACTS_DIVISIBILITY_2_3_5_9_10.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Recall facts and apply divisibility rules (2,3,5,9,10)",
+    "description": "Recalls multiplication facts to 10\u00d710 and applies divisibility rules for 2,3,5,9,10.",
+    "detection_hint": "Look for quick fact recall and correct rule statements with examples/counterexamples.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly applies each rule to classify numbers; gives reasoning."
+      ],
+      "partial": [
+        "Minor slip (e.g., 9-rule sum-of-digits misapplied) corrected after prompt."
+      ],
+      "not_yet": [
+        "States rules incorrectly or misclassifies repeatedly."
+      ]
+    },
+    "assessment_item_templates": [
+      "Which of these are divisible by 9: 342, 713, 1 008? Explain."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > divisibility rules (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.DIVISIBILITY_2_TO_11.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Use divisibility rules 2\u201311",
+    "description": "Identifies and describes divisibility rules for 2\u201311 and applies them to classify numbers.",
+    "detection_hint": "Evidence of rule application including 7 and 11.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly classifies a mixed set using stated rules and checks via computation where needed."
+      ],
+      "partial": [
+        "States rules but misapplies to one number."
+      ],
+      "not_yet": [
+        "Cannot state or apply several rules."
+      ]
+    },
+    "assessment_item_templates": [
+      "For each number 231, 462, 715, 1001, decide divisible by 2\u201311 and justify."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > divisibility rules 2\u201311 (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.MULTI_DIGIT_MULTIPLY.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Multiply whole numbers (multi-digit)",
+    "description": "Multiplies whole numbers efficiently, including using the vertical-column method.",
+    "detection_hint": "Look for layout with place-value alignment and estimation check.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 multi-digit products; includes one estimation check."
+      ],
+      "partial": [
+        "Correct method but one arithmetic slip."
+      ],
+      "not_yet": [
+        "Layout confused; repeated errors without checking."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 368\u00d747; show vertical method and an estimate."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > multiply whole numbers (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.DIVIDE_WHOLE_NUMBERS_1_2DIG.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Divide whole numbers by 1\u20132 digit divisors",
+    "description": "Divides whole numbers by one- or two-digit divisors, representing remainders as fractions/decimals/rounded.",
+    "detection_hint": "Look for single equals per line, and correct interpretation of remainders.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 problems including one with a remainder shown in two forms."
+      ],
+      "partial": [
+        "Procedure mostly correct; misinterprets remainder once."
+      ],
+      "not_yet": [
+        "Procedure unclear; remainder missing/wrong."
+      ]
+    },
+    "assessment_item_templates": [
+      "327\u00f715; express as decimal and mixed number."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > divide whole numbers 1\u20132 digit divisors (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.DIVIDE_WHOLE_NUMBERS_GENERAL.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Divide whole numbers (general)",
+    "description": "Chooses appropriate method (long division, mental, digital tool) and justifies choice; represents remainders appropriately.",
+    "detection_hint": "Look for justification of chosen method and correct remainder representation.",
+    "success_criteria": {
+      "mastery": [
+        "Solves varied divisions (incl. 3-digit by 2-digit) and justifies strategy."
+      ],
+      "partial": [
+        "Correct calculation without justification."
+      ],
+      "not_yet": [
+        "Wrong method choice leading to errors; no justification."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 1 764 \u00f7 24; explain method choice and show checks."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > divide whole numbers (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.OPER.ORDER_OF_OPERATIONS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations",
+    "title": "Apply order of operations (GEMA)",
+    "description": "Evaluates multi-step numeric expressions using grouped, exponents, multiplicative, additive order.",
+    "detection_hint": "Evidence of stepwise working, one equals per line, and correct final value.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly evaluates \u22653 expressions including brackets & exponents; shows steps and optional rule statement."
+      ],
+      "partial": [
+        "Structure correct but one operation misplaced; fixes after prompt."
+      ],
+      "not_yet": [
+        "No evidence of order; inconsistent answers."
+      ]
+    },
+    "assessment_item_templates": [
+      "Evaluate: 5 + 2 \u00d7 (8 \u2212 3)^2",
+      "Compute: (36 \u00f7 3^2) + 4 \u00d7 2"
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > order of operations (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.INTS.ORDER_COMPARE_LOCATE.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations (Integers)",
+    "title": "Order, compare, and locate integers; explore addition/subtraction",
+    "description": "Orders and locates integers on a number line; explores addition/subtraction with visual models.",
+    "detection_hint": "Look for number line diagrams and statements about movement direction.",
+    "success_criteria": {
+      "mastery": [
+        "Accurately orders/locates integers and models \u00b1 addition/subtraction on number lines/counters."
+      ],
+      "partial": [
+        "Ordering correct but addition/subtraction model flawed."
+      ],
+      "not_yet": [
+        "Confuses order or direction; misreads number line."
+      ]
+    },
+    "assessment_item_templates": [
+      "Place \u22127, \u22122, 0, 4 on a number line; show \u22123 + 5 and \u22126 \u2212 (\u22122)."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > integers order/locate and explore add/sub (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.INTS.OPERATE.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Operations (Integers)",
+    "title": "Operate with integers (order, compare, add, subtract)",
+    "description": "Orders, compares, adds, and subtracts integers fluently and justifies results.",
+    "detection_hint": "Look for generalisations (adding negative decreases; subtracting negative increases).",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22654 integer problems; includes one justification using a rule or model."
+      ],
+      "partial": [
+        "Mostly correct; one sign slip fixed after check."
+      ],
+      "not_yet": [
+        "Frequent sign errors; no justification."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute: \u221212 \u2212 7, 4 + (\u22129), \u22125 \u2212 (\u221211); explain one using a rule."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Operations > integers operate (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.IDENTIFY_REPRESENT_FDP_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Represent fractions, decimals (3dp), and percentages",
+    "description": "Identifies, reads, writes, and represents fractions, decimals (to three places), and percentages.",
+    "detection_hint": "Look for consistent notation and conversions between forms.",
+    "success_criteria": {
+      "mastery": [
+        "Represents the same quantity in FDP forms; uses correct notation."
+      ],
+      "partial": [
+        "Minor notation slip (e.g., percent sign), corrected."
+      ],
+      "not_yet": [
+        "Confuses percent vs decimal or improper notation."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write 0.375 as a fraction and a percentage; show reasoning."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > represent FDP (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.IDENTIFY_REPRESENT_FDP_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Represent fractions, decimals, and percentages",
+    "description": "Identifies, reads, writes, and represents fractions, decimals, and percentages.",
+    "detection_hint": "Look for flexible switching among forms.",
+    "success_criteria": {
+      "mastery": [
+        "Represents quantities in multiple forms and chooses convenient form for a task."
+      ],
+      "partial": [
+        "Correct but limited to one conversion."
+      ],
+      "not_yet": [
+        "Incorrect representation or conflates forms."
+      ]
+    },
+    "assessment_item_templates": [
+      "Express 7/20 as a decimal and percentage; explain."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > represent FDP (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.COMPARE_CONVERT_FDP_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Compare/order/convert between FDP (3dp)",
+    "description": "Compares, orders, and converts between fractions, decimals (to three places), and percentages using benchmarks and equivalence.",
+    "detection_hint": "Look for double number lines, benchmarks (\u00bd, \u00bc), or common denominators.",
+    "success_criteria": {
+      "mastery": [
+        "Orders mixed FDP sets; shows conversion steps or benchmark reasoning."
+      ],
+      "partial": [
+        "Mostly correct ordering; one conversion slip."
+      ],
+      "not_yet": [
+        "Incorrect comparisons; no conversions shown."
+      ]
+    },
+    "assessment_item_templates": [
+      "Order 0.48, 5/12, 49%; justify your order."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > compare/order/convert (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.COMPARE_CONVERT_FDP_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Compare/order/convert between FDP",
+    "description": "Compares, orders, and converts between fractions, decimals, and percentages with flexible strategies.",
+    "detection_hint": "Evidence of efficient strategy choice and justification.",
+    "success_criteria": {
+      "mastery": [
+        "Chooses efficient method (e.g., percent) and justifies ordering."
+      ],
+      "partial": [
+        "Correct answers without explanation."
+      ],
+      "not_yet": [
+        "Inefficient or incorrect conversions."
+      ]
+    },
+    "assessment_item_templates": [
+      "Which is greater: 37% or 3/8? Explain."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > compare/order/convert (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.MULT_DIV_POW10_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Multiply/divide by 10, 100, 1000",
+    "description": "Multiplies and divides numbers by 10, 100, 1000 using place-value shifts.",
+    "detection_hint": "Look for PV charts and digit shifts left/right.",
+    "success_criteria": {
+      "mastery": [
+        "Accurately performs \u00d7/\u00f7 with correct digit shifts; explains direction."
+      ],
+      "partial": [
+        "One slip corrected on check."
+      ],
+      "not_yet": [
+        "Repeated mis-shifts; decimal point confusion."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute: 3.46\u00d7100; 508\u00f71000; explain digit shifts."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > \u00d7/\u00f7 by 10,100,1000 (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.MULT_DIV_POW10_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Multiply/divide by powers of 10",
+    "description": "Multiplies and divides numbers by powers of 10 (10^n) fluently.",
+    "detection_hint": "Look for expression with 10^n and correct shifts.",
+    "success_criteria": {
+      "mastery": [
+        "Generalises pattern for any n; shows example with n>3."
+      ],
+      "partial": [
+        "Correct for small n only."
+      ],
+      "not_yet": [
+        "Incorrect generalisation."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write a rule for \u00d710^n and \u00f710^n and apply for n=4."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > \u00d7/\u00f7 by powers of 10 (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.EQUIV_SIMPLIFY_IMPROPER_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Equivalent & simplified fractions; improper\u2194mixed",
+    "description": "Finds equivalent fractions, simplifies fractions, and converts between improper fractions and mixed numbers.",
+    "detection_hint": "Look for use of HCF/LCM and factor reasoning.",
+    "success_criteria": {
+      "mastery": [
+        "Simplifies and renames correctly across \u22653 items with explanation."
+      ],
+      "partial": [
+        "Methods shown but one arithmetic error."
+      ],
+      "not_yet": [
+        "No factor reasoning; incorrect simplification."
+      ]
+    },
+    "assessment_item_templates": [
+      "Rename 27/9, 18/24, 7/3 into simplest/mixed forms."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > equivalence & renaming (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.EQUIV_SIMPLIFY_IMPROPER_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Equivalent & simplified fractions; improper\u2194mixed (Y8)",
+    "description": "As Y7 with increasing complexity and justification.",
+    "detection_hint": "Evidence of factor trees or prime factors in justification.",
+    "success_criteria": {
+      "mastery": [
+        "Handles non-trivial cases and justifies each step."
+      ],
+      "partial": [
+        "Correct answers but justification thin."
+      ],
+      "not_yet": [
+        "Frequent errors or no justification."
+      ]
+    },
+    "assessment_item_templates": [
+      "Simplify 84/126; convert 11/4 to mixed; explain."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > equivalence & renaming (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.MULTIPLY_FRACTIONS_DEC_BY_WHOLE_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Multiply fractions/decimals by whole numbers",
+    "description": "Multiplies fractions and decimals by whole numbers with estimation.",
+    "detection_hint": "Look for vertical method for decimals and fraction-of-a-set reasoning.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 items; includes an estimate and shows method."
+      ],
+      "partial": [
+        "Correct but no estimate included."
+      ],
+      "not_yet": [
+        "Repeated computation errors; no method shown."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 0.7\u00d745; 3/5 of 45."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > multiply fractions/decimals by whole numbers (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.MULTIPLY_FRACTIONS_DEC_BY_WHOLE_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Multiply fractions/decimals by whole numbers (Y8)",
+    "description": "As Y7 with more complex numbers and justification of product size (identity idea).",
+    "detection_hint": "Evidence of explaining when product is smaller than the whole for factor<1.",
+    "success_criteria": {
+      "mastery": [
+        "Explains product size vs factor; correct calculations."
+      ],
+      "partial": [
+        "Correct calculation; explanation brief."
+      ],
+      "not_yet": [
+        "No explanation; misinterprets size."
+      ]
+    },
+    "assessment_item_templates": [
+      "Explain why 0.4\u00d7120 < 120; compute 0.4\u00d7120."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > multiply fractions/decimals by whole numbers (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.PERCENT_OF_WHOLE_AND_FIND_WHOLE_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Find percent of a whole and find the whole",
+    "description": "Finds a percentage of a whole and finds the whole given a simple fraction or percentage.",
+    "detection_hint": "Look for 10%/5% strategies or decimal multiplication.",
+    "success_criteria": {
+      "mastery": [
+        "Solves both types across \u22652 problems; shows strategy."
+      ],
+      "partial": [
+        "Correct but no explanation."
+      ],
+      "not_yet": [
+        "Strategy inappropriate or arithmetic errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "25% is $100, what is the total? 35% of 120."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > percentage of whole/whole from part (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.PERCENT_OF_WHOLE_AND_FIND_WHOLE_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Find percent of a whole and find the whole (Y8)",
+    "description": "As Y7 with more complex percentages and multi-step contexts.",
+    "detection_hint": "Evidence of bar models or equations.",
+    "success_criteria": {
+      "mastery": [
+        "Solves multi-step percent problems; checks with estimation."
+      ],
+      "partial": [
+        "Correct result but missing check."
+      ],
+      "not_yet": [
+        "Incorrect setup or no link to context."
+      ]
+    },
+    "assessment_item_templates": [
+      "If 75% is $45, what is the total? Also find 32% of 250."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > percentage of whole/whole from part (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.ADD_SUB_FRACTIONS_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Add/subtract fractions with unlike denominators (to tenths)",
+    "description": "Adds and subtracts fractions with different denominators of up to a tenth using equivalent fractions.",
+    "detection_hint": "Look for LCM and renaming to common denominator.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly adds/subtracts across \u22653 items; shows renaming."
+      ],
+      "partial": [
+        "Method right; one arithmetic slip."
+      ],
+      "not_yet": [
+        "No common denominator or repeated errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 3/4 + 1/5; show your method."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > add/subtract fractions unlike denom (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.ADD_SUB_FRACTIONS_GENERAL_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Add/subtract fractions with unlike denominators",
+    "description": "Adds and subtracts fractions with unlike denominators using equivalence and HCF/LCM reasoning.",
+    "detection_hint": "Evidence of simplifying result.",
+    "success_criteria": {
+      "mastery": [
+        "Finds common denominator efficiently and simplifies answers."
+      ],
+      "partial": [
+        "Correct but not simplified."
+      ],
+      "not_yet": [
+        "Incorrect denominator handling."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 7/12 \u2212 5/18 and simplify."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > add/subtract fractions unlike denom (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.OPERATE_DECIMALS_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Add/subtract decimals (to 3dp)",
+    "description": "Adds and subtracts decimals to three decimal places with estimation first.",
+    "detection_hint": "Look for alignment of decimal points and a pre-estimate.",
+    "success_criteria": {
+      "mastery": [
+        "Accurate calculations with alignment and an estimate."
+      ],
+      "partial": [
+        "Correct but missing estimate."
+      ],
+      "not_yet": [
+        "Misaligned decimal points; repeated errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Add 14.375 + 6.8; estimate first."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > add/subtract decimals (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.RAT.ADD_SUB_MULT_DECIMALS_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Rational numbers",
+    "title": "Add/subtract/multiply decimals",
+    "description": "Adds, subtracts, and multiplies decimals with estimation checks.",
+    "detection_hint": "Evidence of vertical layout for multiply and reasonableness check.",
+    "success_criteria": {
+      "mastery": [
+        "Solves a mixed set incl. multiplication; includes a check."
+      ],
+      "partial": [
+        "Correct answers; limited checking."
+      ],
+      "not_yet": [
+        "Frequent operation errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compute 3.6\u00d71.25; explain why your answer is reasonable."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Rational numbers > operate with decimals (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.PROP.MULTIPLICATIVE_RELNS_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Proportional reasoning",
+    "title": "Use proportional reasoning for multiplicative relationships",
+    "description": "Explores multiplicative relationships using ratios, unit rates, and scaling in real contexts.",
+    "detection_hint": "Look for unit rate or factor-of-change reasoning; bar/double number lines.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22652 contexts using multiplicative strategies; explains reasoning."
+      ],
+      "partial": [
+        "Correct method but limited explanation."
+      ],
+      "not_yet": [
+        "Additive-only approach in multiplicative context; incorrect."
+      ]
+    },
+    "assessment_item_templates": [
+      "If the ratio red:blue is 3:7 and red=18, how many blue? How many total?"
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Proportional reasoning > multiplicative relationships (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.PROP.UNEQUAL_SHARING_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Proportional reasoning",
+    "title": "Use proportional reasoning for unequal sharing",
+    "description": "Uses ratios to share quantities in unequal proportions.",
+    "detection_hint": "Look for part-to-part scaling and total-to-part reasoning via bar models.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly shares amounts with given ratios; shows representation."
+      ],
+      "partial": [
+        "Set-up correct but arithmetic slip."
+      ],
+      "not_yet": [
+        "Equal sharing or additive method used incorrectly."
+      ]
+    },
+    "assessment_item_templates": [
+      "Share $100 in the ratio 1:3; show using a bar model."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Proportional reasoning > unequal sharing (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.FIN.COST_CHANGE.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Financial mathematics",
+    "title": "Calculate total cost and change",
+    "description": "Calculates totals and change accurately for money transactions.",
+    "detection_hint": "Look for column addition/subtraction with decimal alignment and rounding to cents.",
+    "success_criteria": {
+      "mastery": [
+        "Computes totals and change correctly across \u22653 scenarios; includes a check."
+      ],
+      "partial": [
+        "Correct result; minor rounding omission clarified."
+      ],
+      "not_yet": [
+        "Decimal alignment errors; wrong change."
+      ]
+    },
+    "assessment_item_templates": [
+      "You buy items costing $5.60, $12.40, $3.95. Pay with $25. What is the change?"
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Financial mathematics > total cost and change (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.FIN.PLAN_COMPARE_BUDGETS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Financial mathematics",
+    "title": "Create and compare personal finance plans",
+    "description": "Creates and compares weekly/monthly/yearly finance plans (saving/phone/budget/BNPL) and justifies 'best deal' to personal priorities.",
+    "detection_hint": "Look for use of tables/spreadsheets and explicit criteria (cost, flexibility, risk).",
+    "success_criteria": {
+      "mastery": [
+        "Builds at least two plans, compares quantitatively, and justifies a choice."
+      ],
+      "partial": [
+        "Plans created but justification thin."
+      ],
+      "not_yet": [
+        "No comparison criteria; unjustified choice."
+      ]
+    },
+    "assessment_item_templates": [
+      "Compare 3 phone plans over 12 months; choose one with reasons."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Financial mathematics > create/compare finance plans (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.NUM.FIN.PERCENT_DISCOUNTS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Number",
+    "substrand": "Financial mathematics",
+    "title": "Apply percentage discounts",
+    "description": "Applies percentage discounts to prices, using decimal multipliers or subtract-from-whole strategies.",
+    "detection_hint": "Look for 0.x multipliers and/or 'find 10%/5%' strategy with rounding to cents.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly computes discounted prices across \u22653 items; shows method."
+      ],
+      "partial": [
+        "Correct but rounding or cents formatting off."
+      ],
+      "not_yet": [
+        "Wrong base or percent; no method shown."
+      ]
+    },
+    "assessment_item_templates": [
+      "Apply 35% discount to $180 in two ways; compare."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Number > Financial mathematics > percentage discounts (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.EQR.SOLVE_LINEAR_1STEP.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Equations & Relationships",
+    "title": "Solve one-step linear equations",
+    "description": "Forms and solves one-step linear equations; checks solutions by substitution.",
+    "detection_hint": "Look for inverse operations and balanced steps.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 one-step equations; shows inverse step and check."
+      ],
+      "partial": [
+        "Correct solution but no check."
+      ],
+      "not_yet": [
+        "Treats as arithmetic, not equation; no variable isolation."
+      ]
+    },
+    "assessment_item_templates": [
+      "Solve and check: t + 7 = 12; 2s = 14."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Equations & Relationships > form and solve one-step equations (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.EQR.SOLVE_LINEAR_1_2STEP.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Equations & Relationships",
+    "title": "Solve one- and two-step linear equations",
+    "description": "Forms and solves one- or two-step linear equations; verifies by substitution.",
+    "detection_hint": "Look for balanced operations on both sides and clear variable isolation.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 equations (e.g., 5s+3=18); includes one word problem model."
+      ],
+      "partial": [
+        "Correct algebra but minor arithmetic slip."
+      ],
+      "not_yet": [
+        "No balancing shown; incorrect isolation."
+      ]
+    },
+    "assessment_item_templates": [
+      "Solve and check: 5s + 3 = 18; (n/4)+6=10."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Equations & Relationships > form and solve 1\u20132 step equations (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.EQR.EVALUATE_EXPRESSIONS_FORMULAE.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Equations & Relationships",
+    "title": "Evaluate expressions and formulae with given values",
+    "description": "Finds the value of expressions or familiar formulae for given variable values.",
+    "detection_hint": "Look for correct substitution and order of operations.",
+    "success_criteria": {
+      "mastery": [
+        "Evaluates \u22653 expressions/formulae; states units when appropriate."
+      ],
+      "partial": [
+        "Correct substitution; one arithmetic slip fixed after prompt."
+      ],
+      "not_yet": [
+        "Substitutes incorrectly; ignores order/units."
+      ]
+    },
+    "assessment_item_templates": [
+      "Calculate w+12 when w=4; find v=d/t when d=240km, t=3h."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Equations & Relationships > evaluate expressions/formulae (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.PROP.PROPERTIES.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Properties of operations",
+    "title": "Describe and use commutative, associative, and distributive properties",
+    "description": "Describes and applies properties of operations in numeric and algebraic contexts.",
+    "detection_hint": "Evidence includes property names, examples, and use to simplify computation.",
+    "success_criteria": {
+      "mastery": [
+        "Identifies each property and uses it to transform an expression correctly."
+      ],
+      "partial": [
+        "Identifies properties but misapplies once."
+      ],
+      "not_yet": [
+        "Cannot name or apply properties."
+      ]
+    },
+    "assessment_item_templates": [
+      "Give an example of distributive property and use it to simplify 7\u00d7(20+3)."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Properties > commutative/associative/distributive (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.SIMPLIFY.EXPRESSIONS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Expressions",
+    "title": "Simplify expressions (collect like terms; expand single brackets)",
+    "description": "Simplifies algebraic expressions via collecting like terms and expanding single brackets using distributive property.",
+    "detection_hint": "Look for correct term types and coefficient arithmetic.",
+    "success_criteria": {
+      "mastery": [
+        "Simplifies \u22654 expressions; explains one using property language."
+      ],
+      "partial": [
+        "Correct but explanation thin or 1 slip."
+      ],
+      "not_yet": [
+        "Collects unlike terms or arithmetic errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Simplify: 3x+5x\u22122; 2(x+3)+1."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Expressions > simplify (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.PATTERNS.LINEAR_RULE_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Patterns & Relationships",
+    "title": "Identify constant difference and write a rule",
+    "description": "Identifies constant increase/decrease in a linear pattern, expresses the rule with variables, and uses it to make conjectures.",
+    "detection_hint": "Look for first-difference tables and y=mx+c forms.",
+    "success_criteria": {
+      "mastery": [
+        "Finds constant difference and writes a correct rule; predicts future terms."
+      ],
+      "partial": [
+        "Pattern recognised but rule incomplete."
+      ],
+      "not_yet": [
+        "No recognition of linearity; incorrect rule."
+      ]
+    },
+    "assessment_item_templates": [
+      "Sequence 2,5,8,11,... Find rule and 50th term."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Patterns > constant difference and rule (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.PATTERNS.DETERMINE_LINEAR_RULE_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Patterns & Relationships",
+    "title": "Determine linearity and write equation for pattern",
+    "description": "Determines if a pattern is linear and, if so, writes the equation and uses it to make conjectures; supports with table/graph.",
+    "detection_hint": "Look for representation with (n,term) table and straight-line graph.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly identifies linearity, writes rule, and uses graph to justify a conjecture."
+      ],
+      "partial": [
+        "Rule correct but justification weak."
+      ],
+      "not_yet": [
+        "Misclassifies pattern; rule wrong."
+      ]
+    },
+    "assessment_item_templates": [
+      "Decide if the pattern 3, 7, 11, 15,... is linear; write equation and predict 100th term."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Patterns > determine linear and equation (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.CREATE_TEST_REVISE.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Create, test, and revise algorithms (sequences and decisions)",
+    "description": "Creates, tests, and revises algorithms consisting of clear steps and decisions for simple tasks.",
+    "detection_hint": "Look for numbered steps/flow chart and evidence of testing/revision.",
+    "success_criteria": {
+      "mastery": [
+        "Produces an algorithm and revises it after a test case."
+      ],
+      "partial": [
+        "Algorithm present but test/revision missing."
+      ],
+      "not_yet": [
+        "Unclear or non-executable steps."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write a step-by-step algorithm to add fractions with unlike denominators."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > create/test/revise (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.USE_TO_EXPLAIN_PATTERNS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Use algorithms to identify and explain patterns",
+    "description": "Creates, tests, revises, and uses algorithms to identify/interpret/explain patterns.",
+    "detection_hint": "Look for connection from algorithm to detected pattern.",
+    "success_criteria": {
+      "mastery": [
+        "Demonstrates algorithm detecting a pattern and explains interpretation."
+      ],
+      "partial": [
+        "Algorithm correct but explanation minimal."
+      ],
+      "not_yet": [
+        "No link from algorithm output to pattern."
+      ]
+    },
+    "assessment_item_templates": [
+      "Design an algorithm to generate triangular numbers; explain how it shows the pattern."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > use to interpret/explain patterns (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.SPREADSHEET_FORMULA.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Use spreadsheet formulas and vary inputs",
+    "description": "Explores formula functions in spreadsheets and observes effect of changing variable values.",
+    "detection_hint": "Look for correct cell references and recalculation when inputs change.",
+    "success_criteria": {
+      "mastery": [
+        "Builds a simple sheet with formulas and demonstrates variable change effect."
+      ],
+      "partial": [
+        "Formula works but uses hard-coded numbers; minor reference issues."
+      ],
+      "not_yet": [
+        "No working formula; no demonstration of variation."
+      ]
+    },
+    "assessment_item_templates": [
+      "Create a wage calculator using hourly rate\u00d7hours; show results when hours change."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > spreadsheet formulas (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.SORT_FILTER_DATA.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Sort and filter multivariate data",
+    "description": "Uses sorting and filtering to explore multivariate datasets algorithmically.",
+    "detection_hint": "Look for appropriate criteria and correct interpretation of filtered results.",
+    "success_criteria": {
+      "mastery": [
+        "Performs sort/filter and summarises what was learned about the variables."
+      ],
+      "partial": [
+        "Task completed but summary superficial."
+      ],
+      "not_yet": [
+        "Incorrect filtering; misreads results."
+      ]
+    },
+    "assessment_item_templates": [
+      "Filter a class dataset to find who reads >20 books and plays a sport; report counts."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > sorting/filtering data (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.SIEVE_ERATOSTHENES.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Apply the sieve of Eratosthenes",
+    "description": "Implements and explains the sieve algorithm to find primes in a given range.",
+    "detection_hint": "Look for stepwise elimination and justification of why it works.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly identifies primes up to a given bound and explains reasoning."
+      ],
+      "partial": [
+        "Applies sieve but explanation limited."
+      ],
+      "not_yet": [
+        "Mistakes in elimination leading to wrong set."
+      ]
+    },
+    "assessment_item_templates": [
+      "Use the sieve to list primes \u2264100 and explain the logic."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > sieve of Eratosthenes (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.ALG.ALGOR.TRANSFORM_UNITS_INSTRUCTIONS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Algebra",
+    "substrand": "Algorithmic thinking",
+    "title": "Write and test instructions for transformations or unit conversions",
+    "description": "Creates, tests, and refines a set of instructions (pseudocode/flowchart/digital tool) to perform shape transformations or metric unit conversions.",
+    "detection_hint": "Look for explicit inputs/outputs and a test case.",
+    "success_criteria": {
+      "mastery": [
+        "Instructions run correctly on a test case; revised after finding an issue."
+      ],
+      "partial": [
+        "Instructions mostly correct; revision minimal."
+      ],
+      "not_yet": [
+        "Instructions ambiguous; fail on test."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write instructions to convert cm\u00b2 to m\u00b2 and test on 2500 cm\u00b2."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Algebra > Algorithmic thinking > create/test instructions with a digital tool (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.MEASURING.ESTIMATE_MEASURE.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Measuring",
+    "title": "Estimate and measure with appropriate units",
+    "description": "Estimates then measures length, area, volume, capacity, mass, temperature, data storage, time, and angle using appropriate units.",
+    "detection_hint": "Look for sensible unit choice and estimation before measuring.",
+    "success_criteria": {
+      "mastery": [
+        "Chooses appropriate tools/units; estimates then measures accurately in \u22653 contexts."
+      ],
+      "partial": [
+        "Appropriate units but no pre-estimate."
+      ],
+      "not_yet": [
+        "Inappropriate units/tools; large errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Estimate and measure the classroom length (m) and temperature (\u00b0C)."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Measuring > estimate and measure (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.UNITS.BASE_PREFIX.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Measuring",
+    "title": "Use base units with metric prefixes",
+    "description": "Selects a base measure (metre, gram, litre) with suitable metric prefixes to show size of units.",
+    "detection_hint": "Look for correct prefix scaling and symbol use.",
+    "success_criteria": {
+      "mastery": [
+        "Chooses and justifies prefixes (e.g., km, cm, mL) for \u22653 contexts."
+      ],
+      "partial": [
+        "Correct choices but justification thin."
+      ],
+      "not_yet": [
+        "Incorrect prefixes or symbols."
+      ]
+    },
+    "assessment_item_templates": [
+      "Choose units for a 5 km run, a bottle of soda, and a letter's mass; justify."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Measuring > base measures with prefixes (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.CONVERT.LINEAR_CAPACITY_MASS.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Measuring",
+    "title": "Convert between metric units (length/mass/capacity)",
+    "description": "Converts between metric units using decimals to express parts of a unit.",
+    "detection_hint": "Look for \u00d7/\u00f7 by powers of 10 and correct unit notation.",
+    "success_criteria": {
+      "mastery": [
+        "Accurate conversions across \u22654 tasks; shows \u00d7/\u00f710^n."
+      ],
+      "partial": [
+        "Mostly correct; one place-value slip."
+      ],
+      "not_yet": [
+        "Incorrect factor; wrong unit symbol."
+      ]
+    },
+    "assessment_item_templates": [
+      "Convert 724 g to kg; 2.05 L to mL; 3.6 m to cm."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Measuring > convert metric units (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.CONVERT_SQUARE_UNITS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Measuring",
+    "title": "Convert units including square units",
+    "description": "Converts between metric units including area (square units).",
+    "detection_hint": "Look for squared/cubed place-value reasoning.",
+    "success_criteria": {
+      "mastery": [
+        "Converts cm\u00b2\u2194m\u00b2 correctly and explains squared scaling."
+      ],
+      "partial": [
+        "Correct result without explanation."
+      ],
+      "not_yet": [
+        "Linear scaling used incorrectly for area."
+      ]
+    },
+    "assessment_item_templates": [
+      "Convert 2500 cm\u00b2 to m\u00b2; explain the \u00d7/\u00f7100\u00b2 idea."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Measuring > convert including square units (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.RATE.SPEED_FROM_DT.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Rates & formulae",
+    "title": "Find speed given distance and time",
+    "description": "Uses v=d/t to calculate speed in appropriate units.",
+    "detection_hint": "Look for unit consistency and substitution.",
+    "success_criteria": {
+      "mastery": [
+        "Computes speed correctly in \u22652 problems; includes units."
+      ],
+      "partial": [
+        "Correct substitution; unit slip fixed after prompt."
+      ],
+      "not_yet": [
+        "Mismatched units; wrong formula use."
+      ]
+    },
+    "assessment_item_templates": [
+      "Find speed for 300 m in 50 s; express in m/s."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Rates & formulae > speed from distance and time (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.RATE.SOLVE_FOR_D_OR_T.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Rates & formulae",
+    "title": "Solve for distance or time from v=d/t",
+    "description": "Finds distance given speed and time, or time given distance and speed.",
+    "detection_hint": "Look for correct rearrangement and units.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 problems; shows rearrangement and unit conversion if needed."
+      ],
+      "partial": [
+        "Correct but one unit conversion slip."
+      ],
+      "not_yet": [
+        "Incorrect rearrangement or units."
+      ]
+    },
+    "assessment_item_templates": [
+      "How long to travel 180 km at 90 km/h? What distance in 2.5 h at 72 km/h?"
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Rates & formulae > solve for d or t (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.TIME.TIMETABLES_DURATION_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Time",
+    "title": "Read timetables & solve duration (incl. fractions of time)",
+    "description": "Reads, interprets, and uses timetables/charts and converts between units of time; solves duration with fractions of time.",
+    "detection_hint": "Look for consistent time units and subtraction of times.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly answers timetable queries and computes durations incl. \u00bd, \u00bc hour."
+      ],
+      "partial": [
+        "Correct approach; one arithmetic slip."
+      ],
+      "not_yet": [
+        "Misreads timetable; wrong unit conversion."
+      ]
+    },
+    "assessment_item_templates": [
+      "Use a bus timetable to plan arrival time; convert 1\u00bc h to minutes."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Time > timetables/duration (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.TIME.TIMETABLES_DECIMAL_TIME_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Time",
+    "title": "Use timetables, convert to common unit/decimal time; plan journeys",
+    "description": "Reads timetables/charts/results; converts times to a common unit (e.g., minutes/seconds) and uses decimal units; plans journeys.",
+    "detection_hint": "Evidence of common-unit conversion and coherent plan.",
+    "success_criteria": {
+      "mastery": [
+        "Creates a journey plan using timetable info; shows decimal time conversion."
+      ],
+      "partial": [
+        "Plan present; conversion explanation thin."
+      ],
+      "not_yet": [
+        "Inconsistent units; plan infeasible."
+      ]
+    },
+    "assessment_item_templates": [
+      "Plan a trip with two buses; express total time in minutes and as a decimal hour."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Time > timetables/decimal time/journey plan (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.AREA.PERIMETER_AREA_COMPOSITE.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Perimeter/Area/Volume",
+    "title": "Calculate perimeter and area of composite shapes",
+    "description": "Calculates perimeter and area of composite shapes made of triangles and rectangles.",
+    "detection_hint": "Look for partitioning diagrams and correct units.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22652 composite cases; labels units and shows partitioning."
+      ],
+      "partial": [
+        "Correct but units missing once."
+      ],
+      "not_yet": [
+        "Wrong partitioning; area formula misuse."
+      ]
+    },
+    "assessment_item_templates": [
+      "Find area and perimeter of an L-shaped figure (dimensions given)."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Perimeter/Area/Volume > perimeter & area (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.MEAS.VOLUME.TRI_PRISMS_COMPOSITE.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Measurement",
+    "substrand": "Perimeter/Area/Volume",
+    "title": "Calculate volume of triangular and composite rectangular prisms",
+    "description": "Calculates volume for triangular prisms and shapes composed of rectangular prisms.",
+    "detection_hint": "Look for base\u00d7height/2 \u00d7 length and additive volume for composites.",
+    "success_criteria": {
+      "mastery": [
+        "Computes volumes with units; shows decomposition for composite solids."
+      ],
+      "partial": [
+        "Correct formulas; arithmetic slip corrected."
+      ],
+      "not_yet": [
+        "Formula misuse; unit errors."
+      ]
+    },
+    "assessment_item_templates": [
+      "Find volume of a triangular prism (cross-section 8 cm by 5 cm; length 12 cm) and a composite box."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Measurement > Perimeter/Area/Volume > volume (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.SHAPES.CLASSIFY_ATTRIBUTES.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Shapes",
+    "title": "Classify and name shapes by attributes",
+    "description": "Classifies and names 2D/3D shapes based on attributes (sides, angles, faces).",
+    "detection_hint": "Look for property-based reasoning (e.g., parallel sides).",
+    "success_criteria": {
+      "mastery": [
+        "Correctly classifies a set of shapes and justifies using attributes."
+      ],
+      "partial": [
+        "Classification mostly correct; one justification weak."
+      ],
+      "not_yet": [
+        "Misclassification; uses appearance not attributes."
+      ]
+    },
+    "assessment_item_templates": [
+      "Classify shapes as triangles/quadrilaterals/polygons with reasons."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Shapes > classify/name by attributes (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.SHAPES.DESCRIBE_POLYGONS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Shapes",
+    "title": "Describe triangles, quadrilaterals, and polygons",
+    "description": "Describes triangles, quadrilaterals, and other polygons in relation to sides, diagonals, and angles.",
+    "detection_hint": "Look for formal terms (isosceles, parallelogram, diagonal).",
+    "success_criteria": {
+      "mastery": [
+        "Accurate descriptions using formal language across \u22653 shapes."
+      ],
+      "partial": [
+        "Mostly accurate but imprecise vocabulary once."
+      ],
+      "not_yet": [
+        "Vague descriptions; incorrect properties."
+      ]
+    },
+    "assessment_item_templates": [
+      "Describe properties of a kite, a rhombus, and an isosceles triangle."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Shapes > describe polygons (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.ANGLES.IDENTIFY_BASIC.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Angles",
+    "title": "Identify and describe basic angle relationships",
+    "description": "Identifies angles at a point, on a straight line, and vertically opposite angles.",
+    "detection_hint": "Look for protractor/digital measurement and naming of relationships.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly identifies and labels relationships on diagrams."
+      ],
+      "partial": [
+        "Mostly correct; one mislabel."
+      ],
+      "not_yet": [
+        "Misidentifies relationships."
+      ]
+    },
+    "assessment_item_templates": [
+      "On a diagram, label vertically opposite angles and angles on a line."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Angles > identify relationships (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.ANGLES.REASON_UNKNOWN_TRI_QUAD.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Angles",
+    "title": "Reason about unknown angles (triangles & quadrilaterals)",
+    "description": "Finds unknown angles using interior angle sums for triangles (180\u00b0) and quadrilaterals (360\u00b0) and basic relationships.",
+    "detection_hint": "Evidence of written equations and angle notation.",
+    "success_criteria": {
+      "mastery": [
+        "Solves \u22653 problems with equations and correct statements."
+      ],
+      "partial": [
+        "Correct idea; arithmetic slip."
+      ],
+      "not_yet": [
+        "No rule cited; wrong sum used."
+      ]
+    },
+    "assessment_item_templates": [
+      "Find x in a triangle with angles 65\u00b0 and 85\u00b0; find a missing angle in a quadrilateral."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Angles > reason about unknown angles (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.ANGLES.GENERALISE_RULES.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Angles",
+    "title": "Generalise and apply angle rules",
+    "description": "Generalises and applies: sum round a point 360\u00b0, sum on a straight line 180\u00b0, vertically opposite equal, interior sums for triangles/quadrilaterals.",
+    "detection_hint": "Look for rule statements connected to calculations.",
+    "success_criteria": {
+      "mastery": [
+        "States rule and applies it correctly in a novel case."
+      ],
+      "partial": [
+        "Rule stated but misapplied once."
+      ],
+      "not_yet": [
+        "No rule stated; incorrect result."
+      ]
+    },
+    "assessment_item_templates": [
+      "Explain which rules you used to solve two angle problems provided."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Angles > generalise rules (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.SPATIAL.PLAN_VIEWS.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Spatial reasoning",
+    "title": "Visualise and draw plan views of 3D shapes",
+    "description": "Visualises, constructs, and draws plan views (front, back, left, right, top) of 3D shapes.",
+    "detection_hint": "Look for consistent orientation and alignment across views.",
+    "success_criteria": {
+      "mastery": [
+        "Produces accurate set of plan views for a given model."
+      ],
+      "partial": [
+        "Most views correct; orientation slip once."
+      ],
+      "not_yet": [
+        "Views inconsistent or misaligned."
+      ]
+    },
+    "assessment_item_templates": [
+      "Draw front/top/right views of a simple block model on grid paper."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Spatial reasoning > plan views (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.SPATIAL.DRAW_NETS_PRISMS.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Spatial reasoning",
+    "title": "Draw nets for prisms",
+    "description": "Visualises and draws nets for prisms with fixed cross sections.",
+    "detection_hint": "Look for matching faces and foldability.",
+    "success_criteria": {
+      "mastery": [
+        "Produces a correct net that assembles into the prism."
+      ],
+      "partial": [
+        "Net close; needs minor adjustment."
+      ],
+      "not_yet": [
+        "Net inconsistent (faces missing/misaligned)."
+      ]
+    },
+    "assessment_item_templates": [
+      "Draw a net for a triangular prism and label dimensions."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Spatial reasoning > nets for prisms (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.TRANSFORM.RESIZE_WHOLE_UNIT_FRAC.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Transformations",
+    "title": "Resize 2D shapes by whole number or unit fraction",
+    "description": "Transforms 2D (incl. composite) shapes by resizing using whole numbers or unit fractions.",
+    "detection_hint": "Look for scale factor application and dimension updates.",
+    "success_criteria": {
+      "mastery": [
+        "Rescales shapes accurately and labels new dimensions."
+      ],
+      "partial": [
+        "Rescales but misses one dimension."
+      ],
+      "not_yet": [
+        "Scale factor applied inconsistently."
+      ]
+    },
+    "assessment_item_templates": [
+      "Resize a rectangle by a factor of 1/2 and 3; show dimensions."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Transformations > resizing by whole/unit fraction (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.TRANSFORM.INVARIANT_PROPERTIES.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Transformations",
+    "title": "Recognise invariant properties under transformations",
+    "description": "Recognises which properties (angles, side lengths, area, orientation) remain unchanged under specific transformations.",
+    "detection_hint": "Look for tests or explanations using tracing paper/rulers/protractors.",
+    "success_criteria": {
+      "mastery": [
+        "Correctly identifies invariants for reflection, rotation, translation, enlargement."
+      ],
+      "partial": [
+        "Mostly correct; confuses orientation vs angle once."
+      ],
+      "not_yet": [
+        "Incorrect invariants."
+      ]
+    },
+    "assessment_item_templates": [
+      "State what changes/doesn't under a reflection and an enlargement."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Transformations > invariant properties (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.PATHWAYS.COORDS_COMPASS.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Pathways",
+    "title": "Use coordinates and compass points to describe positions/pathways",
+    "description": "Interprets and communicates locations with coordinates, angle measures, and the 8 main/halfway compass points.",
+    "detection_hint": "Look for clear coordinate pairs and compass bearings.",
+    "success_criteria": {
+      "mastery": [
+        "Describes or follows a pathway using coordinates and compass points accurately."
+      ],
+      "partial": [
+        "Mostly correct; one bearing/coordinate slip."
+      ],
+      "not_yet": [
+        "Incorrect coordinates; ambiguous directions."
+      ]
+    },
+    "assessment_item_templates": [
+      "Give directions from A to B using grid coordinates and compass points."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Pathways > coordinates & compass (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.GEO.PATHWAYS.MAP_SCALES_GRIDREF.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Geometry",
+    "substrand": "Pathways",
+    "title": "Use map scales and grid references to plan routes",
+    "description": "Uses map scales, compass points, distance, and turn to interpret/communicate positions; uses 4-digit grid references; calculates distances and efficient routes.",
+    "detection_hint": "Evidence of scale use and clear route justification.",
+    "success_criteria": {
+      "mastery": [
+        "Calculates distances via scale and presents an efficient route with grid refs."
+      ],
+      "partial": [
+        "Distances/route mostly correct; justification brief."
+      ],
+      "not_yet": [
+        "Scale ignored or incorrect; unclear route."
+      ]
+    },
+    "assessment_item_templates": [
+      "On a map with 1:50 000 scale, estimate distance between two points and give a route using 4-digit grid references."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Geometry > Pathways > map scales & grid references (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.PROBLEM_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Problem",
+    "title": "Pose an investigative question and conjecture (local context)",
+    "description": "Poses a clear investigative question about a local matter and makes conjectures about expected findings.",
+    "detection_hint": "Look for variable, group of interest, and intent in the question.",
+    "success_criteria": {
+      "mastery": [
+        "Question includes variable/group/intent; conjecture plausible and contextual."
+      ],
+      "partial": [
+        "Question almost complete; conjecture vague."
+      ],
+      "not_yet": [
+        "Question lacks key elements; no conjecture."
+      ]
+    },
+    "assessment_item_templates": [
+      "Pose a question about screen time in our class and predict the typical value."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Problem (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.PROBLEM_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Problem",
+    "title": "Pose investigative question and conjecture",
+    "description": "As Y7, with attention to different dataset types (summary, comparison, time-series, relationship).",
+    "detection_hint": "Look for specifying data structure and comparison groups where relevant.",
+    "success_criteria": {
+      "mastery": [
+        "Question tailored to dataset type; conjecture linked to type."
+      ],
+      "partial": [
+        "Adequate question but type not explicit."
+      ],
+      "not_yet": [
+        "Question mismatched to dataset type."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write a comparison question about two sports teams\u2019 scoring this season."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Problem (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.PLAN_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Plan",
+    "title": "Plan data collection ethically",
+    "description": "Plans how to collect/source data: determines variables, identifies group, and builds awareness of ethical practices via strategic questioning.",
+    "detection_hint": "Look for a written plan with variables, group, and ethical considerations.",
+    "success_criteria": {
+      "mastery": [
+        "Complete plan with variables, group, and at least two ethical checks."
+      ],
+      "partial": [
+        "Plan present; one element vague."
+      ],
+      "not_yet": [
+        "Missing variables/group or no ethics noted."
+      ]
+    },
+    "assessment_item_templates": [
+      "Plan how to collect data on daily step counts for our class; include ethics."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Plan (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.PLAN_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Plan",
+    "title": "Plan and explain variables/groups (incl. secondary data)",
+    "description": "Explains variables and groups in secondary datasets; poses survey/data-collection questions; discusses potential misinterpretations.",
+    "detection_hint": "Evidence of identifying errors and proposing improvements.",
+    "success_criteria": {
+      "mastery": [
+        "Explains variables/groups from a provided dataset and drafts improved questions."
+      ],
+      "partial": [
+        "Explanation okay; improvements minimal."
+      ],
+      "not_yet": [
+        "Misidentifies variables/groups; no improvements."
+      ]
+    },
+    "assessment_item_templates": [
+      "Examine a given secondary dataset and rewrite two poor survey questions."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Plan (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.DATA_COLLECT_DICT_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Data",
+    "title": "Collect data and create an informal data dictionary",
+    "description": "Collects primary data or gathers info; creates a simple informal data dictionary; checks for errors.",
+    "detection_hint": "Look for consistent recording and corrections.",
+    "success_criteria": {
+      "mastery": [
+        "Data table complete; dictionary lists variable names/units/notes; errors corrected."
+      ],
+      "partial": [
+        "Mostly complete; minor omissions."
+      ],
+      "not_yet": [
+        "Poor recording; no dictionary; errors unaddressed."
+      ]
+    },
+    "assessment_item_templates": [
+      "Collect height and shoe size data; build a short data dictionary."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Data (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.PPDAC.DATA_COLLECT_DICT_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Enquiry: Data",
+    "title": "Collect/source data; correct errors; document context",
+    "description": "Collects or sources data; checks and corrects errors; creates a dictionary with contextual notes.",
+    "detection_hint": "Evidence of error checking and update cycle.",
+    "success_criteria": {
+      "mastery": [
+        "Finds/corrects errors and documents context in dictionary."
+      ],
+      "partial": [
+        "Finds errors; documentation thin."
+      ],
+      "not_yet": [
+        "No error checking."
+      ]
+    },
+    "assessment_item_templates": [
+      "Source a dataset, identify two errors, fix them, and update the data dictionary."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Enquiry > Data (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.DATA.TABLE_STRUCTURE.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Data",
+    "title": "Interpret table structure (rows as individuals; columns as variables)",
+    "description": "Explains table design where rows represent individuals and columns represent variables; identifies variable type.",
+    "detection_hint": "Look for correct identification and example statements per row/column.",
+    "success_criteria": {
+      "mastery": [
+        "Interprets two tables correctly and labels variable types."
+      ],
+      "partial": [
+        "Understands structure but mislabels one variable type."
+      ],
+      "not_yet": [
+        "Confuses rows/columns or types."
+      ]
+    },
+    "assessment_item_templates": [
+      "Choose a dataset and explain what a row shows; classify each variable."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Data > table structure (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.ANALYSIS.CREATE_VIS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Analysis",
+    "title": "Create appropriate data visualisations",
+    "description": "Creates appropriate displays for variable types using hand/digital tools; reads, reads between, and reads behind the data.",
+    "detection_hint": "Look for display\u2013variable type match and commentary beyond the obvious.",
+    "success_criteria": {
+      "mastery": [
+        "Produces correct displays and provides 'read, between, behind' commentary."
+      ],
+      "partial": [
+        "Displays correct; commentary basic."
+      ],
+      "not_yet": [
+        "Inappropriate display or no commentary."
+      ]
+    },
+    "assessment_item_templates": [
+      "Create a dot plot for heights and a bar chart for sports; write two insights for each."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Analysis > create displays & read data (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.ANALYSIS.DESCRIBE_DISTS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Analysis",
+    "title": "Describe distributions in context and compare groups",
+    "description": "Describes centre, spread, shape, and unusual features; compares groups where relevant.",
+    "detection_hint": "Look for contextual language tied to the investigative question.",
+    "success_criteria": {
+      "mastery": [
+        "Writes 3\u20134 sentences naming centre/spread/shape/outliers and linking to context; compares groups."
+      ],
+      "partial": [
+        "Mentions two features; limited context link."
+      ],
+      "not_yet": [
+        "Purely procedural or no features."
+      ]
+    },
+    "assessment_item_templates": [
+      "Describe the distribution shown in a dot plot and compare two classes."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Analysis > describe distributions & compare (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.CONCLUSION.COMMUNICATE.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Conclusion",
+    "title": "Communicate findings and reflect on conjectures",
+    "description": "Communicates findings that answer the investigative question; compares to initial conjectures; considers explanations.",
+    "detection_hint": "Look for concise, justified statements tied to displays and context.",
+    "success_criteria": {
+      "mastery": [
+        "Presents succinct findings with evidence; reflects on conjectures and possible explanations."
+      ],
+      "partial": [
+        "Findings present but reflection shallow."
+      ],
+      "not_yet": [
+        "Findings unrelated to question or displays."
+      ]
+    },
+    "assessment_item_templates": [
+      "Write a brief conclusion for your investigation, linking to your conjecture."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Conclusion > communicate in context (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.LITERACY.EVALUATE_CLAIMS_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Statistical literacy",
+    "title": "Evaluate claims using others\u2019 visualisations",
+    "description": "Evaluates findings of others to check if claims are supported by the data visualisations used.",
+    "detection_hint": "Look for matching statements to evidence on the graphs.",
+    "success_criteria": {
+      "mastery": [
+        "Accurately judges if a claim is supported and references specific graph features."
+      ],
+      "partial": [
+        "Judgement mostly sound; evidence reference vague."
+      ],
+      "not_yet": [
+        "Accepts/rejects claims without evidence."
+      ]
+    },
+    "assessment_item_templates": [
+      "Given a media chart, decide if the claim is supported; cite features."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Statistical literacy > evaluate claims (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.STAT.LITERACY.EVALUATE_METHODS_CLAIMS_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Statistics",
+    "substrand": "Statistical literacy",
+    "title": "Evaluate methods, visualisations, and claims",
+    "description": "Evaluates data-collection methods, visualisations, and findings of others; identifies misleading graphs; justifies statements with interrogative questions.",
+    "detection_hint": "Look for clear critique of method and graph choice, with probing questions.",
+    "success_criteria": {
+      "mastery": [
+        "Identifies flaws/misleading features and poses probing questions; makes justified judgement."
+      ],
+      "partial": [
+        "Identifies some issues; justification partial."
+      ],
+      "not_yet": [
+        "No critique; takes findings at face value."
+      ]
+    },
+    "assessment_item_templates": [
+      "Critique a chart and its data-collection method; propose an improved visualisation."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Statistics > Statistical literacy > evaluate methods/claims (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.PROB.INVESTIGATE.EXPERIMENTAL_Y7.v1",
+    "phase": "3",
+    "years": [
+      "7"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Probability",
+    "substrand": "Investigations",
+    "title": "Conduct probability experiments and summarise results",
+    "description": "Plans and conducts probability experiments with many trials (incl. digital tools), visualises outcomes, describes patterns, and estimates probabilities.",
+    "detection_hint": "Look for a clear investigative question, large n, and a summary display of outcomes.",
+    "success_criteria": {
+      "mastery": [
+        "Runs \u2265100 trials (or digital equivalent), creates a distribution, and estimates probabilities."
+      ],
+      "partial": [
+        "Experiment run but too few trials or summary thin."
+      ],
+      "not_yet": [
+        "Haphazard trials; no visualisation or estimates."
+      ]
+    },
+    "assessment_item_templates": [
+      "Simulate 100 spins of a spinner and report outcome frequencies and estimated probabilities."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Probability > Investigations > experimental probability (Y7)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.PROB.INVESTIGATE.EXPERIMENTAL_THEORETICAL_Y8.v1",
+    "phase": "3",
+    "years": [
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Probability",
+    "substrand": "Investigations",
+    "title": "Compare experimental results with theoretical models",
+    "description": "Plans and conducts experiments; creates visualisations of observed and theoretical outcomes; proposes theoretical outcomes where no model exists; compares results.",
+    "detection_hint": "Evidence of sample space modelling and comparison commentary.",
+    "success_criteria": {
+      "mastery": [
+        "Builds a model (list/table/tree), compares to experiment, and explains differences/variation."
+      ],
+      "partial": [
+        "Model present; comparison brief."
+      ],
+      "not_yet": [
+        "No model; inappropriate comparison."
+      ]
+    },
+    "assessment_item_templates": [
+      "Roll two dice 200 times; compare experimental distribution of sums to the theoretical model."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Probability > Investigations > experimental vs theoretical (Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.PROB.REPRESENT.SAMPLE_SPACE.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Probability",
+    "substrand": "Representation",
+    "title": "Represent outcomes and sample spaces",
+    "description": "Represents probability outcomes using lists, tables, tree diagrams, tally charts, distributions, words, numbers, and technology.",
+    "detection_hint": "Look for completeness of sample space and correct probabilities when applicable.",
+    "success_criteria": {
+      "mastery": [
+        "Constructs complete sample spaces and, when applicable, assigns correct probabilities."
+      ],
+      "partial": [
+        "Representation mostly complete; minor omissions."
+      ],
+      "not_yet": [
+        "Incomplete/incorrect sample space."
+      ]
+    },
+    "assessment_item_templates": [
+      "List outcomes for two-coin flips; make a tree diagram for two dice sums."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Probability > Representation > sample spaces (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  },
+  {
+    "id": "MATH.P3.PROB.CRITICAL.CHECK_OTHERS.v1",
+    "phase": "3",
+    "years": [
+      "7",
+      "8"
+    ],
+    "learning_area": "Mathematics and Statistics",
+    "domain": "Mathematics",
+    "strand": "Probability",
+    "substrand": "Critical thinking",
+    "title": "Check others\u2019 chance claims against evidence",
+    "description": "Identifies, explains, and checks others\u2019 statements about chance-based investigations using interrogative questions and evidence.",
+    "detection_hint": "Look for alignment/mismatch of claims with experimental/theoretical results and consideration of sample size.",
+    "success_criteria": {
+      "mastery": [
+        "Accurately judges claims with references to data/model and raises probing questions."
+      ],
+      "partial": [
+        "Sound judgement but limited probing."
+      ],
+      "not_yet": [
+        "Accepts claims uncritically; no reference to evidence."
+      ]
+    },
+    "assessment_item_templates": [
+      "A friend reports 5 heads in 5 flips and says the coin is biased\u2014respond with evidence and questions."
+    ],
+    "progress_outcome_ref": "Phase3_PO",
+    "teaching_sequence_refs": [
+      "Probability > Critical thinking > evaluate others' claims (Y7\u2013Y8)"
+    ],
+    "metadata": {
+      "version": 1,
+      "last_reviewed": "2025-09-02",
+      "source_url": "https://newzealandcurriculum.tahurangi.education.govt.nz/5637289333.p"
+    }
+  }
+]
