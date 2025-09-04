@@ -1,61 +1,58 @@
 # Context Engineering for NCEA Assessments
 
-> **This is essentially a hack to make any LLM work effectively as a teaching assistant within the context of NCEA.**
+> **Think of this as a practical hack to get any LLM working like a teaching assistant in the NCEA space.**
 
-This framework creates a structured context scaffold—guiding an LLM to function as a tutor, grader, or guide aligned with New Zealand’s NCEA standards. It carefully designs the input ecosystem to shape behavior, evaluation, and domain specificity.
+The idea is simple: build a structured scaffold that shapes how an LLM behaves. Done right, it can act like a tutor, a grader, or a guide—always tied back to New Zealand’s NCEA standards. It’s about setting up the right input ecosystem so the model stays focused, accurate, and useful.
 
-## Core Artifacts
+## Core Pieces
 
 1. **LLM Instructions**  
 2. **Assessment (Observable Micro-Indicators, OMIs)**  
-3. **Content-Knowledge** *(optional)*
+3. **Content Knowledge** *(optional)*
 
 ---
 
-## In-Depth Artifact Breakdown
+## Breaking It Down
 
 ### 1. LLM Instructions  
-Defines the specific instructional roles an LLM can adopt:
+These spell out the roles the LLM can take on:
 
 - **Process Instructor**  
-  Guides students through procedural steps—offering structure and direction on how to plan, approach, and solve tasks.
+  Helps students step through a task—planning, structuring, problem-solving.
 
 - **Knowledge Instructor**  
-  Serves as a tutor—explaining concepts clearly, helping students grasp subject matter, and articulate their understanding.
+  Acts like a subject tutor—explains concepts, answers questions, builds understanding.
 
 - **Grader**  
-  Evaluates student submissions by mapping them to observable indicators aligned with NZQA Achievement Standards—providing standards-based, structured feedback.
+  Maps student work against observable indicators from NZQA Achievement Standards, giving feedback that’s structured and standards-based.
 
-### 2. Assessment (Observable Micro-Indicators, OMIs)  
-This is the heart of the framework. OMIs decompose Achievement Standards into actionable elements:
+### 2. Assessment (OMIs)  
+This is the backbone. OMIs turn standards into things you can actually see and check:
 
 - **Observable Elements**  
-  Clearly defined, assessable performance markers.
+  Clear, measurable markers of performance.
 
 - **Detection Hints**  
-  Indicators the LLM can look for to recognize student understanding or skill demonstration.
+  Cues for spotting whether the student has shown understanding.
 
-- **Examples of Expected Work**  
-  Sample responses or artifacts that illustrate successful performance.
+- **Examples**  
+  Sample responses that show what success looks like.
 
-This ensures LLM assessments are precise, transparent, and tightly coupled to NZQA criteria.
+With OMIs, grading becomes transparent, consistent, and tied directly to NZQA criteria.
 
-### 3. Content-Knowledge *(Optional Artifact)*  
-A curated repository of domain-specific content—examples, definitions, scaffolds—that narrows the LLM’s output scope. Including this artifact provides factual grounding, improving output relevance and pedagogical accuracy.
-
----
-
-## Why This Structure Works
-
-By assembling these artifacts:
-
-- **LLM Instructions** guide the behavior and roles of the model.
-- **OMIs** anchor evaluations to clear, observable student outcomes.
-- **Content-Knowledge** grounds responses in accurate, focused domain context.
-
-Together, they form a **context engineering** approach—where you're not just instructing the LLM, you're crafting the environment it needs to act effectively as an NCEA-aligned teaching assistant.
-
-> Context engineering is "building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task." :contentReference[oaicite:1]{index=1}
+### 3. Content Knowledge *(Optional)*  
+A bank of subject-specific stuff—definitions, examples, scaffolds. This narrows the LLM’s output, keeping it accurate and relevant.
 
 ---
 
+## Why Bother?
+
+Because when you put it together:
+
+- **LLM Instructions** tell the model how to behave.  
+- **OMIs** lock assessments to real, observable outcomes.  
+- **Content Knowledge** keeps things grounded in fact.  
+
+That’s context engineering: not just telling the model what to do, but building the environment it needs to actually work as an NCEA-aligned teaching assistant.
+
+> Context engineering is basically “setting up the system so the LLM has the right info, in the right way, to get the job done.”
