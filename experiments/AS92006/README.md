@@ -44,8 +44,3 @@ Open your preferred LLM-as-service platform:
   - *“Evaluate this student response: [insert answer].”*
 - Observe how the assistant responds—instructor mode, grader mode, etc.
 
-
----
-
-Need help drafting a template JSON for another standard, or supporting more intuitive upload instructions? Let me know—I’m happy to help!
-::contentReference[oaicite:2]{index=2}
