@@ -10,7 +10,7 @@ This guide shows how to construct a **context-engineered LLM assistant** by comb
 
 1. **LLM Instructions** – defining the role (Process Instructor, Knowledge Instructor, Grader)  
 2. **Assessment (OMIs)** – finely—decomposed indicators  
-3. **Content-Knowledge (Optional)** – focused domain resources  
+3. **Content-Knowledge** – focused domain resources  
 
 Rather than creating these artifacts yourself, you’ll **download the premade files** from the repository and integrate them into your chosen LLM platform.
 
@@ -20,41 +20,24 @@ Rather than creating these artifacts yourself, you’ll **download the premade f
 
 ### 1. Download the Pre-Made Artifacts
 
-From the Modos repository (AS92006 experiment), grab:
+From the repository (AS92006 experiment), grab:
 
-- `AS92006.json` — contains the **LLM Instructions** and **OMIs**
-- `content-knowledge.txt` — contains targeted domain material (optional but recommended)  
+- `AS92006.json` — contains the **OMIs**
+- `content-knowledge.txt` — contains targeted domain material  
   *These files are accessible in the `experiments/AS92006` directory.* :contentReference[oaicite:1]{index=1}
 
 ### 2. Prepare Your LLM Environment
 
 Open your preferred LLM-as-service platform:
-- **Gemini Gem**, **CustomGPT**, **Replit.ai**, or similar
+- **Gemini Gem**, **CustomGPT**, or similar
 
 ### 3. Upload or Paste the Artifacts
 
-- **File Upload Area**: Upload both `AS92006.json` and `content-knowledge.txt` (if using).
-- **Instruction Prompt Field**: Open the JSON file and **copy the instructions section** into the instruction/system prompt area.
+- **File Upload Area**: Upload both `AS92006.json` and `content-knowledge.txt`.
+- **Instruction Prompt Field**: Open the `instruction-prompt.txt` and **copy the instructions** into the instruction/system prompt area of your LLM.
 
-### 4. Configure Your Instructional Roles
 
-Within the JSON, you'll find definitions for three roles:
-
-- **Process Instructor** – To guide students through step-by-step tasks
-- **Knowledge Instructor** – To explain concepts and support understanding
-- **Grader** – To evaluate student responses against OMIs mapped to the Achievement Standard
-
-Ensure these instructions are correctly pasted into the platform’s system or instruction prompt area.
-
-### 5. Load the Assessment (OMIs)
-
-From the same JSON file, locate the **OMIs**—the finely grained, observable indicators. Paste them into a section (or file) labeled "Assessment" or similar so the LLM can reference what to look for.
-
-### 6. (Optional) Add Domain Content
-
-If using `content-knowledge.txt`, upload or paste that to provide context-limited, domain-specific examples and scaffolded materials. This helps the LLM keep focused and accurate in outputs.
-
-### 7. Finalize and Test
+### 4. Finalize and Test
 
 - Save your LLM setup.
 - Try out simple prompts like:
