@@ -59,4 +59,3 @@ Together, they form a **context engineering** approach—where you're not just i
 
 ---
 
-Need help embedding this into your README or expanding it with examples of each role in action? Let me know!
