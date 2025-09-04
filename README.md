@@ -1,56 +1,62 @@
-# Modos
+# Context Engineering for NCEA Assessments
 
-**Modos** is a framework for designing AI tutors that think and teach like real educators — shifting between strategies, circling back to concepts, and responding to students in real time.
+> **This is essentially a hack to make any LLM work effectively as a teaching assistant within the context of NCEA.**
 
-At its core, Modos is built on a simple idea:  
-*Learning is messy, non-linear, and effortful.*  
-Students often need to explore, struggle, revise, and reframe before something truly clicks. Great teachers shift their approach to support that. **Modos brings this adaptive mindset to AI.**
+This framework creates a structured context scaffold—guiding an LLM to function as a tutor, grader, or guide aligned with New Zealand’s NCEA standards. It carefully designs the input ecosystem to shape behavior, evaluation, and domain specificity.
 
-Modos is not a chatbot or plug-and-play tutor — it's a toolkit to help you build *your own* AI tutors that do two things well:
+## Core Artifacts
 
----
-
-## The Two Paths
-
-Modos provides two core tutor frameworks:
-
-###  `/understand/`  
-For **building conceptual understanding** — helping students describe, explain, and analyse ideas.  
-These tutors guide learning by questioning, checking for misconceptions, and offering structured explanations.
-
-> Think: science concepts, essay topic understanding, history themes, math ideas.
-
-###  `/process/`  
-For **constructing student work** — guiding the process of writing an essay, building a brief, or planning a response.  
-These tutors focus on structure, idea development, and clarity — helping students shape their thinking as they work.
-
-> Think: design briefs, English essays, project plans, technology portfolios.
+1. **LLM Instructions**  
+2. **Assessment (Observable Micro-Indicators, OMIs)**  
+3. **Content-Knowledge** *(optional)*
 
 ---
 
-##  How It Works
+## In-Depth Artifact Breakdown
 
-Modos tutors are built using 3 key elements:
-- **OMIs (Observable Micro-Indicators):** Small, checkable indicators of learning or task completion.
-- **Content files:** Examples, definitions, and scaffolds that ground the AI’s feedback.
-- **Instruction prompts:** Define the AI’s teaching role, its modes (e.g. quiz, explain, diagnose), and how it shifts strategies in response to student needs.
+### 1. LLM Instructions  
+Defines the specific instructional roles an LLM can adopt:
+
+- **Process Instructor**  
+  Guides students through procedural steps—offering structure and direction on how to plan, approach, and solve tasks.
+
+- **Knowledge Instructor**  
+  Serves as a tutor—explaining concepts clearly, helping students grasp subject matter, and articulate their understanding.
+
+- **Grader**  
+  Evaluates student submissions by mapping them to observable indicators aligned with NZQA Achievement Standards—providing standards-based, structured feedback.
+
+### 2. Assessment (Observable Micro-Indicators, OMIs)  
+This is the heart of the framework. OMIs decompose Achievement Standards into actionable elements:
+
+- **Observable Elements**  
+  Clearly defined, assessable performance markers.
+
+- **Detection Hints**  
+  Indicators the LLM can look for to recognize student understanding or skill demonstration.
+
+- **Examples of Expected Work**  
+  Sample responses or artifacts that illustrate successful performance.
+
+This ensures LLM assessments are precise, transparent, and tightly coupled to NZQA criteria.
+
+### 3. Content-Knowledge *(Optional Artifact)*  
+A curated repository of domain-specific content—examples, definitions, scaffolds—that narrows the LLM’s output scope. Including this artifact provides factual grounding, improving output relevance and pedagogical accuracy.
 
 ---
 
-## Getting Started
+## Why This Structure Works
 
-If you’re new to Modos, check out the [`getting-started/`](./getting-started) folder for a walkthrough on:
-- How to define OMIs
-- How to structure prompts
-- How to deploy tutors using your preferred LLM platform (e.g. GPT Builder, OpenRouter)
+By assembling these artifacts:
 
-Modos is model-agnostic and works with any system that supports prompt-based AI behavior.
+- **LLM Instructions** guide the behavior and roles of the model.
+- **OMIs** anchor evaluations to clear, observable student outcomes.
+- **Content-Knowledge** grounds responses in accurate, focused domain context.
+
+Together, they form a **context engineering** approach—where you're not just instructing the LLM, you're crafting the environment it needs to act effectively as an NCEA-aligned teaching assistant.
+
+> Context engineering is "building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task." :contentReference[oaicite:1]{index=1}
 
 ---
 
-## Why Use Modos?
-
-Because students don’t all need the same explanation — and they don’t all get it the first time.
-
-Modos tutors adapt. They shift modes. They explain differently.  
-They pause, redirect, or ask questions — just like good teachers do.
+Need help embedding this into your README or expanding it with examples of each role in action? Let me know!
