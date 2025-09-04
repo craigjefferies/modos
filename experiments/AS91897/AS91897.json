@@ -71,8 +71,8 @@
 "description": "Effectively uses project management and version control tools and techniques to manage development.",
 "level": "M",
 "weight": 1,
-"detection_hint": "Show evidence of effective management (e.g., commit history/branches, milestone updates, collaboration logs). Naming tools without demonstrating management use is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": ["effectively using project management and version control tools and techniques"],
+"detection_hint": "Show evidence of effective management (e.g., file versions or folder archives, milestone updates, planning updates or comopletions, collaboration logs). Naming tools without demonstrating management use is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": ["effectively using ongoing project management (eg updates, status changes) and version control tools and techniques"],
 "source_ref": "AS PDF p2 (Merit); Moderator commentary: Assessment guidance"
 },
 {
