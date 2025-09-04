@@ -36,7 +36,6 @@ Open your preferred LLM-as-service platform:
 - **File Upload Area**: Upload both `AS92006.json` and `content-knowledge.txt`.
 - **Instruction Prompt Field**: Open the `instruction-prompt.txt` and **copy the instructions** into the instruction/system prompt area of your LLM.
 
-
 ### 4. Finalize and Test
 
 - Save your LLM setup.
@@ -45,32 +44,6 @@ Open your preferred LLM-as-service platform:
   - *“Evaluate this student response: [insert answer].”*
 - Observe how the assistant responds—instructor mode, grader mode, etc.
 
-Based on performance, iterate:
-- Refine the instruction prompts
-- Adjust OMI alignment
-- Tweak content knowledge inclusion
-
----
-
-##  Why This Works
-
-You are engineering the **context**—not just giving a prompt—so the LLM receives:
-
-| Artifact              | Role in Context Engineering                                 |
-|-----------------------|-------------------------------------------------------------|
-| **LLM Instructions**  | Defines tutor’s behavior (process, knowledge, evaluation)    |
-| **OMIs (Assessment)** | Targets evaluation against clear, observable criteria        |
-| **Content-Knowledge** | Provides domain grounding and keeps outputs focused           |
-
-This method embodies **context engineering**, ensuring the LLM has just the right inputs to reliably perform as a teaching assistant tailored to NCEA AS92006.
-
----
-
-##  Next Steps
-
-- Train other teachers to replicate this workflow easily
-- Develop similar artifacts for other standards
-- Build a shared library of LLM Gems/CustomGPTs for NCEA teaching across standards
 
 ---
 
