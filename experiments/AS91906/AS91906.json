@@ -1,1 +1,160 @@
-
+{
+  "meta": {
+    "as_code": "AS91906",
+    "title": "Use complex programming techniques to develop a computer program",
+    "version": "2",
+    "credits": 6,
+    "assessment_type": "Internal",
+    "source_pdf": "as91906.pdf",
+    "purpose": "This achievement standard involves using complex programming techniques to develop a computer program."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "program_performs_specified_task",
+      "description": "The program demonstrably performs the specified task end-to-end with observable inputs and outputs.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Require runnable evidence (screens, logs, or screencast) showing the task being completed. Statements of intent without execution do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Runs and completes the specified task as described."],
+      "source_ref": "AS PDF Explanatory Note (purpose/outcome)"
+    },
+    {
+      "id": "use_two_or_more_complex_techniques",
+      "description": "Evidence shows the use of two or more complex programming techniques within the solution.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Name and show where each complex technique is used (e.g., files/GUI/objects/collections/API). Listing features without code/application is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Tagged tests: T3→file I/O, T5→API error handling."],
+      "source_ref": "AS PDF Explanatory Notes on complex techniques"
+    },
+    {
+      "id": "uses_core_structures_collection",
+      "description": "Solution uses sequence, selection, iteration, and accesses data in a collection.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Show at least one if/else, one loop, and explicit collection access (index/iterate/mutate). Initialising a collection without access is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["for item in items:", "scores.append(current)"],
+      "source_ref": "AS PDF programming requirements"
+    },
+    {
+      "id": "store_two_data_types",
+      "description": "Program stores at least two distinct data types in variables used in the solution.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Identify two different data types in code or logs (e.g., string and integer). Mixed containers count only if element type differs from other variables. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["player_name: str; attempts: int"],
+      "source_ref": "AS PDF programming requirements"
+    },
+    {
+      "id": "expected_case_testing_and_debugging",
+      "description": "Organised testing shows expected inputs, expected/actual outputs, and at least one debugging change that resolves a failure.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Require a table or log pairing inputs with expected and actual outputs plus one before/after debugging artefact (diff/commit/annotated screenshot). Claims like “it works” are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Input 5 → Expected Pass; Actual Fail → fixed loop → Actual Pass"],
+      "source_ref": "Moderator commentary: Assessment guidance; Performance overview"
+    },
+    {
+      "id": "code_clearly_set_out_and_commented",
+      "description": "Code layout is readable and includes meaningful comments that describe function/behaviour of sections.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Look for comments adjacent to relevant code explaining behaviour or purpose. Single-word labels or header-only comments are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["# Validate input before processing results"],
+      "source_ref": "AS PDF explanatory notes on documentation"
+    },
+    {
+      "id": "language_conventions_followed",
+      "description": "Follows conventions for the chosen language (naming, layout, organisation), evidenced by consistent idioms or tooling.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Accept linter/formatter output or consistent idiomatic usage (naming, module structure). Personal style that contradicts conventions is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Formatter/linter report attached; modules named by feature."],
+      "source_ref": "Moderator commentary: Assessment guidance"
+    },
+    {
+      "id": "comments_clarify_purpose",
+      "description": "Comments explain WHY each significant section exists and how it serves the task, not line-by-line narration.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Require purpose-focused comments across key blocks; restating what the code does line by line is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["# Guard against overflow before pricing calculation"],
+      "source_ref": "AS PDF explanatory notes on documentation"
+    },
+    {
+      "id": "boundary_case_testing_documented",
+      "description": "Testing includes below/on/above values for each relevant boundary with rationale tied to specification or code constraints.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "For each boundary, show tests below, on, and above with results and a reason the boundary exists. Mentioning ‘boundary’ without values/results is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Limit 100: 99 (below), 100 (on), 101 (above)"],
+      "source_ref": "Moderator commentary: Practices that need strengthening"
+    },
+    {
+      "id": "flexible_and_robust_implementation",
+      "description": "Implementation is flexible and robust via constants/configuration and parameterised functions; no scattered magic numbers.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Require constants/config entries and parameterised functions so behaviour changes via configuration, not code edits. Repeated literals or copy-pasted values are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["GST_RATE used across pricing; no hard-coded 0.15"],
+      "source_ref": "Moderator commentary: Assessment guidance"
+    },
+    {
+      "id": "comprehensive_testing_and_debugging",
+      "description": "Testing is comprehensive, covering expected, boundary, and where relevant invalid cases, with clear outcomes and rationale.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Show broad coverage and reasoning for chosen cases; include summary of outcomes and fixes. Sparse or anecdotal tests are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Matrix of inputs → outcomes; defects fixed and retested."],
+      "source_ref": "AS PDF explanatory notes on Excellence testing"
+    },
+    {
+      "id": "invalid_case_testing",
+      "description": "Invalid inputs are handled gracefully with recovery (message, retry, default, or safe abort).",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Show at least one invalid test per user-facing input and the recovery path. Crashes or silent failures do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Input 'abc' → 'Enter a number' → prompt repeats"],
+      "source_ref": "Moderator commentary: Assessment guidance"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
