@@ -5,7 +5,7 @@
 ## 1. Fitness Tracker (Original Task)
 
 ### Context
-Wanaka Rec Centre wants a simple program for users to track their workouts over multiple days and receive feedback.
+The Local Rec Centre wants a simple program for users to track their workouts over multiple days and receive feedback.
 
 ### Task Specifications
 - Ask for the user’s name.
