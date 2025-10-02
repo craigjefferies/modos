@@ -1,0 +1,176 @@
+{
+"meta": {
+"as_code": "AS91893",
+"title": "Use advanced techniques to develop a digital media outcome",
+"version": "1",
+"credits": 4,
+"assessment_type": "Internal",
+"source_pdf": "as91893.pdf",
+"purpose": "This achievement standard involves using advanced techniques to develop a digital media outcome. 
+
+as91893
+
+"
+},
+"grade_descriptors": {
+"N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+"N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+"A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+"A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+"M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+"M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+"E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+"E8": "All Achieved, Merit, and Excellence indicators are met."
+},
+"key_terms": [],
+"omis": [
+{
+"id": "appropriate_tools_for_purpose_and_end_users",
+"description": "Uses appropriate tools and techniques that match the stated purpose and identified end users of the media outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Tools must be explicitly tied to purpose and end users (e.g., why this editor/template fits). Listing tools without linkage does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using appropriate tools and techniques for the purpose and end users"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Achieved). 
+
+as91893
+
+"
+},
+{
+"id": "data_integrity_and_testing_applied",
+"description": "Applies data integrity and testing procedures to show the outcome functions as intended and information is fit for use.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Look for explicit tests (e.g., device/browser/format checks) and statements of integrity/accuracy. Vague claims of ‘it works’ are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"applying appropriate data integrity and testing procedures"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Achieved); Achieved commentary: “applied data integrity and testing… functions as intended”."
+},
+{
+"id": "relevant_conventions_used_for_media_type",
+"description": "Uses conventions relevant to the chosen media type (e.g., layout, structure, code practices) within the outcome.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Conventions must be named and shown in the artefact (e.g., alignment, hierarchy; valid HTML/CSS). Generic ‘followed conventions’ does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using relevant conventions for the media type"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Achieved); Achieved commentary examples of conventions."
+},
+{
+"id": "relevant_implications_explained",
+"description": "Explains identified relevant implications for the outcome (what they are, why relevant, and how they might be addressed).",
+"level": "A",
+"weight": 1,
+"detection_hint": "Must include explanation of implication + relevance + approach to address. Naming ‘accessibility’ alone is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"explaining relevant implications"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Achieved); Achieved commentary on explaining implications."
+},
+{
+"id": "at_least_two_advanced_techniques_evidenced",
+"description": "Demonstrates at least two advanced techniques in one media type, evidenced in artefacts or logs.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Evidence must show two distinct advanced techniques from the same media type (e.g., scripts + composite effects). Labels without artefact proof do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Students need to demonstrate at least two advanced techniques in one media type.",
+"The student has used at least two appropriate advanced tools and techniques"
+],
+"source_ref": "Clarifications: Assessment guidance (advanced techniques in EN4); Achieved commentary."
+},
+{
+"id": "improvements_from_testing_procedures",
+"description": "Uses information from testing procedures to improve the outcome (beyond error-correction) and shows resulting changes.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Require explicit link: test finding → specific change → improved quality/operation. Merely fixing bugs without stated test evidence is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using information from testing procedures to improve the quality of the outcome",
+"made significant improvements to its operation as a result"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Merit); Merit commentary."
+},
+{
+"id": "conventions_applied_to_improve_quality",
+"description": "Applies relevant conventions deliberately to improve quality (aesthetic, readability, navigation, layout) of the outcome.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Look for before/after or rationale that a convention change improved quality. Listing conventions without improvement evidence does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"applying relevant conventions to improve the quality of the outcome",
+"effectively used design conventions such as alignment, hierarchy, contrast"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Merit); Merit commentary examples."
+},
+{
+"id": "relevant_implications_addressed",
+"description": "Shows how at least two identified relevant implications are addressed within the outcome and its artefacts.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Evidence must show the addressed implications in the artefact (e.g., alt text, credits, cultural appropriateness). Statements of intent alone are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"addressing relevant implications",
+"has shown how their digital media outcome addresses at least two identified relevant implications"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Merit); Merit commentary."
+},
+{
+"id": "iterative_improvement_cycles_documented",
+"description": "Documents iterative improvement throughout design, development, and testing via deliberate cycles that substantially improve the outcome.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Require multiple cycles with rationale and resulting improvements (e.g., interface, navigation, code). Single pass or undocumented tweaks do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"iterative improvement throughout the design, development and testing process",
+"employing deliberate cycles … resulting in its substantial improvement"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2, Excellence); Excellence commentary."
+},
+{
+"id": "efficient_tools_and_techniques_used",
+"description": "Uses efficient tools and techniques in production (e.g., asset management, stylesheets, templates, optimisation) and shows this in artefacts.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Presence of efficient practices must be evidenced (e.g., file structure, master pages, optimisation logs). Generic claims of efficiency are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"using efficient tools and techniques in the outcome’s production",
+"a file structure that follows conventions, with a separate images sub-folder"
+],
+"source_ref": "AS PDF p2 (Explanatory Note 2 & 5, Excellence); Excellence commentary examples."
+}
+],
+"aggregation_rules": {
+"method": "hierarchical",
+"gate_sequence": ["A", "M", "E"],
+"levels": {
+"A": { "required_fraction": 1.0 },
+"M": { "required_fraction": 0.60 },
+"E": { "required_fraction": 0.50 }
+},
+"sub_band_logic": {
+"Achieved": {
+"A3": { "extra_merit_indicators": 0 },
+"A4": { "extra_merit_indicators": "≥1" }
+},
+"Merit": {
+"M5": { "extra_excellence_indicators": 0 },
+"M6": { "extra_excellence_indicators": "≥1" }
+},
+"Excellence": {
+"E7": { "excellence_fraction": "<1.0" },
+"E8": { "excellence_fraction": "1.0" }
+}
+},
+"fallback_grade": "N1"
+},
+"governance": {
+"last_validated": "2025-06-13",
+"change_log": []
+}
+}
