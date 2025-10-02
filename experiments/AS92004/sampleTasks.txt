@@ -1,6 +1,7 @@
 # AS92004 Level 1 Task Collection (Simplified, No Functions)
 
 ---
+*** Importand Note - Tasks are constrained to ask for numerical (int or float) values to append to a list ***
 
 ## 1. Fitness Tracker (Original Task)
 
