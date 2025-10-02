@@ -1,0 +1,28 @@
+---
+
+title:  Media Contexts
+subject: Digital Technologies (Digital Media)
+years: [12]
+---
+
+## Summary
+Iterative improvement is the process of refining a digital media outcome through repeated cycles of planning, trialling, testing, and refining. Rather than finishing in one go, you create drafts or versions, gather feedback, and make purposeful changes. This process applies across all media contexts — print, animation, video, websites, web apps, game assets, and frontend UI design. Each cycle builds on what was learned in the last, leading to outcomes that are higher quality, more functional, and better suited for end users.
+
+## Example
+- **Print (poster, magazine, newsletter):** First draft uses bright colours but text is unreadable. Feedback shows readability is poor. Second draft adjusts font size and spacing. A third draft improves balance of images and white space, resulting in a clearer and more appealing design.  
+- **Animation/Video:** Initial cut of an animation runs too fast. Testing shows the audience struggles to follow. Timing is slowed and audio synced. A later version smooths transitions and adds subtitles. Each cycle improves clarity and viewer engagement.  
+- **Game/Video Asset (Blender):** A 3D character model is blocky and lacks detail. Feedback shows textures don’t look realistic. Iterative versions improve lighting, add texture maps, and optimise mesh detail, resulting in a more polished, game-ready asset.  
+- **Websites:** A website’s first version has confusing navigation and clashing colours. User testing shows visitors can’t find key pages. In the next version, menus are reorganised and consistent colours applied. A later version optimises images for faster loading.  
+- **Web Apps:** A feedback tool app works but looks plain. Testing shows users struggle to submit responses. Interface elements are repositioned and colour-coded for clarity. A later version integrates confirmation messages and a clean layout, making it easier to use.  
+- **Frontend UI (larger app):** The first version of a student dashboard has too many buttons crowded on one screen. After testing, key actions are grouped, spacing is increased, and icons added. Later iterations improve accessibility and colour contrast, producing a cleaner, user-friendly interface.  
+
+## Mistake
+A common mistake is thinking that fixing small errors (like spelling mistakes, broken links, or exporting in the right format) is the same as iterative improvement. Error correction is important but not enough. True iterative improvement requires purposeful cycles of testing, gathering feedback, and refining key elements (such as layout, timing, usability, or functionality) to make the outcome better for its intended purpose and audience.
+
+## Checks
+1. What does iterative improvement mean in your own words?  
+2. Give one example of iterative improvement in **print**, and one in **Blender/game assets**.  
+3. Why is feedback essential in iterative improvement?  
+4. How could iterative improvement improve the usability of a **frontend UI**?  
+
+  
