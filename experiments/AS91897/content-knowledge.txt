@@ -16,10 +16,10 @@ Websites or small web apps that deliver information or interaction.
   - Data → JSON/CSV/SQL (read-only)  
 - **Trials**: Compare two layouts, or fetch from local file vs API. Include a decision: *I chose X because it was clearer/faster.*  
 - **Testing (Does it work?)**: Create a checklist (5–8 items).  
-  - Example: “When I click About, the About page opens.”  
-  - Example: “When I enter invalid input, it shows an error.”  
+  - Example: “When I click **About**, it opens the About page.”  
+  - Example: “When I enter **invalid input**, it shows an error.”  
 - **Trialling with Users (Is it usable?)**: Ask a peer to use the site — could they find the info or complete the task easily?  
-- **Implications**: Two sentences each.  
+- **Implications** *(two sentences each)*:  
   - *Accessibility — Some users may struggle with colours. I will check contrast and add alt text.*  
   - *Privacy — User inputs must not be stored. I will avoid saving names or emails.*  
 - **Refinements**: Record at least one change: *Date – Trigger (test/trial/implication) → Change made → Proof (screenshot).*  
@@ -37,10 +37,10 @@ Simple 2D/3D assets, animations, or visual content.
   - Assets → textures, models, sound files  
 - **Trials**: Compare two colour palettes, or different export settings. *Decision: I chose X because it exported faster.*  
 - **Testing**: Checklist of 5–8 items.  
-  - Example: “When I export, the file opens correctly.”  
-  - Example: “When I play, the animation runs smoothly.”  
+  - Example: “When I **export**, the file **opens correctly**.”  
+  - Example: “When I **play**, the animation **runs smoothly**.”  
 - **Trialling with Users**: Ask someone if visuals are clear and pacing feels right.  
-- **Implications**:  
+- **Implications** *(two sentences)*:  
   - *Copyright — Assets must be legal. I will use original or open-licensed content.*  
   - *Accessibility — Colours may exclude some viewers. I will check contrast and add captions.*  
 - **Refinements**: Shorten animation after feedback, adjust export quality to fix playback lag.  
@@ -58,10 +58,10 @@ Projects mixing text, visuals, and interactivity.
   - Assets → images, audio, text  
 - **Trials**: Compare click-to-advance vs auto-play. *Decision: Chose click-to-advance because testers wanted control.*  
 - **Testing**: Checklist (5–8 items).  
-  - Example: “When I click Next, the next scene loads.”  
-  - Example: “When I select choice A, the correct branch appears.”  
+  - Example: “When I **click Next**, the **next scene loads**.”  
+  - Example: “When I **select choice A**, the **correct branch appears**.”  
 - **Trialling with Users**: Ask a peer if navigation was clear and story made sense.  
-- **Implications**:  
+- **Implications** *(two sentences)*:  
   - *Inclusivity — Some learners need captions. I will add subtitles for audio clips.*  
   - *Appropriateness — Story content must be suitable. I will avoid harmful or offensive themes.*  
 - **Refinements**: Add a back button after testing, change pacing after user trialling.  
@@ -77,12 +77,12 @@ Projects using sensors, LEDs, buzzers, or microcontrollers.
   - Interface → buttons, displays, LEDs  
   - Logic → control code, sensor handling  
   - Data → sensor readings, serial logs  
-- **Trials**: Try different resistor values or debounce times. *Decision: I chose 220Ω because it gave stable brightness.*  
+- **Trials**: Try different resistor values or debounce times. *Decision: I chose 220 Ω because it gave stable brightness.*  
 - **Testing**: Checklist (5–8 items).  
-  - Example: “When I press the button, the LED turns on.”  
-  - Example: “When sensor detects >30°C, buzzer sounds.”  
+  - Example: “When I **press the button**, the **LED turns on**.”  
+  - Example: “When the **sensor detects >30 °C**, the **buzzer sounds**.”  
 - **Trialling with Users**: Ask someone if controls are easy to use or display is readable.  
-- **Implications**:  
+- **Implications** *(two sentences)*:  
   - *Safety — Circuits can overheat. I will use correct resistors and safe casing.*  
   - *Usability — Displays can confuse users. I will label outputs and keep controls simple.*  
 - **Refinements**: Adjust code for stable readings, rewire layout for clarity after user feedback.  
@@ -100,21 +100,40 @@ Small apps that manage or process data (e.g., quizzes, loggers, visualisers).
   - Data → CSV/JSON/SQL (read-only)  
 - **Trials**: Compare CSV vs JSON storage, or two charting libraries. *Decision: I chose JSON because it was easier to parse.*  
 - **Testing**: Checklist (5–8 items).  
-  - Example: “When I input numbers, the program calculates an average.”  
-  - Example: “When input is invalid, it shows an error.”  
+  - Example: “When I **input numbers**, the program **calculates an average**.”  
+  - Example: “When **input is invalid**, it **shows an error**.”  
 - **Trialling with Users**: Ask someone if results are understandable or navigation makes sense.  
-- **Implications**:  
+- **Implications** *(two sentences)*:  
   - *Privacy — Results should not reveal identities. I will anonymise data and avoid storing names.*  
   - *Clarity — Users must understand outputs. I will add units and clear labels to graphs.*  
 - **Refinements**: Fix calculation bug, add labels after user feedback, improve error handling after testing.  
 - **Reflection**: Show how planning, tests, and user trialling improved output clarity.
 
+### Example: **Build Your One-Click Web App** *(brief insert)*
+Design a tiny web app where **one click** saves a response and **updates results** instantly.  
+- **Stack**: Flask (Python) back end + HTML/CSS/JS front end.  
+- **Choose context**: class mood tracker, snack poll, quick feedback, emoji picker.  
+- **Decomposition**:  
+  - Interface → one big button (+ optional results list/chart)  
+  - Logic → route to record click, route to show results  
+  - Data → minimal CSV/JSON file or in-memory store *(no personal data)*; SQL (read-only) if displaying reference lists  
+- **Trials**: Two options for buttons/themes or storage (CSV vs JSON). *Decision with criteria (simplicity, speed).*  
+- **Testing** *(Does it work?)*:  
+  - “When I **click Vote**, the **total increases**.”  
+  - “When I **refresh**, the **latest results display**.”  
+  - “When I visit an **invalid route**, a **404 page appears**.”  
+- **Trialling with Users** *(Is it usable?)*: Are labels clear? Is the button obvious on mobile?  
+- **Implications** *(two sentences)*: e.g.,  
+  - *Privacy — Votes must not identify users. I will store only emoji + timestamp.*  
+  - *Accessibility — Some students use keyboards. I will ensure the button is focusable and pressable via Enter/Space.*  
+- **Refinements**: Log one change (date–trigger→change→proof), e.g., added keyboard handler after user trial.  
+- **Reflection**: ½–1 page on how planning, tests, and user feedback improved the app.
+
 ---
 
 # How to Use This
 - Every project must show: **planning → decomposition → trialling → testing → trialling with users → implications → refinements → reflection**.  
-- **Testing = Does it work?**  
-  - Always phrase checks as: *“When I [input], it [outputs/updates].”*  
+- **Testing = Does it work?** Always phrase checks as: *“When I [input], it [outputs/updates].”*  
 - **Trialling with users = Is it usable/clear?**  
 - **Implications = two sentences** (the issue + what you’ll do). Add proof later.  
 - **Refinements** = log at least one change with date, trigger, change, and proof.  
