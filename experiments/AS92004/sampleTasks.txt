@@ -1,7 +1,12 @@
 # AS92004 Level 1 Task Collection (Simplified, No Functions)
 
 ---
-*** Importand Note - Tasks are constrained to ask for numerical (int or float) values to append to a list ***
+*** Important Note ***  
+- Tasks are constrained to ask for **numerical (int or float) values** to append to a list.  
+- Each task must also include at least **one string input** (e.g., a name, label, or type) to ensure **two data types** are used.  
+- Programs must use loops, conditionals, lists, and basic operations. **No functions or imports.**
+
+---
 
 ## 1. Fitness Tracker (Original Task)
 
@@ -9,14 +14,15 @@
 The Local Rec Centre wants a simple program for users to track their workouts over multiple days and receive feedback.
 
 ### Task Specifications
-- Ask for the user’s name.
-- Ask for 5 workout results (e.g. running times in minutes).
+- Ask for the **user’s name** (string).
+- Ask for **5 workout results** (e.g., running times in minutes).
 - Use a loop to collect the results.
 - Store the values in a list.
 - Check each input:
   - Must be a number.
   - Must be between 10 and 60.
 - At the end:
+  - Print the **user’s name**.
   - Print all 5 results.
   - Calculate and print the average.
   - Print the best (lowest) result.
@@ -30,11 +36,11 @@ The Local Rec Centre wants a simple program for users to track their workouts ov
 
 | Test Type | Input                             | Expected Output                         |
 |-----------|------------------------------------|------------------------------------------|
-| Expected  | 25, 30, 29, 27, 26                 | Average: 27.4, Best: 25                  |
-| Boundary  | 10, 12, 15, 13, 11                 | Accepted                                 |
-| Boundary  | 60, 55, 59, 58, 60                 | Accepted                                 |
-| Invalid   | "banana"                           | Error: That’s not a number               |
-| Invalid   | 9                                  | Error: Value must be 10–60               |
+| Expected  | Name: Sam; 25, 30, 29, 27, 26     | Sam, Average: 27.4, Best: 25            |
+| Boundary  | Name: Jo; 10, 12, 15, 13, 11      | Accepted                                |
+| Boundary  | Name: Lee; 60, 55, 59, 58, 60     | Accepted                                |
+| Invalid   | Name: Pat; "banana"               | Error: That’s not a number              |
+| Invalid   | Name: Kim; 9                      | Error: Value must be 10–60              |
 
 ---
 
@@ -44,6 +50,7 @@ The Local Rec Centre wants a simple program for users to track their workouts ov
 A local vet wants to check if pet weights are within a healthy range.
 
 ### Task Specifications
+- Ask the user to enter their **pet’s name** (string).
 - Ask the user to enter pet weights (in kg) one by one.
 - End input when the user types "done".
 - Store all valid weights in a list.
@@ -55,6 +62,7 @@ A local vet wants to check if pet weights are within a healthy range.
   - 5 to 25 → "healthy"
   - Over 25 → "overweight"
 - At the end:
+  - Print the **pet’s name**.
   - Show how many pets are in each category.
   - Show each weight and its classification.
 
@@ -67,9 +75,9 @@ A local vet wants to check if pet weights are within a healthy range.
 
 | Test Type | Input                          | Expected Output                            |
 |-----------|----------------------------------|---------------------------------------------|
-| Expected  | 6, 22, 30, done                | 2 healthy, 1 overweight                     |
-| Boundary  | 5, 25, 4.9, 25.1, done         | 1 underweight, 2 healthy, 1 overweight      |
-| Invalid   | "cat", -2, 105, done           | Show error messages and skip invalid input |
+| Expected  | Pet: Max; 6, 22, 30, done      | Max → 2 healthy, 1 overweight               |
+| Boundary  | Pet: Luna; 5, 25, 4.9, 25.1    | Luna → 1 underweight, 2 healthy, 1 overweight|
+| Invalid   | Pet: Poppy; "cat", -2, 105, done | Show error messages and skip invalid input |
 
 ---
 
@@ -79,7 +87,8 @@ A local vet wants to check if pet weights are within a healthy range.
 A fruit packhouse wants to log fruit ripeness scores to track storage quality.
 
 ### Task Specifications
-- Ask for 5 ripeness scores (1–10).
+- Ask for the **fruit type** (string).
+- Ask for **5 ripeness scores (1–10)**.
 - Use a loop to collect them.
 - Store them in a list.
 - Classify each score:
@@ -87,6 +96,7 @@ A fruit packhouse wants to log fruit ripeness scores to track storage quality.
   - 4–7 → "ripe"
   - 8–10 → "overripe"
 - At the end:
+  - Print the **fruit type**.
   - Print a summary of how many in each category.
   - Print all ripeness scores with their classification.
 
@@ -96,11 +106,11 @@ A fruit packhouse wants to log fruit ripeness scores to track storage quality.
 
 ### Test Cases
 
-| Test Type | Input                 | Expected Output                                |
-|-----------|------------------------|-------------------------------------------------|
-| Expected  | 2, 5, 9, 4, 6         | 1 underripe, 3 ripe, 1 overripe                |
-| Boundary  | 1, 3, 4, 7, 10        | Categories counted correctly                   |
-| Invalid   | -1, 11, "apple"       | Show error messages                            |
+| Test Type | Input                        | Expected Output                                |
+|-----------|-------------------------------|------------------------------------------------|
+| Expected  | Fruit: Apple; 2, 5, 9, 4, 6 | Apple → 1 underripe, 3 ripe, 1 overripe        |
+| Boundary  | Fruit: Pear; 1, 3, 4, 7, 10 | Pear → categories counted correctly            |
+| Invalid   | Fruit: Plum; -1, 11, "apple"| Errors shown, valid re-prompts accepted        |
 
 ---
 
@@ -110,6 +120,7 @@ A fruit packhouse wants to log fruit ripeness scores to track storage quality.
 A school wants a program to help track student test performance.
 
 ### Task Specifications
+- Ask for the **student’s name** (string).
 - Ask the user to enter exam scores (0–100) until "done" is typed.
 - Store valid scores in a list.
 - Classify scores:
@@ -117,6 +128,7 @@ A school wants a program to help track student test performance.
   - 50–74 → "Pass"
   - 75–100 → "Excellence"
 - At the end:
+  - Print the **student’s name**.
   - Print how many scores are in each category.
   - Show each score with its classification.
 
@@ -127,8 +139,8 @@ A school wants a program to help track student test performance.
 
 ### Test Cases
 
-| Test Type | Input                          | Expected Output                                |
-|-----------|----------------------------------|-------------------------------------------------|
-| Expected  | 45, 60, 88, done               | 1 Fail, 1 Pass, 1 Excellence                   |
-| Boundary  | 0, 49, 50, 74, 75, 100, done   | Each value classified correctly                |
-| Invalid   | -5, 101, "sixty"               | Error messages shown and invalid skipped       |
+| Test Type | Input                           | Expected Output                                |
+|-----------|-----------------------------------|------------------------------------------------|
+| Expected  | Student: Mia; 45, 60, 88, done  | Mia → 1 Fail, 1 Pass, 1 Excellence             |
+| Boundary  | Student: Tom; 0, 49, 50, 74, 75, 100, done | Tom → each classified correctly |
+| Invalid   | Student: Ana; -5, 101, "sixty"  | Errors shown, invalids skipped                 |
