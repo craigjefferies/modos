@@ -4,11 +4,11 @@ This file provides scaffolding knowledge for students developing **any type of o
 It is structured around the **core assessment ideas**: purpose, users, requirements, specifications, conventions, testing, trialling, refinement, optimal tool use, and fitness for purpose.  
 
 Potential Outcomes include:
-- Web / Web Application: Projects that build websites or web apps to deliver information, interaction, or services to users through a browser.
+- Web: Projects that build static website to deliver information, interaction, or services to users through a browser.
 - Graphics / 3D / Animation: Projects focused on creating visual assets, animations, or 3D models for presentation or embedding.
 - Interactive Multimedia / Storytelling: Projects combining text, visuals, interactivity, and narrative elements to engage users in stories or information exploration.
 - Embedded / Physical / Electronics: Projects that interface with hardware (sensors, LEDs, microcontrollers) to sense, display, or react in the physical world.
-- App / Data / Utilities: Projects that manage, present, or process data in a usable application (e.g. to-do lists, logging, quizzes) for end users.
+- App / Data / Utilities: Projects that manage, present, or process data in a usable application (e.g. Infographics, quizzes) for end users.
 
 ---
 
