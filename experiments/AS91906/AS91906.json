@@ -18,115 +18,166 @@
     "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
     "E8": "All Achieved, Merit, and Excellence indicators are met."
   },
-  "key_terms": [],
+  "key_terms": [
+    {
+      "term": "boundary testing",
+      "definition": "Testing values just below, on, and just above a defined limit to confirm correct behaviour."
+    },
+    {
+      "term": "invalid case",
+      "definition": "Input outside the allowed domain that the program must handle gracefully."
+    }
+  ],
   "omis": [
     {
-      "id": "program_performs_specified_task",
-      "description": "The program demonstrably performs the specified task end-to-end with observable inputs and outputs.",
+      "id": "performs_specified_task",
+      "description": "Program demonstrably performs the specified task from the assessment brief.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Require runnable evidence (screens, logs, or screencast) showing the task being completed. Statements of intent without execution do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Runs and completes the specified task as described."],
-      "source_ref": "AS PDF Explanatory Note (purpose/outcome)"
+      "detection_hint": "Show the program running with screenshots or a short screencast. Link each observed behaviour to the brief (✓ checklist). Generic statements are insufficient.",
+      "success_examples": [
+        "Screencast runs through menu options that match the brief.",
+        "Log shows 'Input: 3,2,1 → Output: [1, 2, 3]' for the sort step."
+      ]
     },
     {
-      "id": "use_two_or_more_complex_techniques",
-      "description": "Evidence shows the use of two or more complex programming techniques within the solution.",
+      "id": "uses_functions_and_lists",
+      "description": "Program uses at least two advanced techniques in Python 3: (1) functions with parameters and return values; AND (2) lists that are accessed/updated meaningfully (looping, indexing, filtering, aggregating). Other advanced techniques may also be included.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Name and show where each complex technique is used (e.g., files/GUI/objects/collections/API). Listing features without code/application is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Tagged tests: T3→file I/O, T5→API error handling."],
-      "source_ref": "AS PDF Explanatory Notes on complex techniques"
+      "detection_hint": "Provide code excerpts showing (a) a function that takes an argument and returns a value; (b) a list used beyond trivial storage (e.g., append + later read, loop, index, compute min/max/avg). Stubs or unused code do not count.",
+      "success_examples": [
+        "def add(a, b): return a + b",
+        "guesses = []; guesses.append(user_guess); print(len(guesses))",
+        "scores = [15, 12, 18]; average = sum(scores) / len(scores)"
+      ]
     },
     {
-      "id": "uses_core_structures_collection",
-      "description": "Solution uses sequence, selection, iteration, and accesses data in a collection.",
+      "id": "code_layout_readable",
+      "description": "Code is clearly laid out: consistent indentation and spacing improve readability.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Show at least one if/else, one loop, and explicit collection access (index/iterate/mutate). Initialising a collection without access is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["for item in items:", "scores.append(current)"],
-      "source_ref": "AS PDF programming requirements"
+      "detection_hint": "Use 4-space indentation consistently, add blank lines between functions, and group related lines. A single banner comment cannot compensate for poor layout.",
+      "success_examples": [
+        "Functions separated by blank lines; all blocks use 4-space indentation."
+      ]
     },
     {
-      "id": "store_two_data_types",
-      "description": "Program stores at least two distinct data types in variables used in the solution.",
+      "id": "comments_present_documenting_code",
+      "description": "Comments explain the purpose and behaviour of main code sections.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Identify two different data types in code or logs (e.g., string and integer). Mixed containers count only if element type differs from other variables. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["player_name: str; attempts: int"],
-      "source_ref": "AS PDF programming requirements"
+      "detection_hint": "At least two comments in different sections that describe purpose/behaviour (not single words). Avoid restating obvious syntax.",
+      "success_examples": [
+        "# Ask user to guess the number",
+        "# Calculate average score from list"
+      ]
     },
     {
-      "id": "expected_case_testing_and_debugging",
-      "description": "Organised testing shows expected inputs, expected/actual outputs, and at least one debugging change that resolves a failure.",
+      "id": "testing_evidence_organised",
+      "description": "Testing evidence is organised to show inputs and whether expected outputs occurred.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Require a table or log pairing inputs with expected and actual outputs plus one before/after debugging artefact (diff/commit/annotated screenshot). Claims like “it works” are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Input 5 → Expected Pass; Actual Fail → fixed loop → Actual Pass"],
-      "source_ref": "Moderator commentary: Assessment guidance; Performance overview"
+      "detection_hint": "Use a simple table or screenshots mapping Input → Expected → Actual → Pass/Fail. Include at least one bug found/fixed and re-tested.",
+      "success_examples": [
+        "Input: 5 → Expected: 'Correct'; Actual: 'Correct' (after fixing loop).",
+        "Table row: Name=Sam → 'Hello Sam' (pass)"
+      ]
     },
     {
-      "id": "code_clearly_set_out_and_commented",
-      "description": "Code layout is readable and includes meaningful comments that describe function/behaviour of sections.",
+      "id": "testing_expected_cases",
+      "description": "Testing shows the program works on a sample of typical/expected inputs and includes at least one debugging fix.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Look for comments adjacent to relevant code explaining behaviour or purpose. Single-word labels or header-only comments are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["# Validate input before processing results"],
-      "source_ref": "AS PDF explanatory notes on documentation"
+      "detection_hint": "Provide a sample of at least 3–4 normal-case tests with Expected vs Actual, plus one before/after example linked to a fix (commit/message or note).",
+      "success_examples": [
+        "Before: wrong total = 25; After: fixed formula → total = 30 (pass)",
+        "Three typical inputs for the quiz show correct scoring and feedback."
+      ]
     },
     {
-      "id": "language_conventions_followed",
-      "description": "Follows conventions for the chosen language (naming, layout, organisation), evidenced by consistent idioms or tooling.",
+      "id": "appropriate_names_and_comments",
+      "description": "Document the program with appropriate names and comments that describe code function and behaviour.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Accept linter/formatter output or consistent idiomatic usage (naming, module structure). Personal style that contradicts conventions is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Formatter/linter report attached; modules named by feature."],
-      "source_ref": "Moderator commentary: Assessment guidance"
+      "detection_hint": "Check that identifiers reflect role/content (e.g., total_score, player_name) and that comments explain WHY sections exist (purpose/behaviour), not line-by-line WHAT. Names and comments should be consistent across the program.",
+      "success_examples": [
+        "player_name, total_score, max_tries (avoids x1/tmp).",
+        "# Update leaderboard after each round (explains purpose).",
+        "# Validate input and collect error messages for the user."
+      ]
     },
     {
-      "id": "comments_clarify_purpose",
-      "description": "Comments explain WHY each significant section exists and how it serves the task, not line-by-line narration.",
+      "id": "follows_language_conventions",
+      "description": "Follow common conventions for the chosen programming language throughout.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Require purpose-focused comments across key blocks; restating what the code does line by line is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["# Guard against overflow before pricing calculation"],
-      "source_ref": "AS PDF explanatory notes on documentation"
+      "detection_hint": "Demonstrate consistent idiomatic usage: Python snake_case for functions/variables, CapWords for classes, 4-space indentation, clear if/elif/else and for/while usage. Mixed styles without rationale are insufficient.",
+      "success_examples": [
+        "def calculate_total(): ...",
+        "while guess != target: ...",
+        "Consistent 4-space indentation; no mixed tabs/spaces."
+      ]
     },
     {
-      "id": "boundary_case_testing_documented",
-      "description": "Testing includes below/on/above values for each relevant boundary with rationale tied to specification or code constraints.",
+      "id": "boundary_testing_performed",
+      "description": "Test and debug the program effectively so it works on a sample of both expected cases and relevant boundary cases.",
       "level": "M",
-      "weight": 1,
-      "detection_hint": "For each boundary, show tests below, on, and above with results and a reason the boundary exists. Mentioning ‘boundary’ without values/results is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Limit 100: 99 (below), 100 (on), 101 (above)"],
-      "source_ref": "Moderator commentary: Practices that need strengthening"
+      "weight": 2,
+      "detection_hint": "Provide specific tests for at least one identified boundary: below / on / above, with Expected vs Actual and Pass/Fail. Include evidence of debugging where a boundary initially failed (before/after note or commit). This is in addition to normal/expected-case tests.",
+      "success_examples": [
+        "Age (12–18): 11 → reject, 12 → accept, 19 → reject (all pass).",
+        "Page size (1–100): 0 → error, 1 → ok, 101 → error (after fix passes).",
+        "Table shows 3–4 expected cases all passing + boundary row re-tested after fix."
+      ]
     },
     {
-      "id": "flexible_and_robust_implementation",
-      "description": "Implementation is flexible and robust via constants/configuration and parameterised functions; no scattered magic numbers.",
+      "id": "well_structured_logical_response",
+      "description": "Ensure the program is a well-structured, logical response to the specified task.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Require constants/config entries and parameterised functions so behaviour changes via configuration, not code edits. Repeated literals or copy-pasted values are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["GST_RATE used across pricing; no hard-coded 0.15"],
-      "source_ref": "Moderator commentary: Assessment guidance"
+      "detection_hint": "Show clear separation of concerns using functions (e.g., input → process → output). Minimise duplication; keep data flow simple and traceable. The structure should match the brief (each requirement handled in a clear place).",
+      "success_examples": [
+        "Functions: get_input(), validate_age(a), compute_score(lst), show_results(scores).",
+        "Main flow calls functions in a simple order; no copy-paste branches.",
+        "List holds attempts; helpers read/update it rather than repeating logic."
+      ]
     },
     {
-      "id": "comprehensive_testing_and_debugging",
-      "description": "Testing is comprehensive, covering expected, boundary, and where relevant invalid cases, with clear outcomes and rationale.",
+      "id": "flexible_values_over_literals",
+      "description": "Make the program flexible: avoid magic numbers; prefer variables/constants/parameters and simple derived values.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Show broad coverage and reasoning for chosen cases; include summary of outcomes and fixes. Sparse or anecdotal tests are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Matrix of inputs → outcomes; defects fixed and retested."],
-      "source_ref": "AS PDF explanatory notes on Excellence testing"
+      "detection_hint": "Replace repeated literals with named values; pass values into functions as parameters; compute results from inputs. Show one place to change a setting (e.g., MAX_TRIES, PASS_MARK).",
+      "success_examples": [
+        "MAX_TRIES = 5; PASS_MARK = 50",
+        "def apply_discount(price, rate): return price * rate",
+        "Thresholds read once, reused across checks (no repeated ‘50’)."
+      ]
     },
     {
-      "id": "invalid_case_testing",
-      "description": "Invalid inputs are handled gracefully with recovery (message, retry, default, or safe abort).",
+      "id": "robustness_evidenced_by_testing",
+      "description": "Make the program robust: handle invalid/unexpected input and keep a correct, usable state.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Show at least one invalid test per user-facing input and the recovery path. Crashes or silent failures do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": ["Input 'abc' → 'Enter a number' → prompt repeats"],
-      "source_ref": "Moderator commentary: Assessment guidance"
+      "detection_hint": "Link adverse tests to behaviour: clear error messages, retries, safe defaults, lists/state not corrupted. Show that after an error the program still works (next action succeeds).",
+      "success_examples": [
+        "Input: 'abc' → 'Please enter a number.' (re-prompt; no crash).",
+        "Out-of-range age → message + retry; stored results unchanged.",
+        "Empty list case handled: average() returns 0 and shows hint."
+      ]
+    },
+    {
+      "id": "comprehensive_testing_invalid_unexpected",
+      "description": "Comprehensively test and debug the program: include expected, boundary, and invalid/unexpected cases with re-tests after fixes.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Provide an organised test table (Input → Expected → Actual → Pass/Fail → Notes). Cover: (1) 3–4 typical cases; (2) below/on/above at least one boundary; (3) at least one invalid/unexpected per key input. Show at least one failing test, the fix, and a passing re-test.",
+      "success_examples": [
+        "Age (12–18): 11 ✗ (fixed) → re-test ✓; 12 ✓; 19 ✓.",
+        "qty='abc' → error message + retry (✓).",
+        "Summary: 10 tests total → 9 pass; 1 fixed then re-tested → pass."
+      ]
     }
   ],
   "aggregation_rules": {
@@ -136,25 +187,12 @@
       "A": { "required_fraction": 1.0 },
       "M": { "required_fraction": 0.60 },
       "E": { "required_fraction": 0.50 }
-    },
-    "sub_band_logic": {
-      "Achieved": {
-        "A3": { "extra_merit_indicators": 0 },
-        "A4": { "extra_merit_indicators": "≥1" }
-      },
-      "Merit": {
-        "M5": { "extra_excellence_indicators": 0 },
-        "M6": { "extra_excellence_indicators": "≥1" }
-      },
-      "Excellence": {
-        "E7": { "excellence_fraction": "<1.0" },
-        "E8": { "excellence_fraction": "1.0" }
-      }
-    },
-    "fallback_grade": "N1"
+    }
   },
   "governance": {
-    "last_validated": "2025-06-13",
-    "change_log": []
+    "last_validated": "2025-10-02",
+    "change_log": [
+      "v2: Updated to AS91906 metadata; merged Achieved/Merit/Excellence OMIs aligned with AS92004 overlaps (detection hints and success examples), Python-focused, functions + lists baseline, comprehensive testing requirements."
+    ]
   }
 }
