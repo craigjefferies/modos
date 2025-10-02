@@ -62,13 +62,19 @@
 "source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
 },
 {
-"id": "explains_relevant_implications",
-"description": "Explains relevant implications.",
-"level": "A",
-"weight": 1,
-"detection_hint": "Explain at least two relevant implications (e.g., privacy, accessibility) early so they can guide development. Listing implications without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": ["explaining relevant implications."],
-"source_ref": "AS PDF p2 (Explanatory Note 2 & 4); Moderator commentary: Assessment guidance"
+  "id": "explains_relevant_implications",
+  "description": "Explains relevant implications.",
+  "level": "A",
+  "weight": 1,
+  "detection_hint": "Explain at least two relevant implications (e.g., privacy, accessibility, cultural appropriateness, usability, legal, ethical). The student must identify and explain how the implication applies to their outcome, and state what the outcome needs to do or include to meet the implication. Explanations should occur early in the design or development process so they inform the outcome’s design/development. Listing implications without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+  "success_examples": [
+    "explaining relevant implications",
+    "documentation explaining privacy issues when storing personal information in a database, and how the system will address them",
+    "explanation of accessibility needs (e.g., colour-blind users) and design choices made to ensure access",
+    "discussion of cultural appropriateness, such as correct use of Te Reo Māori and fair representation of cultures",
+    "explanation of how usability heuristics (error prevention, clear feedback) are applied in the outcome"
+  ],
+  "source_ref": "AS PDF p2 (Explanatory Note 2 & 4); Moderator commentary: Assessment guidance; Relevant Implications resource:contentReference[oaicite:1]{index=1}"
 },
 {
 "id": "manages_with_pm_and_version_control",
