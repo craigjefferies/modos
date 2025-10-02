@@ -130,10 +130,9 @@
       "description": "Uses information from testing to make improvements to the outcome’s fitness for purpose.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "The student must describe a specific change made in response to testing (e.g. “as response time was too slow, I reduced data payload”). Generic bug fixes or edits not tied to testing are insufficient. Highlight the “because … so I changed …” linkage.",
+      "detection_hint": "The student must describe a specific change made in response to testing. Generic bug fixes or edits not tied to testing are insufficient. Highlight the “because … so I changed …” linkage.",
       "success_examples": [
         "using information from testing to make improvements to the outcome’s fitness for purpose.",
-        "Testing showed JSON delivery was 0.8 s, so I removed unused data fields and compressed output. This reduced time to 0.4 s, meeting the spec."
       ],
       "source_ref": "AS PDF p1 Explanatory Note 1 • Merit"
     },
