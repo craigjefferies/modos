@@ -22,13 +22,17 @@
 "key_terms": [],
 "omis": [
 {
-"id": "project_management_plans_development",
-"description": "Uses appropriate project management tools and techniques to plan the development of the digital technologies outcome.",
-"level": "A",
-"weight": 1,
-"detection_hint": "Provide artefacts (e.g., task plan, timeline, milestones) showing planning for development tasks. Planning the outcome’s features alone does not count; it must plan the development process. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": ["using appropriate project management tools and techniques to plan the development of a digital technologies outcome"],
-"source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
+  "id": "project_management_plans_development",
+  "description": "Uses appropriate project management tools and techniques to plan the development of the digital technologies outcome.",
+  "level": "A",
+  "weight": 1,
+  "detection_hint": "Provide artefacts (e.g., task plan, timeline, milestones) showing planning for development tasks. Planning the outcome’s features alone does not count; it must plan the development process. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+  "success_examples": [
+    "using appropriate project management tools and techniques to plan the development of a digital technologies outcome",
+    "a table or spreadsheet plan showing tasks/milestones, dates, and status (to-do, doing, done)",
+    "use of a project management tool like Trello or Monday.com showing tasks/milestones, dates, and status (to-do, doing, done)"
+  ],
+  "source_ref": "AS PDF p2 (Explanatory Note 2); Moderator commentary: Assessment guidance"
 },
 {
 "id": "decomposes_outcome_into_components",
