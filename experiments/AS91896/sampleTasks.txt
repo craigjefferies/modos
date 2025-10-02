@@ -1,0 +1,225 @@
+# Theme 1 — Tracker Programs (numeric inputs)
+
+---
+
+## 1) Fitness Tracker — Level 2 Upgrade
+
+### Context
+The Local Rec Centre wants a program that tracks running times over multiple days and gives feedback.
+
+### Functional brief
+- Ask for user’s name (string).
+- Collect 5 workout times (minutes) into a list.
+- Validate each entry: number between 10 and 60.
+- Output: name, all results, average, best (lowest), and a feedback message.
+
+### Technical requirements (OMIs)
+
+**Advanced techniques (Achieved):**
+- At least one function with parameters and a return value, e.g. `calc_average(times: list) -> float`.
+- Use a list meaningfully: append, index, loop, compute min/avg.
+
+**Code layout & comments (Achieved):**
+- 4-space indentation; blank lines between functions.
+- Purpose comments above key functions/loops.
+
+**Testing (Achieved):**
+- Organised table: Input → Expected → Actual → Pass/Fail, include one debugging fix.
+
+**Names & conventions (Merit):**
+- Clear names: `user_name`, `times`, `best_time`.
+- Pythonic style (snake_case).
+
+**Boundary testing (Merit):**
+- Values 9 / 10 / 60 / 61 (below/on/above).
+
+**Structure, flexibility, robustness (Excellence):**
+- Clear flow: `get_name()` → `collect_times()` → `calc_average()` → `calc_best()` → `make_feedback()` → `show_summary()`.
+- Avoid magic numbers: `MIN_TIME = 10`, `MAX_TIME = 60`.
+- Robust input loop: on invalid input show message and re-prompt; state (list) remains valid.
+
+**Comprehensive testing (Excellence):**
+- Typical (≥3), boundary set (below/on/above), invalid (non-numeric, blank).
+
+### Evidence to submit
+- Test table(s) + 1 short screencast of the happy path.
+- One before/after note for a fixed bug.
+- Small code excerpt showing the function with parameters + return.
+
+**Boundary set examples:**  
+9 (reject), 10 (accept), 60 (accept), 61 (reject).
+
+---
+
+## 2) Pet Weight Checker — Level 2 Upgrade
+
+### Context
+A local vet wants a checker for pet weights.
+
+### Functional brief
+- Ask for pet name (string).
+- Read weights (kg) until user types `"done"`.
+- Validate range: 0–100.
+- Classify each weight: `<5 → 'underweight'`, `5–25 → 'healthy'`, `>25 → 'overweight'`.
+- Output: pet name, counts per category, and per-weight classification.
+
+### Technical requirements (OMIs)
+
+**Advanced techniques (Achieved):**
+- Function with params + return, e.g. `classify(weight: float) -> str`, and `summarise(weights: list) -> dict`.
+- Use a list for weights; loop and compute counts.
+
+**Layout & comments (Achieved):**
+- Clear sections; comments explain why.
+
+**Testing (Achieved):**
+- Table with expected vs actual and one debugging fix.
+
+**Names & conventions (Merit):**
+- `pet_name`, `weights`, `under_count`, `healthy_count`, `over_count`.
+
+**Boundary testing (Merit):**
+- Range boundaries: −0.1 / 0 / 100 / 100.1  
+- Category thresholds: 4.9 / 5 / 25 / 25.1
+
+**Structure, flexibility, robustness (Excellence):**
+- Functions: `get_weights()`, `classify(w)`, `tally(classes)`, `show_report(...)`.
+- Constants: `MIN_W = 0.0`, `MAX_W = 100.0`, `HEALTHY_MIN = 5.0`, `HEALTHY_MAX = 25.0`.
+- Robust loop: invalid input → message + retry; ignore invalid without corrupting list.
+
+**Comprehensive testing (Excellence):**
+- Typical set, both boundary types, invalid inputs (`"cat"`, −2, 105, empty string).
+
+### Evidence to submit
+- Test table(s); screenshot of a full session including `"done"`.
+- Before/after fix note (e.g., misclassified 25.0).
+
+**Boundary sets:**  
+- Range: −0.1 ✗, 0.0 ✓, 100.0 ✓, 100.1 ✗  
+- Category: 4.9 (under), 5.0 (healthy), 25.0 (healthy), 25.1 (over)
+
+---
+
+## 3) Fruit Ripeness Logger — Level 2 Upgrade
+
+### Context
+A packhouse logs ripeness scores to track storage quality.
+
+### Functional brief
+- Ask for fruit type (string).
+- Collect 5 scores in 1–10.
+- Classify: `1–3 → 'underripe'`, `4–7 → 'ripe'`, `8–10 → 'overripe'`.
+- Output: fruit type, counts per category, list of (score, class).
+
+### Technical requirements (OMIs)
+
+**Advanced techniques (Achieved):**
+- Functions: `classify(score) -> str`, `counts(scores: list) -> dict`, each with parameters + returns.
+- Use a list; compute counts; min/max where useful.
+
+**Layout & comments (Achieved):**
+- Indentation + purpose comments.
+
+**Testing (Achieved):**
+- Table of expected vs actual, with at least one bug fix.
+
+**Names & conventions (Merit):**
+- `fruit_type`, `scores`, `category_counts`, `MIN_SCORE`, `MAX_SCORE`.
+
+**Boundary testing (Merit):**
+- Score boundaries: 0.9 / 1 / 3 / 3.1 / 4 / 7 / 7.1 / 10 / 10.1 (subset covering below/on/above for 1, 3, 4, 7, 8, 10).
+
+**Structure, flexibility, robustness (Excellence):**
+- Pipeline structure: `get_fruit()` → `collect_scores()` → `classify_all()` → `summarise()` → `report()`.
+- Constants: `MIN_SCORE = 1`, `MAX_SCORE = 10`.
+- Invalid input handled with re-prompt; state stays valid.
+
+**Comprehensive testing (Excellence):**
+- Typical set, boundary coverage for ≥2 category edges, invalids (`"apple"`, −1, 11).
+
+### Evidence to submit
+- Test table(s) + short screencast of full run.
+- Before/after fix note (e.g., 7 classified incorrectly then fixed).
+
+**Boundary examples:**  
+Below/on/above 1, 3, 7, 10 (e.g., 0.9 ✗, 1 ✓, 3 ✓, 3.1 → ripe, 7 ✓, 7.1 → overripe, 10 ✓, 10.1 ✗)
+
+---
+
+# Theme 2 — Text Tagger (no numbers; simple list)
+
+---
+
+## E) Complaint Triage Assistant
+
+### Context
+A school office receives short student/whānau messages and wants quick triage labels.
+
+### Functional brief
+- Ask for sender name (string).
+- Accept short complaint messages until user types `"done"`.
+- For each message, assign one label from: `["IT", "Facilities", "Teaching", "Behaviour", "Other"]`.
+- Output: sender, list of (message, label), and counts per label.
+
+### Technical (OMIs)
+
+**Functions + lists (Achieved):**
+- `classify_message(msg: str) -> str` (returns one allowed label).
+- Maintain a `messages` list; loop to build `(msg, label)` pairs.
+
+**Layout/comments (Achieved):**
+- Purpose comments atop functions and processing loop.
+
+**Conventions (Merit):**
+- snake_case; clear names (`sender_name`, `messages`, `label_counts`).
+
+**Boundary tests (Merit):**
+- Allowed set boundary: label must be in allowed list.
+- Length boundary for messages: `""` (empty), `"OK"` (very short), long (≥100 chars).
+
+**Excellence:**
+- Constants `ALLOWED_LABELS`, `MAX_LEN`.
+- Robust handling of empty/oversized strings.
+- Comprehensive tests (typical + boundary + invalid like blank, whitespace, label not in set).
+
+### Invalid/unexpected
+- Empty message → “Please enter some text.”
+- Suggested label not in `ALLOWED_LABELS` → “Choose one of …”.
+
+### Evidence
+- Test table (≥3 typical, label set boundary, empty string), before/after fix note, short screencast.
+
+---
+
+# Theme 4 — Playlist Builder 🎵
+
+---
+
+## F) Playlist Builder
+
+### Context
+Students love making playlists. A program should collect favourite songs and sort them into moods.
+
+### Functional brief
+- Ask for user name (string).
+- Accept song titles until `"done"`.
+- For each song, ask for a mood label (`["Happy", "Chill", "Sad", "Hype"]`).
+- Store `(song, mood)` pairs in a list.
+- At the end:
+  - Print the user’s name.
+  - Print all songs grouped by mood.
+  - Show how many songs per mood.
+
+### OMI alignment
+
+**Achieved:**
+- Functions + lists, e.g. `add_song(song, mood)` returns a tuple.
+
+**Merit:**
+- Conventions, descriptive names (`playlist`, `song_list`).
+- Boundary test = invalid mood (`"sleepy"`) or blank song.
+
+**Excellence:**
+- Constant `MOODS = [...]`.
+- Robust handling of duplicates/blank input.
+- Comprehensive test set (typical, invalid, boundary).
