@@ -117,7 +117,7 @@
       "level": "E",
       "weight": 1,
       "detection_hint": "The strategy must logically match the issue. Generic ‘test more’ answers are insufficient without linkage.",
-      "success_examples": ["Sensor fusion to reduce glare‑related braking errors.", "Require human review for LLM outputs.", "Diversify training data to reduce cultural bias."],
+      "success_examples": ["Require human review for LLM outputs.", "Diversify training data to reduce cultural bias."],
       "source_ref": "AS PDF p2 §5 future‑proofing"
     }
   ],
