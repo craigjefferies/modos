@@ -1,0 +1,106 @@
+# Scholarship Digital Technologies (93604)
+### Content Knowledge Guide – Student Version (2025)
+
+---
+
+## 🎯 What This Exam Is About
+The Scholarship Digital Technologies exam tests how well you can **think, design, and reflect** like a computer scientist — understanding, building, and improving algorithms to solve complex problems.
+
+You’ll answer **three main questions** that assess:
+1. **Algorithmic Comprehension and Decomposition** – understanding and explaining algorithms.
+2. **Algorithm Development and Implementation** – designing and coding solutions.
+3. **Critical Reflection and Analysis** – testing, comparing, and improving your work.
+
+Questions can come from any **Level 8 topic** in:
+- *Computational Thinking for Digital Technologies*
+- *Designing and Developing Digital Outcomes*
+
+---
+
+## 💡 What Scholarship Answers Show
+Scholarship isn’t about memorising facts — it’s about showing deeper thinking:
+- **Insight** – you can explain how and why something works.
+- **Abstraction** – you recognise general patterns and ideas.
+- **Clarity** – your code and explanations are logical and easy to follow.
+- **Elegance** – your solutions are tidy, efficient, and make sense.
+
+---
+
+## 🧩 Core Knowledge You’ll Need
+
+| Focus Area | What You Should Know | Example Skills |
+|-------------|---------------------|----------------|
+| **Algorithmic Thinking** | How algorithms are structured and explained. | Trace pseudocode; identify sequence, selection, and loops; use recursion or functions. |
+| **Algorithm Development** | How to design and build working solutions. | Pick good data structures (lists, arrays, graphs); code clear steps; test and debug logic. |
+| **Evaluation & Reflection** | How to check and improve your design. | Compare methods; explain efficiency (speed and memory); justify changes or trade-offs. |
+| **Communication** | How to explain your ideas clearly. | Write neat pseudocode; use comments; describe choices and results clearly. |
+
+---
+
+## 🔢 Common Algorithm Patterns
+- **Sorting & Searching:** bubble, selection, merge, quicksort, binary search.  
+- **Graph & Pathfinding:** BFS, DFS, Dijkstra, A*.  
+- **Recursion:** solving smaller subproblems within the same algorithm.  
+- **Dynamic Programming:** saving results to avoid repeat work (e.g., Fibonacci).  
+- **Greedy Algorithms:** picking the best option at each step (e.g., coin change).
+
+---
+
+## 🧮 Data and Structures
+Know how and when to use:
+- **Arrays/Lists:** store ordered data.
+- **Stacks/Queues:** handle “first in, first out” or “last in, first out.”
+- **Graphs/Trees:** model relationships and paths.
+- **Maps/Dictionaries:** store key–value pairs.
+
+---
+
+## 🔍 Evaluating and Improving
+
+| Area | What You Need to Do |
+|------|---------------------|
+| **Correctness** | Show your algorithm works for all test cases. |
+| **Efficiency** | Explain how fast or memory-heavy it is (Big-O if you can). |
+| **Trade-offs** | Explain why you chose one method over another. |
+| **Scalability** | How would your solution change for bigger data? |
+| **Testing** | Create and record test cases, fix logic errors. |
+| **Reflection** | Explain what improved and what you learned. |
+
+---
+
+## 🧠 THINK → MAKE → REFLECT
+Understand Build Test & Explain
+
+- **THINK:** Break down the problem and plan your steps.  
+- **MAKE:** Write pseudocode or code that is correct and readable.  
+- **REFLECT:** Test, spot weaknesses, and explain your improvements.
+
+---
+
+## 📘 Example Question Types
+
+| Type | Example |
+|------|----------|
+| Algorithmic Comprehension | “Explain what this pseudocode does and find one inefficiency.” |
+| Algorithm Development | “Design an algorithm to find the shortest route between cities.” |
+| Critical Reflection | “Compare two methods and justify which is more efficient.” |
+| Combined Insight | “How would your algorithm change if the dataset was 10× larger?” |
+
+---
+
+## 🧰 How to Prepare
+1. Practise tracing code and explaining each line.  
+2. Write **pseudocode** that anyone can follow.  
+3. Design and test your own algorithms.  
+4. Compare different approaches and explain your choices.  
+5. Keep a record of bugs and how you fixed them.  
+6. Discuss ethical or real-world effects of your solutions.  
+7. Always explain your reasoning — don’t just show code.
+
+---
+
+## 🏁 Final Tips
+- Focus on **clarity before cleverness** – make sure your logic is easy to follow.  
+- Show evidence that you tested and improved your solution.  
+- Use **examples, diagrams, or short tables** if they help explain your idea.  
+- Remember: Scholarship is about **understanding and reflection**, not memorising code.
