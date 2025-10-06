@@ -1,199 +1,175 @@
 {
   "meta": {
     "as_code": "93604",
-    "title": "New Zealand Scholarship — Digital Technologies",
-    "version": "2025 Sample",
-    "credits": 0,
+    "title": "Scholarship Digital Technologies (93604) – OMIS Indicators",
+    "version": "2025 OMIS v2",
     "assessment_type": "External",
-    "source_pdf": "Scholarship-Digital-technologies-93604-sample-assessment-2025.pdf; Scholarship-Digital-Technologies-93604-reference-sheet.pdf; Scholarship-Digital-Technologies-Performance-Standard.pdf",
-    "purpose": "Use knowledge of digital technology, including computational thinking, to develop, design, synthesise, integrate and critically reflect on solutions to address problems."
+    "purpose": "Indicators for algorithmic comprehension, development, reflection, and communication in Scholarship Digital Technologies"
   },
   "key_terms": [
     {
-      "term": "Algorithmic comprehension and decomposition",
-      "definition": "understanding the requirements, constraints and expected outcomes, decomposing complex problems and providing sophisticated solutions"
+      "term": "Algorithmic comprehension & decomposition",
+      "definition": "Understanding problem requirements, decomposing into subproblems, and explaining algorithm structure."
     },
     {
-      "term": "Algorithm development and implementation",
-      "definition": "integration, synthesis and application of highly developed knowledge and skills to produce efficient, elegant outcomes in complex situations"
+      "term": "Algorithm development & implementation",
+      "definition": "Designing and coding solutions that satisfy constraints, are correct, efficient, and well structured."
     },
     {
-      "term": "Critical reflection and analysis",
-      "definition": "evaluating algorithms and reflecting on functionality, efficiency and implications through testing, documentation and refinement"
+      "term": "Critical reflection & analysis",
+      "definition": "Evaluating correctness, efficiency, trade-offs, scalability, and suggesting refinements or alternatives."
+    },
+    {
+      "term": "Communication & presentation",
+      "definition": "Explaining design rationale, structure, and reasoning clearly and convincingly."
     }
   ],
   "omis": [
     {
-      "id": "requirements_constraints_expected_outcomes_identified",
-      "dimension": "Algorithmic comprehension and decomposition",
-      "description": "Identifies inputs, outputs, constraints, and expected outcomes before proposing or modifying an algorithm.",
+      "id": "io_specification_identified",
+      "dimension": "Algorithmic comprehension & decomposition",
+      "description": "Explicitly identifies inputs, outputs, constraints (ranges, limits), and stopping conditions before algorithm design or modification.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Student must explicitly name inputs, outputs, ranges/limits, and stopping conditions. Restating the prompt without variables or constraints is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for formal variable names, domain/range specs, output description, termination condition. A mere restatement of the problem without these is insufficient.",
       "success_examples": [
-        "“The first line of input will be single integer N.”",
-        "“You are required to give the minimum number of knight moves.”"
-      ],
-      "source_ref": "Sample Assessment – Q2 problem and I/O constraints :contentReference[oaicite:0]{index=0}"
+        "“Input: N (1 ≤ N ≤ 10⁶). Output: minimal number of moves.”",
+        "“Terminate when left > right; no built-in reverse allowed.”"
+      ]
     },
     {
-      "id": "problem_decomposed_into_sequence_selection_iteration",
-      "dimension": "Algorithmic comprehension and decomposition",
-      "description": "Breaks the task into control structures using sequence, selection, and iteration with clear structure.",
+      "id": "control_structure_decomposition",
+      "dimension": "Algorithmic comprehension & decomposition",
+      "description": "Breaks the logic into explicit control structures (sequence, selection, iteration, recursion) with clear hierarchy.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Require stepwise logic with indentation, IF/ELSE and loop headers, and explicit END markers (ENDIF/ENDFOR). A bullet list without control-flow hierarchy is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Must include IF / FOR / WHILE (or recursion) with proper indentation or end markers. A bullet outline without flow is weak.",
       "success_examples": [
-        "“FOR i FROM (LENGTH(a) - 1) TO 0 STEP = -1”",
-        "“IF a[j] IS NOT EQUAL TO b[j] … ENDFOR”",
-        "“Use indentation to show hierarchy.”"
-      ],
-      "source_ref": "Q1 pseudocode; Pseudocode sheet structure rules :contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}"
+        "“FOR i FROM 0 TO n-1 DO … ENDFOR”",
+        "“IF a[i] ≠ a[n-i-1] THEN return false ENDIF”"
+      ]
     },
     {
-      "id": "algorithm_structure_articulated",
-      "dimension": "Algorithmic comprehension and decomposition",
-      "description": "Explains how the components interact to achieve the purpose (e.g., reverse then compare).",
+      "id": "component_interaction_explained",
+      "dimension": "Algorithmic comprehension & decomposition",
+      "description": "Explains how subcomponents (loops, functions, variables) interact to meet the overall goal.",
       "level": "A",
       "weight": 1,
-      "detection_hint": "Must describe roles of loops, variables, and comparisons and how these combine to meet the goal. Naming parts without interaction is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for phrases like “first compute prefix sums, then slide window, then compare results.” Not just listing parts.",
       "success_examples": [
-        "“What is the purpose of the ‘DoSomething’ function?”"
-      ],
-      "source_ref": "Sample Assessment – Q1(b) purpose explanation :contentReference[oaicite:3]{index=3}"
+        "“Outer loop moves window; inner loop updates counts; then test against threshold.”"
+      ]
     },
     {
-      "id": "solution_designed_to_meet_specified_requirements",
-      "dimension": "Algorithm development and implementation",
-      "description": "Design choices are explicitly linked to the stated requirements and constraints.",
+      "id": "design_linked_to_spec",
+      "dimension": "Algorithm development & implementation",
+      "description": "Design choices (algorithms, data structures) are explicitly justified with reference to requirements, constraints or limits.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Design rationale must tie chosen method to constraints (e.g., BFS ensures minimum moves; capacity bounds in knapsack). Generic ‘this solves it’ claims are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for reasoning like “I use BFS because we need minimal moves” or “using sorting because N is large” rather than “this solves it.”",
       "success_examples": [
-        "“You are required to give the minimum number of knight moves.”",
-        "“Write a solution to this problem in your chosen language.”"
-      ],
-      "source_ref": "Sample Assessment – Q2(d); Q3(d) implementation prompts :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}"
+        "“Because N can be up to 10⁵, I choose O(n log n) sort rather than O(n²).”"
+      ]
     },
     {
-      "id": "coding_implements_core_logic_correctly",
-      "dimension": "Algorithm development and implementation",
-      "description": "Implements essential control flow and data handling correctly with clear, language-agnostic style.",
+      "id": "core_logic_correctly_implemented",
+      "dimension": "Algorithm development & implementation",
+      "description": "Core algorithmic logic (loops, conditions, data updates) is implemented correctly, with proper returns and consistency.",
       "level": "M",
       "weight": 2,
-      "detection_hint": "Check for correct loops/conditions, return values, and consistent pseudocode conventions (UPPERCASE keywords, indentation, explicit END). Logical errors or missing returns fail. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Check loops and branches correspond to design. Missing or wrong returns, mis-updates, or broken logic result in failure.",
       "success_examples": [
-        "“Code can be written in: Pseudocode … Python … Java.”",
-        "“Care must be taken to manually debug and check accuracy.”",
-        "“Use indentation to show hierarchy.”"
-      ],
-      "source_ref": "Sample Assessment instructions; Pseudocode sheet rules :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}"
+        "“While left ≤ right do … adjust pointers … return final result.”"
+      ]
     },
     {
-      "id": "debugging_and_iteration_documented",
-      "dimension": "Algorithm development and implementation",
-      "description": "Documents boundary cases, faults found, and specific changes that improve correctness or robustness.",
+      "id": "boundary_and_edge_case_handling",
+      "dimension": "Algorithm development & implementation",
+      "description": "Explicitly handles boundary / edge cases (empty input, minimal size, duplicates) with guard logic or special cases.",
       "level": "M",
       "weight": 1,
-      "detection_hint": "Must include at least one boundary case, a described bug or risk, and the exact code/pseudocode change. Saying ‘tested thoroughly’ is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for a separate block or comment checking extreme or degenerate inputs. Mere mention “tested edge cases” is not enough.",
       "success_examples": [
-        "“Write one boundary case for this function.”",
-        "“Write the improved pseudocode function to handle this boundary case.”",
-        "“Create another sample … that includes boundary input.”"
-      ],
-      "source_ref": "Sample Assessment – Q1(e–f); Q2(c) boundary testing :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}"
+        "“If n = 0, return 0 immediately.”",
+        "“When left > right break loop or return default.”"
+      ]
     },
     {
-      "id": "evaluation_of_correctness_and_efficiency",
-      "dimension": "Critical reflection and analysis",
-      "description": "Evaluates correctness and efficiency using justified reasoning (e.g., complexity, operations count, memory use).",
+      "id": "avoids_forbidden_library_shortcuts",
+      "dimension": "Algorithm development & implementation",
+      "description": "Does not use disallowed built-in shortcuts (e.g. reverse, sort) in improvement tasks; logic is shown explicitly.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Check for absence of banned calls. If such are present in tasks where they are forbidden, this indicator fails.",
+      "success_examples": [
+        "“I manually compare s[i] and s[n-1-i] instead of using s.reverse().”"
+      ]
+    },
+    {
+      "id": "integration_and_coherence",
+      "dimension": "Algorithm development & implementation",
+      "description": "Subcomponents and optimisations are integrated into a coherent whole; all parts feed into the final solution.",
       "level": "E",
       "weight": 2,
-      "detection_hint": "Require a claim plus reasoning or metric (e.g., Big-O, loop counts) and comparison with another approach or the original algorithm. ‘It’s faster’ without basis is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for flow across modules, no orphan code, consistent naming, and minimal redundancy. Disconnected subroutines reduce this score.",
       "success_examples": [
-        "“Evaluate the efficiency of this algorithm and suggest improvements.”",
-        "“State and explain the cost of your algorithm on inputs of increasing size.”",
-        "“Evaluate its efficiency against the original.”"
-      ],
-      "source_ref": "Sample Assessment – Q1(g–i); Q2(f) efficiency prompts :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}"
+        "“Helper function called in main loop; no redundant code; all pathways return a result.”"
+      ]
     },
     {
-      "id": "cost_tradeoffs_and_implications_discussed",
-      "dimension": "Critical reflection and analysis",
-      "description": "Discusses trade-offs (time vs space, optimality vs resources) and implications, with justified comparisons to alternatives.",
-      "level": "E",
-      "weight": 1,
-      "detection_hint": "Must contrast at least two approaches on efficiency/complexity or resource use and justify the chosen trade-off. Listing pros/cons without reasoning is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": [
-        "“Compare your chosen method with a potential alternative solution.”",
-        "“How the new approach would compare regarding efficiency and complexity.”",
-        "“Compare and contrast … and justify your choice.”"
-      ],
-      "source_ref": "Sample Assessment – Q2(g); Q3(g) trade-off prompts :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}"
-    },
-    {
-      "id": "testing_evidence_leads_to_refinement",
-      "dimension": "Critical reflection and analysis",
-      "description": "Uses test evidence to justify refinements and demonstrates improvement in behaviour, performance, or robustness.",
-      "level": "E",
-      "weight": 1,
-      "detection_hint": "Evidence must include observed result, identified issue, precise change, and improved outcome. Describing tests without linking to change is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-      "success_examples": [
-        "“Write the improved pseudocode function to handle this boundary case.”",
-        "“Manual debugging … check accuracy.”"
-      ],
-      "source_ref": "Sample Assessment – Q1(f) refinement; instructions on manual debugging :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}"
-    },
-    {
-      "id": "integration_and_synthesis_elegance_demonstrated",
-      "dimension": "Algorithm development and implementation",
-      "description": "Integrates multiple algorithmic components to form an efficient, elegant, and coherent solution addressing all key aspects of the problem.",
+      "id": "correctness_and_efficiency_evaluation",
+      "dimension": "Critical reflection & analysis",
+      "description": "Evaluates both correctness and computational efficiency, with justified reasoning, using Big-O or metrics and comparisons.",
       "level": "E",
       "weight": 2,
-      "detection_hint": "Evidence must show synthesis of multiple techniques or optimisations into a unified, efficient solution. Isolated improvements without integration are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for statements like “This runs in O(n log n)” with reasoning or comparisons to other algorithms. Vague claims of “faster” without support are weak.",
       "success_examples": [
-        "“Identifying and addressing key aspects of a problem by producing efficient, elegant digital outcomes.”"
-      ],
-      "source_ref": "Performance Standard – Integration, synthesis and application :contentReference[oaicite:16]{index=16}"
+        "“Original was O(n²); my version is O(n log n) by replacing nested loops with sorting + two pointers.”"
+      ]
     },
     {
-      "id": "perception_and_insight_in_unfamiliar_contexts",
-      "dimension": "Critical reflection and analysis",
-      "description": "Demonstrates transfer and adaptation of algorithmic reasoning to generalised or unfamiliar situations.",
+      "id": "tradeoffs_and_implications",
+      "dimension": "Critical reflection & analysis",
+      "description": "Discusses trade-offs (time vs space, simplicity vs performance), limitations, and implications, comparing at least two methods.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Student must adapt the approach to a new scenario, board size, data pattern, or constraint and explain why it still works. Restating prior logic without adaptation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for explicit pros/cons and justification for chosen approach under constraints.",
       "success_examples": [
-        "“solving problems in generalised or unfamiliar situations”",
-        "“managing complexity … unfamiliar situations”"
-      ],
-      "source_ref": "Performance Standard – Outstanding ‘Perception and insight’ :contentReference[oaicite:17]{index=17}"
+        "“Hash map is fast but more memory; tree uses less memory but slower operations.”"
+      ]
     },
     {
-      "id": "abstraction_and_scalability_considered",
-      "dimension": "Critical reflection and analysis",
-      "description": "Shows sophisticated abstraction and scalability, designing solutions that extend to very large or complex systems.",
+      "id": "scalability_and_big_o_reasoning",
+      "dimension": "Critical reflection & analysis",
+      "description": "Explicitly reasons about how the algorithm scales with large input (e.g. doubling N) using Big-O or asymptotic thinking.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Require explicit abstraction (e.g., modular functions, reusable data structures) or scalability reasoning (e.g., behaviour as N grows). Single-case, ad hoc designs are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for phrases like “if n doubles, runtime ~ quadruples”, or explicit Big-O derivations in context of constraints.",
       "success_examples": [
-        "“scaled up to handle very large, complex systems”",
-        "“sophisticated integration and abstraction”"
-      ],
-      "source_ref": "Performance Standard – Outstanding ‘Sophisticated integration and abstraction’ :contentReference[oaicite:18]{index=18}"
+        "“At n = 10⁶, O(n²) is 10¹² operations — infeasible; my O(n log n) handles large N.”"
+      ]
     },
     {
-      "id": "convincing_communication_of_design_rationale",
-      "dimension": "Communication and presentation",
-      "description": "Communicates clearly and convincingly how design steps address problem details, showing coherent reasoning.",
+      "id": "insight_and_adaptation_in_new_contexts",
+      "dimension": "Critical reflection & analysis",
+      "description": "Adapts algorithmic reasoning to novel or variant scenarios, showing abstraction and insight beyond the base problem.",
       "level": "E",
       "weight": 1,
-      "detection_hint": "Must link design steps to specific problem details with clear, precise language. Listing features without justification does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "detection_hint": "Look for adjustments when constraints change (e.g. negative weights, different limits) and reasoning for why method still holds or must change.",
       "success_examples": [
-        "“clearly conveying a highly developed understanding”",
-        "“how the steps in the design of a solution address the details”"
-      ],
-      "source_ref": "Performance Standard – Outstanding ‘Convincing communication’ :contentReference[oaicite:19]{index=19}"
+        "“If weights could be negative, I would use Bellman-Ford instead of Dijkstra.”"
+      ]
+    },
+    {
+      "id": "clear_and_rhetorical_communication",
+      "dimension": "Communication & presentation",
+      "description": "Design steps, rationale, and reasoning are communicated clearly and convincingly, linked tightly to problem details.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Look for arguments anchored in the scenario — not just abstract bullet points. Explanations should be coherent, precise, and contextual.",
+      "success_examples": [
+        "“I chose merge sort because in worst-case it’s O(n log n), ensuring performance on large data unlike quicksort’s possible O(n²).”"
+      ]
     }
   ]
 }
