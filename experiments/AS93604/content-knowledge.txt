@@ -1,114 +1,104 @@
-# Scholarship Digital Technologies (93604)
-### Content Knowledge Guide – Student Version (2025, v2)
+# Scholarship Digital Technologies (93604)  
+## Content Knowledge Guide (Student Version, 2025)
 
 ---
 
-## 🎯 What This Exam Is About
-The Scholarship Digital Technologies exam tests how well you can **think, design, and reflect** like a computer scientist — understanding, building, and improving algorithms to solve complex problems.
+## 🎯 What This Exam Assesses  
+- You will answer **three main questions** that test:  
+  1. **Algorithmic Comprehension & Decomposition** – reading, understanding, breaking down algorithms  
+  2. **Algorithm Development & Implementation** – designing and writing solutions  
+  3. **Critical Reflection & Analysis** – comparing, improving, justifying your choices  
 
-You’ll answer **three main questions** that assess:
-1. **Algorithmic Comprehension and Decomposition** – understanding and explaining algorithms.
-2. **Algorithm Development and Implementation** – designing and coding solutions.
-3. **Critical Reflection and Analysis** – testing, comparing, and improving your work.
-
-Questions can come from any **Level 8 topic** in:
-- *Computational Thinking for Digital Technologies*
-- *Designing and Developing Digital Outcomes*
+- Expect **large input sizes**, **time & memory constraints**, and **restrictions on shortcuts** (e.g. no built-in `reverse()`, `sort()` in improve tasks) :contentReference[oaicite:1]{index=1}  
+- Answers should be in **pseudocode** (language-agnostic) and include comments, clarity, and justification  
+- You will likely receive a **reference sheet** during the exam :contentReference[oaicite:2]{index=2}  
 
 ---
 
-## 💡 What Scholarship Answers Show
-Scholarship isn’t about memorising facts — it’s about showing deeper thinking:
-- **Insight** – you can explain how and why something works.
-- **Abstraction** – you recognise general patterns and ideas.
-- **Clarity** – your code and explanations are logical and easy to follow.
-- **Elegance** – your solutions are tidy, efficient, and make sense.
+## 🧩 Core Abilities to Demonstrate  
+
+| Domain | You Should Be Able To Do |
+|---|---|
+| **Algorithmic Thinking** | Trace pseudocode; identify loops, conditions, recursion; deduce output; detect inefficiency |
+| **Algorithm Development** | Choose suitable data structures; write clear, modular pseudocode; ensure correctness |
+| **Evaluation & Reflection** | Analyze time/space complexity; compare alternatives; test boundary cases; justify choices |
+| **Communication** | Use clear naming; comment logic; structure answers; explain reasoning and tradeoffs |
 
 ---
 
-## 🧩 Core Knowledge You’ll Need
+## 🔢 Key Algorithmic Patterns & Techniques  
 
-| Focus Area | What You Should Know | Example Skills |
-|-------------|---------------------|----------------|
-| **Algorithmic Thinking** | How algorithms are structured and explained. | Trace pseudocode; identify sequence, selection, and loops; use recursion or functions; **identify an algorithm’s purpose and predict its output.** |
-| **Algorithm Development** | How to design and build working solutions. | Pick good data structures (lists, arrays, graphs); code clear steps; test and debug logic. |
-| **Evaluation & Reflection** | How to check and improve your design. | Compare methods; explain efficiency (speed and memory); **explain why one approach is preferable**; justify changes or trade-offs. |
-| **Communication** | How to explain your ideas clearly. | Write neat pseudocode; use comments; describe choices and results clearly. |
-
----
-
-## 🔢 Common Algorithm Patterns
-- **Sorting & Searching:** bubble, selection, merge, quicksort, binary search.  
-- **Graph & Pathfinding:** BFS, DFS, Dijkstra, A*.  
-- **Recursion:** solving smaller subproblems within the same algorithm.  
-- **Dynamic Programming:** saving results to avoid repeat work (e.g., Fibonacci).  
-- **Greedy Algorithms:** picking the best option at each step (e.g., coin change).  
-- **Search and Optimisation:** applying BFS, DFS, or DP to find the best or shortest solution under constraints.  
+- **Sliding Window / Two-Pointer / Prefix Sums** — for contiguous subarray / substring problems  
+- **Divide & Conquer / Recursion** — e.g. merge sort, quicksort; recursive decomposition  
+- **Sorting & Searching** — merge sort, quicksort, binary search, possibly heap sort  
+- **Graph & Pathfinding** — BFS, DFS, Dijkstra (if weights are nonnegative), perhaps A* if context allows  
+- **Dynamic Programming** — define state, transition, bottom-up / top-down, rolling arrays  
+- **Greedy & Selection** — sort + greedy choice, priority queues, proofs or counterexamples  
+- **String / Sequence Algorithms** — palindrome check with two pointers, substring matching, rolling hash  
 
 ---
 
-## 🧮 Data and Structures
-Know how and when to use:
-- **Arrays/Lists:** store ordered data.
-- **Stacks/Queues:** handle “first in, first out” or “last in, first out.”
-- **Graphs/Trees:** model relationships and paths.
-- **Maps/Dictionaries:** store key–value pairs.
+## 🧰 Common Data Structures  
+
+- **Array / List** — ordered collection, direct indexing  
+- **Stack / Queue** — LIFO or FIFO usage  
+- **Hash Map / Set** — fast key lookup, membership testing  
+- **Heap / Priority Queue** — dynamic selection of min / max  
+- **Graph / Tree structures** — adjacency list / matrix, parent/child relationships  
 
 ---
 
-## 🔍 Evaluating and Improving
+## 🔍 Evaluation & Improvement: What to Always Include  
 
-| Area | What You Need to Do |
-|------|---------------------|
-| **Correctness** | Show your algorithm works for all test cases. |
-| **Efficiency** | Explain how fast or memory-heavy it is. Use simple examples like: “A loop that checks every letter takes one step per character.” |
-| **Trade-offs** | Explain why you chose one method over another (e.g., BFS vs A*). |
-| **Scalability** | How would your solution change for bigger data? |
-| **Testing** | Create and record test cases, fix logic errors. |
-| **Reflection** | Explain what improved and what you learned. |
+- **Correctness** — handle all test cases, including edge or boundary cases  
+- **Efficiency** — state time (O-notation) and space complexities, and find bottlenecks  
+- **Trade-offs & Alternatives** — explain why one method was chosen over another  
+- **Scalability** — discuss behavior as data size increases  
+- **Testing** — sample, worst-case, boundary input tests  
+- **Reflection** — note what was improved, limitations, and possible further optimisations  
 
 ---
 
-## 🧠 THINK → MAKE → REFLECT
-Understand Build Test & Explain
+## 🧠 THINK → MAKE → REFLECT (in practice)  
 
-- **THINK:** Break down the problem and plan your steps.  
-- **MAKE:** Write pseudocode or code that is correct and readable.  
-- **REFLECT:** Test, spot weaknesses, and explain your improvements.
-
----
-
-- **THINK:** Break down the problem, identify its purpose, and plan your steps.  
-- **MAKE:** Write pseudocode or code that is correct and readable.  
-- **REFLECT:** Test, spot weaknesses, and explain your improvements.
+- **THINK**: Decompose the problem; identify subproblems; plan approach  
+- **MAKE**: Write pseudocode, modular with named subroutines; maintain clarity  
+- **REFLECT**: Test your solution; analyze complexity; explain choices; suggest improvements  
 
 ---
 
-## 📘 Example Question Types
+## 📘 Types of Questions You’ll Encounter  
 
-| Type | Example |
-|------|----------|
-| Algorithmic Comprehension | “Explain what this pseudocode does and find one inefficiency.” |
-| Algorithm Development | “Design an algorithm to find the shortest route between cities.” |
-| Critical Reflection | “Compare two methods and justify which is more efficient or simpler.” |
-| Combined Insight | “How would your algorithm change if the dataset was 10× larger?” |
-
----
-
-## 🧰 How to Prepare
-1. Practise tracing code and explaining each line.  
-2. Write **pseudocode** that anyone can follow.  
-3. Design and test your own algorithms.  
-4. Compare different approaches and explain your choices.  
-5. Keep a record of bugs and how you fixed them.  
-6. Discuss ethical or real-world effects of your solutions.  
-7. Always explain your reasoning — don’t just show code.
+| Question Type | Goal |
+|---------------|------|
+| **Comprehension & Decomposition** | “Explain what this pseudocode does and decompose into subroutines.” |
+| **Critique / Improve Given Algorithm** | “Identify inefficiencies or boundary flaws, and propose a better version.” |
+| **Algorithm Design** | “Design an algorithm to solve this problem under constraints.” |
+| **Evaluation / Comparison** | “Compare two methods, state pros/cons, and explain which is superior and why.” |
+| **Scaling / Variant Adaptation** | “How would your algorithm change if input is 10× larger or constraints shift?” |
 
 ---
 
-## 🏁 Final Tips
-- Focus on **clarity before cleverness** – make sure your logic is easy to follow.  
-- Show evidence that you tested and improved your solution.  
-- Use **examples, diagrams, or short tables** if they help explain your idea.  
-- Replace technical terms like *Big-O* with everyday ideas like *growth rate* when writing explanations.  
-- Remember: Scholarship is about **understanding and reflection**, not memorising code.
+## 🛠️ How to Prepare Effectively  
+
+1. Trace and explain existing pseudocode line-by-line  
+2. Practice writing modular, clean pseudocode under time pressure  
+3. Solve many “large input / constrained” problems (sliding window, knapsack, string matching)  
+4. After solving, write a short analysis: correctness, complexity, alternative methods  
+5. Study sample assessments and exemplars; annotate how top responses are structured  
+6. Maintain a personal “pitfall log” (bugs, off-by-one, hidden cost) and how you fixed them  
+7. Practice short critique tasks (given flawed algorithm, find improvements)  
+
+---
+
+## 🏁 Exam Tips & Reminders  
+
+- Clarity over cleverness — use straightforward, understandable logic  
+- Always include a short reasoning or proof of correctness  
+- State complexity (time & space) and justify it  
+- Explicitly mention what edge cases you considered  
+- When comparing methods, structure your answer: description, complexity, pros/cons, decision  
+- Use diagrams, sample inputs or tables if they help your explanation  
+
+---
+
