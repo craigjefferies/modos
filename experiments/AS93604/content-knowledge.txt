@@ -1,5 +1,5 @@
 # Scholarship Digital Technologies (93604)
-### Content Knowledge Guide – Student Version (2025)
+### Content Knowledge Guide – Student Version (2025, v2)
 
 ---
 
@@ -30,9 +30,9 @@ Scholarship isn’t about memorising facts — it’s about showing deeper think
 
 | Focus Area | What You Should Know | Example Skills |
 |-------------|---------------------|----------------|
-| **Algorithmic Thinking** | How algorithms are structured and explained. | Trace pseudocode; identify sequence, selection, and loops; use recursion or functions. |
+| **Algorithmic Thinking** | How algorithms are structured and explained. | Trace pseudocode; identify sequence, selection, and loops; use recursion or functions; **identify an algorithm’s purpose and predict its output.** |
 | **Algorithm Development** | How to design and build working solutions. | Pick good data structures (lists, arrays, graphs); code clear steps; test and debug logic. |
-| **Evaluation & Reflection** | How to check and improve your design. | Compare methods; explain efficiency (speed and memory); justify changes or trade-offs. |
+| **Evaluation & Reflection** | How to check and improve your design. | Compare methods; explain efficiency (speed and memory); **explain why one approach is preferable**; justify changes or trade-offs. |
 | **Communication** | How to explain your ideas clearly. | Write neat pseudocode; use comments; describe choices and results clearly. |
 
 ---
@@ -42,7 +42,8 @@ Scholarship isn’t about memorising facts — it’s about showing deeper think
 - **Graph & Pathfinding:** BFS, DFS, Dijkstra, A*.  
 - **Recursion:** solving smaller subproblems within the same algorithm.  
 - **Dynamic Programming:** saving results to avoid repeat work (e.g., Fibonacci).  
-- **Greedy Algorithms:** picking the best option at each step (e.g., coin change).
+- **Greedy Algorithms:** picking the best option at each step (e.g., coin change).  
+- **Search and Optimisation:** applying BFS, DFS, or DP to find the best or shortest solution under constraints.  
 
 ---
 
@@ -60,8 +61,8 @@ Know how and when to use:
 | Area | What You Need to Do |
 |------|---------------------|
 | **Correctness** | Show your algorithm works for all test cases. |
-| **Efficiency** | Explain how fast or memory-heavy it is (Big-O if you can). |
-| **Trade-offs** | Explain why you chose one method over another. |
+| **Efficiency** | Explain how fast or memory-heavy it is. Use simple examples like: “A loop that checks every letter takes one step per character.” |
+| **Trade-offs** | Explain why you chose one method over another (e.g., BFS vs A*). |
 | **Scalability** | How would your solution change for bigger data? |
 | **Testing** | Create and record test cases, fix logic errors. |
 | **Reflection** | Explain what improved and what you learned. |
@@ -77,13 +78,19 @@ Understand Build Test & Explain
 
 ---
 
+- **THINK:** Break down the problem, identify its purpose, and plan your steps.  
+- **MAKE:** Write pseudocode or code that is correct and readable.  
+- **REFLECT:** Test, spot weaknesses, and explain your improvements.
+
+---
+
 ## 📘 Example Question Types
 
 | Type | Example |
 |------|----------|
 | Algorithmic Comprehension | “Explain what this pseudocode does and find one inefficiency.” |
 | Algorithm Development | “Design an algorithm to find the shortest route between cities.” |
-| Critical Reflection | “Compare two methods and justify which is more efficient.” |
+| Critical Reflection | “Compare two methods and justify which is more efficient or simpler.” |
 | Combined Insight | “How would your algorithm change if the dataset was 10× larger?” |
 
 ---
@@ -103,4 +110,5 @@ Understand Build Test & Explain
 - Focus on **clarity before cleverness** – make sure your logic is easy to follow.  
 - Show evidence that you tested and improved your solution.  
 - Use **examples, diagrams, or short tables** if they help explain your idea.  
+- Replace technical terms like *Big-O* with everyday ideas like *growth rate* when writing explanations.  
 - Remember: Scholarship is about **understanding and reflection**, not memorising code.
