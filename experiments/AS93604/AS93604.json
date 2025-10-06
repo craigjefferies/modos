@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "as_code": "93604",
+    "title": "New Zealand Scholarship — Digital Technologies",
+    "version": "2025 Sample",
+    "credits": 0,
+    "assessment_type": "External",
+    "source_pdf": "Scholarship-Digital-technologies-93604-sample-assessment-2025.pdf; Scholarship-Digital-Technologies-93604-reference-sheet.pdf; Scholarship-Digital-Technologies-Performance-Standard.pdf",
+    "purpose": "Use knowledge of digital technology, including computational thinking, to develop, design, synthesise, integrate and critically reflect on solutions to address problems."
+  },
+  "key_terms": [
+    {
+      "term": "Algorithmic comprehension and decomposition",
+      "definition": "understanding the requirements, constraints and expected outcomes, decomposing complex problems and providing sophisticated solutions"
+    },
+    {
+      "term": "Algorithm development and implementation",
+      "definition": "integration, synthesis and application of highly developed knowledge and skills to produce efficient, elegant outcomes in complex situations"
+    },
+    {
+      "term": "Critical reflection and analysis",
+      "definition": "evaluating algorithms and reflecting on functionality, efficiency and implications through testing, documentation and refinement"
+    }
+  ],
+  "omis": [
+    {
+      "id": "requirements_constraints_expected_outcomes_identified",
+      "dimension": "Algorithmic comprehension and decomposition",
+      "description": "Identifies inputs, outputs, constraints, and expected outcomes before proposing or modifying an algorithm.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Student must explicitly name inputs, outputs, ranges/limits, and stopping conditions. Restating the prompt without variables or constraints is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“The first line of input will be single integer N.”",
+        "“You are required to give the minimum number of knight moves.”"
+      ],
+      "source_ref": "Sample Assessment – Q2 problem and I/O constraints :contentReference[oaicite:0]{index=0}"
+    },
+    {
+      "id": "problem_decomposed_into_sequence_selection_iteration",
+      "dimension": "Algorithmic comprehension and decomposition",
+      "description": "Breaks the task into control structures using sequence, selection, and iteration with clear structure.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Require stepwise logic with indentation, IF/ELSE and loop headers, and explicit END markers (ENDIF/ENDFOR). A bullet list without control-flow hierarchy is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“FOR i FROM (LENGTH(a) - 1) TO 0 STEP = -1”",
+        "“IF a[j] IS NOT EQUAL TO b[j] … ENDFOR”",
+        "“Use indentation to show hierarchy.”"
+      ],
+      "source_ref": "Q1 pseudocode; Pseudocode sheet structure rules :contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}"
+    },
+    {
+      "id": "algorithm_structure_articulated",
+      "dimension": "Algorithmic comprehension and decomposition",
+      "description": "Explains how the components interact to achieve the purpose (e.g., reverse then compare).",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must describe roles of loops, variables, and comparisons and how these combine to meet the goal. Naming parts without interaction is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“What is the purpose of the ‘DoSomething’ function?”"
+      ],
+      "source_ref": "Sample Assessment – Q1(b) purpose explanation :contentReference[oaicite:3]{index=3}"
+    },
+    {
+      "id": "solution_designed_to_meet_specified_requirements",
+      "dimension": "Algorithm development and implementation",
+      "description": "Design choices are explicitly linked to the stated requirements and constraints.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Design rationale must tie chosen method to constraints (e.g., BFS ensures minimum moves; capacity bounds in knapsack). Generic ‘this solves it’ claims are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“You are required to give the minimum number of knight moves.”",
+        "“Write a solution to this problem in your chosen language.”"
+      ],
+      "source_ref": "Sample Assessment – Q2(d); Q3(d) implementation prompts :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}"
+    },
+    {
+      "id": "coding_implements_core_logic_correctly",
+      "dimension": "Algorithm development and implementation",
+      "description": "Implements essential control flow and data handling correctly with clear, language-agnostic style.",
+      "level": "M",
+      "weight": 2,
+      "detection_hint": "Check for correct loops/conditions, return values, and consistent pseudocode conventions (UPPERCASE keywords, indentation, explicit END). Logical errors or missing returns fail. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Code can be written in: Pseudocode … Python … Java.”",
+        "“Care must be taken to manually debug and check accuracy.”",
+        "“Use indentation to show hierarchy.”"
+      ],
+      "source_ref": "Sample Assessment instructions; Pseudocode sheet rules :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}"
+    },
+    {
+      "id": "debugging_and_iteration_documented",
+      "dimension": "Algorithm development and implementation",
+      "description": "Documents boundary cases, faults found, and specific changes that improve correctness or robustness.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must include at least one boundary case, a described bug or risk, and the exact code/pseudocode change. Saying ‘tested thoroughly’ is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Write one boundary case for this function.”",
+        "“Write the improved pseudocode function to handle this boundary case.”",
+        "“Create another sample … that includes boundary input.”"
+      ],
+      "source_ref": "Sample Assessment – Q1(e–f); Q2(c) boundary testing :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}"
+    },
+    {
+      "id": "evaluation_of_correctness_and_efficiency",
+      "dimension": "Critical reflection and analysis",
+      "description": "Evaluates correctness and efficiency using justified reasoning (e.g., complexity, operations count, memory use).",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Require a claim plus reasoning or metric (e.g., Big-O, loop counts) and comparison with another approach or the original algorithm. ‘It’s faster’ without basis is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Evaluate the efficiency of this algorithm and suggest improvements.”",
+        "“State and explain the cost of your algorithm on inputs of increasing size.”",
+        "“Evaluate its efficiency against the original.”"
+      ],
+      "source_ref": "Sample Assessment – Q1(g–i); Q2(f) efficiency prompts :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}"
+    },
+    {
+      "id": "cost_tradeoffs_and_implications_discussed",
+      "dimension": "Critical reflection and analysis",
+      "description": "Discusses trade-offs (time vs space, optimality vs resources) and implications, with justified comparisons to alternatives.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Must contrast at least two approaches on efficiency/complexity or resource use and justify the chosen trade-off. Listing pros/cons without reasoning is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Compare your chosen method with a potential alternative solution.”",
+        "“How the new approach would compare regarding efficiency and complexity.”",
+        "“Compare and contrast … and justify your choice.”"
+      ],
+      "source_ref": "Sample Assessment – Q2(g); Q3(g) trade-off prompts :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}"
+    },
+    {
+      "id": "testing_evidence_leads_to_refinement",
+      "dimension": "Critical reflection and analysis",
+      "description": "Uses test evidence to justify refinements and demonstrates improvement in behaviour, performance, or robustness.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Evidence must include observed result, identified issue, precise change, and improved outcome. Describing tests without linking to change is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Write the improved pseudocode function to handle this boundary case.”",
+        "“Manual debugging … check accuracy.”"
+      ],
+      "source_ref": "Sample Assessment – Q1(f) refinement; instructions on manual debugging :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}"
+    },
+    {
+      "id": "integration_and_synthesis_elegance_demonstrated",
+      "dimension": "Algorithm development and implementation",
+      "description": "Integrates multiple algorithmic components to form an efficient, elegant, and coherent solution addressing all key aspects of the problem.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "Evidence must show synthesis of multiple techniques or optimisations into a unified, efficient solution. Isolated improvements without integration are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“Identifying and addressing key aspects of a problem by producing efficient, elegant digital outcomes.”"
+      ],
+      "source_ref": "Performance Standard – Integration, synthesis and application :contentReference[oaicite:16]{index=16}"
+    },
+    {
+      "id": "perception_and_insight_in_unfamiliar_contexts",
+      "dimension": "Critical reflection and analysis",
+      "description": "Demonstrates transfer and adaptation of algorithmic reasoning to generalised or unfamiliar situations.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Student must adapt the approach to a new scenario, board size, data pattern, or constraint and explain why it still works. Restating prior logic without adaptation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“solving problems in generalised or unfamiliar situations”",
+        "“managing complexity … unfamiliar situations”"
+      ],
+      "source_ref": "Performance Standard – Outstanding ‘Perception and insight’ :contentReference[oaicite:17]{index=17}"
+    },
+    {
+      "id": "abstraction_and_scalability_considered",
+      "dimension": "Critical reflection and analysis",
+      "description": "Shows sophisticated abstraction and scalability, designing solutions that extend to very large or complex systems.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Require explicit abstraction (e.g., modular functions, reusable data structures) or scalability reasoning (e.g., behaviour as N grows). Single-case, ad hoc designs are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“scaled up to handle very large, complex systems”",
+        "“sophisticated integration and abstraction”"
+      ],
+      "source_ref": "Performance Standard – Outstanding ‘Sophisticated integration and abstraction’ :contentReference[oaicite:18]{index=18}"
+    },
+    {
+      "id": "convincing_communication_of_design_rationale",
+      "dimension": "Communication and presentation",
+      "description": "Communicates clearly and convincingly how design steps address problem details, showing coherent reasoning.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Must link design steps to specific problem details with clear, precise language. Listing features without justification does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "“clearly conveying a highly developed understanding”",
+        "“how the steps in the design of a solution address the details”"
+      ],
+      "source_ref": "Performance Standard – Outstanding ‘Convincing communication’ :contentReference[oaicite:19]{index=19}"
+    }
+  ]
+}
