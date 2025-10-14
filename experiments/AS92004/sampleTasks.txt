@@ -1,146 +1,113 @@
-# AS92004 Level 1 Task Collection (Simplified, No Functions)
+# AS92004 Level 1 Task Collection (Updated — Counter, Classifier, Accumulator)
 
 ---
-*** Important Note ***  
-- Tasks are constrained to ask for **numerical (int or float) values** to append to a list.  
-- Each task must also include at least **one string input** (e.g., a name, label, or type) to ensure **two data types** are used.  
-- Programs must use loops, conditionals, lists, and basic operations. **No functions or imports.**
-
+***Important Note***  
+- These Level 1 programming tasks are designed for short, supervised assessment sessions (around 60 minutes).  
+- Each task explicitly requires **numeric input** (integer or float) and **at least one string input** (e.g., a name or label) so that two data types are demonstrated.  
+- Programs must include **loops**, **conditional logic**, **lists**, and simple **calculations or validation**.  
+- **No functions, imports, or complex structures** are required.  
 ---
 
-## 1. Fitness Tracker (Original Task)
+## 1. Deep Sea Seismic Event Logger *(Counter Task)*
 
 ### Context
-The Local Rec Centre wants a simple program for users to track their workouts over multiple days and receive feedback.
+A marine research team monitors seismic activity in deep-sea vents. Your program records a series of tremor severity readings and reports how many fall into a “High Risk” range.
 
 ### Task Specifications
-- Ask for the **user’s name** (string).
-- Ask for **5 workout results** (e.g., running times in minutes).
-- Use a loop to collect the results.
-- Store the values in a list.
-- Check each input:
-  - Must be a number.
-  - Must be between 10 and 60.
-- At the end:
-  - Print the **user’s name**.
-  - Print all 5 results.
-  - Calculate and print the average.
-  - Print the best (lowest) result.
-  - Give a message based on performance.
+- Ask for the **researcher’s name** (string).  
+- Repeatedly ask for tremor severity values (1.0–9.9).  
+- Type `"Stop"` when all readings have been entered.  
+- Store valid values in a list.  
+- Each valid reading must be checked:  
+  - Below 7.5 → “Normal”  
+  - 7.5 or above → “High Risk”  
+- At the end:  
+  - Print the researcher’s name.  
+  - Print all readings entered.  
+  - Print how many were “High Risk”.
 
 ### Input Requirements
-- Only accept numbers between 10 and 60 (inclusive).
-- Show error messages for invalid input.
+- Accept only numbers between 1.0 and 9.9.  
+- Show an error message if an invalid value or text (other than `"Stop"`) is entered.
 
 ### Test Cases
 
-| Test Type | Input                             | Expected Output                         |
-|-----------|------------------------------------|------------------------------------------|
-| Expected  | Name: Sam; 25, 30, 29, 27, 26     | Sam, Average: 27.4, Best: 25            |
-| Boundary  | Name: Jo; 10, 12, 15, 13, 11      | Accepted                                |
-| Boundary  | Name: Lee; 60, 55, 59, 58, 60     | Accepted                                |
-| Invalid   | Name: Pat; "banana"               | Error: That’s not a number              |
-| Invalid   | Name: Kim; 9                      | Error: Value must be 10–60              |
+| Test Type | Input | Expected Output |
+|------------|--------|-----------------|
+| Expected | Name: Sam; 6.5, 7.8, 8.1, Stop | 2 High Risk readings |
+| Boundary | Name: Jo; 7.4, 7.5, 7.6, Stop | 2 High Risk, 1 Normal |
+| Invalid | Name: Kim; "banana", 10, Stop | Error messages shown, invalids ignored |
 
 ---
 
-## 2. Pet Weight Checker
+## 2. Satellite Repair Log *(Classifier Task)*
 
 ### Context
-A local vet wants to check if pet weights are within a healthy range.
+A space agency tracks how long it takes to repair satellites after equipment failures. Your program sorts these repair times into performance categories.
 
 ### Task Specifications
-- Ask the user to enter their **pet’s name** (string).
-- Ask the user to enter pet weights (in kg) one by one.
-- End input when the user types "done".
-- Store all valid weights in a list.
-- Check each input:
-  - Must be a number.
-  - Must be between 0 and 100.
-- Classify each weight:
-  - Under 5 → "underweight"
-  - 5 to 25 → "healthy"
-  - Over 25 → "overweight"
-- At the end:
-  - Print the **pet’s name**.
-  - Show how many pets are in each category.
-  - Show each weight and its classification.
+- Ask for the **technician’s name** (string).  
+- Repeatedly ask for repair times in hours (0–100).  
+- Type `-1` when all times are entered.  
+- Store valid repair times in a list.  
+- Classify each repair time as:  
+  - “Rapid” if less than 12 hours  
+  - “Standard” if between 12 and 48 hours (inclusive)  
+  - “Prolonged” if greater than 48 hours  
+- At the end:  
+  - Print the technician’s name.  
+  - Print how many repairs fall into each category.
 
 ### Input Requirements
-- Only accept numbers between 0 and 100.
-- Show error messages for invalid input.
-- Input ends when user types "done".
+- Accept only numbers between 0 and 100.  
+- Type `-1` to finish input.  
+- Show an error message for negative numbers (other than `-1`) or values above 100.
 
 ### Test Cases
 
-| Test Type | Input                          | Expected Output                            |
-|-----------|----------------------------------|---------------------------------------------|
-| Expected  | Pet: Max; 6, 22, 30, done      | Max → 2 healthy, 1 overweight               |
-| Boundary  | Pet: Luna; 5, 25, 4.9, 25.1    | Luna → 1 underweight, 2 healthy, 1 overweight|
-| Invalid   | Pet: Poppy; "cat", -2, 105, done | Show error messages and skip invalid input |
+| Test Type | Input | Expected Output |
+|------------|--------|-----------------|
+| Expected | Name: Alex; 10, 20, 60, -1 | 1 Rapid, 1 Standard, 1 Prolonged |
+| Boundary | Name: Lee; 11, 12, 13, 47, 48, 49, -1 | Categories counted correctly |
+| Invalid | Name: Pat; "Monday", -2, 150, -1 | Error messages, invalid skipped |
 
 ---
 
-## 3. Fruit Ripeness Logger
+## 3. Recipe Calorie Totaler *(Accumulator Task)*
 
 ### Context
-A fruit packhouse wants to log fruit ripeness scores to track storage quality.
+A nutrition research lab needs a program to calculate the total calories in experimental recipes. Each ingredient’s calorie value (per 100 g) is entered until the list is complete.
 
 ### Task Specifications
-- Ask for the **fruit type** (string).
-- Ask for **5 ripeness scores (1–10)**.
-- Use a loop to collect them.
-- Store them in a list.
-- Classify each score:
-  - 1–3 → "underripe"
-  - 4–7 → "ripe"
-  - 8–10 → "overripe"
-- At the end:
-  - Print the **fruit type**.
-  - Print a summary of how many in each category.
-  - Print all ripeness scores with their classification.
+- Ask for the **recipe name** (string).  
+- Ask repeatedly for ingredient calorie values (5–500).  
+- Enter `0` when finished.  
+- Store all valid values in a list.  
+- Keep a **running total** of calories.  
+- At the end:  
+  - Print the recipe name.  
+  - Display each calorie value entered.  
+  - Print the total calorie count and how many ingredients were recorded.
 
 ### Input Requirements
-- Only accept numbers between 1 and 10.
-- Show error messages for invalid input.
+- Accept only whole numbers between 5 and 500.  
+- Type `0` to finish input.  
+- Show an error message for non-numeric or out-of-range inputs.
 
 ### Test Cases
 
-| Test Type | Input                        | Expected Output                                |
-|-----------|-------------------------------|------------------------------------------------|
-| Expected  | Fruit: Apple; 2, 5, 9, 4, 6 | Apple → 1 underripe, 3 ripe, 1 overripe        |
-| Boundary  | Fruit: Pear; 1, 3, 4, 7, 10 | Pear → categories counted correctly            |
-| Invalid   | Fruit: Plum; -1, 11, "apple"| Errors shown, valid re-prompts accepted        |
+| Test Type | Input | Expected Output |
+|------------|--------|-----------------|
+| Expected | Name: Salad; 120, 200, 180, 0 | Total = 500, 3 ingredients |
+| Boundary | Name: Soup; 5, 500, 0 | Accepted, total = 505 |
+| Invalid | Name: Pie; "three", 501, 4, 0 | Error messages shown, invalids skipped |
 
 ---
 
-## 4. Exam Score Classifier
+### Summary of Task Types
 
-### Context
-A school wants a program to help track student test performance.
-
-### Task Specifications
-- Ask for the **student’s name** (string).
-- Ask the user to enter exam scores (0–100) until "done" is typed.
-- Store valid scores in a list.
-- Classify scores:
-  - Below 50 → "Fail"
-  - 50–74 → "Pass"
-  - 75–100 → "Excellence"
-- At the end:
-  - Print the **student’s name**.
-  - Print how many scores are in each category.
-  - Show each score with its classification.
-
-### Input Requirements
-- Only accept whole numbers between 0 and 100.
-- Show error messages for invalid input.
-- Input ends with "done".
-
-### Test Cases
-
-| Test Type | Input                           | Expected Output                                |
-|-----------|-----------------------------------|------------------------------------------------|
-| Expected  | Student: Mia; 45, 60, 88, done  | Mia → 1 Fail, 1 Pass, 1 Excellence             |
-| Boundary  | Student: Tom; 0, 49, 50, 74, 75, 100, done | Tom → each classified correctly |
-| Invalid   | Student: Ana; -5, 101, "sixty"  | Errors shown, invalids skipped                 |
+| Task Type | Core Skill Tested | What Students Demonstrate |
+|------------|------------------|---------------------------|
+| **Counter** | Looping + conditional logic | Ability to combine iteration and selection to count items meeting a rule. |
+| **Classifier** | Multi-branch decision making + boundary control | Ability to order and manage multiple conditions accurately. |
+| **Accumulator** | State management + validation | Ability to maintain a running total or changing state with correct control flow. |
