@@ -1,0 +1,247 @@
+{
+"meta": {
+"as_code": "AS91927",
+"title": "Demonstrate understanding of significant aspects of unfamiliar texts",
+"version": "5",
+"credits": 5,
+"assessment_type": "External",
+"source_pdf": "as91927.pdf; 91927-exm-2024.pdf",
+"purpose": "Students are able to demonstrate understanding of significant aspects of unfamiliar texts."
+},
+"grade_descriptors": {
+"N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+"N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+"A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+"A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+"M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+"M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+"E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+"E8": "All Achieved, Merit, and Excellence indicators are met."
+},
+"key_terms": [
+{
+"term": "significant aspects",
+"definition": "Selected from purposes and audiences; ideas; language features; structures; text conventions."
+},
+{
+"term": "supporting evidence",
+"definition": "Examples of specific and relevant details from the text(s) used to support ideas."
+}
+],
+"omis": [
+{
+"id": "describes_meanings_and_effects_in_aspects",
+"description": "Describes how meanings and effects are created in significant aspects of texts and points to those details.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Look for explicit description of how a feature creates meaning or effect, not just naming the feature. Mentioning a device without stating its effect is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"describing how meanings and effects are created",
+"using supporting evidence"
+],
+"source_ref": "AS PDF p1 Explanatory Notes 1 (Achievement) 
+
+as91927
+
+"
+},
+{
+"id": "uses_supporting_evidence_correctly",
+"description": "Selects and uses specific and relevant details from the text(s) as supporting evidence for ideas.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Evidence must be specific and relevant to the idea stated. General plot recall or unrelated quotations do not count as supporting evidence. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"examples of specific and relevant details",
+"used to support ideas"
+],
+"source_ref": "AS PDF p2 Explanatory Notes 4 
+
+as91927
+
+"
+},
+{
+"id": "addresses_purpose_and_audience",
+"description": "Identifies aspects related to purposes and audiences in the text and links them to meaning or effect.",
+"level": "A",
+"weight": 1,
+"detection_hint": "The response must explicitly reference purpose or audience and connect it to a textual aspect; merely naming an audience is not enough. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"purposes and audiences"
+],
+"source_ref": "AS PDF p2 Explanatory Notes 2 (list of significant aspects) 
+
+as91927
+
+"
+},
+{
+"id": "identifies_ideas_character_theme_setting",
+"description": "Identifies and discusses ideas such as character, theme, or setting as significant aspects contributing to meaning.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Student must link an idea (e.g., theme/character/setting) to meaning or effect; listing an idea without linkage is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"ideas (such as character, theme, setting)"
+],
+"source_ref": "AS PDF p2 Explanatory Notes 2 (ideas) 
+
+as91927
+
+"
+},
+{
+"id": "identifies_language_features_with_effect",
+"description": "Identifies language features (e.g., figurative language, style, syntax, symbolism, vocabulary) and states their effect.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Naming a feature is not enough; the response must state the effect it creates (e.g., mood, emphasis). Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"language features (such as figurative language, style, syntax, symbolism, vocabulary)"
+],
+"source_ref": "AS PDF p2 Explanatory Notes 2 (language features) 
+
+as91927
+
+"
+},
+{
+"id": "recognises_structure_or_conventions",
+"description": "Recognises structures (part/whole, narrative) or text conventions (spelling, punctuation, grammar) as significant aspects shaping meaning.",
+"level": "A",
+"weight": 1,
+"detection_hint": "Student must connect a structure or convention to meaning/effect; merely noting a paragraph or punctuation mark is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"structures (such as part text, whole text, narrative)",
+"text conventions (such as spelling, punctuation, grammar)"
+],
+"source_ref": "AS PDF p2 Explanatory Notes 2 (structures; text conventions) 
+
+as91927
+
+"
+},
+{
+"id": "explains_how_aspects_work_together",
+"description": "Explains how significant aspects of texts work together to create meaning and effects, using supporting evidence.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Look for explicit linkage words (e.g., ‘together’, ‘combine’, ‘reinforce’) connecting at least two aspects to a shared effect. Listing features separately is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"explaining how significant aspects of texts work together",
+"to create meaning and effects"
+],
+"source_ref": "AS PDF p1 Explanatory Notes 1 (Merit) 
+
+as91927
+
+"
+},
+{
+"id": "connects_features_to_reader_impact",
+"description": "Explains how choices (e.g., mood/tone, ideas, features) impact reader understanding or response, supported by quotations.",
+"level": "M",
+"weight": 1,
+"detection_hint": "Response must make a cause–effect link between a textual choice and its impact on readers; generic statements of ‘effect’ are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"Support your explanation with quotations"
+],
+"source_ref": "Exam Booklet p2–6 question stems and instruction lines 
+
+91927-exm-2024
+
+"
+},
+{
+"id": "integrates_multiple_aspects_in_argument",
+"description": "Integrates ideas, language features, and structure within a coherent explanation of meaning/effect.",
+"level": "M",
+"weight": 1,
+"detection_hint": "The explanation must weave more than one aspect into a single argument; separate paragraphs that never connect aspects do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"significant aspects of texts",
+"create meaning and effects"
+],
+"source_ref": "AS PDF p1–2 Achievement/Merit scope and aspect list 
+
+as91927
+
+"
+},
+{
+"id": "discusses_aspects_and_writers_purpose",
+"description": "Discusses the relationship between significant aspects and the writer’s purpose, using supporting evidence.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Must include a clear statement of writer’s purpose and link it to identified aspects with evidence; naming purpose alone is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"discussing the relationship between significant aspects of texts",
+"writer's purpose"
+],
+"source_ref": "AS PDF p1 Explanatory Notes 1 (Excellence) 
+
+as91927
+
+"
+},
+{
+"id": "relates_aspects_to_wider_context",
+"description": "Discusses how significant aspects relate to wider context (e.g., cultural, social), supported by specific textual evidence.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Response must explicitly name a wider context and explain its relationship to aspects; vague mentions of ‘context’ are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"wider context, using supporting evidence"
+],
+"source_ref": "AS PDF p1 Explanatory Notes 1 (Excellence) 
+
+as91927
+
+"
+},
+{
+"id": "acknowledges_maori_context_when_applicable",
+"description": "When a text is based in a Māori context, acknowledges this context and relates it to meaning or purpose with evidence.",
+"level": "E",
+"weight": 1,
+"detection_hint": "Indicator applies only when the text is in a Māori context. The student must explicitly connect the Māori context to meaning or purpose. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+"success_examples": [
+"One of the unfamiliar texts will be based in a Māori context."
+],
+"source_ref": "AS PDF p2 Explanatory Notes 3 
+
+as91927
+
+"
+}
+],
+"aggregation_rules": {
+"method": "hierarchical",
+"gate_sequence": ["A", "M", "E"],
+"levels": {
+"A": { "required_fraction": 1.0 },
+"M": { "required_fraction": 0.60 },
+"E": { "required_fraction": 0.50 }
+},
+"sub_band_logic": {
+"Achieved": {
+"A3": { "extra_merit_indicators": 0 },
+"A4": { "extra_merit_indicators": "≥1" }
+},
+"Merit": {
+"M5": { "extra_excellence_indicators": 0 },
+"M6": { "extra_excellence_indicators": "≥1" }
+},
+"Excellence": {
+"E7": { "excellence_fraction": "<1.0" },
+"E8": { "excellence_fraction": "1.0" }
+}
+},
+"fallback_grade": "N1"
+},
+"governance": {
+"last_validated": "2025-06-13",
+"change_log": []
+}
+}
