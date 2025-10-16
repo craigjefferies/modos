@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "as_code": "AS91904",
+    "title": "Use complex techniques to develop an electronics outcome",
+    "version": "1",
+    "credits": 6,
+    "assessment_type": "Internal",
+    "source_pdf": "as91904.pdf",
+    "purpose": "This achievement standard involves using complex techniques to develop an electronics outcome."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "functional_outcome_demonstrated",
+      "description": "Shows a functional electronics outcome using appropriate resources and techniques.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "A working build must be demonstrated, not only described. Screenshots, videos, or direct operation must confirm full functionality. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "using appropriate resources and techniques to develop a functional electronics outcome"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 1"
+    },
+    {
+      "id": "circuits_constructed_tested_analysed_to_spec",
+      "description": "Constructs, tests, and analyses functional circuits to ensure performance to specifications.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Testing must reference performance criteria (e.g., signal range, timing, stability) and include analysis of results. Statements like 'it worked fine' without reference to specification do not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "constructing, testing, and analysing functional circuits to ensure that the electronics outcome performs to specifications",
+        "tested filtering and noise suppression to meet performance specifications"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 2"
+    },
+    {
+      "id": "testing_modifying_debugging_evidence",
+      "description": "Provides evidence of testing, modifying, and debugging the outcome.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "All three processes—testing, modification, and debugging—must be evidenced. Debugging must include identification and correction of errors such as faulty code, wiring, or logic conflicts. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "testing, modifying, debugging the outcome",
+        "used software interrupts to debug sensor feedback"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 3"
+    },
+    {
+      "id": "explains_behaviour_and_function",
+      "description": "Explains the behaviour and function of the electronics outcome.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Explanation must describe how components or subsystems interact to achieve the desired function. Naming components or providing a simple description of appearance is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "explaining the behaviour and function of the electronics outcome",
+        "explained how sensor input and microcontroller output interact to control the display"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 4"
+    },
+    {
+      "id": "explains_communication_protocols",
+      "description": "Explains the relevant communication protocol(s) used in the outcome.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Explanation must include how data is transmitted, the role of each device, and why the chosen protocol (e.g., I2C, serial, wireless) was appropriate. Merely naming a protocol does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "explaining relevant communication protocols",
+        "explained how the I2C protocol transfers data between the MCU and sensor"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 5; Commentary Achieved examples (I2C usage)"
+    },
+    {
+      "id": "addresses_relevant_implications",
+      "description": "Shows how at least two relevant implications are addressed in the outcome.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must explicitly link design decisions to implications such as functionality, safety, aesthetics, or end-user needs. Listing implications without describing how they were met is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "addressing relevant implications",
+        "demonstrated how design choices improved usability and met end-user considerations"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Achieved bullet 6; AS PDF p2–3, Explanatory Note 4 (implications list)"
+    },
+    {
+      "id": "uses_two_or_more_complex_techniques",
+      "description": "Demonstrates at least two complex techniques in the electronics outcome.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Evidence must show two distinct complex techniques, such as implementing communication protocols, wireless data transfer, feedback control, interrupts, CAD/PCB fabrication, or filtering for noise suppression. Mentioning difficulty without showing process does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "They have used at least two complex techniques",
+        "implemented I2C communication and feedback control loop"
+      ],
+      "source_ref": "Moderator commentary (Achieved); AS PDF p2, Explanatory Note 3 (examples)"
+    },
+    {
+      "id": "uses_testing_analysis_for_reliability",
+      "description": "Uses information from testing and analysis to ensure the circuit(s) functions reliably.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Testing must include repeated trials, data logs, or measurement comparisons demonstrating improved reliability. Simply stating that it 'works' is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "using information from testing and analysis to ensure the circuit(s) functions reliably",
+        "averaged sensor values and checked against invalid inputs to improve consistency"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Merit definition"
+    },
+    {
+      "id": "demonstrates_consistent_operation_in_context",
+      "description": "Demonstrates that the system functions consistently in its intended location or context.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must provide contextual reliability evidence, such as consistent readings in an intended environment or stability over time. A single successful demonstration is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "showed that the system can function in a consistent manner in its intended location",
+        "tested the system under varying conditions to confirm stable operation"
+      ],
+      "source_ref": "Moderator commentary (Merit)"
+    },
+    {
+      "id": "iterative_improvement_cycles_documented",
+      "description": "Undertakes iterative improvement throughout design, development, and testing, showing deliberate cycles and resulting refinements.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Evidence must show multiple design-test-improve cycles, such as refining circuit layout, code logic, or EMI performance. A single revision without reflection does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "undertaking iterative improvement throughout the design, development and testing process",
+        "iteratively refined PCB layout and code to improve reliability"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Excellence bullet 1; Moderator commentary (Excellence)"
+    },
+    {
+      "id": "justifies_choice_of_communication_protocols",
+      "description": "Justifies the choice of communication protocol(s) against alternatives, with advantages and disadvantages.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Justification must compare alternative protocols (e.g., I2C vs serial vs wireless) and explain why the selected one best suits performance or reliability. Listing advantages without contrast is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "justifying the choice of communication protocols",
+        "explained the advantages and disadvantages of using RS232 over other protocols"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Excellence bullet 2; Moderator commentary (Excellence)"
+    },
+    {
+      "id": "justifies_components_and_subsystems",
+      "description": "Justifies the selection of components and subsystems by comparing alternatives and explaining reasoning.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Must include rationale based on performance, efficiency, or design requirements. Listing components without explaining why they were chosen over others does not count. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "justifying the choice of components and subsystems",
+        "compared competing components and interfaces for the same purpose and justified their decisions"
+      ],
+      "source_ref": "AS PDF p2, Explanatory Note 2 • Excellence bullet 3; Moderator commentary (Excellence)"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.60 },
+      "E": { "required_fraction": 0.50 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
