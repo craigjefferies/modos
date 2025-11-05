@@ -1,0 +1,568 @@
+[
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-ORAL-NV-001",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Oral Language – Communicating & Presenting",
+"title": "Use non-verbal cues and adjust volume/pace to support meaning",
+"policy_reference": {
+"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Oral language", "Prosody"],
+"teaching_sequence_tags": ["Non-verbal communication", "Communicating and Presenting"],
+"progress_descriptors": {
+"Emerging": "Uses basic gestures/facial expression; speaks audibly at times with adult prompting.",
+"Developing": "Usually uses facial expression/gesture that match ideas; adjusts volume OR pace with reminders.",
+"Consolidating": "Consistently uses non-verbal cues that reinforce the message; adjusts both volume and pace for clarity.",
+"Proficient": "Chooses non-verbal cues purposefully (e.g., posture, proximity) and varies volume/pace to emphasise ideas.",
+"Exceeding": "Integrates non-verbal cues, volume, and pace flexibly for audience and purpose; can explain choices."
+},
+"detection_hints": [
+"Mentions of 'speaking louder/softer', 'slower/faster'",
+"References to facial expressions, gestures, posture, proximity during presentations"
+],
+"evidence_examples": [
+{
+"type": "observation",
+"example": "Student slows pace and makes eye contact when sharing a key point.",
+"context": "Small-group share-back"
+},
+{
+"type": "video_clip",
+"example": "NZSL signer adjusts signing speed and facial grammar to show emphasis.",
+"context": "Class talk or mihi"
+}
+],
+"evidence_modalities": ["Spoken", "NZSL", "AAC"],
+"accessibility_notes": "Be mindful of cultural differences and neurodivergent preferences when teaching non-verbal communication.",
+"ell_alignment": {
+"ellp_stage_ok": ["Foundation", "Stage 1"],
+"notes": "Make explicit links between non-verbal cues and meaning; model across languages."
+},
+"assessment_timing": {
+"initial_check": "First 4–6 weeks",
+"follow_up": "End of each term"
+},
+"next_steps": "Model and rehearse paired presentations; add visual prompts for when to slow, pause, or gesture.",
+"success_examples": [
+{
+"context": "Class presentation",
+"excerpt": "I slowed down to show it was important and pointed to my diagram."
+}
+],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 280,
+"refinement_iteration": 1,
+"prompt_hash": "p1_oral_nv_001",
+"refinement_score": 0.92,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-ORAL-LR-002",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Oral Language – Listening & Responding",
+"title": "Demonstrate active listening and respectful turn-taking",
+"policy_reference": {
+"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Oral language", "Discourse routines"],
+"teaching_sequence_tags": ["Listening and responding", "Discussion norms"],
+"progress_descriptors": {
+"Emerging": "Looks toward speaker and responds with single words or signs when prompted.",
+"Developing": "Follows simple turn-taking cues; offers short relevant responses; may need reminders to listen.",
+"Consolidating": "Maintains topic, asks/answers simple questions, and responds respectfully without prompting.",
+"Proficient": "Builds on others’ ideas and rephrases key points to show understanding.",
+"Exceeding": "Guides discussion by inviting others to contribute and summarising shared ideas."
+},
+"detection_hints": [
+"Phrases like 'I agree… because…', 'I heard you say…'",
+"Teacher notes of topic maintenance and respectful language"
+],
+"evidence_examples": [
+{
+"type": "transcript",
+"example": "‘I think… What do you think?’",
+"context": "Circle time"
+},
+{
+"type": "observation",
+"example": "Turns to each speaker and nods before responding.",
+"context": "Science talk"
+}
+],
+"evidence_modalities": ["Spoken", "NZSL", "AAC"],
+"accessibility_notes": "Provide sentence stems/visual turn-taking cues; ensure audibility/visibility of speakers.",
+"ell_alignment": {
+"ellp_stage_ok": ["Foundation", "Stage 1–2"],
+"notes": "Model question frames; pre-teach topic vocabulary."
+},
+"assessment_timing": {
+"initial_check": "Weeks 2–4",
+"follow_up": "Each inquiry cycle"
+},
+"next_steps": "Introduce discussion roles (e.g., 'questioner', 'summariser') and sentence starters.",
+"success_examples": [
+{ "context": "Group task", "excerpt": "Can you add on to her idea?" }
+],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 260,
+"refinement_iteration": 1,
+"prompt_hash": "p1_oral_lr_002",
+"refinement_score": 0.91,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-ORAL-VR-003",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Oral Language – Communicating & Presenting (Verbal reasoning)",
+"title": "Ask and answer why/how and if/then questions to explain ideas",
+"policy_reference": {
+"source_title": "English Year 2 Teaching Sequence (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Oral language", "Reasoning language"],
+"teaching_sequence_tags": ["Verbal reasoning", "Cause–effect language"],
+"progress_descriptors": {
+"Emerging": "Answers simple who/what/where questions with support.",
+"Developing": "Asks/answers why or how questions about familiar events; uses basic because/so.",
+"Consolidating": "Uses if/then and when/unless/as long as to explain causes and outcomes.",
+"Proficient": "Generates open questions to extend thinking; links multiple causes/effects.",
+"Exceeding": "Evaluates alternative causes and predicts outcomes across contexts."
+},
+"detection_hints": [
+"Presence of 'because/so', 'if… then…', 'when/unless/as long as'",
+"Open-ended 'why/how' frames"
+],
+"evidence_examples": [
+{ "type": "audio_clip", "example": "‘If we add more water, then it will overflow.’", "context": "Science investigation" },
+{ "type": "transcript", "example": "‘How did the character solve it?’", "context": "Reading discussion" }
+],
+"evidence_modalities": ["Spoken", "NZSL", "AAC"],
+"accessibility_notes": "Provide visual cue cards for causal connectives; allow extra processing time.",
+"ell_alignment": {
+"ellp_stage_ok": ["Foundation–Stage 2"],
+"notes": "Map connectives to home-language equivalents where possible."
+},
+"assessment_timing": {
+"initial_check": "Mid-Term 1",
+"follow_up": "End of Term 2"
+},
+"next_steps": "Introduce question mats with closed vs open prompts; rehearse paired 'why/how' interviews.",
+"success_examples": [
+{ "context": "Inquiry share", "excerpt": "‘We stayed inside because it was raining.’" }
+],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 290,
+"refinement_iteration": 1,
+"prompt_hash": "p1_oral_vr_003",
+"refinement_score": 0.9,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-ORAL-PRES-004",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Oral Language – Presenting to others",
+"title": "Prepare and present short recitations/oral presentations using prompts",
+"policy_reference": {
+"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Oral language", "Planning & organisation"],
+"teaching_sequence_tags": ["Presenting to others", "Recitation"],
+"progress_descriptors": {
+"Emerging": "Recites short items with group support; uses visual cues provided by teacher.",
+"Developing": "Presents a short item with scaffolded notes or visuals.",
+"Consolidating": "Presents a short talk with independently prepared prompts; message generally clear.",
+"Proficient": "Organises ideas with clear beginning/middle/end; uses prompts to maintain flow.",
+"Exceeding": "Adapts prompts and delivery to audience; answers questions about content."
+},
+"detection_hints": ["Presence of prompt cards/visuals", "Evidence of independent rehearsal"],
+"evidence_examples": [
+{ "type": "video_clip", "example": "Student uses two self-made picture cards during a one-minute talk.", "context": "Topic presentation" }
+],
+"evidence_modalities": ["Spoken", "NZSL", "AAC"],
+"accessibility_notes": "Offer multiple prompt types (icons, keywords, NZSL glosses).",
+"ell_alignment": {
+"ellp_stage_ok": ["Foundation–Stage 2"],
+"notes": "Allow bilingual prompts; pre-teach key nouns/verbs."
+},
+"assessment_timing": { "initial_check": "Term 1", "follow_up": "Termly" },
+"next_steps": "Co-construct success criteria (voice, pace, prompts); provide audience feedback stems.",
+"success_examples": [{ "context": "Class presentation", "excerpt": "‘First… then… finally…’ with matching pictures." }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 250,
+"refinement_iteration": 1,
+"prompt_hash": "p1_oral_pres_004",
+"refinement_score": 0.9,
+"alignment_confidence": 0.88,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-READ-GPC-005",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Reading – Word Recognition",
+"title": "Pronounce and map less-common grapheme–phoneme correspondences",
+"policy_reference": {
+"source_title": "English Year 3 Teaching Sequence (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Phonemic awareness", "Phonics", "Decoding"],
+"teaching_sequence_tags": ["Phonemic awareness and phonics knowledge"],
+"progress_descriptors": {
+"Emerging": "Identifies common sounds for taught single letters in decodables.",
+"Developing": "Reads common digraphs and some vowel teams in familiar words.",
+"Consolidating": "Pronounces correct phonemes for less-common GPCs (e.g., <eigh>→/ā/, <sc>→/s/) in controlled texts.",
+"Proficient": "Generalises less-common GPCs to new words; self-corrects using GPC knowledge.",
+"Exceeding": "Explains multiple spellings for a phoneme and chooses correctly in context when writing/reading."
+},
+"detection_hints": [
+"Teacher running records noting accuracy on <eigh>, <sc>, etc.",
+"Self-corrections linked to GPC rules"
+],
+"evidence_examples": [
+{ "type": "running_record", "example": "Read 'eight' and 'scenic' without prompts.", "context": "Decodable/controlled text" }
+],
+"evidence_modalities": ["Spoken reading", "Pointing/NZSL mouth patterns"],
+"accessibility_notes": "Teach mouth pictures/handshapes; anchor cards for unusual GPCs.",
+"ell_alignment": {
+"ellp_stage_ok": ["Stage 1–2"],
+"notes": "Contrast with phonemes in known languages; explicit articulation support."
+},
+"assessment_timing": { "initial_check": "Start of Year 3", "follow_up": "Each phonics unit end" },
+"next_steps": "Cumulative review of rare GPCs; build word lists and games for <eigh>/<sc>/<tch>/<dge>.",
+"success_examples": [{ "context": "Small-group reading", "excerpt": "‘Heigh… eight’ → self-corrects to /ā/." }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 275,
+"refinement_iteration": 1,
+"prompt_hash": "p1_read_gpc_005",
+"refinement_score": 0.93,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-READ-RV-006",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Reading – Word Recognition",
+"title": "Decode diphthongs and r-controlled vowels in taught words",
+"policy_reference": {
+"source_title": "English Year 2 Teaching Sequence (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Phonemic awareness", "Phonics", "Decoding"],
+"teaching_sequence_tags": ["Phonemic awareness and phonics knowledge"],
+"progress_descriptors": {
+"Emerging": "Recognises diphthong patterns in isolation with support.",
+"Developing": "Reads common diphthongs (e.g., /oi/ in 'coin') in familiar words.",
+"Consolidating": "Accurately reads diphthongs and r-controlled vowels (e.g., 'bird', 'farm') in decodable texts.",
+"Proficient": "Applies patterns to unfamiliar words; self-corrects using phoneme–grapheme mapping.",
+"Exceeding": "Explains how the <r> changes the vowel sound and identifies exceptions."
+},
+"detection_hints": ["Accuracy on /oi/, /ow/, and r-controlled words", "Self-corrections with finger-tracking"],
+"evidence_examples": [
+{ "type": "running_record", "example": "Reads 'toy', 'car', 'fern' accurately.", "context": "Guided reading" }
+],
+"evidence_modalities": ["Spoken reading", "NZSL mouthing/handshape cues"],
+"accessibility_notes": "Provide grapheme tiles; minimal-pair practice.",
+"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Contrast with home-language vowel systems." },
+"assessment_timing": { "initial_check": "Mid-Year 2", "follow_up": "End-of-term checks" },
+"next_steps": "Review with cumulative word banks; add connected text practice.",
+"success_examples": [{ "context": "Decodable text", "excerpt": "‘The bird will turn…’ read without prompts." }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 250,
+"refinement_iteration": 1,
+"prompt_hash": "p1_read_rv_006",
+"refinement_score": 0.9,
+"alignment_confidence": 0.88,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-READ-TEXTS-007",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Reading – Working with Texts",
+"title": "Use decodables for practice and rich read-alouds to build language",
+"policy_reference": {
+"source_title": "English Year 3 Teaching Sequence (Working with texts)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Phonics", "Fluency", "Vocabulary", "Comprehension"],
+"teaching_sequence_tags": ["Working with texts", "Read-aloud", "Decodable practice"],
+"progress_descriptors": {
+"Emerging": "Listens to daily read-alouds; practises taught GPCs in decodables with support.",
+"Developing": "Participates in read-aloud talk; reads decodables that match recent phonics teaching.",
+"Consolidating": "Explains something learned from a read-aloud and demonstrates accurate decoding in matched decodables.",
+"Proficient": "Transfers vocabulary/structures from read-alouds into own talk/writing; selects decodables to practise new GPCs.",
+"Exceeding": "Chooses texts for purpose/enjoyment; articulates how decodable practice supports reading growth."
+},
+"detection_hints": ["Teacher plan shows daily read-aloud + decodable rotation", "Student references read-aloud vocabulary"],
+"evidence_examples": [
+{ "type": "observation", "example": "Selects a decodable aligned to this week’s GPCs.", "context": "Independent reading" },
+{ "type": "transcript", "example": "‘I learned what a glossary is.’", "context": "Post read-aloud talk" }
+],
+"evidence_modalities": ["Listening", "Spoken", "NZSL", "AAC"],
+"accessibility_notes": "Ensure less-constrained read-alouds reflect identities/languages; provide captions/visuals.",
+"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Use bilingual read-alouds; pre-teach key vocabulary." },
+"assessment_timing": { "initial_check": "Term 1 programme review", "follow_up": "Half-termly" },
+"next_steps": "Track decodable–phonics alignment; build read-aloud text set by theme.",
+"success_examples": [{ "context": "Book talk", "excerpt": "‘The subheadings helped me find facts.’" }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 300,
+"refinement_iteration": 1,
+"prompt_hash": "p1_read_texts_007",
+"refinement_score": 0.92,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-READ-INF-008",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Reading – Comprehension",
+"title": "Make simple inferences and use text features to support meaning",
+"policy_reference": {
+"source_title": "English Years 2–3 Text Characteristics (Tahurangi)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Comprehension", "Text features", "Vocabulary"],
+"teaching_sequence_tags": ["Comprehension strategies", "Text features"],
+"progress_descriptors": {
+"Emerging": "Identifies who/what/where with illustrations or teacher prompts.",
+"Developing": "Uses pictures and headings to answer simple questions.",
+"Consolidating": "Makes simple inferences by linking ideas and prior knowledge; uses subheadings/glossaries to locate information.",
+"Proficient": "Explains how a feature (diagram, footnote) helps understanding; supports an inference with evidence.",
+"Exceeding": "Compares ideas across pages/texts and justifies inferences with multiple clues."
+},
+"detection_hints": [
+"Mentions of 'because the picture shows…', 'the glossary says…'",
+"Student highlights a text box/subheading when answering"
+],
+"evidence_examples": [
+{ "type": "work_sample", "example": "Annotates a page to show clues used for an inference.", "context": "Guided reading" }
+],
+"evidence_modalities": ["Spoken", "NZSL", "Written"],
+"accessibility_notes": "Choose texts with clear visuals and teach explicit navigation of features.",
+"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Pre-teach feature labels; offer bilingual glossaries." },
+"assessment_timing": { "initial_check": "End of Year 2 Term 1", "follow_up": "Each unit end" },
+"next_steps": "Use 'Because–So' frames to justify inferences; practice scanning with headings.",
+"success_examples": [{ "context": "Reading conference", "excerpt": "‘Maybe he’s late because the map shows a long path.’" }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 290,
+"refinement_iteration": 1,
+"prompt_hash": "p1_read_inf_008",
+"refinement_score": 0.91,
+"alignment_confidence": 0.89,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-WRIT-SENT-009",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Writing – Composition",
+"title": "Compose short sentences using taught GPCs and text models",
+"policy_reference": {
+"source_title": "English Year 3 Teaching Sequence (Reading–Writing integration)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Transcription (phonics→spelling)", "Sentence construction", "Text structure"],
+"teaching_sequence_tags": ["Shared writing", "Sentence building", "Using mentor texts"],
+"progress_descriptors": {
+"Emerging": "Produces labels or single-word attempts using taught letter-sounds.",
+"Developing": "Writes simple sentences with mostly correct GPCs; punctuation may be inconsistent.",
+"Consolidating": "Writes short linked sentences modelled on class texts; uses capital letters and full stops reliably.",
+"Proficient": "Varies sentence starters and includes detail from mentor texts; edits for clarity.",
+"Exceeding": "Explains choices (word, structure) based on the model text and audience."
+},
+"detection_hints": ["Teacher notes of shared-writing transfer", "Evidence of GPC application in spelling"],
+"evidence_examples": [
+{ "type": "work_sample", "example": "Two connected sentences about a topic using current phonics patterns.", "context": "Writing workshop" }
+],
+"evidence_modalities": ["Written", "Dictated to scribe", "NZSL to text via interpreter/AAC"],
+"accessibility_notes": "Offer scribing/keyboard options; provide sentence frames drawn from read-alouds.",
+"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Use bilingual word banks; permit translanguaging in planning." },
+"assessment_timing": { "initial_check": "Start of Year 2", "follow_up": "Every 5–6 weeks" },
+"next_steps": "Add conjunctions (and/but/because); mini-lessons on capitals/full stops from shared writing.",
+"success_examples": [{ "context": "Independent write", "excerpt": "‘We went to the farm and I fed a red hen.’" }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 310,
+"refinement_iteration": 1,
+"prompt_hash": "p1_writ_sent_009",
+"refinement_score": 0.88,
+"alignment_confidence": 0.83,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-WRIT-PARA-010",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Writing – Text Structure",
+"title": "Organise ideas in a simple paragraph using headings or sequence language",
+"policy_reference": {
+"source_title": "English Year 3 Text Expectations (paragraphs & features)",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Text structure", "Cohesion", "Vocabulary"],
+"teaching_sequence_tags": ["Text features", "Information writing"],
+"progress_descriptors": {
+"Emerging": "Writes/arranges ideas as a list or picture labels.",
+"Developing": "Uses sequence words (first/then/finally) to order ideas with support.",
+"Consolidating": "Groups related sentences as a simple paragraph; may use a heading or subheading.",
+"Proficient": "Uses a clear topic sentence and supporting detail; refers to diagrams/maps as needed.",
+"Exceeding": "Adds concluding idea or reflection and links to another paragraph or source."
+},
+"detection_hints": ["Presence of heading/subheading", "Sequential language and grouped ideas"],
+"evidence_examples": [
+{ "type": "work_sample", "example": "Short paragraph with a heading and two supporting details linked to a diagram.", "context": "Information report" }
+],
+"evidence_modalities": ["Written", "Dictated", "NZSL→scribe"],
+"accessibility_notes": "Graphic organisers; sentence stems; allow multimodal evidence (labelled diagrams).",
+"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Provide bilingual headings and labelled visuals." },
+"assessment_timing": { "initial_check": "Mid-Year 3", "follow_up": "End of unit" },
+"next_steps": "Teach topic/support/conclusion frames; integrate vocabulary from read-alouds.",
+"success_examples": [{ "context": "Inquiry writing", "excerpt": "Heading: ‘Kauri Forest’. Topic sentence + two facts; labelled map." }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 300,
+"refinement_iteration": 1,
+"prompt_hash": "p1_writ_para_010",
+"refinement_score": 0.9,
+"alignment_confidence": 0.86,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+},
+{
+"schema_version": "2.1",
+"curriculum_version": "2025-01-01",
+"omi_id": "ENG-P1-CFL-REFL-011",
+"subject": "English",
+"phase": "Phase 1 – Years 0–3",
+"strand": "Communication for Learning",
+"title": "Use reflective language to describe steps, strategies, and next moves",
+"policy_reference": {
+"source_title": "English Year 2 Teaching Sequence – Reflective/strategic communication",
+"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
+",
+"effective_from": "2025-10-01",
+"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
+},
+"structured_literacy_components": ["Oral language", "Metacognition"],
+"teaching_sequence_tags": ["Reflective language", "Evaluative language", "Sequencing phrases"],
+"progress_descriptors": {
+"Emerging": "Names a step taken when prompted (‘first I…’).",
+"Developing": "Uses simple frames to describe process or feelings (‘I found it tricky when…’).",
+"Consolidating": "Explains steps, strategies, and feelings using sequencing and evaluative phrases.",
+"Proficient": "Identifies strengths and next steps; links choices to outcomes.",
+"Exceeding": "Poses probing questions about learning and plans a specific next move."
+},
+"detection_hints": [
+"Use of frames: ‘first… then…’, ‘I did well at…’, ‘I need to work on…’",
+"Student self-assessment notes"
+],
+"evidence_examples": [
+{ "type": "transcript", "example": "‘First I planned, then I wrote. Next time I will add a diagram.’", "context": "Learning conference" }
+],
+"evidence_modalities": ["Spoken", "NZSL", "Written"],
+"accessibility_notes": "Provide visual sentence stems; accept multimodal reflections (voice/NZSL/video).",
+"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Pre-teach evaluative vocabulary; allow bilingual reflection." },
+"assessment_timing": { "initial_check": "Start of Term 2", "follow_up": "Every unit reflection" },
+"next_steps": "Introduce ‘Because–So’ frames to justify strategies and results.",
+"success_examples": [{ "context": "Maths reflection", "excerpt": "‘I used a strategy like doubles. I need to work on tidy tens.’" }],
+"llm_metadata": {
+"embedding_ready": true,
+"token_count_estimate": 270,
+"refinement_iteration": 1,
+"prompt_hash": "p1_cfl_refl_011",
+"refinement_score": 0.92,
+"alignment_confidence": 0.9,
+"last_validation_passed": true,
+"last_refined_by": "OMI-Builder"
+}
+}
+]
