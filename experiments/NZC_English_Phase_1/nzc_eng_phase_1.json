@@ -1,568 +1,1649 @@
+```json
 [
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-ORAL-NV-001",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Oral Language – Communicating & Presenting",
-"title": "Use non-verbal cues and adjust volume/pace to support meaning",
-"policy_reference": {
-"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Oral language", "Prosody"],
-"teaching_sequence_tags": ["Non-verbal communication", "Communicating and Presenting"],
-"progress_descriptors": {
-"Emerging": "Uses basic gestures/facial expression; speaks audibly at times with adult prompting.",
-"Developing": "Usually uses facial expression/gesture that match ideas; adjusts volume OR pace with reminders.",
-"Consolidating": "Consistently uses non-verbal cues that reinforce the message; adjusts both volume and pace for clarity.",
-"Proficient": "Chooses non-verbal cues purposefully (e.g., posture, proximity) and varies volume/pace to emphasise ideas.",
-"Exceeding": "Integrates non-verbal cues, volume, and pace flexibly for audience and purpose; can explain choices."
-},
-"detection_hints": [
-"Mentions of 'speaking louder/softer', 'slower/faster'",
-"References to facial expressions, gestures, posture, proximity during presentations"
-],
-"evidence_examples": [
-{
-"type": "observation",
-"example": "Student slows pace and makes eye contact when sharing a key point.",
-"context": "Small-group share-back"
-},
-{
-"type": "video_clip",
-"example": "NZSL signer adjusts signing speed and facial grammar to show emphasis.",
-"context": "Class talk or mihi"
-}
-],
-"evidence_modalities": ["Spoken", "NZSL", "AAC"],
-"accessibility_notes": "Be mindful of cultural differences and neurodivergent preferences when teaching non-verbal communication.",
-"ell_alignment": {
-"ellp_stage_ok": ["Foundation", "Stage 1"],
-"notes": "Make explicit links between non-verbal cues and meaning; model across languages."
-},
-"assessment_timing": {
-"initial_check": "First 4–6 weeks",
-"follow_up": "End of each term"
-},
-"next_steps": "Model and rehearse paired presentations; add visual prompts for when to slow, pause, or gesture.",
-"success_examples": [
-{
-"context": "Class presentation",
-"excerpt": "I slowed down to show it was important and pointed to my diagram."
-}
-],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 280,
-"refinement_iteration": 1,
-"prompt_hash": "p1_oral_nv_001",
-"refinement_score": 0.92,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-ORAL-LR-002",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Oral Language – Listening & Responding",
-"title": "Demonstrate active listening and respectful turn-taking",
-"policy_reference": {
-"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Oral language", "Discourse routines"],
-"teaching_sequence_tags": ["Listening and responding", "Discussion norms"],
-"progress_descriptors": {
-"Emerging": "Looks toward speaker and responds with single words or signs when prompted.",
-"Developing": "Follows simple turn-taking cues; offers short relevant responses; may need reminders to listen.",
-"Consolidating": "Maintains topic, asks/answers simple questions, and responds respectfully without prompting.",
-"Proficient": "Builds on others’ ideas and rephrases key points to show understanding.",
-"Exceeding": "Guides discussion by inviting others to contribute and summarising shared ideas."
-},
-"detection_hints": [
-"Phrases like 'I agree… because…', 'I heard you say…'",
-"Teacher notes of topic maintenance and respectful language"
-],
-"evidence_examples": [
-{
-"type": "transcript",
-"example": "‘I think… What do you think?’",
-"context": "Circle time"
-},
-{
-"type": "observation",
-"example": "Turns to each speaker and nods before responding.",
-"context": "Science talk"
-}
-],
-"evidence_modalities": ["Spoken", "NZSL", "AAC"],
-"accessibility_notes": "Provide sentence stems/visual turn-taking cues; ensure audibility/visibility of speakers.",
-"ell_alignment": {
-"ellp_stage_ok": ["Foundation", "Stage 1–2"],
-"notes": "Model question frames; pre-teach topic vocabulary."
-},
-"assessment_timing": {
-"initial_check": "Weeks 2–4",
-"follow_up": "Each inquiry cycle"
-},
-"next_steps": "Introduce discussion roles (e.g., 'questioner', 'summariser') and sentence starters.",
-"success_examples": [
-{ "context": "Group task", "excerpt": "Can you add on to her idea?" }
-],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 260,
-"refinement_iteration": 1,
-"prompt_hash": "p1_oral_lr_002",
-"refinement_score": 0.91,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-ORAL-VR-003",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Oral Language – Communicating & Presenting (Verbal reasoning)",
-"title": "Ask and answer why/how and if/then questions to explain ideas",
-"policy_reference": {
-"source_title": "English Year 2 Teaching Sequence (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Oral language", "Reasoning language"],
-"teaching_sequence_tags": ["Verbal reasoning", "Cause–effect language"],
-"progress_descriptors": {
-"Emerging": "Answers simple who/what/where questions with support.",
-"Developing": "Asks/answers why or how questions about familiar events; uses basic because/so.",
-"Consolidating": "Uses if/then and when/unless/as long as to explain causes and outcomes.",
-"Proficient": "Generates open questions to extend thinking; links multiple causes/effects.",
-"Exceeding": "Evaluates alternative causes and predicts outcomes across contexts."
-},
-"detection_hints": [
-"Presence of 'because/so', 'if… then…', 'when/unless/as long as'",
-"Open-ended 'why/how' frames"
-],
-"evidence_examples": [
-{ "type": "audio_clip", "example": "‘If we add more water, then it will overflow.’", "context": "Science investigation" },
-{ "type": "transcript", "example": "‘How did the character solve it?’", "context": "Reading discussion" }
-],
-"evidence_modalities": ["Spoken", "NZSL", "AAC"],
-"accessibility_notes": "Provide visual cue cards for causal connectives; allow extra processing time.",
-"ell_alignment": {
-"ellp_stage_ok": ["Foundation–Stage 2"],
-"notes": "Map connectives to home-language equivalents where possible."
-},
-"assessment_timing": {
-"initial_check": "Mid-Term 1",
-"follow_up": "End of Term 2"
-},
-"next_steps": "Introduce question mats with closed vs open prompts; rehearse paired 'why/how' interviews.",
-"success_examples": [
-{ "context": "Inquiry share", "excerpt": "‘We stayed inside because it was raining.’" }
-],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 290,
-"refinement_iteration": 1,
-"prompt_hash": "p1_oral_vr_003",
-"refinement_score": 0.9,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-ORAL-PRES-004",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Oral Language – Presenting to others",
-"title": "Prepare and present short recitations/oral presentations using prompts",
-"policy_reference": {
-"source_title": "English Years 0–3 Teaching Sequences (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Oral language", "Planning & organisation"],
-"teaching_sequence_tags": ["Presenting to others", "Recitation"],
-"progress_descriptors": {
-"Emerging": "Recites short items with group support; uses visual cues provided by teacher.",
-"Developing": "Presents a short item with scaffolded notes or visuals.",
-"Consolidating": "Presents a short talk with independently prepared prompts; message generally clear.",
-"Proficient": "Organises ideas with clear beginning/middle/end; uses prompts to maintain flow.",
-"Exceeding": "Adapts prompts and delivery to audience; answers questions about content."
-},
-"detection_hints": ["Presence of prompt cards/visuals", "Evidence of independent rehearsal"],
-"evidence_examples": [
-{ "type": "video_clip", "example": "Student uses two self-made picture cards during a one-minute talk.", "context": "Topic presentation" }
-],
-"evidence_modalities": ["Spoken", "NZSL", "AAC"],
-"accessibility_notes": "Offer multiple prompt types (icons, keywords, NZSL glosses).",
-"ell_alignment": {
-"ellp_stage_ok": ["Foundation–Stage 2"],
-"notes": "Allow bilingual prompts; pre-teach key nouns/verbs."
-},
-"assessment_timing": { "initial_check": "Term 1", "follow_up": "Termly" },
-"next_steps": "Co-construct success criteria (voice, pace, prompts); provide audience feedback stems.",
-"success_examples": [{ "context": "Class presentation", "excerpt": "‘First… then… finally…’ with matching pictures." }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 250,
-"refinement_iteration": 1,
-"prompt_hash": "p1_oral_pres_004",
-"refinement_score": 0.9,
-"alignment_confidence": 0.88,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-READ-GPC-005",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Reading – Word Recognition",
-"title": "Pronounce and map less-common grapheme–phoneme correspondences",
-"policy_reference": {
-"source_title": "English Year 3 Teaching Sequence (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Phonemic awareness", "Phonics", "Decoding"],
-"teaching_sequence_tags": ["Phonemic awareness and phonics knowledge"],
-"progress_descriptors": {
-"Emerging": "Identifies common sounds for taught single letters in decodables.",
-"Developing": "Reads common digraphs and some vowel teams in familiar words.",
-"Consolidating": "Pronounces correct phonemes for less-common GPCs (e.g., <eigh>→/ā/, <sc>→/s/) in controlled texts.",
-"Proficient": "Generalises less-common GPCs to new words; self-corrects using GPC knowledge.",
-"Exceeding": "Explains multiple spellings for a phoneme and chooses correctly in context when writing/reading."
-},
-"detection_hints": [
-"Teacher running records noting accuracy on <eigh>, <sc>, etc.",
-"Self-corrections linked to GPC rules"
-],
-"evidence_examples": [
-{ "type": "running_record", "example": "Read 'eight' and 'scenic' without prompts.", "context": "Decodable/controlled text" }
-],
-"evidence_modalities": ["Spoken reading", "Pointing/NZSL mouth patterns"],
-"accessibility_notes": "Teach mouth pictures/handshapes; anchor cards for unusual GPCs.",
-"ell_alignment": {
-"ellp_stage_ok": ["Stage 1–2"],
-"notes": "Contrast with phonemes in known languages; explicit articulation support."
-},
-"assessment_timing": { "initial_check": "Start of Year 3", "follow_up": "Each phonics unit end" },
-"next_steps": "Cumulative review of rare GPCs; build word lists and games for <eigh>/<sc>/<tch>/<dge>.",
-"success_examples": [{ "context": "Small-group reading", "excerpt": "‘Heigh… eight’ → self-corrects to /ā/." }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 275,
-"refinement_iteration": 1,
-"prompt_hash": "p1_read_gpc_005",
-"refinement_score": 0.93,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-READ-RV-006",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Reading – Word Recognition",
-"title": "Decode diphthongs and r-controlled vowels in taught words",
-"policy_reference": {
-"source_title": "English Year 2 Teaching Sequence (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Phonemic awareness", "Phonics", "Decoding"],
-"teaching_sequence_tags": ["Phonemic awareness and phonics knowledge"],
-"progress_descriptors": {
-"Emerging": "Recognises diphthong patterns in isolation with support.",
-"Developing": "Reads common diphthongs (e.g., /oi/ in 'coin') in familiar words.",
-"Consolidating": "Accurately reads diphthongs and r-controlled vowels (e.g., 'bird', 'farm') in decodable texts.",
-"Proficient": "Applies patterns to unfamiliar words; self-corrects using phoneme–grapheme mapping.",
-"Exceeding": "Explains how the <r> changes the vowel sound and identifies exceptions."
-},
-"detection_hints": ["Accuracy on /oi/, /ow/, and r-controlled words", "Self-corrections with finger-tracking"],
-"evidence_examples": [
-{ "type": "running_record", "example": "Reads 'toy', 'car', 'fern' accurately.", "context": "Guided reading" }
-],
-"evidence_modalities": ["Spoken reading", "NZSL mouthing/handshape cues"],
-"accessibility_notes": "Provide grapheme tiles; minimal-pair practice.",
-"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Contrast with home-language vowel systems." },
-"assessment_timing": { "initial_check": "Mid-Year 2", "follow_up": "End-of-term checks" },
-"next_steps": "Review with cumulative word banks; add connected text practice.",
-"success_examples": [{ "context": "Decodable text", "excerpt": "‘The bird will turn…’ read without prompts." }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 250,
-"refinement_iteration": 1,
-"prompt_hash": "p1_read_rv_006",
-"refinement_score": 0.9,
-"alignment_confidence": 0.88,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-READ-TEXTS-007",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Reading – Working with Texts",
-"title": "Use decodables for practice and rich read-alouds to build language",
-"policy_reference": {
-"source_title": "English Year 3 Teaching Sequence (Working with texts)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Phonics", "Fluency", "Vocabulary", "Comprehension"],
-"teaching_sequence_tags": ["Working with texts", "Read-aloud", "Decodable practice"],
-"progress_descriptors": {
-"Emerging": "Listens to daily read-alouds; practises taught GPCs in decodables with support.",
-"Developing": "Participates in read-aloud talk; reads decodables that match recent phonics teaching.",
-"Consolidating": "Explains something learned from a read-aloud and demonstrates accurate decoding in matched decodables.",
-"Proficient": "Transfers vocabulary/structures from read-alouds into own talk/writing; selects decodables to practise new GPCs.",
-"Exceeding": "Chooses texts for purpose/enjoyment; articulates how decodable practice supports reading growth."
-},
-"detection_hints": ["Teacher plan shows daily read-aloud + decodable rotation", "Student references read-aloud vocabulary"],
-"evidence_examples": [
-{ "type": "observation", "example": "Selects a decodable aligned to this week’s GPCs.", "context": "Independent reading" },
-{ "type": "transcript", "example": "‘I learned what a glossary is.’", "context": "Post read-aloud talk" }
-],
-"evidence_modalities": ["Listening", "Spoken", "NZSL", "AAC"],
-"accessibility_notes": "Ensure less-constrained read-alouds reflect identities/languages; provide captions/visuals.",
-"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Use bilingual read-alouds; pre-teach key vocabulary." },
-"assessment_timing": { "initial_check": "Term 1 programme review", "follow_up": "Half-termly" },
-"next_steps": "Track decodable–phonics alignment; build read-aloud text set by theme.",
-"success_examples": [{ "context": "Book talk", "excerpt": "‘The subheadings helped me find facts.’" }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 300,
-"refinement_iteration": 1,
-"prompt_hash": "p1_read_texts_007",
-"refinement_score": 0.92,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-READ-INF-008",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Reading – Comprehension",
-"title": "Make simple inferences and use text features to support meaning",
-"policy_reference": {
-"source_title": "English Years 2–3 Text Characteristics (Tahurangi)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Comprehension", "Text features", "Vocabulary"],
-"teaching_sequence_tags": ["Comprehension strategies", "Text features"],
-"progress_descriptors": {
-"Emerging": "Identifies who/what/where with illustrations or teacher prompts.",
-"Developing": "Uses pictures and headings to answer simple questions.",
-"Consolidating": "Makes simple inferences by linking ideas and prior knowledge; uses subheadings/glossaries to locate information.",
-"Proficient": "Explains how a feature (diagram, footnote) helps understanding; supports an inference with evidence.",
-"Exceeding": "Compares ideas across pages/texts and justifies inferences with multiple clues."
-},
-"detection_hints": [
-"Mentions of 'because the picture shows…', 'the glossary says…'",
-"Student highlights a text box/subheading when answering"
-],
-"evidence_examples": [
-{ "type": "work_sample", "example": "Annotates a page to show clues used for an inference.", "context": "Guided reading" }
-],
-"evidence_modalities": ["Spoken", "NZSL", "Written"],
-"accessibility_notes": "Choose texts with clear visuals and teach explicit navigation of features.",
-"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Pre-teach feature labels; offer bilingual glossaries." },
-"assessment_timing": { "initial_check": "End of Year 2 Term 1", "follow_up": "Each unit end" },
-"next_steps": "Use 'Because–So' frames to justify inferences; practice scanning with headings.",
-"success_examples": [{ "context": "Reading conference", "excerpt": "‘Maybe he’s late because the map shows a long path.’" }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 290,
-"refinement_iteration": 1,
-"prompt_hash": "p1_read_inf_008",
-"refinement_score": 0.91,
-"alignment_confidence": 0.89,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-WRIT-SENT-009",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Writing – Composition",
-"title": "Compose short sentences using taught GPCs and text models",
-"policy_reference": {
-"source_title": "English Year 3 Teaching Sequence (Reading–Writing integration)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Transcription (phonics→spelling)", "Sentence construction", "Text structure"],
-"teaching_sequence_tags": ["Shared writing", "Sentence building", "Using mentor texts"],
-"progress_descriptors": {
-"Emerging": "Produces labels or single-word attempts using taught letter-sounds.",
-"Developing": "Writes simple sentences with mostly correct GPCs; punctuation may be inconsistent.",
-"Consolidating": "Writes short linked sentences modelled on class texts; uses capital letters and full stops reliably.",
-"Proficient": "Varies sentence starters and includes detail from mentor texts; edits for clarity.",
-"Exceeding": "Explains choices (word, structure) based on the model text and audience."
-},
-"detection_hints": ["Teacher notes of shared-writing transfer", "Evidence of GPC application in spelling"],
-"evidence_examples": [
-{ "type": "work_sample", "example": "Two connected sentences about a topic using current phonics patterns.", "context": "Writing workshop" }
-],
-"evidence_modalities": ["Written", "Dictated to scribe", "NZSL to text via interpreter/AAC"],
-"accessibility_notes": "Offer scribing/keyboard options; provide sentence frames drawn from read-alouds.",
-"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Use bilingual word banks; permit translanguaging in planning." },
-"assessment_timing": { "initial_check": "Start of Year 2", "follow_up": "Every 5–6 weeks" },
-"next_steps": "Add conjunctions (and/but/because); mini-lessons on capitals/full stops from shared writing.",
-"success_examples": [{ "context": "Independent write", "excerpt": "‘We went to the farm and I fed a red hen.’" }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 310,
-"refinement_iteration": 1,
-"prompt_hash": "p1_writ_sent_009",
-"refinement_score": 0.88,
-"alignment_confidence": 0.83,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-WRIT-PARA-010",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Writing – Text Structure",
-"title": "Organise ideas in a simple paragraph using headings or sequence language",
-"policy_reference": {
-"source_title": "English Year 3 Text Expectations (paragraphs & features)",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Text structure", "Cohesion", "Vocabulary"],
-"teaching_sequence_tags": ["Text features", "Information writing"],
-"progress_descriptors": {
-"Emerging": "Writes/arranges ideas as a list or picture labels.",
-"Developing": "Uses sequence words (first/then/finally) to order ideas with support.",
-"Consolidating": "Groups related sentences as a simple paragraph; may use a heading or subheading.",
-"Proficient": "Uses a clear topic sentence and supporting detail; refers to diagrams/maps as needed.",
-"Exceeding": "Adds concluding idea or reflection and links to another paragraph or source."
-},
-"detection_hints": ["Presence of heading/subheading", "Sequential language and grouped ideas"],
-"evidence_examples": [
-{ "type": "work_sample", "example": "Short paragraph with a heading and two supporting details linked to a diagram.", "context": "Information report" }
-],
-"evidence_modalities": ["Written", "Dictated", "NZSL→scribe"],
-"accessibility_notes": "Graphic organisers; sentence stems; allow multimodal evidence (labelled diagrams).",
-"ell_alignment": { "ellp_stage_ok": ["Stage 1–2"], "notes": "Provide bilingual headings and labelled visuals." },
-"assessment_timing": { "initial_check": "Mid-Year 3", "follow_up": "End of unit" },
-"next_steps": "Teach topic/support/conclusion frames; integrate vocabulary from read-alouds.",
-"success_examples": [{ "context": "Inquiry writing", "excerpt": "Heading: ‘Kauri Forest’. Topic sentence + two facts; labelled map." }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 300,
-"refinement_iteration": 1,
-"prompt_hash": "p1_writ_para_010",
-"refinement_score": 0.9,
-"alignment_confidence": 0.86,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-},
-{
-"schema_version": "2.1",
-"curriculum_version": "2025-01-01",
-"omi_id": "ENG-P1-CFL-REFL-011",
-"subject": "English",
-"phase": "Phase 1 – Years 0–3",
-"strand": "Communication for Learning",
-"title": "Use reflective language to describe steps, strategies, and next moves",
-"policy_reference": {
-"source_title": "English Year 2 Teaching Sequence – Reflective/strategic communication",
-"url": "https://newzealandcurriculum.tahurangi.education.govt.nz/
-",
-"effective_from": "2025-10-01",
-"curriculum_doc_ref": "English Phase 1 (Years 0–3)"
-},
-"structured_literacy_components": ["Oral language", "Metacognition"],
-"teaching_sequence_tags": ["Reflective language", "Evaluative language", "Sequencing phrases"],
-"progress_descriptors": {
-"Emerging": "Names a step taken when prompted (‘first I…’).",
-"Developing": "Uses simple frames to describe process or feelings (‘I found it tricky when…’).",
-"Consolidating": "Explains steps, strategies, and feelings using sequencing and evaluative phrases.",
-"Proficient": "Identifies strengths and next steps; links choices to outcomes.",
-"Exceeding": "Poses probing questions about learning and plans a specific next move."
-},
-"detection_hints": [
-"Use of frames: ‘first… then…’, ‘I did well at…’, ‘I need to work on…’",
-"Student self-assessment notes"
-],
-"evidence_examples": [
-{ "type": "transcript", "example": "‘First I planned, then I wrote. Next time I will add a diagram.’", "context": "Learning conference" }
-],
-"evidence_modalities": ["Spoken", "NZSL", "Written"],
-"accessibility_notes": "Provide visual sentence stems; accept multimodal reflections (voice/NZSL/video).",
-"ell_alignment": { "ellp_stage_ok": ["Foundation–Stage 2"], "notes": "Pre-teach evaluative vocabulary; allow bilingual reflection." },
-"assessment_timing": { "initial_check": "Start of Term 2", "follow_up": "Every unit reflection" },
-"next_steps": "Introduce ‘Because–So’ frames to justify strategies and results.",
-"success_examples": [{ "context": "Maths reflection", "excerpt": "‘I used a strategy like doubles. I need to work on tidy tens.’" }],
-"llm_metadata": {
-"embedding_ready": true,
-"token_count_estimate": 270,
-"refinement_iteration": 1,
-"prompt_hash": "p1_cfl_refl_011",
-"refinement_score": 0.92,
-"alignment_confidence": 0.9,
-"last_validation_passed": true,
-"last_refined_by": "OMI-Builder"
-}
-}
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-ORAL-001",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Oral Language – Communicating and Presenting",
+    "title": "Use non-verbal cues (gestures, facial expressions, proximity) and adjust volume/pace to support oral meaning",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Oral Language",
+      "alignment_basis": "Derived from 'Communicating and Presenting' teaching sequences emphasizing multimodal communication"
+    },
+    "curriculum_context": {
+      "why_this_matters": "Non-verbal communication carries 60-90% of meaning in face-to-face interaction. Explicitly teaching these skills supports culturally sustaining practice (e.g., kanohi ki te kanohi) and accessibility (NZSL, AAC users).",
+      "prerequisite_skills": [
+        "Basic turn-taking",
+        "Ability to maintain focus during short talks"
+      ],
+      "builds_toward": "Phase 2 persuasive speaking and Phase 3+ formal presentations"
+    },
+    "structured_literacy_components": [
+      "Oral language development",
+      "Prosody",
+      "Pragmatics"
+    ],
+    "teaching_sequence_tags": [
+      "Communicating and Presenting",
+      "Non-verbal communication",
+      "Oral fluency and expression"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Uses basic gestures or facial expressions inconsistently; speaks audibly with adult prompting. May rely on adult modeling.",
+      "Developing": "Usually matches facial expressions and gestures to ideas; adjusts volume OR pace when reminded. Shows awareness that non-verbal cues carry meaning.",
+      "Consolidating": "Consistently uses non-verbal cues (eye contact, gestures, posture) that reinforce spoken message; adjusts both volume and pace for clarity without prompting.",
+      "Proficient": "Purposefully selects non-verbal strategies (e.g., stepping closer for emphasis, using pauses) and varies volume/pace to highlight key ideas. Can explain why they made these choices.",
+      "Exceeding": "Flexibly integrates non-verbal cues, volume, and pace in response to audience feedback and purpose; adapts mid-presentation and can articulate the impact of their choices on audience understanding."
+    },
+    "detection_hints": [
+      "Student mentions 'speaking louder/softer', 'slowing down', 'using my hands'",
+      "Teacher observations note coordinated use of gesture + speech",
+      "Video evidence shows deliberate facial expressions or proximity changes",
+      "NZSL users: facial grammar and signing space adjustments"
+    ],
+    "evidence_examples": [
+      {
+        "type": "video observation",
+        "example": "During sharing time, student slows pace and makes deliberate eye contact when revealing the 'surprise' part of their story. Gestures toward classmates to show 'you' in the narrative.",
+        "context": "Small-group share-back (5-6 students)",
+        "rubric_focus": "Volume, pace, gesture-speech coordination"
+      },
+      {
+        "type": "NZSL video clip",
+        "example": "Signer adjusts signing speed (slower fingerspelling), uses raised eyebrows for emphasis, and adjusts signing space to show relative size of objects in their description.",
+        "context": "Whole-class mihi or show-and-tell",
+        "rubric_focus": "Facial grammar, spatial modulation"
+      },
+      {
+        "type": "peer feedback",
+        "example": "Classmate says: 'I knew it was important because you looked right at me and spoke slowly.'",
+        "context": "Paired presentation practice with feedback protocol"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken English",
+      "NZSL",
+      "AAC with deliberate selection of tone/volume features"
+    ],
+    "accessibility_notes": "Be mindful of cultural norms (e.g., some cultures avoid direct eye contact with elders/authority figures) and neurodivergent preferences (e.g., autistic students may communicate effectively without typical eye contact). Provide explicit instruction and visual cue cards. Accept diverse forms of non-verbal expression.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Acknowledge kanohi ki te kanohi (face-to-face communication) and the importance of body language in whakawhānaungatanga (relationship building).",
+      "pacific_contexts": "Respect for authority may influence eye contact norms; validate culturally appropriate non-verbal behaviors.",
+      "inclusive_practice": "NZSL users naturally integrate non-manual features; AAC users may adjust device volume or use pre-programmed emphasis"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation",
+        "Stage 1"
+      ],
+      "notes": "Make explicit links between non-verbal cues and meaning across languages. Model how gestures/facial expressions work with English speech patterns. Allow students to draw on home language communication styles.",
+      "scaffolds": [
+        "Visual anchor charts",
+        "Video models in multiple languages",
+        "Gesture dictionaries"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Weeks 2–4 of Year 1 (or upon entry for new enrollments)",
+      "formative_checkpoints": "During each oral language unit (typically 4–6 week cycles)",
+      "summative_evidence": "End of each term via recorded presentation"
+    },
+    "teaching_strategies": [
+      "Model think-alouds: 'I'm going to slow down here because this is the important part'",
+      "Use video playback for self-assessment",
+      "Provide visual prompts: traffic light cards (red=pause, yellow=slow, green=normal pace)",
+      "Rehearse paired presentations with structured peer feedback",
+      "Create anchor charts co-constructed with students showing effective non-verbal strategies"
+    ],
+    "next_steps": {
+      "if_emerging": "Provide adult modeling; use video clips of effective speakers; practice gestures that match simple sentences",
+      "if_developing": "Introduce self-monitoring checklists; video record and review with student",
+      "if_consolidating": "Add audience analysis (younger students vs. adults); practice adjusting for different purposes",
+      "if_proficient_or_exceeding": "Introduce persuasive techniques; analyze professional speakers; mentor younger students"
+    },
+    "cross_curricular_connections": [
+      "Social Sciences: Presenting research findings",
+      "Arts: Drama and movement",
+      "Health & PE: Demonstrating skills with verbal explanation"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Louder is always better' → Teach: Volume should match context and purpose",
+      "Misconception: 'Gestures distract from speech' → Teach: Coordinated gestures enhance meaning",
+      "Misconception: 'Eye contact is universal' → Teach: Cultural norms vary; respectful attention can be shown in multiple ways"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 class presentation on 'My Favourite Place'",
+        "student_reflection": "I slowed down when I said the beach name because it's hard to say. I pointed to my photo so everyone could see what I meant.",
+        "teacher_note": "Student independently adjusted pace for clarity and used gesture-visual coordination"
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 720,
+      "semantic_tags": [
+        "oral_communication",
+        "multimodal_literacy",
+        "presentation_skills",
+        "accessibility",
+        "cultural_responsiveness"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-oral-001-v2",
+      "alignment_confidence": 0.88,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.92,
+      "notes_for_rag_systems": "High-value for queries about: oral language, NZSL, AAC, cultural communication norms, formative assessment of speaking skills"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-ORAL-002",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Oral Language – Listening and Speaking",
+    "title": "Demonstrate active listening through responses and respectful turn-taking in discussions",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Oral Language",
+      "source_excerpt": "Students develop the ability to listen actively, follow discussion norms, and build on others' ideas through respectful dialogue."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Active listening is foundational to collaborative learning, reading comprehension (listening to stories), and democratic participation. It develops executive function (impulse control, working memory) and social-emotional competencies.",
+      "prerequisite_skills": [
+        "Basic attention span for group activities",
+        "Understanding of 'my turn/your turn' in simple games"
+      ],
+      "builds_toward": "Phase 2+ structured debate, Socratic seminars, and collaborative inquiry"
+    },
+    "structured_literacy_components": [
+      "Oral language – discourse routines",
+      "Listening comprehension",
+      "Pragmatic language (conversational skills)"
+    ],
+    "teaching_sequence_tags": [
+      "Listening and Speaking",
+      "Discussion protocols",
+      "Turn-taking and topic maintenance",
+      "Building on ideas"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Looks toward speaker when prompted; responds with single words, signs, or gestures. May interrupt or lose focus during longer discussions. Requires adult facilitation for turn-taking.",
+      "Developing": "Follows simple turn-taking cues (e.g., talking stick, hand-raising); offers short relevant responses (1-2 sentences). May need occasional reminders to listen before responding. Stays on topic for 2-3 turns.",
+      "Consolidating": "Maintains topic across multiple turns without prompting; asks or answers simple questions that connect to prior speaker; uses respectful language ('I agree because…', 'I wonder…') independently. Shows listening through body language (nodding, eye contact).",
+      "Proficient": "Builds on others' ideas by adding new information or perspectives; paraphrases key points to demonstrate understanding ('So you're saying…'); invites quieter peers to contribute ('What do you think, [name]?').",
+      "Exceeding": "Guides discussion productively by summarizing multiple viewpoints, identifying points of agreement/disagreement, and posing questions that deepen thinking. Monitors own participation to ensure equitable airtime."
+    },
+    "detection_hints": [
+      "Student uses sentence stems: 'I agree with [name] because…', 'I heard you say…', 'Can you tell me more about…'",
+      "Teacher anecdotal notes show sustained topic maintenance across 4+ turns",
+      "Peer feedback mentions 'good listener' or 'helped me explain my idea'",
+      "Video evidence shows waiting for pauses, nodding, or using 'thumb up' signals"
+    ],
+    "evidence_examples": [
+      {
+        "type": "transcript excerpt",
+        "example": "Aroha: 'The caterpillar ate too much.' \nKai: 'Yeah, and then his tummy hurt. That's why he made a cocoon—to rest.' \nTeacher: 'Kai built on Aroha's idea.'",
+        "context": "Guided reading discussion after shared text",
+        "rubric_focus": "Topic maintenance, adding information"
+      },
+      {
+        "type": "observation notes",
+        "example": "During science talk, student turned body toward each speaker, nodded after each contribution, and waited 2-3 seconds before responding. Asked, 'What made you think that?' to extend peer's idea.",
+        "context": "Small-group inquiry (4 students)",
+        "rubric_focus": "Non-verbal listening signals, question-asking"
+      },
+      {
+        "type": "self-assessment",
+        "example": "Student selects 'I listened to others' and 'I added to someone's idea' on discussion rubric. Provides evidence: 'I said my idea was like Liam's but I added about the water cycle.'",
+        "context": "Post-discussion reflection using visual checklist"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken English",
+      "NZSL (turn-taking through visual attention; 'backchanneling' with nods/facial expressions)",
+      "AAC (using device to respond on topic; waiting for speaking turns)"
+    ],
+    "accessibility_notes": "Provide sentence stems on visual cards or in AAC vocabulary. Use visual turn-taking cues (e.g., talking object, timer apps). Ensure audibility (check classroom acoustics, seating) and visibility (closed captions for videos, clear sightlines for NZSL users). Accept neurodivergent listening styles (e.g., fidgeting, looking away while processing).",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Respect for kōrero (speech) and the concept of whakarongo (deep listening). In some contexts, silence after speaking is valued for reflection—don't rush to fill pauses.",
+      "pacific_contexts": "Turn-taking norms may differ; elder/younger dynamics influence who speaks when. Validate respectful silence as a form of listening.",
+      "inclusive_practice": "Neurodivergent students may process auditory information differently—allow 'think time' before expecting responses."
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation",
+        "Stage 1–2"
+      ],
+      "notes": "Model question frames explicitly. Pre-teach topic vocabulary. Allow extra processing time for students translating between languages. Pair with a 'discussion buddy' for rehearsal.",
+      "scaffolds": [
+        "Bilingual sentence stems",
+        "Visual discussion protocol charts",
+        "Pre-teaching key phrases: 'I agree', 'I disagree because', 'Can you explain?'"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Weeks 2–4 of Year 1 during structured circle time or literacy discussion",
+      "formative_checkpoints": "Each inquiry cycle or integrated unit (typically 4–6 weeks)",
+      "summative_evidence": "Video or transcript of discussion every term; student self-assessment"
+    },
+    "teaching_strategies": [
+      "Explicitly teach and model discussion stems ('I agree because…', 'I wonder…', 'Can you say more?')",
+      "Use fishbowl protocol: half the class discusses while other half observes and gives feedback",
+      "Provide visual protocols (e.g., SLANT for younger students: Sit up, Listen, Ask/Answer, Nod, Track the speaker)",
+      "Co-create class 'discussion norms' anchor chart",
+      "Use 'Think-Pair-Share' to rehearse ideas before whole-group discussion",
+      "Assign rotating discussion roles: questioner, summarizer, encourager"
+    ],
+    "next_steps": {
+      "if_emerging": "Practice paired turn-taking with visual/tactile cues (e.g., passing a ball). Keep discussions short (3–5 minutes). Model actively.",
+      "if_developing": "Introduce 'accountable talk' stems. Record and review discussions. Set personal listening goals.",
+      "if_consolidating": "Increase discussion complexity (add more voices, longer duration). Introduce disagreement stems ('I see it differently…').",
+      "if_proficient_or_exceeding": "Lead discussions for younger peers; participate in cross-age book clubs; analyze discussion transcripts for patterns"
+    },
+    "cross_curricular_connections": [
+      "Social Sciences: Democratic processes, collaborative research",
+      "Science: Sharing observations and hypotheses",
+      "Mathematics: Explaining strategies, justifying solutions",
+      "Health & PE: Team strategies, conflict resolution"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Listening means being silent' → Teach: Active listening includes responding, asking questions, and showing understanding",
+      "Misconception: 'Turn-taking is just waiting' → Teach: Turn-taking means connecting your idea to previous speakers",
+      "Misconception: 'Agreement is better than disagreement' → Teach: Respectful disagreement deepens thinking"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 inquiry group discussing native birds",
+        "transcript": "Teacher: 'What do you notice?' \nMia: 'The tūī has a white fluffy bit.' \nJordan: 'I think that's called a poi. I heard it in a song.' \nMia: 'Cool! Why does it have that?' \n[Both look at teacher expectantly]",
+        "teacher_note": "Jordan built on Mia's observation. Mia asked an extending question. Both maintained topic and used respectful tone."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 810,
+      "semantic_tags": [
+        "active_listening",
+        "discussion_skills",
+        "oral_language",
+        "collaborative_learning",
+        "classroom_talk"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-oral-002-v2",
+      "alignment_confidence": 0.91,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.94,
+      "notes_for_rag_systems": "Essential for: formative assessment of oral language, classroom management, ELL support, neurodivergent inclusion, collaborative learning setups"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-ORAL-003",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Oral Language – Explaining and Reasoning",
+    "title": "Use causal and conditional language (because, so, if/then) to explain ideas and predict outcomes",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Oral Language",
+      "alignment_basis": "Derived from Year 2–3 teaching sequences emphasizing explanatory and reasoning language in oral contexts. Aligns with structured literacy focus on academic language development."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Causal and conditional language is the foundation of explanatory writing, scientific thinking, and mathematical reasoning. It develops abstract thinking and allows students to articulate cause-effect relationships essential for comprehension and composition.",
+      "prerequisite_skills": [
+        "Ability to sequence events (first/then/next)",
+        "Basic question-answering (who/what/where)"
+      ],
+      "builds_toward": "Phase 2+ argumentative writing, hypothesis formation, complex conditional reasoning (unless, as long as, even though)"
+    },
+    "structured_literacy_components": [
+      "Oral language – academic/reasoning vocabulary",
+      "Syntax: complex sentence structures",
+      "Comprehension: inferential thinking"
+    ],
+    "teaching_sequence_tags": [
+      "Verbal reasoning",
+      "Causal connectives (because, so, therefore)",
+      "Conditional language (if/then, when, unless)",
+      "Explanatory talk"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Answers simple factual questions (who/what/where) with support. Uses 'and' to link ideas but not yet causal connectives. Example: 'We went inside. It was raining.'",
+      "Developing": "Asks or answers why/how questions about familiar events using basic 'because' or 'so'. Example: 'We stayed inside because it was raining.' May need prompting to explain the connection.",
+      "Consolidating": "Uses if/then structures to predict outcomes and explain causes. Example: 'If we add more water, then it will overflow.' Uses when/unless in appropriate contexts. Initiates causal questions independently.",
+      "Proficient": "Generates open-ended questions to explore causes/effects ('What would happen if…?', 'Why do you think…?'). Links multiple causes or effects in a single explanation. Example: 'The plant died because it didn't get sun and we forgot to water it.'",
+      "Exceeding": "Evaluates alternative causes and predicts outcomes across different contexts. Uses conditional language to propose hypotheses and test predictions. Example: 'Unless we change the soil, the seeds won't grow even if we water them, because clay doesn't drain well.'"
+    },
+    "detection_hints": [
+      "Presence of causal connectives: 'because', 'so', 'therefore', 'that's why'",
+      "Conditional structures: 'if… then…', 'when', 'unless', 'as long as'",
+      "Question types: 'Why did…?', 'How does…?', 'What if…?'",
+      "Teacher notes documenting unprompted use during science, math, or inquiry discussions"
+    ],
+    "evidence_examples": [
+      {
+        "type": "audio clip",
+        "example": "Student explaining a science investigation: 'If we add more water, then it will overflow because the cup is already nearly full.'",
+        "context": "Year 2 science: Measuring capacity",
+        "rubric_focus": "If/then structure + because justification"
+      },
+      {
+        "type": "transcript",
+        "example": "Reading discussion—Teacher: 'Why did the character hide?' Student: 'Because she didn't want the giant to see her. If he saw her, then he would be angry.'",
+        "context": "Guided reading: Narrative comprehension",
+        "rubric_focus": "Causal explanation + conditional prediction"
+      },
+      {
+        "type": "teacher anecdotal note",
+        "example": "During maths talk: 'I know 5+5=10, so 5+6 must be 11 because it's one more.' (Demonstrates causal reasoning about number relationships.)",
+        "context": "Mathematics: Addition strategies",
+        "rubric_focus": "So/because used to explain mathematical thinking"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken English",
+      "NZSL (causal connectives signed: WHY, BECAUSE, IF, THEN)",
+      "AAC (programmed causal phrases; predictive text supporting conditional structures)"
+    ],
+    "accessibility_notes": "Provide visual cue cards showing causal connectives and sentence frames. Use graphic organizers (cause-effect maps). Allow extra processing time for students to formulate complex sentences. Teach NZSL signs for reasoning vocabulary explicitly.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Causal reasoning is embedded in whakapapa (genealogy/connection) and pūrākau (stories with explanatory power). Value oral storytelling traditions that explain natural phenomena.",
+      "pacific_contexts": "Respectful questioning norms—ensure 'why' questions are framed appropriately to avoid implying challenge to authority.",
+      "inclusive_practice": "Some neurodivergent students excel at systematic if/then thinking—leverage this strength."
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation–Stage 2"
+      ],
+      "notes": "Map English causal connectives to equivalents in home languages where possible (e.g., Spanish 'porque', Māori 'nā te mea'). Explicitly teach multiple ways to express causation. Use bilingual anchor charts.",
+      "scaffolds": [
+        "Sentence frames: 'I think ___ because ___', 'If ___, then ___'",
+        "Visual cause-effect diagrams",
+        "Contrastive analysis with home language syntax"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Mid-Term 1 of Year 2 (after foundational oral language routines established)",
+      "formative_checkpoints": "During each science or inquiry unit (opportunities for explanatory talk)",
+      "summative_evidence": "End of Term 2 and Term 4: recorded explanation or reasoning task"
+    },
+    "teaching_strategies": [
+      "Think-alouds modeling causal language: 'I'm adding this part BECAUSE…'",
+      "Question mats with closed vs. open prompts (who/what vs. why/how)",
+      "Cause-effect graphic organizers during read-alouds (especially non-fiction)",
+      "Science investigations requiring prediction ('If we do X, then Y will happen because…')",
+      "Paired 'why/how' interviews: students practice asking and answering causal questions",
+      "Anchor charts co-created showing causal words with examples from class discussions"
+    ],
+    "next_steps": {
+      "if_emerging": "Model frequently during read-alouds. Use think-pair-share with 'because' frames. Provide visual supports showing cause→effect arrows.",
+      "if_developing": "Introduce if/then structures through simple science predictions. Practice converting 'and' sentences to 'because' sentences.",
+      "if_consolidating": "Add complexity: multiple causes, unless/when. Use reasoning in math problem-solving.",
+      "if_proficient_or_exceeding": "Engage in philosophical questions ('What would happen if there were no rules?'). Evaluate alternative explanations in inquiry contexts."
+    },
+    "cross_curricular_connections": [
+      "Science: Hypothesis formation, explaining observations",
+      "Mathematics: Justifying strategies ('I knew to use doubles because…')",
+      "Social Sciences: Cause-effect in historical events, community decision-making",
+      "Health & PE: Explaining rules, predicting outcomes of choices"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Because always comes in the middle of a sentence' → Teach: 'Because the cat was hungry, it meowed.' (clause-initial position)",
+      "Misconception: 'If/then is only for future events' → Teach: Use in explanations ('If you mix red and blue, then you get purple.')",
+      "Misconception: 'So and because are interchangeable' → Teach: Different logical directions (cause→effect vs. effect→cause)"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 3 inquiry share: Explaining why ice melts",
+        "student_explanation": "We left the ice on the bench. It melted because the room was warm. If we put it in the freezer, then it would stay frozen.",
+        "teacher_note": "Independently used because + if/then without scaffolding. Made a testable prediction."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 870,
+      "semantic_tags": [
+        "causal_reasoning",
+        "conditional_language",
+        "explanatory_talk",
+        "academic_vocabulary",
+        "science_language",
+        "mathematical_reasoning"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-oral-003-v2",
+      "alignment_confidence": 0.87,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.9,
+      "notes_for_rag_systems": "Critical for: oral language assessment, science pedagogy, mathematical reasoning, ELL academic language development, structured literacy implementation",
+      "caveat": "While aligned with Phase 1 outcomes, the high specificity of linguistic structures (if/then, unless) may be more typical of upper Phase 1 (Year 3) or transitional to Phase 2. Verify against teacher observations for age-appropriateness."
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-ORAL-004",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Oral Language – Presenting to Others",
+    "title": "Prepare and present short recitations or oral presentations using visual or written prompts",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Oral Language"
+    },
+    "curriculum_context": {
+      "why_this_matters": "Structured oral presentations build confidence, organizational skills, and audience awareness. Recitation develops memory, fluency, and appreciation of language patterns (poetry, whakataukī).",
+      "prerequisite_skills": [
+        "Ability to speak in front of small groups",
+        "Basic sequencing (beginning/middle/end)"
+      ],
+      "builds_toward": "Phase 2+ persuasive presentations, multimedia talks, formal speeches"
+    },
+    "structured_literacy_components": [
+      "Oral language – planning and organization",
+      "Fluency and expression",
+      "Memory and rehearsal strategies"
+    ],
+    "teaching_sequence_tags": [
+      "Presenting to others",
+      "Recitation and performance",
+      "Using prompts and organizers"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Recites short, familiar items (poems, songs, whakataukī) with group support; uses teacher-provided visual cues. May need encouragement to speak audibly.",
+      "Developing": "Presents a short prepared talk (1-2 minutes) using scaffolded notes or picture prompts. Message is generally understandable; may lose thread without prompts.",
+      "Consolidating": "Presents a short talk with independently prepared prompts (picture cards, keywords); message is clear with organized beginning/middle/end. Uses prompts to maintain flow.",
+      "Proficient": "Organizes ideas logically with clear introduction, details, and conclusion. Uses prompts strategically (glances at notes, doesn't read verbatim). Adjusts volume/pace for audience.",
+      "Exceeding": "Adapts presentation style and prompts based on audience and purpose. Answers questions about content. Explains preparation process and what worked well."
+    },
+    "detection_hints": [
+      "Student-created prompt cards, visual organizers, or keyword lists",
+      "Evidence of rehearsal (at home, with peers)",
+      "Teacher notes on organization and use of prompts",
+      "Video showing natural use of prompts without over-reliance"
+    ],
+    "evidence_examples": [
+      {
+        "type": "video clip",
+        "example": "Student presents a one-minute talk about their pet using two self-made picture cards (pet photo, food bowl). Refers to cards to remember key points but maintains eye contact.",
+        "context": "Year 2 show-and-tell",
+        "rubric_focus": "Independent prompt creation, strategic use during presentation"
+      },
+      {
+        "type": "recitation performance",
+        "example": "Student recites a four-line whakataukī with appropriate pauses and expression. Uses hand gestures to reinforce meaning.",
+        "context": "Class mihi or cultural celebration",
+        "rubric_focus": "Memorization, expression, cultural appropriateness"
+      },
+      {
+        "type": "work sample",
+        "example": "Planning sheet showing brainstormed ideas organized with 'First… Then… Finally…' headings and matching pictures.",
+        "context": "Preparation for topic presentation",
+        "rubric_focus": "Planning and organization skills"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken English",
+      "NZSL",
+      "AAC (pre-programmed sequences with visual supports)"
+    ],
+    "accessibility_notes": "Offer multiple prompt types: icons, keywords, NZSL glosses, audio recordings for rehearsal. Allow flexible presentation formats (video recording, small-group vs. whole-class). Provide advance notice and rehearsal time.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Recitation of whakataukī, karakia, or pepeha builds cultural identity and language maintenance. Honor oral traditions.",
+      "pacific_contexts": "Oral storytelling is highly valued; support students sharing cultural narratives, songs, or proverbs.",
+      "inclusive_practice": "Some students may prefer presenting to teacher only or via video—validate all forms of sharing"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation–Stage 2"
+      ],
+      "notes": "Allow bilingual prompts (home language keywords + English). Pre-teach key nouns/verbs. Permit presentations about home culture/language. Provide sentence frames.",
+      "scaffolds": [
+        "Bilingual word banks",
+        "Photo prompts with captions in L1 and English",
+        "Rehearsal with bilingual peers or whānau"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Term 1 (simple recitation or paired share)",
+      "formative_checkpoints": "Each term: increasing complexity and independence",
+      "summative_evidence": "End-of-year presentation showing growth in organization and delivery"
+    },
+    "teaching_strategies": [
+      "Model think-alouds: 'I'll write "dog" to remind me to talk about my pet'",
+      "Co-construct success criteria (clear voice, organized ideas, use prompts)",
+      "Provide presentation templates (First… Next… Last… Questions?)",
+      "Use peer rehearsal with structured feedback stems",
+      "Create a 'presentation toolkit' (timer, talking stick, prompt card templates)",
+      "Film rehearsals for self-assessment"
+    ],
+    "next_steps": {
+      "if_emerging": "Start with group recitations. Provide full visual supports. Practice with familiar adults first.",
+      "if_developing": "Co-create prompts with student. Rehearse multiple times. Use think-pair-share before presenting to larger group.",
+      "if_consolidating": "Encourage independent prompt creation. Add time limits to build conciseness. Introduce question-answer component.",
+      "if_proficient_or_exceeding": "Present to authentic audiences (younger classes, whānau). Add multimedia elements. Teach presentation skills to peers."
+    },
+    "cross_curricular_connections": [
+      "Social Sciences: Presenting research about communities or cultures",
+      "Science: Explaining investigations or observations",
+      "Arts: Performance poetry, drama monologues",
+      "Te Reo Māori: Reciting pepeha, whakataukī, or mōteatea"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Good presenters don't need prompts' → Teach: Even experts use notes strategically",
+      "Misconception: 'Memorization is better than using prompts' → Teach: Understanding + prompts = flexibility",
+      "Misconception: 'Reading from notes is the same as presenting' → Teach: Prompts should be keywords/pictures, not full sentences"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 3 topic presentation on 'My Favourite Book'",
+        "student_work": "Three prompt cards: book cover image, speech bubble saying 'exciting part', question mark. Student glances at each while speaking for ~2 minutes.",
+        "teacher_note": "Independently created visual prompts. Used them to stay on track without reading. Answered two peer questions confidently."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 750,
+      "semantic_tags": [
+        "oral_presentation",
+        "recitation",
+        "planning_and_organization",
+        "public_speaking",
+        "cultural_performance"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-oral-004-v2",
+      "alignment_confidence": 0.89,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.91,
+      "notes_for_rag_systems": "Relevant for: presentation skills, cultural recitation (whakataukī, pepeha), AAC/NZSL adaptations, scaffolding for ELL students"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-READ-005",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Reading – Word Recognition (Phonics)",
+    "title": "Apply taught grapheme-phoneme correspondences (including less-common GPCs) to decode unfamiliar words",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Reading (Phonics and Word Recognition)"
+    },
+    "curriculum_context": {
+      "why_this_matters": "Systematic phonics instruction is the most evidence-based approach to teaching reading. Phase 1 progresses from simple CVC words to complex GPCs, enabling students to decode increasingly sophisticated texts independently.",
+      "prerequisite_skills": [
+        "Phonemic awareness (blending, segmenting)",
+        "Knowledge of common single-letter GPCs (a-z)",
+        "Ability to blend VC and CVC words"
+      ],
+      "builds_toward": "Phase 2+ morphology (prefixes, suffixes), multi-syllable decoding, automaticity"
+    },
+    "structured_literacy_components": [
+      "Phonemic awareness",
+      "Phonics (grapheme-phoneme correspondences)",
+      "Decoding strategies",
+      "Word recognition"
+    ],
+    "teaching_sequence_tags": [
+      "Phonemic awareness and phonics knowledge",
+      "Decoding unfamiliar words",
+      "Grapheme-phoneme correspondences (GPCs)",
+      "Less-common spelling patterns"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Identifies sounds for single letters and some common digraphs (sh, ch, th) in teacher-directed contexts. Blends simple CVC words with support.",
+      "Developing": "Reads common digraphs, consonant blends (bl, st), and simple vowel teams (ai, ee, oa) in familiar decodable texts. May need prompting to try new GPCs.",
+      "Consolidating": "Accurately applies less-common GPCs (e.g., eigh→/ā/, ph→/f/, kn→/n/, wr→/r/) in controlled texts. Self-corrects using phonics knowledge when initial attempt doesn't make sense.",
+      "Proficient": "Generalizes GPC knowledge to unfamiliar words in connected text. Explains multiple spellings for the same phoneme (e.g., /ā/ can be a, a-e, ai, ay, eigh, ey). Rarely needs teacher support for decoding.",
+      "Exceeding": "Flexibly applies phonics knowledge across text types. When encountering an unknown word, systematically tries alternative pronunciations (e.g., 'live' as /liv/ or /līv/). Uses morphology to support decoding (e.g., recognizing 'un-' in 'unkind')."
+    },
+    "detection_hints": [
+      "Running record notes showing accuracy on words with less-common GPCs (eigh, ph, kn, wr, dge, tch)",
+      "Self-corrections that demonstrate GPC knowledge (e.g., reads 'phone' as /fōn/ not /p-hōn/)",
+      "Student explains: 'I know eigh makes the /ā/ sound like in eight'",
+      "Miscue analysis showing graphophonic cues used appropriately"
+    ],
+    "evidence_examples": [
+      {
+        "type": "running record",
+        "example": "Student reads a decodable text containing 'knight', 'scenery', 'weigh' with 95%+ accuracy. Self-corrects 'scen-ery' to 'scenery' (/sēn-ə-rē/).",
+        "context": "Year 3 guided reading with controlled vocabulary",
+        "rubric_focus": "Application of taught GPCs (kn, sc, eigh) in connected text"
+      },
+      {
+        "type": "phonics assessment",
+        "example": "On a pseudoword decoding task, student reads 'spight', 'phom', 'wrack' correctly, demonstrating knowledge that eigh→/ī/, ph→/f/, wr→/r/.",
+        "context": "Formative phonics check (nonsense words)",
+        "rubric_focus": "Generalization of GPC rules to novel words"
+      },
+      {
+        "type": "observational note",
+        "example": "While reading independently, student pauses at 'wreath', sounds out /r-ē-th/, then self-corrects to /rēth/ saying 'Oh, w is silent.'",
+        "context": "Independent reading time",
+        "rubric_focus": "Metacognitive awareness of GPC rules"
+      }
+    ],
+    "evidence_modalities": [
+      "Oral reading (spoken)",
+      "NZSL mouthing patterns (for deaf/HoH students learning to read English)",
+      "Pointing/fingerspelling to show grapheme segmentation"
+    ],
+    "accessibility_notes": "Teach using mouth-position visuals and hand cues (e.g., Cued Speech). For NZSL users, provide explicit links between English orthography and NZSL fingerspelling. Use multi-sensory approaches (tracing, manipulatives). Anchor unusual GPCs with memorable keywords and images.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Acknowledge that Māori has highly regular orthography; English is comparatively irregular. Celebrate biliteracy. Use Māori words as keyword anchors where appropriate (e.g., 'wh' in both languages).",
+      "pacific_contexts": "Many Pacific languages have transparent orthographies—explicitly teach English irregularities.",
+      "inclusive_practice": "Dyslexic students benefit from systematic, cumulative phonics instruction with frequent review"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Stage 1–2"
+      ],
+      "notes": "Contrast English GPCs with home language sound-symbol patterns. Provide explicit articulation instruction (some phonemes may not exist in L1). Use visual phonics systems. Allow extra time for phonological processing.",
+      "scaffolds": [
+        "Articulation videos showing mouth position",
+        "Bilingual GPC charts (where L1 is alphabetic)",
+        "Minimal pair practice (e.g., ship/chip for /sh/ vs /ch/)"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Start of Year 1 (baseline phonics knowledge)",
+      "formative_checkpoints": "End of each phonics unit (typically every 2–3 weeks)",
+      "summative_evidence": "Running records termly; phonics screening check (Year 2); end-of-year decoding assessment"
+    },
+    "teaching_strategies": [
+      "Explicit, systematic phonics sequence (e.g., starting with high-frequency GPCs, progressing to rare patterns)",
+      "Cumulative review: each lesson includes previously taught GPCs",
+      "Use decodable texts tightly aligned to taught GPCs (avoid 'mixed methods' texts)",
+      "Teach multiple spellings for each phoneme using sound walls",
+      "Provide immediate corrective feedback during oral reading",
+      "Use word chains to build automaticity (e.g., knight→night→sight→fight)",
+      "Integrate spelling practice (encoding reinforces decoding)"
+    ],
+    "next_steps": {
+      "if_emerging": "Focus on consolidating common GPCs before introducing rare patterns. Use simple decodables. Provide 1:1 or small-group intervention.",
+      "if_developing": "Systematically introduce less-common GPCs. Increase decodable text complexity. Build fluency through repeated reading.",
+      "if_consolidating": "Add morphology (e.g., -ing, -ed, -s). Increase reading volume. Introduce advanced GPCs (ough, ough).",
+      "if_proficient_or_exceeding": "Focus on fluency, vocabulary, and comprehension. Transition to authentic texts. Use phonics knowledge for spelling."
+    },
+    "cross_curricular_connections": [
+      "Science: Reading informational texts with technical vocabulary",
+      "Mathematics: Decoding word problems",
+      "Social Sciences: Reading maps, labels, captions"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Phonics only matters for early readers' → Teach: Phonics supports spelling, vocabulary learning, and reading unfamiliar technical terms at all ages",
+      "Misconception: 'Irregular words can't be taught with phonics' → Teach: Even 'sight words' have regular parts (e.g., 'said' has regular /s/ and /d/)",
+      "Misconception: 'Good readers don't sound out words' → Teach: Skilled readers use phonics rapidly and automatically, especially for new words"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 3 small-group reading",
+        "observation": "Student encounters 'weigh' in context ('The grocer will weigh the apples'). Pauses, segments /w/-/ā/, then reads fluently. Later explains: 'eigh says /ā/ like in eight and sleigh.'",
+        "teacher_note": "Applied taught GPC independently. Made connections across words. Demonstrated metacognitive awareness."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 890,
+      "semantic_tags": [
+        "phonics",
+        "grapheme_phoneme_correspondences",
+        "decoding",
+        "word_recognition",
+        "structured_literacy",
+        "systematic_phonics"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-read-005-v2",
+      "alignment_confidence": 0.92,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.93,
+      "notes_for_rag_systems": "Essential for: phonics instruction, running record analysis, dyslexia intervention, ELL phonics support, decodable text selection"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-READ-006",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Reading – Word Recognition (Advanced Phonics)",
+    "title": "Decode words containing diphthongs and r-controlled vowels in connected text",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Reading (Phonics)"
+    },
+    "curriculum_context": {
+      "why_this_matters": "Diphthongs (vowel sounds that glide, like /oi/ in 'boy') and r-controlled vowels (/ar/, /er/, /ir/, /or/, /ur/) represent approximately 25% of English vowel sounds. Mastery is essential for decoding accuracy and fluency in Year 2–3 texts.",
+      "prerequisite_skills": [
+        "Secure knowledge of short and long vowel sounds",
+        "Ability to blend and segment phonemes in CVC and CVCe words"
+      ],
+      "builds_toward": "Multi-syllable word decoding, vowel team automaticity, spelling proficiency"
+    },
+    "structured_literacy_components": [
+      "Phonemic awareness (vowel discrimination)",
+      "Phonics (complex vowel patterns)",
+      "Decoding automaticity"
+    ],
+    "teaching_sequence_tags": [
+      "Phonemic awareness and phonics knowledge",
+      "Diphthongs (oi, oy, ou, ow)",
+      "R-controlled vowels (ar, er, ir, or, ur)",
+      "Vowel teams and patterns"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Recognizes diphthong and r-controlled vowel patterns in isolation with teacher support. May decode these patterns inconsistently in words (e.g., reads 'coin' as /kō-in/ instead of /koin/).",
+      "Developing": "Reads common diphthongs (oi/oy, ou/ow) and r-controlled vowels in familiar single-syllable words (coin, toy, car, bird) with increasing accuracy in decodable texts.",
+      "Consolidating": "Accurately decodes diphthongs and r-controlled vowels in connected text without prompting. Recognizes that 'r' changes the vowel sound (e.g., 'farm' vs. 'fame'). Self-corrects using phoneme-grapheme knowledge.",
+      "Proficient": "Applies knowledge flexibly to unfamiliar words containing these patterns, including in multi-syllable words (e.g., 'enjoying', 'startled', 'turkey'). Explains the vowel sound change caused by 'r'.",
+      "Exceeding": "Identifies and explains spelling alternatives for the same sound (e.g., /oi/ spelled 'oi' or 'oy'; /er/ spelled 'er', 'ir', 'ur', 'ear', 'or'). Uses this knowledge for both reading and spelling. Recognizes exceptions (e.g., 'warm' where /or/ is spelled 'ar')."
+    },
+    "detection_hints": [
+      "Running record accuracy on words with oi/oy, ou/ow, ar, er, ir, or, ur",
+      "Self-corrections showing vowel pattern knowledge (e.g., initial attempt 'boid' corrected to 'bird')",
+      "Student explanations: 'The r makes it say /er/ not /i/'",
+      "Finger tracking shows awareness of vowel pattern as a unit (points to 'oi' not 'o' then 'i')"
+    ],
+    "evidence_examples": [
+      {
+        "type": "running record",
+        "example": "Student reads a Year 2 decodable passage containing 'toy', 'coin', 'found', 'car', 'fern', 'bird' with 95%+ accuracy. Substitutes 'form' for 'farm' (graphophonically similar) but self-corrects.",
+        "context": "Guided reading with phonics-controlled text",
+        "rubric_focus": "Decoding accuracy on target vowel patterns in connected text"
+      },
+      {
+        "type": "word reading assessment",
+        "example": "On an isolated word list, student correctly reads: joy, soil, cloud, brown, start, herd, girl, storm, burn (9/9 or 8/9).",
+        "context": "Formative phonics check",
+        "rubric_focus": "Automaticity with diphthongs and r-controlled vowels"
+      },
+      {
+        "type": "video observation",
+        "example": "During partner reading, student pauses at 'enjoy', sounds out /en/-/joi/, blends successfully. Partner gives thumbs up.",
+        "context": "Peer-supported reading practice",
+        "rubric_focus": "Application of decoding strategy in real-time reading"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken reading",
+      "NZSL mouthing patterns (showing vowel articulation)",
+      "Finger-spelling or pointing to show grapheme chunking"
+    ],
+    "accessibility_notes": "Provide grapheme tiles or magnetic letters for hands-on manipulation. Use minimal-pair practice to contrast sounds (e.g., 'pat' vs. 'part', 'bid' vs. 'bird'). For NZSL users, explicitly teach English vowel articulation using visual phonics or mirrors. Allow extra processing time for students with phonological processing differences.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "NZ English pronunciation of r-controlled vowels may differ from other English dialects (e.g., non-rhotic 'r' in some accents). Validate diverse pronunciations while teaching standard orthography.",
+      "pacific_contexts": "Some Pacific languages lack diphthongs or r-colored vowels—provide intensive explicit instruction with visual/gestural supports.",
+      "inclusive_practice": "Dyslexic students may need extended practice with vowel patterns; use multi-sensory techniques (tracing, sky-writing)"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Stage 1–2"
+      ],
+      "notes": "Contrast English diphthongs/r-vowels with home language vowel systems. Many languages have pure vowels (no glides)—model articulation explicitly. Use contrastive analysis (e.g., Spanish /o/ vs. English /oi/). Provide auditory discrimination practice.",
+      "scaffolds": [
+        "Articulation videos with slow-motion mouth movements",
+        "Sound boxes for segmenting oi/oy, ou/ow patterns",
+        "Bilingual word sorts (if L1 has similar sounds)"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Mid-Year 2 (after simple vowel patterns mastered)",
+      "formative_checkpoints": "End of each phonics unit introducing new diphthong/r-vowel pattern",
+      "summative_evidence": "End-of-term running records; phonics screener (if applicable)"
+    },
+    "teaching_strategies": [
+      "Explicit introduction: 'Today we learn that oi and oy both say /oi/ as in coin and boy'",
+      "Use keyword anchors: 'coin' for /oi/, 'car' for /ar/, 'bird' for /er//ir//ur/",
+      "Practice with word chains: toy→boy→boil→soil",
+      "Provide decodable texts featuring high frequency of target pattern",
+      "Cumulative review: include previously taught patterns in every lesson",
+      "Use sound walls (not word walls) organized by vowel sound, showing multiple spellings",
+      "Integrate dictation/spelling to reinforce encoding"
+    ],
+    "next_steps": {
+      "if_emerging": "Reteach with increased explicitness and multi-sensory supports. Use simple CVC words with r-controlled vowels (car, her). Provide daily practice.",
+      "if_developing": "Increase practice with decodable texts. Introduce word sorts by vowel pattern. Build fluency through repeated reading.",
+      "if_consolidating": "Add multi-syllable words (enjoy-ing, start-ed). Practice in authentic texts. Focus on fluency and comprehension.",
+      "if_proficient_or_exceeding": "Explore spelling rules (e.g., 'oy' at end of words, 'oi' in middle). Apply to writing. Investigate exceptions and origins."
+    },
+    "cross_curricular_connections": [
+      "Science: Reading texts about animals (bird, shark), weather (storm, cloud)",
+      "Social Sciences: Reading place names, maps",
+      "Mathematics: Word problems containing these patterns"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'R-controlled vowels are irregular' → Teach: They follow predictable patterns; /ar/ is always spelled 'ar', etc.",
+      "Misconception: 'Diphthongs are two separate sounds' → Teach: They glide from one position to another as a single vowel unit",
+      "Misconception: 'Ou and ow are different sounds' → Teach: Both can represent /ou/ as in 'out/cow'; context and word position determine spelling"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 guided reading group",
+        "observation": "Student reads: 'The bird will turn to look for worms in the dirt.' All r-controlled words decoded accurately. When asked how they knew 'bird', student says: 'I-R says /er/ like in girl.'",
+        "teacher_note": "Demonstrates internalized GPC rule for ir→/er/. Applied across multiple words. Used known word (girl) to support decoding."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 870,
+      "semantic_tags": [
+        "phonics",
+        "diphthongs",
+        "r_controlled_vowels",
+        "vowel_teams",
+        "decoding",
+        "word_recognition"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-read-006-v2",
+      "alignment_confidence": 0.91,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.92,
+      "notes_for_rag_systems": "Critical for: Year 2-3 phonics instruction, running record analysis, intervention planning for vowel pattern difficulties, ELL phonological awareness"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-READ-007",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Reading – Working with Texts",
+    "title": "Engage with decodable texts for skill practice and rich read-alouds for language and concept development",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Reading (Working with Texts)",
+      "source_excerpt": "Students practice decoding in texts aligned to their phonics knowledge while experiencing rich, complex texts through read-alouds to build vocabulary, background knowledge, and comprehension."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Dual-text approach prevents the 'reading wars' false dichotomy. Decodable texts build automaticity and confidence; rich read-alouds provide access to sophisticated language, diverse content, and the joy of literature before students can decode at that level independently.",
+      "prerequisite_skills": [
+        "Emerging phonics knowledge",
+        "Ability to attend to read-alouds for 5–10 minutes"
+      ],
+      "builds_toward": "Independent reading of authentic texts, self-selected reading, reading for pleasure and information across genres"
+    },
+    "structured_literacy_components": [
+      "Phonics application in connected text",
+      "Fluency development",
+      "Vocabulary (especially from read-alouds)",
+      "Listening comprehension",
+      "Background knowledge building"
+    ],
+    "teaching_sequence_tags": [
+      "Working with texts",
+      "Decodable text practice",
+      "Read-aloud experiences",
+      "Balanced literacy approach",
+      "Text selection and matching"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Participates in daily read-alouds by listening and looking at pictures. Practices taught phonics patterns in heavily supported decodable texts (shared reading, echo reading). May need 1:1 support to engage with decodables.",
+      "Developing": "Actively participates in read-aloud discussions (answers questions, makes predictions). Reads decodable texts that match recent phonics instruction with 85–90% accuracy in small groups. Selects decodables for independent practice with guidance.",
+      "Consolidating": "Explains something learned from a read-aloud (new vocabulary, concept, or story element). Independently reads matched decodable texts with 90–95% accuracy and improving fluency. Demonstrates transfer of vocabulary or sentence structures from read-alouds into own speaking or writing.",
+      "Proficient": "Makes connections between read-alouds and own experiences or other texts. Selects appropriately challenging decodable texts to practice new GPCs. Articulates how decodable practice builds reading skills. Uses read-aloud language in own compositions (e.g., 'The author said it was enormous, so I wrote huge').",
+      "Exceeding": "Chooses texts strategically based on purpose (practice decoding, learn about a topic, enjoyment). Articulates how decodable practice supports reading growth and identifies which phonics patterns need more practice. Initiates discussion of themes, author's craft, or content from read-alouds."
+    },
+    "detection_hints": [
+      "Teacher planning shows daily read-aloud plus decodable text rotation aligned to phonics sequence",
+      "Student references vocabulary from read-alouds in discussion or writing ('I learned what a glossary is')",
+      "Running records show increasing accuracy and fluency on decodables matched to taught GPCs",
+      "Student can explain text choice: 'I picked this one because it has the /oi/ sound we learned'"
+    ],
+    "evidence_examples": [
+      {
+        "type": "observation",
+        "example": "During independent reading time, student selects a decodable book from the bin labeled 'Week 6: ou/ow'. Reads with 95% accuracy and appropriate phrasing. When asked, says: 'I wanted to practice ou and ow words.'",
+        "context": "Year 2 literacy block—independent practice time",
+        "rubric_focus": "Text selection aligned to phonics knowledge; metacognitive awareness"
+      },
+      {
+        "type": "transcript",
+        "example": "After read-aloud of non-fiction book about kiwi birds, student says: 'I learned that kiwi are nocturnal. That means they come out at night. Can we read more about nocturnal animals?'",
+        "context": "Post read-aloud discussion",
+        "rubric_focus": "Vocabulary acquisition, concept learning, extending interest"
+      },
+      {
+        "type": "work sample",
+        "example": "In writing, student writes: 'The enormous tree fell down' (using 'enormous' from recent read-aloud instead of 'big').",
+        "context": "Independent writing—narrative",
+        "rubric_focus": "Transfer of read-aloud vocabulary to composition"
+      },
+      {
+        "type": "teacher note",
+        "example": "Programme review shows: daily 15-minute read-aloud (varied genres, culturally diverse texts, above students' decoding level) + 20 minutes guided/independent reading of decodables matched to phonics scope and sequence.",
+        "context": "Curriculum planning documentation",
+        "rubric_focus": "Balanced text diet provision"
+      }
+    ],
+    "evidence_modalities": [
+      "Listening (to read-alouds)",
+      "Spoken (discussing read-alouds; oral reading of decodables)",
+      "NZSL (discussing read-alouds via interpretation; mouthing patterns while reading decodables)",
+      "AAC (responding to read-aloud questions via device)"
+    ],
+    "accessibility_notes": "Ensure less-constrained read-aloud texts reflect diverse identities, languages, and experiences. Provide captions or visual supports during read-alouds. For decodable practice, offer texts with diverse characters and culturally relevant content where possible. Adjust group size for decodable practice based on student need (1:1, small group, pairs).",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Include read-alouds in te reo Māori and English featuring Māori stories, tikanga, and histories. Ensure decodables include Māori characters and contexts where feasible.",
+      "pacific_contexts": "Select read-alouds representing Pacific cultures, languages, and stories. Invite whānau to share oral storytelling traditions.",
+      "inclusive_practice": "Representation matters—ensure read-alouds include diverse characters (disability, ethnicity, family structures, gender)"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation–Stage 2"
+      ],
+      "notes": "Use bilingual read-alouds where possible. Pre-teach key vocabulary from read-alouds using visuals and realia. For decodables, ensure phonics instruction includes explicit English phonology teaching (some sounds may not exist in L1). Allow extra time for processing.",
+      "scaffolds": [
+        "Picture walks before read-alouds to build context",
+        "Bilingual glossaries for read-aloud vocabulary",
+        "Simplified decodables with visual supports for ELLs at early stages",
+        "Partner reading with bilingual peers"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Term 1—establish baseline (phonics knowledge, listening comprehension)",
+      "formative_checkpoints": "Half-termly programme review: Are decodables aligned to phonics scope? Are read-alouds varied and engaging?",
+      "summative_evidence": "Running records on decodables (termly); comprehension checks after read-alouds; student reading surveys"
+    },
+    "teaching_strategies": [
+      "Establish daily read-aloud routine (10–20 minutes) with interactive discussion (predictions, connections, questions)",
+      "Build a decodable text library organized by phonics pattern; rotate weekly to match instruction",
+      "Model text selection: 'I'm choosing this decodable because we just learned about -tch words'",
+      "Use 'turn and talk' during read-alouds to increase participation",
+      "Create anchor charts of new vocabulary from read-alouds with pictures and sentences",
+      "Provide 'book boxes' with matched decodables for independent practice",
+      "Track decodable–phonics alignment using a scope and sequence chart"
+    ],
+    "next_steps": {
+      "if_emerging": "Increase read-aloud frequency. Use heavily illustrated texts. Provide echo reading and choral reading of decodables. Start with very simple decodables (CVC).",
+      "if_developing": "Expand read-aloud genres (poetry, non-fiction, diverse narratives). Gradually increase decodable complexity. Introduce partner reading.",
+      "if_consolidating": "Encourage student choice within matched decodables. Use read-aloud language in shared writing. Begin transitioning to 'bridge books' (partly decodable, partly high-frequency words).",
+      "if_proficient_or_exceeding": "Introduce independent reading of authentic texts alongside continued decodable practice for fluency. Use read-alouds to explore complex themes and author's craft."
+    },
+    "cross_curricular_connections": [
+      "Science: Read-alouds about scientific concepts; decodables featuring science content",
+      "Social Sciences: Stories about diverse cultures and communities",
+      "Mathematics: Decodables with mathematical language; read-alouds about numbers and patterns",
+      "Arts: Picture books showcasing illustration techniques; poetry for rhythm and rhyme"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Decodables are boring, so students won't enjoy reading' → Teach: Joy of reading comes from success and rich content; modern decodables can be engaging and diverse",
+      "Misconception: 'Read-alouds aren't real reading instruction' → Teach: Listening comprehension builds vocabulary and knowledge essential for future reading comprehension",
+      "Misconception: 'Students should only read books at their level' → Teach: Access to complex ideas via read-alouds prevents knowledge gaps while decoding skills develop"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 3 literacy programme",
+        "teacher_reflection": "We do a daily 15-minute interactive read-aloud (last week: The Lorax; this week: non-fiction about climate). Students also practice in leveled decodables matched to our phonics sequence (currently: complex vowel teams). I noticed Tama used 'environment' from the read-aloud in his writing about our school garden.",
+        "student_voice": "I like the read-aloud books because they teach me new words and ideas. I like my practice books because I can read them by myself and that feels good."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 950,
+      "semantic_tags": [
+        "decodable_texts",
+        "read_alouds",
+        "balanced_literacy",
+        "text_selection",
+        "vocabulary_development",
+        "comprehension_instruction"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-read-007-v2",
+      "alignment_confidence": 0.94,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.93,
+      "notes_for_rag_systems": "Foundational for: reading programme design, text selection guidance, balanced literacy implementation, addressing reading achievement gaps, culturally responsive literacy teaching"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-READ-008",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Reading – Comprehension Strategies",
+    "title": "Make simple inferences and use text features (headings, diagrams, glossaries) to support meaning-making",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Reading (Comprehension)",
+      "source_excerpt": "Students learn to think beyond literal information, making inferences by connecting text clues with their own knowledge. They use text features to navigate and understand informational texts."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Comprehension is the purpose of reading. Inference-making (reading between the lines) is a higher-order thinking skill essential for deep understanding. Text feature knowledge supports navigation of non-fiction, which dominates academic and workplace reading.",
+      "prerequisite_skills": [
+        "Basic literal comprehension (who, what, where, when)",
+        "Phonics knowledge enabling access to text",
+        "Ability to connect personal experiences to stories"
+      ],
+      "builds_toward": "Phase 2+ critical reading, analyzing author's purpose, evaluating sources, synthesizing across texts"
+    },
+    "structured_literacy_components": [
+      "Reading comprehension strategies",
+      "Text structure knowledge",
+      "Vocabulary (especially tier 2 academic words)",
+      "Background knowledge activation"
+    ],
+    "teaching_sequence_tags": [
+      "Comprehension strategies",
+      "Making inferences",
+      "Text features (headings, subheadings, glossaries, diagrams, captions)",
+      "Non-fiction reading"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Identifies literal information (who, what, where) using pictures or teacher prompts. Notices that some texts have headings or pictures but may not use them purposefully.",
+      "Developing": "Answers simple inferential questions with support (e.g., 'How do you think the character felt?'). Uses pictures, headings, and bold words to locate information. May need prompting to explain reasoning.",
+      "Consolidating": "Makes simple inferences independently by linking text clues with prior knowledge (e.g., 'She must be sad because it says she's crying'). Uses subheadings, diagrams, and glossaries to locate and understand information. Can explain: 'The diagram showed me how it works.'",
+      "Proficient": "Supports inferences with specific text evidence ('I think he's brave because he went into the dark cave even though he was scared'). Explains how text features help understanding ('The subheading told me this section is about habitat, so I can skip it if I want to know about diet'). Uses multiple clues to make inferences.",
+      "Exceeding": "Makes sophisticated inferences by synthesizing information across pages or texts. Compares how different authors use text features. Evaluates whether inferences are well-supported. Generates own questions that require inferential thinking."
+    },
+    "detection_hints": [
+      "Student responses include 'because' with text evidence when explaining inferences",
+      "References to text features: 'The glossary says…', 'The diagram shows…', 'I used the heading to find…'",
+      "Highlighting or annotating text to show clues used for inferences",
+      "Teacher notes documenting unprompted use of text features during independent reading"
+    ],
+    "evidence_examples": [
+      {
+        "type": "work sample",
+        "example": "Student annotates a page from an informational text: highlights a sentence about penguins' black-and-white coloring, draws arrow to margin note: 'This helps them hide from predators (from the diagram).'",
+        "context": "Year 3 guided reading—non-fiction about Antarctic animals",
+        "rubric_focus": "Inference-making with text evidence; use of diagram to support understanding"
+      },
+      {
+        "type": "reading conference transcript",
+        "example": "Teacher: 'Why did the character go back home?' Student: 'Maybe she forgot something important because she looked worried in the picture and turned around really fast. It doesn't say it, but I think that's why.'",
+        "context": "1:1 reading conference with narrative text",
+        "rubric_focus": "Inference using picture clues + text details; metacognitive awareness ('It doesn't say it')"
+      },
+      {
+        "type": "observation",
+        "example": "During independent reading of a book about insects, student turns to the glossary, finds 'metamorphosis', reads the definition, then returns to main text. Says: 'Now I get it—the caterpillar changes into a butterfly.'",
+        "context": "Independent reading time—informational text",
+        "rubric_focus": "Strategic use of glossary to support comprehension"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken (discussions)",
+      "NZSL (explaining inferences via interpretation)",
+      "Written (annotations, sticky notes, reading response journals)"
+    ],
+    "accessibility_notes": "Choose texts with clear, accessible visuals and explicitly teach navigation of features (table of contents, index, glossary). Use graphic organizers (inference equation: Clues + Prior Knowledge = Inference). For NZSL users, ensure diagrams and labels are visible and interpreted. Provide sentence frames for explaining inferences.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Select texts representing Māori perspectives and knowledge systems. Teach that inferences are shaped by cultural knowledge—different readers may make different (equally valid) inferences based on their background.",
+      "pacific_contexts": "Use texts reflecting Pacific cultures and experiences. Acknowledge that some inferences require cultural insider knowledge.",
+      "inclusive_practice": "Validate diverse life experiences that inform inferences. Some students may lack background knowledge needed for certain inferences—build this explicitly."
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Stage 1–2"
+      ],
+      "notes": "Pre-teach tier 2 vocabulary and feature labels (heading, caption, diagram). Provide bilingual glossaries where possible. Allow extra processing time for inference-making, which requires integrating language comprehension with content knowledge. Use visual thinking maps.",
+      "scaffolds": [
+        "Sentence frames: 'I think ___ because the text says ___ and I know ___'",
+        "Bilingual labels for text features",
+        "Picture walks to build background knowledge before reading"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "End of Year 1 or early Year 2 (after decoding basics established)",
+      "formative_checkpoints": "Each guided reading session; end of each informational text unit",
+      "summative_evidence": "Reading conferences termly; written reading responses; annotations in texts"
+    },
+    "teaching_strategies": [
+      "Explicitly teach inference equation: Text Clues + Background Knowledge = Inference",
+      "Model think-alouds: 'The author doesn't say the character is angry, but I can infer it because it says he slammed the door'",
+      "Use 'Because–So' frames to scaffold inference explanations",
+      "Teach text feature scavenger hunts: 'Find a heading, a caption, a diagram'",
+      "Co-create anchor charts showing purposes of different text features",
+      "Practice with short texts before longer books",
+      "Use sticky notes for students to record inferences and supporting clues"
+    ],
+    "next_steps": {
+      "if_emerging": "Focus on literal comprehension first. Use heavily illustrated texts. Practice identifying obvious text features. Build background knowledge.",
+      "if_developing": "Use inference frames with visual supports. Explicitly teach one text feature at a time with guided practice. Provide 'inference cards' with sentence starters.",
+      "if_consolidating": "Increase text complexity. Require citing multiple pieces of evidence. Introduce comparing inferences across texts.",
+      "if_proficient_or_exceeding": "Analyze how authors use text features for different purposes. Make inferences about themes and author's message. Evaluate strength of inferences."
+    },
+    "cross_curricular_connections": [
+      "Science: Using diagrams, labels, and headings in science texts; making inferences from data",
+      "Social Sciences: Inferring from primary sources (photos, artifacts); using maps and timelines",
+      "Mathematics: Making inferences from graphs and charts; using visual representations to solve problems"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Inferences are just guesses' → Teach: Inferences are evidence-based conclusions using text clues + knowledge",
+      "Misconception: 'Text features are just decoration' → Teach: Features like diagrams and headings carry essential information",
+      "Misconception: 'There's only one right inference' → Teach: Multiple valid inferences can exist if well-supported by text"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 reading conference—narrative text",
+        "student_explanation": "I think the fox is trying to trick the rabbit because in the picture he's smiling but his eyes look sneaky. Also, earlier in the story it said foxes are clever. So I infer he has a plan.",
+        "teacher_note": "Synthesized picture clues + prior text information + background knowledge (foxes are clever). Used inference vocabulary appropriately."
+      },
+      {
+        "context": "Year 3 independent reading—informational text about bees",
+        "observation": "Student uses table of contents to locate 'Bee Communication' chapter, reads subheading 'The Waggle Dance', studies diagram showing bee movement patterns, then explains to peer: 'Bees do a dance to tell other bees where flowers are. The diagram shows how the dance direction matches where the flowers are from the hive.'"
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 920,
+      "semantic_tags": [
+        "reading_comprehension",
+        "inferencing",
+        "text_features",
+        "non_fiction_reading",
+        "critical_thinking",
+        "evidence_based_reasoning"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-read-008-v2",
+      "alignment_confidence": 0.92,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.94,
+      "notes_for_rag_systems": "Essential for: comprehension instruction, informational text teaching, critical thinking development, reading conference guidance, cross-curricular literacy support"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-WRIT-009",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Writing – Composition and Transcription",
+    "title": "Compose simple sentences using taught GPCs, high-frequency words, and models from shared texts",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Writing (Reading-Writing Integration)",
+      "source_excerpt": "Students apply their phonics knowledge to spell words and compose sentences. They draw on language patterns and structures from texts they have read or heard."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Writing is the reciprocal process to reading. Encoding (spelling) reinforces decoding (reading). Composing simple sentences builds syntax knowledge, creativity, and communication skills. Integration with read-alouds ensures exposure to rich language patterns.",
+      "prerequisite_skills": [
+        "Basic phonics knowledge (ability to segment and spell CVC words)",
+        "Letter formation (handwriting or keyboarding basics)",
+        "Understanding of sentence concept (group of words expressing complete thought)"
+      ],
+      "builds_toward": "Phase 2+ multi-sentence paragraphs, varied sentence structures, genre-specific writing, editing and revision"
+    },
+    "structured_literacy_components": [
+      "Phonics → spelling (transcription)",
+      "Sentence construction (composition)",
+      "Text structure awareness",
+      "Vocabulary application"
+    ],
+    "teaching_sequence_tags": [
+      "Shared writing",
+      "Sentence building and construction",
+      "Phonics application to spelling",
+      "Using mentor texts and models",
+      "Reading-writing integration"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Produces labels or single words using initial sounds or taught letter-sound correspondences. May dictate sentences to a scribe. Copies sentences from models with support.",
+      "Developing": "Writes simple sentences (subject-verb or subject-verb-object) with mostly phonetically plausible attempts at spelling. Uses taught GPCs and some high-frequency words correctly. Punctuation (capitals, full stops) may be inconsistent. Draws on familiar sentence patterns.",
+      "Consolidating": "Writes short linked sentences (2-4) modeled on class texts or writing frames. Uses capital letters and full stops reliably. Spelling shows good application of taught phonics patterns and common high-frequency words. Rereads to check sense.",
+      "Proficient": "Varies sentence starters and includes descriptive details drawn from mentor texts (e.g., adjectives, adverbs). Writes 4-6 related sentences organized around a topic. Edits for clarity and basic conventions. Explains writing choices ('I used "enormous" like in our read-aloud').",
+      "Exceeding": "Composes multi-sentence texts with clear structure (beginning, middle, end or topic sentence + details). Experiments with language features from mentor texts (dialogue, similes, time connectives). Self-edits for meaning and conventions. Articulates how mentor texts influenced composition."
+    },
+    "detection_hints": [
+      "Work samples showing application of recent phonics patterns in spelling",
+      "Evidence of shared-writing transfer (using class-generated sentence patterns or vocabulary)",
+      "Teacher notes documenting GPC accuracy in spelling attempts",
+      "Student self-corrections or edits indicating rereading for sense"
+    ],
+    "evidence_examples": [
+      {
+        "type": "work sample",
+        "example": "Student writes: 'My dog is brown. He likes to run fast. We play in the park.' (Three linked sentences, CVC words spelled correctly, high-frequency words 'my', 'is', 'to', 'in', 'the' correct, capitals and periods used.)",
+        "context": "Year 2 independent writing during workshop",
+        "rubric_focus": "Sentence construction, phonics application, basic punctuation"
+      },
+      {
+        "type": "shared writing chart",
+        "example": "Class co-constructs: 'The enormous tree fell down with a crash.' Later, student writes independently: 'The tiny mouse ran fast to his home.' (Mirrors structure: article + adjective + noun + verb phrase.)",
+        "context": "Transfer from shared writing to independent composition",
+        "rubric_focus": "Use of mentor text structure and vocabulary"
+      },
+      {
+        "type": "teacher observation",
+        "example": "Student rereads their sentence aloud, notices missing word ('I my ball'), self-corrects to 'I found my ball.'",
+        "context": "Writing conference",
+        "rubric_focus": "Rereading for sense, self-editing"
+      }
+    ],
+    "evidence_modalities": [
+      "Written (handwriting or typing)",
+      "Dictated to scribe (student composes orally, adult/peer writes)",
+      "NZSL to text (via interpreter or video recording translated to written English)",
+      "AAC (text generation via device)"
+    ],
+    "accessibility_notes": "Offer scribing, voice-to-text, or keyboarding for students with fine motor challenges. Provide sentence frames drawn from read-alouds (e.g., 'The ___ was ___. It ___.'). Accept invented spelling that is phonetically logical while teaching conventional spelling of high-frequency words. Allow extra time for composition.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Encourage writing in te reo Māori or bilingual texts. Use mentor texts featuring Māori stories and language patterns. Value oral composition (some cultures prioritize oral over written expression).",
+      "pacific_contexts": "Select mentor texts representing Pacific storytelling traditions. Support students writing about cultural practices and family stories.",
+      "inclusive_practice": "Validate diverse topics and experiences. Some students may prefer to write about specific interests (e.g., dinosaurs, video games)—honor this while expanding range."
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation–Stage 2"
+      ],
+      "notes": "Use bilingual word banks; permit translanguaging in planning (brainstorm in L1, write in English). Pre-teach sentence structures explicitly. Provide mentor texts with simple, clear sentences. Accept grammatical approximations while modeling correct forms.",
+      "scaffolds": [
+        "Sentence frames with visual supports",
+        "Bilingual dictionaries or word lists",
+        "Co-writing with bilingual peer or teacher",
+        "Oral rehearsal before writing"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Start of Year 1 or upon entry (writing baseline)",
+      "formative_checkpoints": "Every 5-6 weeks (work sample analysis for phonics application, sentence complexity)",
+      "summative_evidence": "Writing portfolio showing growth across year; moderated writing samples termly"
+    },
+    "teaching_strategies": [
+      "Daily shared writing: co-construct sentences with students, making thinking visible ('Let's start with a capital. What sound do we hear first in "dog"?')",
+      "Sentence expansion games: start with kernel sentence ('The dog ran.'), add details ('The big brown dog ran quickly.')",
+      "Use mentor sentences from read-alouds: analyze structure, imitate, innovate",
+      "Provide writing frames linked to current genre or topic",
+      "Mini-lessons on specific conventions (capitals for names, periods at end)",
+      "Interactive writing: teacher and students share the pen",
+      "Writing conferences: focused feedback on one or two teaching points"
+    },
+    "next_steps": {
+      "if_emerging": "Focus on oral composition → dictation. Build phonics knowledge intensively. Use interactive writing daily. Accept drawing + labels.",
+      "if_developing": "Introduce conjunctions (and, but, because) to link ideas. Teach common high-frequency words. Provide sentence starters.",
+      "if_consolidating": "Increase sentence variety. Add adjectives and adverbs. Begin multi-sentence composition around a topic. Teach simple editing.",
+      "if_proficient_or_exceeding": "Introduce more complex sentence structures (compound, complex). Focus on paragraph organization. Teach genre features (narrative vs. informational)."
+    },
+    "cross_curricular_connections": [
+      "Science: Writing observations and explanations",
+      "Social Sciences: Writing about community or family",
+      "Mathematics: Writing about problem-solving strategies",
+      "Arts: Writing responses to artworks or performances"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Invented spelling is wrong' → Teach: Phonetically logical spelling shows phonics knowledge; conventional spelling is taught alongside",
+      "Misconception: 'Writing should be perfect the first time' → Teach: All writers draft, revise, edit",
+      "Misconception: 'Students must master handwriting before composing' → Teach: Composition and transcription develop in parallel; offer alternatives (typing, dictation)"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 writing workshop after read-aloud of 'The Very Hungry Caterpillar'",
+        "student_work": "On Munday I ate too meny crisps. On Toosdai I ate a big sandwich. On Wensday I felt sik. (Three linked sentences following text pattern, good phonics attempts: 'Munday' for Monday, 'meny' for many, 'sik' for sick. High-frequency words 'I', 'a', 'on' correct.)",
+        "teacher_note": "Applied mentor text structure successfully. Phonics spelling shows solid CVC and vowel team knowledge. Next step: teach days of the week as high-frequency words."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 930,
+      "semantic_tags": [
+        "writing_composition",
+        "sentence_construction",
+        "phonics_to_spelling",
+        "mentor_texts",
+        "reading_writing_integration",
+        "transcription"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-writ-009-v2",
+      "alignment_confidence": 0.89,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.91,
+      "notes_for_rag_systems": "Critical for: writing instruction, phonics-spelling integration, mentor text pedagogy, formative writing assessment, supporting diverse writers (ELL, dysgraphia, motor challenges)"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-WRIT-010",
+    "subject": "English",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Writing – Text Structure and Organization",
+    "title": "Write a paragraph with topic sentence, supporting details, and concluding sentence using organizational frameworks",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3)",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Writing (Text Structure)",
+      "source_excerpt": "By Year 3, students learn to organize related ideas into a paragraph structure including a topic sentence, supporting details, and a concluding sentence. They use headings and other text features to organize information writing."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Paragraph structure is the building block of all extended writing. Explicit teaching of topic/support/conclusion organization improves clarity, coherence, and academic writing readiness. This skill is essential across all curriculum areas.",
+      "prerequisite_skills": [
+        "Ability to write multiple related sentences",
+        "Understanding of 'main idea' and 'details'",
+        "Familiarity with informational text features (headings, topic focus)"
+      ],
+      "builds_toward": "Phase 2+ multi-paragraph essays, structured arguments, research reports, transitions between paragraphs"
+    },
+    "structured_literacy_components": [
+      "Text structure knowledge",
+      "Cohesion and coherence",
+      "Academic vocabulary (topic, detail, conclude)",
+      "Organization and planning"
+    ],
+    "teaching_sequence_tags": [
+      "Writing to inform",
+      "Paragraph structure: topic sentence, supporting details, concluding sentence",
+      "Information report writing",
+      "Using organizational frameworks (graphic organizers)",
+      "Text features for organization (headings, subheadings)"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Writes or arranges ideas as a list, series of labels, or disconnected sentences. May group related pictures or ideas with teacher support. Uses a heading with guidance.",
+      "Developing": "Writes a group of related sentences with a heading. Uses sequence words (first, then, finally) to order ideas with support. Topic may be implied rather than stated. May lack a clear conclusion.",
+      "Consolidating": "Groups related sentences into a simple paragraph with a clear topic sentence, 2-3 supporting details, and an attempt at a concluding sentence. May use a subheading. Organization is generally logical. Rereads to check that sentences relate to topic.",
+      "Proficient": "Writes a well-organized paragraph with explicit topic sentence introducing the main idea, 3-4 supporting details with relevant information, and a concluding sentence that summarizes or reflects. Uses transitional words (also, for example, finally). Refers to diagrams, maps, or other visuals to enhance meaning.",
+      "Exceeding": "Composes multiple paragraphs, each with clear topic/support/conclusion structure. Links paragraphs with transitional phrases. Adds a concluding reflection or connection to broader ideas. Explains organizational choices ('I put all the habitat information in one paragraph and diet in another')."
+    },
+    "detection_hints": [
+      "Presence of clear topic sentence (often first sentence, introduces main idea)",
+      "Supporting sentences that elaborate on the topic",
+      "Concluding sentence that wraps up or reflects",
+      "Use of headings or subheadings to signal paragraph focus",
+      "Transitional words: also, for example, another, finally, in conclusion"
+    ],
+    "evidence_examples": [
+      {
+        "type": "work sample",
+        "example": "Heading: 'Kiwi Habitat'\nTopic sentence: 'Kiwi live in forests in New Zealand.'\nSupporting details: 'They make burrows under trees. The forest keeps them safe from predators. Kiwi need lots of space to find food.'\nConcluding sentence: 'Forests are the best home for kiwi.'\n(Includes simple labelled diagram of kiwi in forest.)",
+        "context": "Year 3 information report unit",
+        "rubric_focus": "Topic/support/conclusion structure; heading; use of visual"
+      },
+      {
+        "type": "teacher observation",
+        "example": "Student uses graphic organizer (main idea in center bubble, 3 detail bubbles, conclusion bubble) to plan before writing. Transfers plan into paragraph format with clear structure.",
+        "context": "Writing workshop—planning and drafting",
+        "rubric_focus": "Use of organizational framework; planning before drafting"
+      },
+      {
+        "type": "peer feedback",
+        "example": "Writing partner uses checklist: 'Does the first sentence tell the main idea? ✓ Are there details? ✓ Is there an ending sentence? ✓'",
+        "context": "Peer editing session",
+        "rubric_focus": "Awareness of paragraph components"
+      }
+    ],
+    "evidence_modalities": [
+      "Written",
+      "Dictated to scribe",
+      "NZSL to English (via interpreter; signed composition then written)",
+      "AAC-generated text",
+      "Multimodal (text + labeled diagram or map)"
+    ],
+    "accessibility_notes": "Provide graphic organizers (hamburger paragraph model, topic/detail/conclusion boxes). Offer sentence frames for each paragraph component. Allow use of dictation software. Teach explicitly using visual models. Accept shorter paragraphs (topic + 1-2 details + conclusion) for students with significant writing challenges.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Paragraph structure is a Western organizational convention; value other organization patterns (e.g., cyclical, narrative-based). Use culturally relevant topics (e.g., writing about kiwi, taniwha, whakapapa).",
+      "pacific_contexts": "Select topics reflecting Pacific knowledge and experiences. Honor oral storytelling structures while teaching academic paragraph conventions.",
+      "inclusive_practice": "Provide choice in topics—students write best about what they know and care about"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Stage 1–2"
+      ],
+      "notes": "Explicitly teach paragraph vocabulary (topic, detail, support, conclude) with visuals. Provide bilingual models. Use familiar content. Co-construct paragraphs as a class before independent practice. Offer sentence frames for each component.",
+      "scaffolds": [
+        "Topic sentence frame: '[Topic] is important because ___.'",
+        "Detail frames: 'For example, ___. Also, ___. Another reason is ___.'",
+        "Conclusion frame: 'In conclusion, ___ / That is why ___.'",
+        "Visual paragraph models with color-coding (green=topic, yellow=details, red=conclusion)"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Mid-Year 2 (after sentence writing is established)",
+      "formative_checkpoints": "During each information writing unit (typically 6-8 weeks)",
+      "summative_evidence": "End-of-year writing sample showing paragraph structure; moderated against rubric"
+    },
+    "teaching_strategies": [
+      "Teach using concrete models: 'Hamburger paragraph' (bun=topic/conclusion, filling=details), 'Traffic light' (green=go/topic, yellow=details, red=stop/conclusion)",
+      "Co-construct paragraphs as shared writing: make organizational decisions explicit",
+      "Use mentor texts: identify topic/detail/conclusion in published examples",
+      "Provide graphic organizers for planning (box and bullets, web, outline)",
+      "Teach transitional phrases explicitly with anchor charts",
+      "Color-code paragraph components in student work for visual feedback",
+      "Practice with very familiar content first (my family, my pet, our classroom)"
+    ],
+    "next_steps": {
+      "if_emerging": "Focus on grouping related ideas. Use lists with headings. Practice oral composition: 'Tell me three things about dogs.'",
+      "if_developing": "Introduce explicit topic sentence teaching. Use frames. Practice adding one more detail. Don't require conclusion yet.",
+      "if_consolidating": "Refine conclusion sentences (beyond just 'The End'). Add variety in detail sentences. Begin using transitional words.",
+      "if_proficient_or_exceeding": "Write multiple paragraphs on a topic. Link paragraphs with transitions. Experiment with different organizational patterns (compare-contrast, cause-effect)."
+    },
+    "cross_curricular_connections": [
+      "Science: Writing explanations and research reports (e.g., life cycle of a butterfly)",
+      "Social Sciences: Information writing about communities, cultures, historical events",
+      "Health: Writing about healthy habits, safety procedures",
+      "Mathematics: Explaining problem-solving strategies step-by-step"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'The topic sentence must be first' → Teach: While typically first, topic sentences can occasionally come later for effect; start with first-position until proficient",
+      "Misconception: 'Longer is better' → Teach: Quality and organization matter more than length; a clear 4-sentence paragraph is better than a rambling 10-sentence list",
+      "Misconception: 'Concluding sentence just repeats the topic sentence' → Teach: Conclusions can summarize, reflect, or connect to bigger ideas"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 3 social studies: writing about our school",
+        "student_work": "Heading: Our School Library\nOur school library is a great place to learn. First, it has hundreds of books about many topics. Also, we can use the computers to research. Finally, the librarian helps us find what we need. The library is an important part of our school.",
+        "teacher_note": "Clear topic sentence, three well-developed supporting details with transitional words (First, Also, Finally), strong concluding sentence that connects back to main idea."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 940,
+      "semantic_tags": [
+        "paragraph_structure",
+        "topic_sentence",
+        "supporting_details",
+        "concluding_sentence",
+        "information_writing",
+        "text_organization"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-writ-010-v2",
+      "alignment_confidence": 0.95,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.94,
+      "notes_for_rag_systems": "CRITICAL for: information writing instruction, academic writing foundations, cross-curricular writing support, directly aligned with NZ curriculum explicit language on topic/support/conclusion structure"
+    }
+  },
+  {
+    "schema_version": "2.1",
+    "curriculum_version": "2025-01-27",
+    "omi_id": "ENG-P1-CFL-011",
+    "subject": "English (Cross-Curricular Application)",
+    "phase": "Phase 1 (Years 0–3)",
+    "strand": "Learning Languages – Reflective and Strategic Communication",
+    "title": "Use reflective language to describe learning processes, strategies, strengths, and next steps",
+    "policy_reference": {
+      "source_title": "Te Mātaiaho – English Phase 1 (Years 0–3) and Key Competencies",
+      "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+      "effective_from": "2025-01-27",
+      "curriculum_doc_ref": "NZC English Phase 1 – Oral Language; NZC Key Competencies (Thinking, Managing Self)",
+      "alignment_basis": "Derived from oral language teaching sequences emphasizing reflective, evaluative, and strategic language use. Aligns with Key Competency 'Managing Self' and metalinguistic awareness."
+    },
+    "curriculum_context": {
+      "why_this_matters": "Metacognition—thinking about thinking—is the strongest predictor of learning success. Reflective language enables students to articulate their learning processes, self-assess, set goals, and transfer strategies across contexts. Essential for lifelong learning.",
+      "prerequisite_skills": [
+        "Basic sequencing language (first, then, next)",
+        "Ability to talk about simple experiences",
+        "Emerging self-awareness (I can/can't do this)"
+      ],
+      "builds_toward": "Phase 2+ goal-setting, self-directed learning, giving and receiving feedback, metacognitive strategy use across all subjects"
+    },
+    "structured_literacy_components": [
+      "Oral language – metacognitive vocabulary",
+      "Self-regulation language",
+      "Evaluative and reflective discourse"
+    ],
+    "teaching_sequence_tags": [
+      "Reflective language and self-assessment",
+      "Evaluative language (I did well at… I found tricky… I need to work on…)",
+      "Process description (sequencing, strategy naming)",
+      "Goal-setting language",
+      "Growth mindset vocabulary"
+    ],
+    "progress_descriptors": {
+      "Emerging": "Names a step taken or a tool used when prompted by teacher ('First I…', 'I used a pencil'). May describe feelings ('It was hard') without specificity.",
+      "Developing": "Uses simple frames to describe process ('First I planned, then I wrote') or evaluates with teacher support ('I did well at… I found tricky…'). Describes one strategy used.",
+      "Consolidating": "Independently explains learning steps, strategies, and feelings using sequencing and evaluative language. Identifies at least one strength and one area for improvement. Can articulate a simple next step ('Next time I will add more details').",
+      "Proficient": "Clearly articulates strategies and their purposes ('I used a number line because it helps me add'). Links choices to outcomes ('I did ___ so ___'). Identifies specific, actionable next steps. Uses growth mindset language ('I can't do it yet, but I'm getting better').",
+      "Exceeding": "Poses reflective questions about own learning ('Why did this strategy work better than that one?'). Plans specific next moves with justification. Transfers reflective language across subject areas. Monitors own progress toward goals and adjusts strategies."
+    },
+    "detection_hints": [
+      "Use of sentence frames: 'First I… then I…', 'I did well at…', 'I need to work on…', 'My goal is…', 'Next time I will…'",
+      "Student self-assessment notes, learning journals, or reflection sheets",
+      "Teacher conferences documenting student ability to articulate strategies",
+      "Use of growth mindset language: 'not yet', 'getting better', 'learned'"
+    ],
+    "evidence_examples": [
+      {
+        "type": "transcript",
+        "example": "Teacher: 'How did you solve that?' Student: 'First I read the problem carefully. Then I drew a picture to help me think. I used the picture to count. Next time I might try using blocks instead because they're easier to move around.'",
+        "context": "Mathematics learning conference",
+        "rubric_focus": "Process description, strategy naming, planning next steps"
+      },
+      {
+        "type": "written reflection",
+        "example": "Student completes sentence stems in learning journal: 'I did well at: making my sentences start with capital letters. I found tricky: spelling words with the /oi/ sound. I need to work on: using periods at the end of every sentence. My goal: Write three sentences with correct capitals and periods.'",
+        "context": "End-of-week writing reflection",
+        "rubric_focus": "Self-assessment, goal-setting, specific focus areas"
+      },
+      {
+        "type": "video observation",
+        "example": "During science inquiry reflection circle, student says: 'Our prediction was wrong, but that's okay. We learned that the ice melted faster in warm water. If we do it again, we'll try even hotter water to see what happens.'",
+        "context": "Science inquiry debrief",
+        "rubric_focus": "Reflective thinking, learning from mistakes (growth mindset), planning next investigation"
+      }
+    ],
+    "evidence_modalities": [
+      "Spoken (discussion, conferences)",
+      "NZSL (signed reflections via interpretation)",
+      "Written (learning journals, reflection sheets)",
+      "AAC (pre-programmed reflective phrases + custom input)",
+      "Multimodal (video reflection, drawing + oral explanation)"
+    ],
+    "accessibility_notes": "Provide visual sentence stems and reflection prompts. Use traffic light self-assessment (red=need help, yellow=getting there, green=got it). Offer multiple ways to reflect (talking, drawing, writing, signing). Model reflective language frequently. Accept brief reflections initially.",
+    "cultural_responsiveness": {
+      "te_ao_maori": "Frame reflection within ako (reciprocal teaching-learning) and whanaungatanga (learning through relationships). Value collective reflection alongside individual. Use te reo reflective phrases (e.g., 'He aha tāku i ako?' = What did I learn?).",
+      "pacific_contexts": "Honor collective reflection and group accountability. Some cultures may find public self-evaluation uncomfortable—offer private reflection options.",
+      "inclusive_practice": "Neurodivergent students may need explicit teaching of emotion vocabulary to describe 'tricky' or 'confusing' feelings about learning"
+    },
+    "ell_alignment": {
+      "ellp_stage_ok": [
+        "Foundation–Stage 2"
+      ],
+      "notes": "Pre-teach evaluative vocabulary (tricky, challenging, successful, strategy, goal). Provide bilingual reflection prompts. Model using think-alouds. Allow reflection in home language with translation support. Use visuals (emoji scales, star ratings) alongside language.",
+      "scaffolds": [
+        "Sentence frames in English and home language",
+        "Visual reflection tools (emoji faces, slider scales)",
+        "Partner reflection: talk with peer before whole-class sharing",
+        "Word banks for feelings and strategies"
+      ]
+    },
+    "assessment_timing": {
+      "initial_check": "Start of Term 1 (baseline: can student name one thing they did?)",
+      "formative_checkpoints": "Built into every unit reflection, learning conference, and self-assessment opportunity",
+      "summative_evidence": "Portfolio of reflections showing growth in specificity and independence across the year"
+    },
+    "teaching_strategies": [
+      "Model reflective language daily through think-alouds: 'I'm going to try this strategy first because…'",
+      "Co-create 'I can' statements and success criteria with students",
+      "Use 'Two Stars and a Wish' feedback protocol (two strengths, one goal)",
+      "Provide structured reflection time after every learning experience (even 2 minutes)",
+      "Teach growth mindset explicitly: brain science, power of 'yet', mistakes as learning",
+      "Create anchor charts showing reflective sentence frames by purpose (evaluating, planning, describing process)",
+      "Integrate reflection across all subjects, not just literacy"
+    ],
+    "next_steps": {
+      "if_emerging": "Use reflection prompts with only two choices ('Did you use a pencil or a pen?'). Focus on naming actions, not evaluating. Model constantly.",
+      "if_developing": "Introduce 'because' to add reasoning ('I did well at spelling because I used the sound wall'). Practice identifying one strength and one challenge.",
+      "if_consolidating": "Increase specificity ('I need to work on' → 'I need to work on remembering to reread my writing to check for periods'). Link strategies to outcomes.",
+      "if_proficient_or_exceeding": "Encourage self-directed goal-setting. Teach strategy transfer ('This strategy worked in math, so I could try it in science'). Develop learning portfolios."
+    },
+    "cross_curricular_connections": [
+      "Mathematics: Reflecting on problem-solving strategies and accuracy",
+      "Science: Evaluating investigations and planning next steps in inquiry",
+      "Physical Education: Describing skill improvement and practice plans",
+      "Arts: Reflecting on creative choices and artistic growth",
+      "Social Sciences: Considering learning about self and community"
+    ],
+    "common_misconceptions": [
+      "Misconception: 'Reflection is only for end-of-unit' → Teach: Reflection happens continuously—after each task, daily, weekly",
+      "Misconception: 'Young children can't reflect meaningfully' → Teach: With scaffolds and modeling, even 5-year-olds can articulate strengths and challenges",
+      "Misconception: 'Reflection is just describing what you did' → Teach: Deep reflection includes evaluation, strategy identification, and forward planning"
+    ],
+    "success_examples": [
+      {
+        "context": "Year 2 mathematics reflection after addition unit",
+        "student_reflection": "I learned to use a number line to add. First I find the bigger number. Then I jump forward. I did well at counting my jumps carefully. I found tricky when the numbers were big like 47 + 28. My goal is to get faster at adding in my head for small numbers. I will practice doubles because they help.",
+        "teacher_note": "Clear process description, specific strategy naming, honest self-assessment, actionable goal with reasoning."
+      },
+      {
+        "context": "Year 3 writing conference",
+        "student_voice": "I'm proud of my story because I used interesting words like 'gigantic' instead of 'big'. I got that from our read-aloud. Next time I want to add more dialogue because it makes stories more exciting. I need to work on remembering my speech marks.",
+        "teacher_note": "Identifies strength with evidence (word choice from mentor text). Clear next step with reasoning. Specific editing goal."
+      }
+    ],
+    "llm_metadata": {
+      "embedding_ready": true,
+      "token_count_estimate": 950,
+      "semantic_tags": [
+        "metacognition",
+        "reflective_language",
+        "self_assessment",
+        "goal_setting",
+        "growth_mindset",
+        "learning_to_learn",
+        "key_competencies"
+      ],
+      "refinement_iteration": 2,
+      "prompt_hash": "eng-p1-cfl-011-v2",
+      "alignment_confidence": 0.88,
+      "last_validation_passed": true,
+      "last_refined_by": "OMI-Builder-v2",
+      "llm_digestibility_score": 0.93,
+      "notes_for_rag_systems": "Essential for: formative assessment practices, student agency development, cross-curricular application, growth mindset teaching, self-regulated learning, Key Competencies integration",
+      "caveat": "While rooted in oral language outcomes, this OMI emphasizes cross-curricular metacognition and may be better categorized under Key Competencies or 'Learning Languages' (thinking about language and learning) rather than solely English. Verify alignment with curriculum documents on reflective practice and learner agency."
+    }
+  }
 ]
+```
