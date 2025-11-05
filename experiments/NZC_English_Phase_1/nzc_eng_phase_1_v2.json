@@ -1,0 +1,422 @@
+{
+  "omi_core": [
+    {
+      "omi_id": "ENG-P1-R-001",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Reading",
+      "title": "Decodes CVC words in isolation and connected text",
+      "progress_descriptors": {
+        "Emerging": "Identifies some initial sounds; attempts to blend two-phoneme chunks with support.",
+        "Developing": "Blends three phonemes to read CVC words with prompts (e.g., c-a-t → cat).",
+        "Consolidating": "Independently blends and reads familiar CVC words in decodable text.",
+        "Proficient": "Reads a range of CVC words fluently within sentences; self-corrects when needed.",
+        "Exceeding": "Transfers CVC decoding to words with simple suffixes (e.g., cats) in connected text."
+      },
+      "teaching_sequence_tags": ["Structured Literacy", "Word Recognition", "Decoding", "First year focus"],
+      "structured_literacy_components": ["Phonemic Awareness", "Grapheme–Phoneme", "Blending", "Morphology (-s)"],
+      "evidence_modalities": ["Oral", "Written", "NZSL", "AAC", "Visual", "Digital"],
+      "detection_hints": ["CVC", "continuous blending", "mmmmaaaat", "decodable text", "suffix -s"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Student says /p/-/i/-/g/ then ‘pig’ when shown the word.",
+          "context": "1:1 reading with a decodable text."
+        },
+        {
+          "type": "Written",
+          "example": "Reads ‘cats’ and explains that <s> means ‘more than one’.",
+          "context": "Guided reading group with picture-supported sentences."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-R-002",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Reading",
+      "title": "Decodes words with adjacent consonants and common digraphs",
+      "progress_descriptors": {
+        "Emerging": "Identifies individual consonant sounds in simple clusters with teacher modelling.",
+        "Developing": "Reads words with adjacent consonants at the beginning or end with support (e.g., stop, milk).",
+        "Consolidating": "Independently decodes words with adjacent consonants and common digraphs in connected text.",
+        "Proficient": "Maintains phrasing and accuracy when reading words with clusters across a page.",
+        "Exceeding": "Explains which graphemes represent each phoneme in cluster words and applies this to unfamiliar words."
+      },
+      "teaching_sequence_tags": ["Structured Literacy", "Decoding", "Adjacent Consonants", "Consonant Digraphs"],
+      "structured_literacy_components": ["Grapheme–Phoneme", "Blending", "Orthographic Mapping"],
+      "evidence_modalities": ["Oral", "Written", "NZSL", "AAC", "Visual", "Digital"],
+      "detection_hints": ["adjacent consonants", "CCVC", "CVCC", "st-", "-mp", "digraphs"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Reads ‘frog’, ‘plan’, ‘bench’, ‘gift’ accurately without using picture cues.",
+          "context": "Guided reading; teacher masks pictures."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-R-003",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Reading",
+      "title": "Decodes long-vowel patterns, diphthongs, and r-controlled vowels in connected text",
+      "progress_descriptors": {
+        "Emerging": "Notices that one sound can be spelled different ways (e.g., <ai>, <a_e>).",
+        "Developing": "Reads common long-vowel patterns in familiar words with prompts.",
+        "Consolidating": "Accurately decodes long-vowel patterns, diphthongs, and r-controlled vowels in sentences.",
+        "Proficient": "Reads with purpose and understanding across pages containing mixed patterns (e.g., rain, cane, cow, snow, bird).",
+        "Exceeding": "Explains spelling–sound alternatives (e.g., <ow> in cow vs snow) and applies them to new words."
+      },
+      "teaching_sequence_tags": ["Structured Literacy", "Long Vowels", "Diphthongs", "R-controlled Vowels", "Year 2 focus"],
+      "structured_literacy_components": ["Grapheme–Phoneme", "Blending", "Morphology"],
+      "evidence_modalities": ["Oral", "Written", "Visual", "Digital"],
+      "detection_hints": ["long vowel", "a_e/ai/ay", "e_e/i_e/o_e/u_e", "ow/ou", "oi/oy", "ar/er/ir/or/ur"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Reads ‘The goat ate hay in the shade’ accurately; explains <a_e> says /ā/.",
+          "context": "Running record excerpt."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-OL-004",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Oral Language",
+      "title": "Explains causes and outcomes using if/then and why/how language",
+      "progress_descriptors": {
+        "Emerging": "Answers who/what/where; uses ‘because’ or ‘so’ in short responses with support.",
+        "Developing": "Asks and answers why/how questions about familiar events.",
+        "Consolidating": "Uses if/then statements to link actions and outcomes in class talk.",
+        "Proficient": "Explains choices or events using cause–effect language across a short recount or presentation.",
+        "Exceeding": "Suggests alternative causes/outcomes (what if …) and justifies predictions."
+      },
+      "teaching_sequence_tags": ["Verbal Reasoning", "Communicating and Presenting"],
+      "structured_literacy_components": ["Oral Language", "Vocabulary", "Syntax"],
+      "evidence_modalities": ["Oral", "NZSL", "AAC", "Written", "Visual", "Digital"],
+      "detection_hints": ["why", "how", "because", "so", "if … then …", "unless", "as long as"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "‘If it’s raining, then we stay inside, because the ground is slippery.’",
+          "context": "Circle time discussion after a shared text."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-OL-005",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Oral Language",
+      "title": "Prepares and delivers a short recitation or oral presentation using prompts",
+      "progress_descriptors": {
+        "Emerging": "Recites a short class rhyme with a group, following cues.",
+        "Developing": "Recites a short text independently with visual prompts.",
+        "Consolidating": "Prepares and presents a short talk on a familiar topic using pictures or notes.",
+        "Proficient": "Adjusts volume/pace and uses simple non-verbal communication to support meaning.",
+        "Exceeding": "Presents confidently with independently prepared prompts; responds to one audience question."
+      },
+      "teaching_sequence_tags": ["Presenting to Others", "Communicating and Presenting"],
+      "structured_literacy_components": ["Oral Language", "Fluency", "Text Structure"],
+      "evidence_modalities": ["Oral", "NZSL", "AAC", "Visual", "Digital"],
+      "detection_hints": ["recite", "oral presentation", "prompts", "visual aids", "notes"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Gives a 30–60s talk about a pet using three picture cards as prompts.",
+          "context": "Class sharing with teacher checklist."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-MM-006",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Reading",
+      "title": "Comprehends meaning in simple texts through prediction and connection to experience",
+      "progress_descriptors": {
+        "Emerging": "Talks about pictures to guess what the text might be about.",
+        "Developing": "Makes simple predictions about what will happen next in a familiar story.",
+        "Consolidating": "Identifies key ideas and connects them to personal experiences.",
+        "Proficient": "Explains events or ideas in a story and how they relate to own life or community.",
+        "Exceeding": "Justifies predictions and connections using evidence from text or illustrations."
+      },
+      "teaching_sequence_tags": ["Comprehension", "Prediction", "Making Connections"],
+      "structured_literacy_components": ["Comprehension", "Vocabulary", "Background Knowledge"],
+      "evidence_modalities": ["Oral", "Written", "Visual", "Digital", "NZSL", "AAC"],
+      "detection_hints": ["predicts", "connects", "relates", "because", "I think this will happen"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Says ‘I think the dog will come back because he loves his boy.’",
+          "context": "After reading discussion."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-CM-007",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Writing",
+      "title": "Creates short multimodal texts to communicate ideas, using words, images, and signs",
+      "progress_descriptors": {
+        "Emerging": "Draws or signs to share simple ideas about self or experiences.",
+        "Developing": "Combines drawings, letters, or signs to express an idea with support.",
+        "Consolidating": "Creates short written or digital texts combining words and images.",
+        "Proficient": "Writes or signs short texts with clear purpose and audience awareness.",
+        "Exceeding": "Selects and integrates modes (e.g., images, words, signs, audio) to enhance message clarity."
+      },
+      "teaching_sequence_tags": ["Writing", "Multimodal", "Creating Meaning"],
+      "structured_literacy_components": ["Composition", "Spelling", "Sentence Structure", "Visual Literacy"],
+      "evidence_modalities": ["Written", "NZSL", "Visual", "Digital", "AAC"],
+      "detection_hints": ["draws", "writes", "creates", "digital story", "signs"],
+      "evidence_examples": [
+        {
+          "type": "Written",
+          "example": "Creates a simple digital page combining text and picture to describe their pet.",
+          "context": "Shared writing task."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-ID-008",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Oral Language",
+      "title": "Uses language and sign to express personal identity, whakapapa, and connections to place",
+      "progress_descriptors": {
+        "Emerging": "Shares name or favourite things when prompted.",
+        "Developing": "Talks or signs about family, pets, or home using simple sentences.",
+        "Consolidating": "Describes who they are and where they come from using words, signs, or visuals.",
+        "Proficient": "Explains personal stories that show belonging and relationships.",
+        "Exceeding": "Expresses pride in identity, using cultural or language features that show connection to place."
+      },
+      "teaching_sequence_tags": ["Expressing Identity", "Belonging", "Whakapapa"],
+      "structured_literacy_components": ["Oral Language", "Vocabulary", "Identity Expression"],
+      "evidence_modalities": ["Oral", "NZSL", "AAC", "Visual", "Digital"],
+      "detection_hints": ["I am", "my family", "where I live", "belonging", "whakapapa"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Signs or says ‘Ko Hemi tōku ingoa. I live in Ōtepoti.’",
+          "context": "Class mihi and sharing activity."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-RM-009",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Oral Language",
+      "title": "Engages in reciprocal conversations to build shared understanding",
+      "progress_descriptors": {
+        "Emerging": "Responds nonverbally or with single words when spoken to.",
+        "Developing": "Takes short turns in simple exchanges with support.",
+        "Consolidating": "Listens, responds, and builds on others’ ideas in short exchanges.",
+        "Proficient": "Initiates and sustains back-and-forth conversation on familiar topics.",
+        "Exceeding": "Leads and extends conversations by inviting others to share ideas or feelings."
+      },
+      "teaching_sequence_tags": ["Reciprocal Meaning-Making", "Listening and Speaking"],
+      "structured_literacy_components": ["Oral Language", "Turn Taking", "Active Listening"],
+      "evidence_modalities": ["Oral", "NZSL", "AAC", "Visual"],
+      "detection_hints": ["turn-taking", "conversation", "asks questions", "responds to"],
+      "evidence_examples": [
+        {
+          "type": "Oral",
+          "example": "Student waits, then asks peer ‘What do you think?’ after sharing their idea.",
+          "context": "Group discussion."
+        }
+      ]
+    },
+    {
+      "omi_id": "ENG-P1-LIT-010",
+      "subject": "English",
+      "phase": "Phase 1 – Years 0–3",
+      "strand": "Reading",
+      "title": "Understands that print, sign, and digital symbols represent meaning and follow conventions",
+      "progress_descriptors": {
+        "Emerging": "Recognises their name or common logos.",
+        "Developing": "Identifies that print and signs carry meaning (e.g., labels, class names).",
+        "Consolidating": "Demonstrates directionality and one-to-one matching of spoken and printed words.",
+        "Proficient": "Explains that symbols, letters, or signs represent sounds and meanings.",
+        "Exceeding": "Recognises different conventions for meaning-making across media (e.g., emoji, signs, print)."
+      },
+      "teaching_sequence_tags": ["Concepts About Print", "Early Literacy", "Symbolic Understanding"],
+      "structured_literacy_components": ["Print Concepts", "Phonological Awareness", "Visual Literacy"],
+      "evidence_modalities": ["Oral", "Visual", "Digital", "NZSL"],
+      "detection_hints": ["points to text", "reads own name", "left to right", "signs meaning"],
+      "evidence_examples": [
+        {
+          "type": "Visual",
+          "example": "Points to each word while reading own name on a label.",
+          "context": "Classroom literacy activity."
+        }
+      ]
+    }
+  ],
+
+  "omi_meta": [
+    {
+      "omi_id": "ENG-P1-R-001",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Years 0–1 / Reading – Decoding",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Reading: CVC decoding; continuous blending; suffix –s"
+      },
+      "accessibility_notes": "Permit oral, signed (NZSL), or AAC responses; allow fingerspelling; minimise reliance on pictures for word identification.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation"], "notes": "Teach phonemes with graphemes; note L1 phoneme inventory differences." },
+      "assessment_timing": { "initial_check": "Term 1, Week 5", "follow_up": "Term 1, Week 9" },
+      "next_steps": "Introduce adjacent consonants and common digraphs in connected text.",
+      "llm_metadata": { "refinement_iteration": 3, "alignment_confidence": 0.96, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-R-002",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Years 0–2 / Reading – Adjacent consonants & digraphs",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Decoding adjacent consonants; CCVC/CVCC; digraphs in connected text"
+      },
+      "accessibility_notes": "Provide masked-picture texts to reduce cueing; support NZSL articulation for clusters.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation", "Stage 1"], "notes": "Some L1s lack clusters; teach explicitly." },
+      "assessment_timing": { "initial_check": "Term 2, Week 3", "follow_up": "Term 2, Week 8" },
+      "next_steps": "Introduce long-vowel patterns.",
+      "llm_metadata": { "refinement_iteration": 3, "alignment_confidence": 0.95, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-R-003",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Year 2 / Reading – Long vowels, diphthongs, r-controlled vowels",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Long-vowel patterns (a_e/ai/ay etc.), diphthongs (oi/oy, ou/ow), r-controlled vowels"
+      },
+      "accessibility_notes": "Use decodable texts aligned to sequence; pair contrasting patterns (e.g., <ow> cow vs <ow> snow).",
+      "ell_alignment": { "ellp_stage_ok": ["Stage 1"], "notes": "Highlight contrasts absent in L1." },
+      "assessment_timing": { "initial_check": "Term 3, Week 2", "follow_up": "Term 3, Week 6" },
+      "next_steps": "Increase text complexity; comprehension focus.",
+      "llm_metadata": { "refinement_iteration": 3, "alignment_confidence": 0.94, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-OL-004",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Oral Language – Verbal reasoning & Reciprocal Meaning-Making",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Asking/answering why/how; cause–effect; reciprocal conversation"
+      },
+      "accessibility_notes": "Allow NZSL/AAC; visual supports for if/then frames.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation", "Stage 1"], "notes": "Model cause-effect sentence frames." },
+      "assessment_timing": { "initial_check": "Term 1, Week 4", "follow_up": "Term 2, Week 2" },
+      "next_steps": "Introduce prediction and justification talk.",
+      "llm_metadata": { "refinement_iteration": 3, "alignment_confidence": 0.95, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-OL-005",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Oral Language – Presenting to Others",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Recitations; short oral presentations; prompts/visuals; non-verbal communication"
+      },
+      "accessibility_notes": "Accept signed/multimodal presentations; allow notes and visuals.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation", "Stage 1"], "notes": "Pre-teach topic vocab; provide stems." },
+      "assessment_timing": { "initial_check": "Term 2, Week 5", "follow_up": "Term 3, Week 1" },
+      "next_steps": "Add Q&A audience response.",
+      "llm_metadata": { "refinement_iteration": 3, "alignment_confidence": 0.93, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-MM-006",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Reading – Making Meaning (Comprehension)",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Comprehends simple texts through prediction and connection"
+      },
+      "accessibility_notes": "Provide picture-supported texts; encourage oral/NZSL connections to experience.",
+      "ell_alignment": { "ellp_stage_ok": ["Stage 1"], "notes": "Link text to prior knowledge using visuals and L1 scaffolds." },
+      "assessment_timing": { "initial_check": "Term 3, Week 4", "follow_up": "Term 4, Week 1" },
+      "next_steps": "Move to inference and justification from text.",
+      "llm_metadata": { "refinement_iteration": 1, "alignment_confidence": 0.95, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-CM-007",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Writing – Creating Meaning",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Creates short multimodal texts to communicate ideas"
+      },
+      "accessibility_notes": "Allow digital, visual, or signed composition methods.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation", "Stage 1"], "notes": "Encourage use of first-language vocabulary alongside English." },
+      "assessment_timing": { "initial_check": "Term 2, Week 6", "follow_up": "Term 3, Week 3" },
+      "next_steps": "Expand multimodal vocabulary and purpose awareness.",
+      "llm_metadata": { "refinement_iteration": 1, "alignment_confidence": 0.94, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-ID-008",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Oral Language – Expressing Identity",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Uses language and sign to express personal identity and connections to place"
+      },
+      "accessibility_notes": "Include mihi frameworks, bilingual sharing, and NZSL equivalence.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation"], "notes": "Support confidence expressing identity in English and L1." },
+      "assessment_timing": { "initial_check": "Term 1, Week 6", "follow_up": "Term 2, Week 4" },
+      "next_steps": "Add comparison with others’ identities and cultures.",
+      "llm_metadata": { "refinement_iteration": 1, "alignment_confidence": 0.96, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-RM-009",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Oral Language – Reciprocal Meaning-Making",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Engages in reciprocal conversation to build shared understanding"
+      },
+      "accessibility_notes": "Provide visual prompts and structured turn-taking supports.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation", "Stage 1"], "notes": "Model turn-taking frames and listening responses." },
+      "assessment_timing": { "initial_check": "Term 2, Week 2", "follow_up": "Term 2, Week 8" },
+      "next_steps": "Introduce group dialogue and reasoning tasks.",
+      "llm_metadata": { "refinement_iteration": 1, "alignment_confidence": 0.93, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    },
+    {
+      "omi_id": "ENG-P1-LIT-010",
+      "schema_version": "3.0",
+      "curriculum_version": "2025-10-01",
+      "policy_reference": {
+        "source_title": "English Phase 1 / Reading – Concepts About Print & Symbolic Understanding",
+        "url": "https://newzealandcurriculum.tahurangi.education.govt.nz/new-zealand-curriculum-online/nzc---english-phase-1-years-0-3/5637288579.p",
+        "effective_from": "2025-10-01",
+        "curriculum_doc_ref": "Understands print, sign, and digital symbols represent meaning and follow conventions"
+      },
+      "accessibility_notes": "Include signed/visual print awareness; label bilingual environments.",
+      "ell_alignment": { "ellp_stage_ok": ["Foundation"], "notes": "Build concept of word and directionality explicitly." },
+      "assessment_timing": { "initial_check": "Term 1, Week 2", "follow_up": "Term 2, Week 1" },
+      "next_steps": "Begin formal decoding instruction linked to known print concepts.",
+      "llm_metadata": { "refinement_iteration": 1, "alignment_confidence": 0.95, "last_validation_passed": true, "last_refined_by": "OMI-Builder v3.0" }
+    }
+  ]
+}
