@@ -1,190 +1,172 @@
 {
-"meta": {
-"as_code": "AS91908",
-"title": "Analyse an area of computer science",
-"version": "1",
-"credits": 3,
-"assessment_type": "External",
-"source_pdf": "as91908.pdf",
-"purpose": "This achievement standard involves analysing an area of computer science by explaining key aspects, mechanisms, uses and implementations with examples, key problems or issues and how they have been or may be addressed, explaining in detail how technical capabilities and limitations relate to humans, comparing and contrasting different perspectives, and drawing insightful conclusions about the area."
-},
-"grade_descriptors": {
-"N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
-"N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
-"A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
-"A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
-"M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
-"M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
-"E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
-"E8": "All Achieved, Merit, and Excellence indicators are met."
-},
-"key_terms": [],
-"omis": [
-{
-"id": "explain_key_aspects_of_big_data_area",
-"description": "Explains the key aspects of the chosen big data area, such as characteristics, generation, processing, or interpretation.",
-"level": "A",
-"weight": 2,
-"detection_hint": "Look for explicit explanation of what the big data area is about and its main characteristics or components. Naming “big data” alone is not enough; the response must explain key aspects in the candidate’s own words. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"the key aspects of the computer science area",
-"characteristics of big data (volume, variety, velocity, etc.)"
-],
-"source_ref": "AS PDF explanatory note 2; 2026 topic statement"
-},
-{
-"id": "explain_big_data_mechanisms_or_technologies",
-"description": "Explains relevant algorithms, mechanisms, tools, or technologies used to generate, process, analyse, or represent big data.",
-"level": "A",
-"weight": 1,
-"detection_hint": "The response must go beyond naming tools or algorithms and explain what at least one mechanism, tool, or technology does in the context of big data. Listing tools without explaining their role is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"relevant algorithms or other mechanisms behind the area",
-"tools and technologies used in big data"
-],
-"source_ref": "AS PDF explanatory note 2; 2026 topic statement"
-},
-{
-"id": "explain_big_data_use_with_examples",
-"description": "Explains how the big data area is used, implemented, or occurs in practice, giving specific examples.",
-"level": "A",
-"weight": 1,
-"detection_hint": "Check that the student links a described big data practice to at least one concrete example or scenario. Vague statements about big data being “used everywhere” without specific examples do not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"how the area is used, is implemented, or occurs, giving examples",
-"applied concepts to real-world scenarios"
-],
-"source_ref": "AS PDF explanatory note 2; Moderator commentary Merit section"
-},
-{
-"id": "explain_key_big_data_problems_and_responses",
-"description": "Explains key problems or issues related to big data, such as privacy, bias, or governance, and how these have been or may be addressed.",
-"level": "A",
-"weight": 2,
-"detection_hint": "The response must identify at least one specific big data problem or issue and describe how it has been or could be addressed. Simply mentioning “privacy” or “ethics” without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"key problems or issues related to the area and how these have been or may be addressed",
-"big data considerations (privacy, ethics, and data governance)"
-],
-"source_ref": "AS PDF explanatory note 2; 2026 topic statement"
-},
-{
-"id": "explain_capabilities_and_limitations_for_people",
-"description": "Provides detailed explanation of how the technical capabilities and limitations of big data systems relate to humans, including users or stakeholders.",
-"level": "M",
-"weight": 1,
-"detection_hint": "Look for discussion that links what big data systems can and cannot do to human needs, behaviours, or consequences. Describing technical features without relating them to people does not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"how the technical capabilities and limitations of the area relate to humans, giving examples",
-"demonstrated a clear and accurate understanding of the subject matter and applied concepts to real-world scenarios"
-],
-"source_ref": "AS PDF explanatory note 2; Moderator commentary Merit section"
-},
-{
-"id": "compare_and_contrast_big_data_perspectives",
-"description": "Compares and contrasts different perspectives on the big data area, such as technical, ethical, or societal viewpoints.",
-"level": "M",
-"weight": 1,
-"detection_hint": "The response must describe at least two perspectives and use contrastive language (for example, ‘whereas’, ‘in contrast’, ‘more than’) to show differences. Listing perspectives separately without explicit comparison is not sufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"comparing and contrasting different perspectives on the area",
-"compare two approaches"
-],
-"source_ref": "AS PDF explanatory note 2; inferred from comparison requirement"
-},
-{
-"id": "demonstrate_depth_and_breadth_in_big_data_analysis",
-"description": "Shows depth and breadth of understanding of the big data area by exploring complex aspects with relevant, well-chosen examples.",
-"level": "M",
-"weight": 1,
-"detection_hint": "Look for explanations that move beyond basic definitions and include multiple relevant examples or aspects of big data. Responses that remain surface-level or rely on a single undeveloped example do not satisfy this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"analyse, in depth, an area of computer science",
-"adequate depth of analysis with a clear explanation of key concepts and some technical details"
-],
-"source_ref": "AS PDF achievement criteria; Moderator commentary Merit section"
-},
-{
-"id": "draw_insightful_conclusions_about_big_data",
-"description": "Draws insightful conclusions about the big data area that go beyond restating information, showing higher-level thinking.",
-"level": "E",
-"weight": 2,
-"detection_hint": "Check that the student makes clear conclusions about big data and explains why these conclusions matter. Restating the question or summarising information without new insight does not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"drawing insightful conclusions about the computer science area",
-"show deep, critical analysis of the subject matter"
-],
-"source_ref": "AS PDF explanatory note 2; Moderator commentary Excellence section"
-},
-{
-"id": "explore_less_obvious_big_data_implications",
-"description": "Explores less obvious implications or broader impacts of big data, such as long-term social, ethical, or governance consequences.",
-"level": "E",
-"weight": 1,
-"detection_hint": "Look for discussion of implications that are not the most immediate or commonly mentioned, and that extend beyond simple privacy or efficiency claims. The response must clearly link big data to these less obvious implications. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"exploration of less obvious implications",
-"broader implications of the topic"
-],
-"source_ref": "AS PDF explanatory note 4; Moderator commentary Not Achieved section (contrast)"
-},
-{
-"id": "justify_predictions_or_improvements_in_big_data_area",
-"description": "Makes justified predictions about future developments in big data or suggests improvements, supported by clear reasoning or criteria.",
-"level": "E",
-"weight": 1,
-"detection_hint": "The response must include a prediction or proposed improvement and explain why it is likely or appropriate, using reasoning based on current capabilities, limitations, or trends. Unsupported guesses do not satisfy this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
-"success_examples": [
-"making justified predictions",
-"suggesting improvements"
-],
-"source_ref": "AS PDF explanatory note 4"
-}
-],
-"aggregation_rules": {
-"method": "hierarchical",
-"gate_sequence": ["A", "M", "E"],
-"levels": {
-"A": {
-"required_fraction": 1.0
-},
-"M": {
-"required_fraction": 0.6
-},
-"E": {
-"required_fraction": 0.5
-}
-},
-"sub_band_logic": {
-"Achieved": {
-"A3": {
-"extra_merit_indicators": 0
-},
-"A4": {
-"extra_merit_indicators": "≥1"
-}
-},
-"Merit": {
-"M5": {
-"extra_excellence_indicators": 0
-},
-"M6": {
-"extra_excellence_indicators": "≥1"
-}
-},
-"Excellence": {
-"E7": {
-"excellence_fraction": "<1.0"
-},
-"E8": {
-"excellence_fraction": "1.0"
-}
-}
-},
-"fallback_grade": "N1"
-},
-"governance": {
-"last_validated": "2025-06-13",
-"change_log": []
-}
+  "meta": {
+    "as_code": "AS91908",
+    "title": "Analyse an area of computer science",
+    "version": "1",
+    "credits": 3,
+    "assessment_type": "External",
+    "source_pdf": "as91908.pdf",
+    "purpose": "This standard involves analysing an area of computer science by explaining key aspects, mechanisms, uses and implementations with examples, relevant issues and how they may be addressed, explaining in detail how technical capabilities and limitations relate to people, comparing and contrasting perspectives, and drawing insightful conclusions about the area."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [],
+  "omis": [
+    {
+      "id": "explain_key_big_data_aspects",
+      "description": "Explains key aspects of the chosen big data area, such as volume, variety, velocity, generation, processing, or interpretation.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "The response must clearly explain core characteristics or components of big data, not merely list them. Statements like “big data has lots of information” are insufficient without explanation of the specific aspect. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "the key aspects of the computer science area",
+        "characteristics of big data (volume, variety, velocity, etc.)"
+      ],
+      "source_ref": "AS PDF explanatory note 2; 2026 topic statement"
+    },
+    {
+      "id": "explain_big_data_mechanisms",
+      "description": "Explains relevant mechanisms, processes, or technologies used to generate, store, process, analyse, or represent big data.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The explanation must describe how at least one mechanism works in the big data context. Naming tools (e.g., Hadoop, SQL) without explaining their function does not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "relevant algorithms or other mechanisms behind the area",
+        "processing and analysing data in different formats"
+      ],
+      "source_ref": "AS PDF explanatory note 2; 2026 topic statement"
+    },
+    {
+      "id": "explain_big_data_use_examples",
+      "description": "Explains how big data is used, implemented, or occurs in real contexts, supported with specific examples.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Look for a description of a big data application paired with a specific example (e.g., traffic modelling, fraud detection). Vague claims like “big data helps companies” without an example do not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "how the area is used, is implemented, or occurs, giving examples",
+        "applied concepts to real-world scenarios"
+      ],
+      "source_ref": "AS PDF explanatory note 2; Moderator commentary Merit section"
+    },
+    {
+      "id": "explain_big_data_issues_and_responses",
+      "description": "Explains key problems or issues in big data such as privacy, bias, data quality, or governance, and how these have been or may be addressed.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "A valid response must identify a specific issue (e.g., algorithmic bias) AND describe an addressing method (e.g., diverse training sets). Mentioning an issue alone is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "key problems or issues related to the area and how these have been or may be addressed",
+        "big data considerations (privacy, ethics, and data governance)"
+      ],
+      "source_ref": "AS PDF explanatory note 2; 2026 topic statement"
+    },
+    {
+      "id": "explain_capabilities_limitations_for_people",
+      "description": "Explains how technical capabilities and limitations of big data systems relate to people, users, or stakeholders, with examples.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Look for explicit linkage between system capabilities/limitations (e.g., scalability, latency, accuracy) and human consequences (e.g., decision-making, workload, access). Technical description alone is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "how the technical capabilities and limitations of the area relate to humans, giving examples",
+        "applied concepts to real-world scenarios"
+      ],
+      "source_ref": "AS PDF explanatory note 2; Moderator commentary Merit section"
+    },
+    {
+      "id": "compare_contrast_big_data_perspectives",
+      "description": "Compares and contrasts different perspectives on the big data area, such as ethical, computational, social, organisational, or governance viewpoints.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "A comparison must include at least two perspectives AND contrast them using explicit comparative language (e.g., whereas, on the other hand). Listing perspectives separately without comparison is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "comparing and contrasting different perspectives",
+        "compare two approaches"
+      ],
+      "source_ref": "AS PDF explanatory note 2"
+    },
+    {
+      "id": "provide_depth_and_breadth_big_data",
+      "description": "Provides depth and breadth by exploring complex or interconnected aspects of big data using well-chosen examples.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Look for multi-layered explanations, such as linking data formats to processing constraints or connecting bias to governance. A single undeveloped example indicates insufficient depth or breadth. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "analyse, in depth, an area of computer science",
+        "adequate depth of analysis with a clear explanation of key concepts"
+      ],
+      "source_ref": "AS PDF achievement criteria; Moderator commentary Merit section"
+    },
+    {
+      "id": "draw_insightful_big_data_conclusions",
+      "description": "Draws insightful conclusions about the big data area, demonstrating higher-level thinking beyond restating information.",
+      "level": "E",
+      "weight": 2,
+      "detection_hint": "The conclusion must synthesise or evaluate ideas, not summarise. Look for statements showing implications, significance, or consequences. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "drawing insightful conclusions about the computer science area",
+        "show deep, critical analysis"
+      ],
+      "source_ref": "AS PDF explanatory note 2; Moderator commentary Excellence section"
+    },
+    {
+      "id": "explore_less_obvious_big_data_implications",
+      "description": "Explores less obvious or longer-term implications of big data, such as systemic bias propagation, future governance challenges, or societal shifts.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Look for impacts that extend beyond immediate technical issues. Simple mentions of privacy or speed are insufficient unless exploring deeper implications. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "broader implications of the topic",
+        "complex concepts with significant detail"
+      ],
+      "source_ref": "AS PDF explanatory note 4; Moderator commentary (contrast with NA)"
+    },
+    {
+      "id": "justify_big_data_predictions_or_improvements",
+      "description": "Justifies predictions about future developments or improvements in big data using clear reasoning linked to current capabilities, limitations, or trends.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "The prediction or improvement must include justification grounded in technical or contextual evidence. Unsupported guesses do not meet this indicator. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": [
+        "making justified predictions",
+        "suggesting improvements"
+      ],
+      "source_ref": "AS PDF explanatory note 4"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.6 },
+      "E": { "required_fraction": 0.5 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
 }
