@@ -1,1 +1,151 @@
-bla
+{
+  "meta": {
+    "as_code": "AS91898",
+    "title": "Demonstrate understanding of a computer science concept",
+    "version": "1",
+    "credits": 3,
+    "assessment_type": "External",
+    "source_pdf": "as91898.pdf",
+    "purpose": "Students demonstrate understanding of an encryption-related computer science concept by identifying it, describing how it works and is used, and explaining its mechanisms, impacts, issues, and applications in context."
+  },
+  "grade_descriptors": {
+    "N1": "Evidence does not reach the minimum threshold for Achieved-level indicators.",
+    "N2": "Some Achieved-level indicators are met, but not enough to satisfy all required Achieved criteria.",
+    "A3": "All Achieved-level indicators are met; no Merit-level indicator meets the Merit threshold.",
+    "A4": "All Achieved indicators are met and at least one Merit indicator is met, but overall performance is below the Merit threshold.",
+    "M5": "All Achieved indicators are met and the Merit threshold is reached; no Excellence-level indicator meets the Excellence threshold.",
+    "M6": "All Achieved indicators are met, all Merit indicators are met, and at least one Excellence indicator is met, but overall performance is below the Excellence threshold.",
+    "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
+    "E8": "All Achieved, Merit, and Excellence indicators are met."
+  },
+  "key_terms": [
+    { "term": "symmetric encryption", "definition": "Encryption that uses one shared key to encrypt and decrypt data." },
+    { "term": "asymmetric encryption", "definition": "Encryption using a public key for encryption and a private key for decryption." },
+    { "term": "hashing", "definition": "A one-way function that transforms data into a fixed-length output that cannot be reversed." },
+    { "term": "key exchange", "definition": "A method for two parties to securely create a shared encryption key." },
+    { "term": "WPA2/WPA3", "definition": "Wi-Fi security protocols that encrypt wireless traffic using industry-standard encryption algorithms." },
+    { "term": "VPN", "definition": "A virtual private network that creates an encrypted tunnel between a device and a network." },
+    { "term": "digital signature", "definition": "A cryptographic method that verifies the author and integrity of a digital document." },
+    { "term": "BitLocker", "definition": "A device-encryption system that encrypts all data on a Windows device." }
+  ],
+  "omis": [
+    {
+      "id": "identify_encryption_concept",
+      "description": "Clearly states the chosen encryption concept by name (e.g., symmetric encryption, hashing, VPN encryption, WPA3).",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The concept must be explicitly named. Terms like ‘security’ or ‘technology’ are insufficient unless directly tied to an encryption concept. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["symmetric encryption", "WPA3-Enterprise Wi-Fi", "hashing for password storage"],
+      "source_ref": "AS PDF Achievement criteria"
+    },
+    {
+      "id": "describe_encryption_usage",
+      "description": "Describes how the encryption concept is used, implemented, or occurs in a specific context.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The explanation must link mechanism + task + context in a single statement (e.g., ‘AES encrypts school Wi-Fi traffic’). Listing items separately is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["AES encrypts school Wi-Fi traffic.", "VPN encrypts teacher connections from home."],
+      "source_ref": "Moderator commentary Achievement section"
+    },
+    {
+      "id": "explain_encryption_application",
+      "description": "Explains how the encryption concept is applied to address a specific problem or opportunity.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "Must identify a problem/opportunity and state how encryption addresses it. Generic statements such as ‘it makes things safer’ are insufficient without linking cause to effect. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["WPA3 prevents outsiders intercepting student data.", "BitLocker protects data on lost teacher laptops."],
+      "source_ref": "AS PDF p2 bullet 3"
+    },
+    {
+      "id": "explain_encryption_mechanism",
+      "description": "Explains a relevant encryption mechanism such as a protocol, algorithm, or process, describing what it does in context.",
+      "level": "A",
+      "weight": 2,
+      "detection_hint": "Name the mechanism and explain its role (e.g., AES uses one key; RSA uses key pairs; hashing is one-way). Mentioning a mechanism without describing what it does is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["AES uses one shared key to scramble data.", "RSA encrypts with a public key and decrypts with a private key."],
+      "source_ref": "AS PDF mechanisms bullet"
+    },
+    {
+      "id": "describe_advantage_or_limitation",
+      "description": "States a clear, context-linked advantage or limitation of the chosen encryption concept.",
+      "level": "A",
+      "weight": 1,
+      "detection_hint": "The advantage or limitation must be specific to the concept and context (e.g., ‘shared passwords in WPA2-Personal are easily leaked’). Generic benefits or drawbacks are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Shared Wi-Fi passwords leak easily.", "Asymmetric encryption is slower but more secure for key exchange."],
+      "source_ref": "Moderator commentary Achievement section"
+    },
+    {
+      "id": "analyse_encryption_impact",
+      "description": "Explains a significant impact of the encryption concept by linking cause to effect.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must include explicit causal language (‘because’, ‘results in’, ‘leads to’) connecting the encryption mechanism to an ethical, social, human-factor, or future-proofing impact. Listing impacts without explanation is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Weak Wi-Fi passwords lead to privacy breaches.", "Encrypted tunnels reduce data theft because outsiders cannot intercept traffic."],
+      "source_ref": "AS PDF impacts bullet"
+    },
+    {
+      "id": "compare_or_contrast_encryption_impacts",
+      "description": "Compares two or more impacts or consequences of using the encryption concept.",
+      "level": "M",
+      "weight": 1,
+      "detection_hint": "Must use contrastive language (‘while’, ‘in contrast’, ‘more than’, ‘whereas’). Listing impacts without comparison is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["WPA3 is more resistant to guessing attacks than WPA2.", "BitLocker protects lost devices, whereas unencrypted devices expose all data."],
+      "source_ref": "AS PDF impacts bullet"
+    },
+    {
+      "id": "discuss_key_encryption_issue",
+      "description": "Explains a key problem or issue related to the encryption concept and why it matters.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Student must identify a specific issue (e.g., weak passwords, outdated encryption, key theft) and explain its consequence. Simply naming an issue is insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Shared Wi-Fi passwords allow unauthorised access.", "Stolen private keys can forge digital signatures."],
+      "source_ref": "AS PDF comprehensive criterion"
+    },
+    {
+      "id": "evaluate_significance_of_security_issue",
+      "description": "Evaluates the severity or significance of an identified encryption issue using reasoning or criteria.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "Look for a judgement backed by reasoning using stakes, frequency, or consequences. Opinions without justification do not count as evaluation. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["A stolen private key is severe because it compromises all encrypted communication.", "Using WPA2 is high-risk because attackers can crack outdated protocols."],
+      "source_ref": "AS PDF comprehensive criterion"
+    },
+    {
+      "id": "propose_encryption_mitigation_or_future_proofing",
+      "description": "Proposes a relevant mitigation or future-proofing strategy directly addressing the encryption issue.",
+      "level": "E",
+      "weight": 1,
+      "detection_hint": "The strategy must logically address the issue (e.g., migrate to WPA3, enforce strong passwords, use TPM-protected keys). Generic solutions like ‘improve security’ are insufficient. Highlight the exact phrase(s) that satisfy or violate this indicator.",
+      "success_examples": ["Upgrade school Wi-Fi to WPA3.", "Store private keys in TPM hardware."],
+      "source_ref": "AS PDF impacts bullet (future-proofing)"
+    }
+  ],
+  "aggregation_rules": {
+    "method": "hierarchical",
+    "gate_sequence": ["A", "M", "E"],
+    "levels": {
+      "A": { "required_fraction": 1.0 },
+      "M": { "required_fraction": 0.6 },
+      "E": { "required_fraction": 0.5 }
+    },
+    "sub_band_logic": {
+      "Achieved": {
+        "A3": { "extra_merit_indicators": 0 },
+        "A4": { "extra_merit_indicators": "≥1" }
+      },
+      "Merit": {
+        "M5": { "extra_excellence_indicators": 0 },
+        "M6": { "extra_excellence_indicators": "≥1" }
+      },
+      "Excellence": {
+        "E7": { "excellence_fraction": "<1.0" },
+        "E8": { "excellence_fraction": "1.0" }
+      }
+    },
+    "fallback_grade": "N1"
+  },
+  "governance": {
+    "last_validated": "2025-06-13",
+    "change_log": []
+  }
+}
