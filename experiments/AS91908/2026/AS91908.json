@@ -18,7 +18,7 @@
     "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
     "E8": "All Achieved, Merit, and Excellence indicators are met."
   },
-  [
+ "key_terms": [
   {
     "term": "Big Data",
     "definition": "Extremely large or complex datasets that cannot be processed effectively with traditional tools."
@@ -60,6 +60,7 @@
     "definition": "Principles guiding responsible data use, including privacy, fairness, and accountability."
   }
 ]
+
 
   "omis": [
     {
