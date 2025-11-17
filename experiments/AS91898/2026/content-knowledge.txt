@@ -1,1 +1,272 @@
-bla
+# AS91898 (2026) – Encryption  
+### Content Knowledge File – LLM-Optimised, School-Focused, Excellence-Ready
+
+---
+
+# 1. Metadata
+
+- **Assessment Standard**: AS91898 – Demonstrate understanding of a computer science concept  
+- **Chosen Concept**: Encryption (2026 topic focus)  
+- **Level**: NCEA Level 2  
+- **Credits**: 3  
+- **Response Type**: Short + extended written answers (800–1500 words)  
+- **Student Profile**: Typically 17 years old, ~1 year senior CS experience  
+- **Context Requirement**: **Topics must focus on use in schools**  
+- **Scaffolding for Depth**:  
+  - **Achieved**: Describe the mechanism (what it is + what it does)  
+  - **Merit**: Explain cause–effect (how it works + why it’s useful)  
+  - **Excellence**: Discuss impacts (ethical, social, human factors, future-proofing)
+
+---
+
+# 2. Key Terms (Fundamental Vocabulary)
+
+| Term | Definition (Student-Friendly) |
+|------|-------------------------------|
+| **Encryption** | Scrambling information so only authorised people can read it. |
+| **Decryption** | Turning encrypted data back into readable form. |
+| **Key** | A secret value used to lock/unlock encrypted information. |
+| **Symmetric Encryption** | One key encrypts and decrypts. Fast. Used in Wi-Fi, VPNs, BitLocker. |
+| **Asymmetric Encryption** | Two linked keys: public (share) + private (keep secret). Used for secure key exchange + digital signatures. |
+| **Hashing** | A one-way scramble. Cannot be reversed. Used for passwords + digital signatures. |
+| **AES** | A strong symmetric encryption algorithm used widely in schools. |
+| **RSA / ECC** | Asymmetric algorithms used for digital signatures and secure key exchange. |
+| **Diffie–Hellman** | A method for safely creating shared keys over the internet. |
+| **WPA2/WPA3** | Wi-Fi security standards that use encryption to protect wireless traffic. |
+| **VPN** | Creates an encrypted tunnel between device and school network. |
+| **BitLocker** | Device encryption system used on Windows laptops. |
+| **Password Manager** | A tool that stores passwords in an encrypted vault. |
+| **Digital Signature** | Uses hashing + private key to prove authenticity and prevent tampering. |
+| **TPM (Trusted Platform Module)** | Hardware chip that stores device encryption keys securely. |
+| **Brute Force Attack** | Trying every possible key or password until one works. |
+| **Man-in-the-Middle Attack (MITM)** | An attacker intercepts and manipulates unencrypted traffic. |
+
+---
+
+# 3. Core Mechanisms (Techniques, Algorithms, Protocols, Processes)
+
+> These explain **how encryption works** at a conceptual level.  
+> Each mechanism contains **Describe (A)**, **Explain (M)**, **Discuss (E)**.
+
+---
+
+## 3.1 Symmetric Encryption (AES)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved – Describe** | One key is used to encrypt and decrypt data. |
+| **Merit – Explain** | AES mixes and shuffles data in repeated steps. Even tiny changes to the key produce completely different encrypted output. |
+| **Excellence – Discuss** | Symmetric keys must be shared securely. If a student leaks the Wi-Fi key (WPA2-Personal), the whole school network becomes vulnerable. |
+
+**School Example:**  
+AES is used in **school Wi-Fi (WPA2/WPA3)** to encrypt student internet traffic so outsiders cannot spy on it.
+
+---
+
+## 3.2 Asymmetric Encryption (RSA / ECC)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | Uses a **public key** to encrypt and a **private key** to decrypt. |
+| **Merit** | Solves the “key sharing problem” because only the private key holder can decrypt. |
+| **Excellence** | If private keys are stolen (e.g., from a poorly secured staff laptop), digital signatures and secure communication for the whole school can be compromised. |
+
+**School Example:**  
+Used when students log into cloud services (Google/Microsoft). The connection is secured using asymmetric key exchange.
+
+---
+
+## 3.3 Hashing (SHA-256)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | One-way encryption. Cannot be reversed. |
+| **Merit** | Small changes to input produce completely different hash values — good for checking integrity. |
+| **Excellence** | Schools must store hashed (not plain) passwords. Poor hashing (e.g., MD5) risks mass student account breaches. |
+
+**School Example:**  
+School portal passwords are stored as hashes so admins cannot see them.
+
+---
+
+## 3.4 Key Exchange (Diffie–Hellman)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | A process to create a shared secret key over the internet. |
+| **Merit** | Even if someone listens to the exchange, they cannot calculate the shared key. |
+| **Excellence** | If older versions are used (without authentication), attackers can perform a man-in-the-middle attack and trick devices into creating keys with them. |
+
+**School Example:**  
+WPA3-Personal uses “Simultaneous Authentication of Equals (SAE),” an improved key-exchange method.
+
+---
+
+## 3.5 Wi-Fi Encryption Protocols (WPA2/WPA3 – Personal vs Enterprise)
+
+| Protocol | Mechanism | Strength | School Impact |
+|----------|-----------|----------|---------------|
+| **WPA2-Personal** | One shared password for all students. | Medium | If students share the password, the whole network is exposed. |
+| **WPA3-Personal** | Uses SAE for stronger shared key generation. | Strong | More resistant to password-guessing attacks. |
+| **WPA2-Enterprise** | Each user has their own login (username + password). | Strong | If one student shares their password, only their account is affected. |
+| **WPA3-Enterprise** | Strongest Wi-Fi security; individual encrypted sessions. | Very Strong | Schools gain per-student accountability + highest protection. |
+
+**School Note:**  
+NZQA expects analysis of **WPA2/WPA3 in school use**.
+
+---
+
+## 3.6 VPN Encryption Processes
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | A VPN creates an encrypted tunnel between a device and the school network. |
+| **Merit** | Encrypts all data passing through, preventing spying from home Wi-Fi or public hotspots. |
+| **Excellence** | If VPN settings are misconfigured, DNS leaks may expose student browsing even though the tunnel is encrypted. |
+
+**School Example:**  
+Teachers use a VPN to access the SMS (e.g., KAMAR/Edge) securely from home.
+
+---
+
+## 3.7 Device Encryption (BitLocker + TPM)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | BitLocker encrypts the data on a laptop’s storage. |
+| **Merit** | The key is stored in a secure hardware chip (TPM), preventing easy extraction. |
+| **Excellence** | Lost unencrypted devices put sensitive student data at risk; encrypted devices reduce breach severity and legal issues. |
+
+**School Example:**  
+Teacher laptops with IEPs, pastoral notes, and attendance data must be encrypted.
+
+---
+
+## 3.8 Password Manager Encryption Workflow
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | Stores passwords in an encrypted vault locked by one master password. |
+| **Merit** | The vault is decrypted only on the user’s device. Even the password manager provider cannot see the contents. |
+| **Excellence** | Human factors matter: weak master passwords undermine the entire system. Training is essential in school contexts. |
+
+**School Example:**  
+Students managing multiple logins (Wi-Fi, Google, LMS) use a password manager to reduce weak password reuse.
+
+---
+
+## 3.9 Digital Signatures (Authentication + Integrity)
+
+| Level | Description |
+|-------|-------------|
+| **Achieved** | Uses a hash + private key to prove who created a document. |
+| **Merit** | If the document changes, the signature becomes invalid — ensures integrity. |
+| **Excellence** | If a school’s signing key is stolen, fake school reports or permission slips could be produced. Key security is critical. |
+
+**School Example:**  
+Digitally signed PDF school reports ensure they are authentic and untampered.
+
+---
+
+# 4. Evaluation Concepts (Encryption Strength & Security)
+
+| Concept | Explanation | School Relevance |
+|---------|-------------|------------------|
+| **Key Length** | Longer keys take longer to brute-force. | WPA3 uses stronger key lengths than WPA2. |
+| **Encryption Strength** | How resistant the algorithm is to attacks. | Schools must avoid outdated algorithms (e.g., WEP, MD5). |
+| **Collision Resistance** | Hash functions avoid two inputs giving same output. | Essential for password security and digital signatures. |
+| **Computational Cost** | Encryption intensity affects device performance. | Older student laptops may struggle with WPA3. |
+| **Entropy** | Randomness in passwords/keys. | Students using “12345” lowers security regardless of algorithm. |
+| **Attack Models** | Understanding threats like brute force, MITM. | Helps justify why the school uses VPNs or enterprise Wi-Fi. |
+
+---
+
+# 5. Impacts (Ethical, Social, Human Factors, Sustainability, Future-Proofing)
+
+## 5.1 Ethical Issues
+- Encryption protects **student privacy and safety online**.  
+- Lack of encryption may expose browsing history, chats, or personal data.  
+- Raises questions about **monitoring vs privacy**: how much should schools inspect?  
+
+## 5.2 Social Impact
+- Encrypted communication platforms reduce cyberbullying evidence tampering.  
+- Secure Wi-Fi access enables equitable learning online.  
+- Weak encryption disproportionately affects vulnerable students.
+
+## 5.3 Human Factors
+- Students reuse simple passwords → encryption fails due to human error.  
+- Teachers may forget BitLocker recovery keys.  
+- Students using personal hotspots bypass school filtering → risk exposure.
+
+## 5.4 Sustainability
+- Stronger algorithms require more processing power.  
+- Older devices may not support WPA3, creating a budget impact.  
+
+## 5.5 Future Proofing
+- Schools must plan for **algorithm upgrades** (WPA2 → WPA3).  
+- Quantum computing may weaken today’s algorithms → long-term planning needed.  
+- Password managers future-proof password security habits.
+
+---
+
+# 6. Common Misconceptions (School-Focused)
+
+| Misconception | Correction |
+|---------------|------------|
+| “Encryption = strong passwords.” | Encryption is separate. Weak passwords still break strong systems. |
+| “Hashing is reversible.” | True encryption can be reversed; hashing cannot. |
+| “WPA2-Personal is secure if we change the password often.” | The shared password is the weakness. Students sharing it compromises everyone. |
+| “VPN makes you anonymous.” | VPN encrypts traffic, but the provider still sees your connection. |
+| “BitLocker protects cloud files.” | BitLocker encrypts the **device**, not cloud storage. |
+| “Public key means anyone can read messages.” | Public key encrypts; only the private key decrypts. |
+| “Password managers are unsafe because everything is in one place.” | The vault is encrypted—only the master password unlocks it. |
+
+---
+
+# 7. Applied Scenarios (A/M/E Structured)
+
+## Scenario 1 – School Wi-Fi: WPA2-Personal vs WPA3-Enterprise
+**Achieved:** Describe differences between shared password vs per-user login.  
+**Merit:** Explain how WPA3 prevents password-guessing and improves key exchange.  
+**Excellence:** Discuss human-factor risks (password sharing), impacts on privacy, and future-proofing.
+
+---
+
+## Scenario 2 – Lost Teacher Laptop with BitLocker
+**Achieved:** BitLocker encrypts stored data.  
+**Merit:** Explain TPM storing keys and preventing offline access.  
+**Excellence:** Discuss privacy impacts, legal obligations, and risk mitigation.
+
+---
+
+## Scenario 3 – Students Using a VPN from Home
+**Achieved:** VPN encrypts data between home network and school.  
+**Merit:** Explain how this prevents spying on insecure home Wi-Fi.  
+**Excellence:** Discuss DNS leaks, misconfiguration risks, and staff training.
+
+---
+
+## Scenario 4 – Password Manager Adoption in a School
+**Achieved:** Stores passwords securely.  
+**Merit:** Explain client-side decryption and reduced password reuse.  
+**Excellence:** Discuss human-factor risks, training needs, and long-term improvement in digital hygiene.
+
+---
+
+## Scenario 5 – Digital Signatures for School Reports
+**Achieved:** Hash + private key proves authenticity.  
+**Merit:** Explain integrity: any change breaks the signature.  
+**Excellence:** Discuss key theft risks and the importance of secured signing procedures.
+
+---
+
+# 8. Sources (Non-Technical, School-Friendly)
+- NZQA AS91898 (2026) Assessment Specs  
+- NIST Guidelines on Cryptography  
+- WPA2/WPA3 Documentation (Wi-Fi Alliance)  
+- Microsoft BitLocker / TPM Security Notes  
+- CERT NZ School Cybersecurity Guidance  
+- Cisco Networking Academy – Cryptography Basics  
+- OWASP Password Storage Guidelines  
+
+---
