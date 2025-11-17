@@ -18,7 +18,49 @@
     "E7": "All Achieved and Merit indicators are met and the Excellence threshold is reached, but not all Excellence indicators are met.",
     "E8": "All Achieved, Merit, and Excellence indicators are met."
   },
-  "key_terms": [],
+  [
+  {
+    "term": "Big Data",
+    "definition": "Extremely large or complex datasets that cannot be processed effectively with traditional tools."
+  },
+  {
+    "term": "Volume",
+    "definition": "The amount of data generated, often measured in terabytes or more."
+  },
+  {
+    "term": "Velocity",
+    "definition": "The speed at which data is created, collected, and processed."
+  },
+  {
+    "term": "Variety",
+    "definition": "The different types and formats of data, such as text, images, logs, or sensor data."
+  },
+  {
+    "term": "Veracity",
+    "definition": "The reliability and accuracy of data, including issues like noise, bias, or missing values."
+  },
+  {
+    "term": "Data Governance",
+    "definition": "Policies and processes that control how data is collected, stored, used, and protected."
+  },
+  {
+    "term": "Data Pipeline",
+    "definition": "A series of steps for moving data from source to storage to analysis."
+  },
+  {
+    "term": "Data Bias",
+    "definition": "Systematic errors in data that can produce unfair or misleading outcomes."
+  },
+  {
+    "term": "Distributed Processing",
+    "definition": "Using many computers together to handle large or complex data tasks."
+  },
+  {
+    "term": "Data Ethics",
+    "definition": "Principles guiding responsible data use, including privacy, fairness, and accountability."
+  }
+]
+
   "omis": [
     {
       "id": "explain_key_big_data_aspects",
